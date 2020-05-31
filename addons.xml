@@ -98,46 +98,6 @@
   </extension>
 </addon>
 
-<addon 	id="repo.vikingslegends" name="[B][COLOR red]  Descontinuado [COLOR blue]Instale o Vikings Drago[/B][/COLOR]"
-		version="0.04"
-		provider-name="[B][COLOR gold]Vikings TEAM[/B][/COLOR]">
-
-	<requires>
-
-
-    </requires>
-
-	<extension point="xbmc.addon.repository" name=".Vikings Legends Repositorio">
-
-		<dir>
-			<info compressed="true">https://github.com/vikingsbuild/repo.vikingslegends/raw/master/addons.xml</info>
-			<checksum>https://github.com/vikingsbuild/repo.vikingslegends/raw/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/vikingsbuild/repo.vikingslegends/raw/master</datadir>
-		</dir>
-
-		</extension>
-
-
-	<extension point="xbmc.addon.metadata">
-
-	<news>
-	[COLOR orange]LOG DE CORREÇÔES[/COLOR]
-	[COLOR red]*[/COLOR]   V 0.01 - criação do repositório...
-	[COLOR green]*[/COLOR] V 0.03 - Incluido novas dependencias...
-	</news>
-
-	<summary>Descontinuado , Instale o repositorio Vikings Drago</summary>
-
-	<description>
-
-
-	</description>
-
-<disclaimer>Descontinuado, instale o Vikings Drago</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="repository.cy4root" name="cy4root Repository" version="1.2.010" provider-name="Cy4Root">
 	<extension point="xbmc.addon.repository" name="Cy4Root">
 
