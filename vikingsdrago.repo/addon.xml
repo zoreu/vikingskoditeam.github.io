@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon 	id="vikingsdrago.repo" name="[B][COLOR red]  Vikings Drago  [COLOR blue]Addon Legendados[/B][/COLOR]"
-		version="0.01"
+		version="0.02"
 		provider-name="[B][COLOR gold]Vikings TEAM[/B][/COLOR]">
 
 	<requires>
@@ -72,6 +72,27 @@
             <checksum>https://repo.orionoid.com/addons.xml.md5?v=3.3.0</checksum>
             <datadir zip="true">https://repo.orionoid.com</datadir>
             </dir>
+		
+		<dir>	
+			<info compressed="false">https://magnetic.website/__zips/addons.xml</info>
+            <checksum>https://magnetic.website/__zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://magnetic.website/__zips/</datadir>
+            <hashes>false</hashes>
+		</dir>
+		
+		<dir>
+            <info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/</datadir>
+            <hashes>false</hashes>
+            </dir>
+			
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+			</dir>
+			
 	</extension>
 	
 		
