@@ -166,10 +166,14 @@
 
 		<extension point="xbmc.addon.repository" name=".Vikings Repositorio">
 
+		<datadir>https://mirrors.kodi.tv/addons/matrix</datadir>
+		<artdir>http://mirrors.kodi.tv/addons/matrix</artdir>
+
 	<dir minversion="16.0.0" maxversion="16.9.0">
 			<info compressed="false">https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/jarvis/addons.xml</info>
 			<checksum>https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/jarvis/addons.xml.md5</checksum>
 			<datadir zip="true">https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/jarvis</datadir>
+			<artdir>https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/jarvis</artdir>
 			<hashes>false</hashes>
     </dir>
 
@@ -178,6 +182,7 @@
 			<info compressed="false">https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/leia/addons.xml</info>
 			<checksum>https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/leia/addons.xml.md5</checksum>
 			<datadir zip="true">https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/leia</datadir>
+			<artdir>https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/leia</artdir>
 			<hashes>false</hashes>
     </dir>
 
