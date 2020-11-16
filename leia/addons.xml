@@ -255,23 +255,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.erasedata" name="[COLOR gold]AresVikings[/COLOR] [COLOR orange]Package Update[/COLOR]" version="1.30" provider-name="VikingsUpdate">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="pt_br">Vikings Update</summary>
-    <description lang="pt_br">Bem-vindo e obrigado por fazer o download do nosso assistente.
-[CR]O Assistente Vikings Wizard package permite que você atualize somente os conteudos essenciais das Build Vikings, sem ter que efetuar nova instalacao
-[CR]Executar manutenção, Limpar cache, Limpar pacotes, manter seus dados do Trakt e Real Debrid e muito mais.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.program.totalinstaller" name=" [COLOR=dodgerblue]C[/COLOR][COLOR ghostwhite]ommunity[/COLOR] [COLOR=dodgerblue]P[/COLOR][COLOR ghostwhite]ortal[/COLOR]" version="3.2.4" provider-name="noobsandnerds.com">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -286,73 +269,6 @@
     <ref>47dde68954e71460cb34886583bf21d7</ref>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id="plugin.program.VikingsFlexThemasOffline" name="[COLOR gold]Vikings[/COLOR] [COLOR white]Flex Themas[/COLOR]  [COLOR red]OFFLINE[/COLOR]" version="1.00" provider-name="SergioGracas">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR lime]Build Vikings[/COLOR] - [COLOR white]Inscreva-se em nosso canal no Yotube!![/COLOR]</summary>
-    <description lang="en">[B]Melhor Build para o Kodi Crypton[/B] para Android, iPhone, iPad, Windows / Mac / Linux, computadores e outros.[CR][COLOR blue]Verifique atualizacoes em nosso canal do Youtube[CR][COLOR aqua][/COLOR]</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.program.VikingsFlexThemasONLINE"
-name="[COLOR orange]Vikings[/COLOR] [COLOR gold]Flex Themas[/COLOR] [COLOR green]Online[/COLOR]"
-version="1.06"
-provider-name="By Chalado">
-
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.addon.common"/>
-  </requires>
-
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video executable</provides>
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR lime]Vikings Flex Themas ONLINE[/COLOR] - [COLOR white]Inscreva-se em nosso canal no Yotube: https://www.youtube.com/c/VikingsArcades[/COLOR]</summary>
-    <description lang="en">[B]Mude a cara de seu kodi em um clique, rapido e facil e flexivel![CR][COLOR aqua][/COLOR]</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.program.VikingsWizard.Kodi18"
-		name="[COLOR orange]Wizard Vikings for Kodi 18[/COLOR]"
-		version="0.0.1"
-		provider-name="[COLOR blue]Pio[/COLOR]">
-	<requires>
-		<import addon="xbmc.python" version="2.7.13" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="resources/pys/wizard.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-	<summary></summary>
-	<description></description>
-	<disclaimer></disclaimer>
-	<language></language>
-	<platform>all</platform>
-	<license></license>
-	<forum></forum>
-	<website></website>
-	<email></email>
-	<source></source>
-	<news></news>
-	<assets>
-		<icon>resources/icon.png</icon>
-		<fanart>resources/fanart.jpg</fanart>
-		<banner></banner>
-		<clearlogo></clearlogo>
-		<screenshot></screenshot>
-	</assets>
-	</extension>
 </addon>
 
 <addon id="plugin.video.AladoTV"
@@ -2797,45 +2713,6 @@ IMDb: 6.9
   </extension>
 </addon>
 
-<addon id="plugin.video.xvideos"
-version="1.2.0"
-name="Xvideos"
-provider-name="Lord Grey">
-<requires>
-  <import addon="xbmc.python" version="2.19.0"/>
-  <import addon="script.module.beautifulsoup4" version="4.5.3"/>
-  <import addon="script.module.requests" version="2.22.0"/>
-
-</requires>
-<extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <summary lang="en">XVIDEOS.com Plugin for Kodi</summary>
-  <description lang="en_GB">A plugin to watch Xvideos Content in Kodi</description>
-  <disclaimer lang="en_GB">
-    Videos are provided by www.xvideos.com.
-  </disclaimer>
-  <assets>
-    <icon>icon.png</icon>
-    <fanart>fanart.jpg</fanart>
-  </assets>
-  <license>GPL-3.0</license>
-  <website>https://www.xvideos.com</website>
-  <source>https://github.com/Space2Walker/plugin.video.xvideos</source>
-  <news>
-    V1.2
-    Now compatible to Kodi 17.6 and above.
-
-    V1.1
-    Now with "Search By"
-    Next now only shows up is a next site is there
-    and its at the bottom of the list.
-    Categorys are removed for Now.
-  </news>
-</extension>
-</addon>
-
 <addon id="plugin.video.YouKids"
        name="[COLOR gold]YouKids[/COLOR]"
        version="0.0.3"
@@ -2946,42 +2823,6 @@ version="1.0.2" provider-name="Marciocn">">
 		<summary>Repositorio Conexao TV</summary>
 		<description>Repositorio oficial Conexao TV - Proibido reproducao sem previa autorizacao</description>
 		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon 	id="repo.nightwolf" name="[B][COLOR yellow]  Nightwolf  [COLOR orange]Repositorio Oficial[/B][/COLOR]"
-		version="0.002"
-		provider-name="[B][COLOR gold]Nigthwolf Team[/B][/COLOR]">
-
-	<requires>
-            <import addon="xbmc.python" version="2.1.0"/>
-		    <import addon="script.module.addon.common" optional="true" />
-		    <import addon="script.module.t0mm0.common" optional="true" />
-		    <import addon="script.module.urlresolver" optional="true" />
-    </requires>
-
-	<extension point="xbmc.addon.repository" name="Repositorio Nightwolf">
-		<info compressed="true">https://github.com/nightwolfaddon/repo.nightwolf/raw/master/addons.xml</info>
-			<checksum>https://github.com/nightwolfaddon/repo.nightwolf/raw/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/nightwolfaddon/repo.nightwolf/raw/master</datadir>
-	</extension>
-
-	<extension point="xbmc.addon.metadata">
-	<news>
-	[COLOR orange]LOG DE CORREÇÔES[/COLOR]
-	[COLOR red]*[/COLOR] V 0.002 - Criação do repositorio oficial
-
-	</news>
-
-	<summary>Repositorio Vikings levando os melhores addons a sua familia e aos quatro cantos do Mundo!!!</summary>
-
-	<description>
-                [B][COLOR red]Repositório oficial Nightwolf - Proibido reprodução total ou parcial sem prévia autorização[/COLOR][/B]
-				[B][COLOR firebrick]Proibido a venda dos add-ons contidos neste repositório[/COLOR][/B]
-	</description>
-
-<disclaimer>[B][COLOR orange]Repositório Nightwolf é apenas um AGREGADOR de ADDON e, assim como o Google.com, apenas agrega e organiza ADDONS DE TERCEIROS. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</disclaimer>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -3167,45 +3008,6 @@ www.fenixflix.ml</news>
 		<platform>all</platform>
 		<news>[I]v1.2[/I][CR]- Suporte para uma Skin!</news>
 	</extension>
-</addon>
-
-<addon id="repository.Loki" name="Loki Repository" version="0.0.5" provider-name="Loki">
-    <requires>
-        <import addon="xbmc.addon" version="12.0.0"/>
-    </requires>
-    <extension point="xbmc.addon.repository" name="Loki Repository">
-        <info compressed="false">http://builds.kodiuk.tv/development/lokirepo/_zips/addons.xml</info>
-        <checksum>http://builds.kodiuk.tv/development/lokirepo/_zips/addons.xml.md5</checksum>
-        <datadir zip="true">http://builds.kodiuk.tv/development/lokirepo/_zips</datadir>
-        <hashes>false</hashes>
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/</datadir>
-            <hashes>false</hashes>
-        </dir>
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-        </dir>
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-        </dir>
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Loki Repository</summary>
-        <description>Official Loki Repository</description>
-        <platform>all</platform>
-        <genre>movies,usa</genre>
-    </extension>
 </addon>
 
 <addon id="repository.Nordes.Tv" name="[COLOR green][B]Nordes [/B][/COLOR][COLOR yellow][B]TV[/B][/COLOR][COLOR white] Repo[/COLOR]" version="1.3" provider-name="Luis Carlos">
