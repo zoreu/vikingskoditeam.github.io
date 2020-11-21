@@ -520,7 +520,7 @@ Channels and Playlists organized by categories. Source: Youtube Website.
   </extension>
 </addon>
 
-<addon id="plugin.video.blackarrow1click" name="[COLOR red]BLACKARROW[/COLOR][COLORblack] 1CLICK[/COLOR]" version="1.0" provider-name="FLECHANEGRA">
+<addon id="plugin.video.blackarrow1click" name="[COLOR red]BLACKARROW[/COLOR][COLORblack] 1CLICK[/COLOR]" version="2.3" provider-name="@by_flecha_negra">
   <requires>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -529,7 +529,7 @@ Channels and Playlists organized by categories. Source: Youtube Website.
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="script.module.youtube.dl" />
     <import addon="plugin.video.youtube" version="3.0.0"/>
     <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" />
@@ -540,8 +540,8 @@ Channels and Playlists organized by categories. Source: Youtube Website.
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="pt"></summary>
-    <description lang="pt">Todas as lista estão online via a uma procura live na internet e afins.</description>
+    <summary lang="en">[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR] [COLORorange][B]é um addon da familia K-PT FLECHANEGRA.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</summary>
+    <description lang="en">[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR] [COLORorange][B]é um addon da familia K-PT FLECHANEGRA..TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -1503,7 +1503,7 @@ Toda a fonte  vem de utilizadores do Youtube.
   </extension>
 </addon>
 
-<addon id="plugin.video.K-PT" name="[COLOR orange]K-PT[/COLOR]" version="3.0" provider-name="[COLOR orange]@By_flecha_negra[/COLOR]">
+<addon id="plugin.video.K-PT" name="[COLOR orange]K-PT[/COLOR]" version="3.2" provider-name="[COLOR orange]@By_flecha_negra[/COLOR]">
   <requires>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -1711,6 +1711,40 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
     <disclaimer>The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="plugin.video.marvelrus" version="1.0.0" name="[B][COLOR maroon]Marvel [COLOR white]R[/COLOR][COLORdarkblue] uS[/COLOR][/B]" provider-name="Marvelrus">
+   <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.marvelrus" />
+        <import addon="script.marvelrus.artwork" />
+        <import addon="script.marvelrus.metadata" />
+        <import addon="script.module.resolveurl" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.metahandler" />
+<!--        <import addon="script.module.lambdascrapers" />-->
+        <import addon="script.module.openscrapers" />
+        <import addon="script.module.beautifulsoup4" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="marvelrus.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[B][COLOR maroon]Marvel [COLOR white]R[/COLOR] uS[/COLOR] Video[/B] is free for everyone.</summary>
+        <description lang="en">This addon does not form part of the Kodi Media Center.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <assets>
+        <icon>icon.gif</icon>
+        <fanart>fanart.jpg</fanart>
+        <screenshot>resources/screenshots/1.png</screenshot>
+        <screenshot>resources/screenshots/2.png</screenshot>
+        <screenshot>resources/screenshots/3.png</screenshot>
+    </assets>
+    <news></news>
+    </extension>
 </addon>
 
 <addon id="plugin.video.maxtorrent"
@@ -2924,28 +2958,48 @@ www.fenixflix.ml</news>
   <extension library="lib" point="xbmc.python.module" />
 </addon>
 
-<addon id="script.kratosreborn.artwork" version="1.0.0" name="kratos Reborn Artwork" provider-name="ukodi1">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Themes for the kratos Reborn Addon</summary>
-		<description></description>
-		<platform>all</platform>
-	</extension>
+<addon id="script.marvelrus.artwork" version="2.0.1" name="[B][COLOR red]Marvelrus[/COLOR] Artwork[/B]" provider-name="Marvelrus">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+    <summary lang="en">[B][COLOR red]Marvelrus[/COLOR] Artwork[/B] is free for everyone.</summary>
+    <description lang="en">This addon does not form part of the Kodi Media Center.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+    <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart></fanart>
+        <screenshot></screenshot>
+        <screenshot></screenshot>
+        <screenshot></screenshot>
+    </assets>
+    <news></news>
+    </extension>
 </addon>
 
-<addon id="script.kratosreborn.metadata" version="1.0.0" name="kratos Reborn Metadata" provider-name="ukodi">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Metadata for the kratos Reborn Addon</summary>
-		<description>Metadata for kratos Reborn are maintained separately to make distribution of the the addon itself easier/faster.</description>
-		<platform>all</platform>
-	</extension>
+<addon id="script.marvelrus.metadata" version="2.0.1" name="[B][COLOR red]Marvelrus[/COLOR] Metadata[/B]" provider-name="Marvelrus">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[B][COLOR red]Marvelrus[/COLOR] Metadata[/B] is free for everyone.</summary>
+    <description lang="en">This addon does not form part of the Kodi Media Center.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+    <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart></fanart>
+        <screenshot></screenshot>
+        <screenshot></screenshot>
+        <screenshot></screenshot>
+    </assets>
+    <news></news>
+    </extension>
 </addon>
 
 <addon id="script.module.addon.common"
@@ -3105,6 +3159,29 @@ www.fenixflix.ml</news>
   </extension>
 </addon>
 
+<addon id="script.module.marvelrus" version="2.0.7" name="[B][COLOR red]Marvelrus[/COLOR] Script.Module[/B]" provider-name="Marvelrus">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.beautifulsoup4"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+    <summary lang="en">[B][COLOR red]Marvelrus[/COLOR] Script.Module[/B] is free for everyone.</summary>
+    <description lang="en">This addon does not form part of the Kodi Media Center.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+    <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart></fanart>
+        <screenshot></screenshot>
+        <screenshot></screenshot>
+        <screenshot></screenshot>
+    </assets>
+    <news></news>
+    </extension>
+</addon>
+
 <addon id="script.module.metahandler"
      name="metahandler"
      version="3.0.3"
@@ -3130,28 +3207,37 @@ www.fenixflix.ml</news>
   </extension>
 </addon>
 
-<addon id="script.module.openscrapers" name="OpenScrapers Module" version="0.0.1.103" provider-name="Addons4Kodi">
-    <requires>
-        <import addon="xbmc.python" version="2.25.0" />
-        <import addon="script.module.beautifulsoup4"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.python.pluginsource" library="lib/default.py">
-        <provides>executable</provides>
-    </extension>
-        <extension point="xbmc.addon.metadata">
-            <platform>all</platform>
-            <summary lang="en">OpenScrapers Module</summary>
-            <description>Scrape common video host for URL's to be playable in Kodi, simplifying addon development of video plugins requiring multi video hosts.</description>
-                <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart></fanart>
-    </assets>
-    <news>v0.0.1.98 - Scraper updates and language additions</news>
-    </extension>
+<addon id="script.module.openscrapers" name="OpenScrapers Module" version="0.0.2.004" provider-name="Addons4Kodi">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0" />
+		<import addon="script.module.beautifulsoup4" />
+		<import addon="script.module.requests" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="lib/default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">OpenScrapers Module</summary>
+		<description>Scrape common video host for URL's to be playable in Kodi, simplifying addon development of video plugins requiring multi video hosts.</description>
+		<disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum></forum>
+		<website>https://github.com/a4k-openproject/script.module.openscrapers</website>
+		<source>https://github.com/a4k-openproject/script.module.openscrapers</source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart></fanart>
+		</assets>
+		<news>
+0.0.2.003
+- PR # 139 begin work for py3 compatibility - tikipete
+- BTDB fix for domain change
+- torrents updates
+		</news>
+	</extension>
 </addon>
 
 <addon id="script.module.pyamf"
@@ -3339,6 +3425,32 @@ Addons information (name and version) are sent to our backend at safekodi.com an
   </extension>
 </addon>
 
+<addon id="slyguy.disney.plus" name="Disney+" provider-name="Slyguy" version="0.4.8">
+  <requires>
+    <import addon="script.module.slyguy"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Disney+ is the exclusive home for your favorite movies and TV shows from Disney, Pixar, Marvel, Star Wars, and National Geographic.
+
+Subscription required.</description>
+    <description lang="it">Disney+ è la casa esclusiva per i tuoi film e programmi TV preferiti di Disney, Pixar, Marvel, Star Wars e National Geographic.
+
+Abbonamento richiesto.</description>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <license></license>
+    <language></language>
+    <website></website>
+    <news>Update Sync to Disney setting to sync both ways</news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="TeamKodiAddonsPT" name="Repositorio Team Milhano" version="1.00" provider-name="Team Milhano">
 <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -3492,7 +3604,7 @@ Addons information (name and version) are sent to our backend at safekodi.com an
 
 <addon
 		id="vkkodi.repo" name="[B][COLOR yellow]  Vikings  [COLOR orange]Repositorio Vikings Oficial, SEM BANIMENTO, agora compativel com Kodi Matrix!![/B][/COLOR]"
-		version="3.00"
+		version="3.05"
 		provider-name="[B][COLOR gold]Vikings TEAM[/B][/COLOR]">
 
 		<requires>
@@ -3501,6 +3613,13 @@ Addons information (name and version) are sent to our backend at safekodi.com an
 
 		<extension point="xbmc.addon.repository" name=".Vikings Repositorio">
 
+
+	<dir>
+			<info compressed="false">https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/addons.xml</info>
+			<checksum>https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master</datadir>
+			<hashes>false</hashes>
+    </dir>
 
 	<dir minversion="16.0.0" maxversion="16.9.9">
 			<info compressed="false">https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/jarvis/addons.xml</info>
