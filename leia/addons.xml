@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon 	id="blackpanther.repo"
+		name="[B][COLOR lime]  Black Panther [COLOR orange]Repositorio [/B][/COLOR]"
+		version="1.00"
+		provider-name="[B][COLOR black]Black Panther TEAM[/B][/COLOR]">
+
+	<requires>
+            <import addon="xbmc.python" version="2.1.0"/>
+		    <import addon="script.module.addon.common" optional="true" />
+		    <import addon="script.module.t0mm0.common" optional="true" />
+		    <import addon="script.module.urlresolver" optional="true" />
+
+    </requires>
+
+	<extension point="xbmc.addon.repository" name="blackpanther.repo">
+
+
+			<info compressed="true">https://github.com/blackpanther91/blackpanther91.github.io/raw/master/addons.xml</info>
+			<checksum>https://github.com/blackpanther91/blackpanther91.github.io/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/blackpanther91/blackpanther91.github.io/raw/master</datadir>
+
+	</extension>
+
+
+	<extension point="xbmc.addon.metadata">
+
+	<news></news>
+
+	<summary></summary>
+
+	<description></description>
+
+<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon 	id="brasilfull.repo" name="[B][COLOR white]REPOSITÓRIO[/COLOR][/B] [B][COLOR firebrick]BRASIL[/COLOR][/B] [B][COLOR white]FULL[/COLOR][/B]"
 		version="1.2"
 		provider-name="[B][COLOR gold]TheusZ[/B][/COLOR]">
@@ -568,6 +604,31 @@ Channels and Playlists organized by categories. Source: Youtube Website.
   </extension>
  </addon>
 
+<addon id="plugin.video.blackpanther" name="[COLOR orange][B]black[/B][/COLOR] [COLOR yellow][B]panther[/B][/COLOR]" version="1.0" provider-name="blackpanther">
+  <requires>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" />
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR orange][B]black[/B][/COLOR] [COLOR yellow][B]panther[/B][/COLOR] [COLORorange][B]é um addon da blackpanther Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</summary>
+    <description lang="en">[COLOR orange][B]black[/B][/COLOR] [COLOR yellow][B]panther[/B][/COLOR] [COLORorange][B]é um addon da blackpanther Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.BlurayPlay" name="[B][COLOR red]BLURAY[/COLOR][/B] [B][COLOR white]PLAY'S[/COLOR][/B]" version="3.2.5" provider-name="[B][COLOR yellow]TEAM[/COLOR] [COLOR white]BLURAY[/COLOR] [COLOR red]PLAY'S[/B][/COLOR]">
 <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1084,7 +1145,7 @@ l [COLOR firebrick]FENIX[/COLOR] FLIX - O MELHOR DO CINEMA NO SEU KODI - 100% FH
   </extension>
 </addon>
 
-<addon id="plugin.video.flash_brasil" name="[COLOR orange]Flash[/COLOR][COLORlime]Brasil[/COLOR]" version="3.4" provider-name="Flechanegra">
+<addon id="plugin.video.flash_brasil" name="[COLOR orange]Flash[/COLOR][COLORlime]Brasil[/COLOR]" version="3.5" provider-name="Flechanegra">
   <requires>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -1311,7 +1372,7 @@ version="6.0.0~alpha6" />
     </extension>
 </addon>
 
-<addon id="plugin.video.IncoGnit" name="[COLOR lime]IncoGnit[/COLOR]" version="2.2" provider-name="Flechanegra">
+<addon id="plugin.video.IncoGnit" name="[COLOR lime]IncoGnit[/COLOR]" version="2.3" provider-name="Flechanegra">
   <requires>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -1337,7 +1398,7 @@ version="6.0.0~alpha6" />
   </extension>
 </addon>
 
-<addon id="plugin.video.Infinity" name="[COLOR yellow][B]Infi[/B][/COLOR][COLOR yellow][B]nity[/B][/COLOR]" version="0.2" provider-name="Flechanegra">
+<addon id="plugin.video.Infinity" name="[COLOR yellow][B]Infi[/B][/COLOR][COLOR yellow][B]nity[/B][/COLOR]" version="2.1" provider-name="Flechanegra">
   <requires>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -2813,6 +2874,8 @@ version="1.0.2" provider-name="Marciocn">">
 	</extension>
 </addon>
 
+<addon id="repository.elementum" name="Elementum Repository" version="0.1.58" provider-name="elgatito"><requires></requires><extension point="xbmc.addon.repository" name="Elementum Repository"><info compressed="false">http://127.0.0.1:65220/repository/elgatito/plugin.video.elementum/addons.xml</info><checksum>http://127.0.0.1:65220/repository/elgatito/plugin.video.elementum/addons.xml.md5</checksum><datadir zip="true">http://127.0.0.1:65220/repository/elgatito/</datadir></extension><extension point="xbmc.addon.metadata"><platform>all</platform><summary lang="en">GitHub repository for Elementum updates</summary></extension></addon>
+
 <addon id="repository.FaustinoTV" name="[B][COLOR blue]Faustino[/COLOR][COLOR yellow]TV[/COLOR] [COLOR cyan]Repo[/COLOR][/B]" version="2.2" provider-name="Equipe FaustinoTV">
     <extension point="xbmc.addon.repository" name="Repositório FaustinoTV">
         <info>https://github.com/faustinotv/repo.faustinotv/raw/master/addons.xml</info>
@@ -3340,6 +3403,20 @@ AMF3, the default serialization for ActionScript 3.0, provides various advantage
     </extension>
 </addon>
 
+<addon id="script.module.simple.downloader" name="Simple Downloader for xbmc plugins" provider-name="TheCollective" version="1.9.5">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.common.plugin.cache" version="2.5.0" />
+    <import addon="script.module.parsedom" version="2.5.1" />
+  </requires>
+  <extension library="default.py" point="xbmc.service" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Simple downloader for xbmc plugins.</summary>
+  </extension>
+  <extension library="lib" point="xbmc.python.module" />
+</addon>
+
 <addon id="script.module.simplejson"
        name="simplejson"
        version="3.3.0"
@@ -3385,6 +3462,21 @@ AMF3, the default serialization for ActionScript 3.0, provides various advantage
   </extension>
 </addon>
 
+<addon id="script.module.t0mm0.common"
+	     name="t0mm0's common stuff"
+	     version="2.1.1"
+	     provider-name="t0mm0">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Collection of commonly used addon routines</summary>
+    <description lang="en">Collection of commonly used addon routines to simplify addon development.</description>
+  </extension>
+</addon>
+
 <addon id="script.module.urlresolver"
      name="URLResolver"
      version="2.10.0"
@@ -3417,6 +3509,51 @@ AMF3, the default serialization for ActionScript 3.0, provides various advantage
         <source>https://github.com/martinblech/xmltodict</source>
         <forum></forum>
     </extension>
+</addon>
+
+<addon id="script.module.youtube.dl" name="youtube-dl Control" version="19.912.1" provider-name="Rick Phillips (ruuk)">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0" />
+        <import addon="script.module.addon.signals" version="0.0.1"/>
+    </requires>
+    <extension point="xbmc.python.script" library="control.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Module providing access to youtube-dl video stream extraction</summary>
+        <description lang="en">Module providing access to youtube-dl video stream extraction for hundreds of sites. Version is based on youtube-dl date version: YY.MDD.V where V is the addon specific sub-version. Also provides downloading with the option for background downloading with a queue and queue manager.</description>
+        <summary lang="el">Βοηθητική μονάδα πρόσβασης στους επιλυτές youtube-dl για την εξαγωγή ροών βίντεο</summary>
+        <description lang="el">Βοηθητική μονάδα πρόσβασης στους επιλυτές youtube-dl για την εξαγωγή ροών βίντεο από εκατοντάδες ιστότοπους. Η έκδοση βασίζεται στην έκδοση ημερομηνίας του youtube-dl: EE.MHH.EK όπου ΕΚ η υπό-έκδοση συγκεκριμένα για το πρόσθετο. Επιπλέον δίνει δυνατότητα μεταφόρτωσης στο παρασκήνιο με ουρά και διαχειριστή αυτής.</description>
+        <summary lang="es">Módulo que proporciona acceso a YouTube-dl para la extracción de flujos de video</summary>
+        <description lang="es">Módulo que proporciona acceso a YouTube-dl para la extracción de flujos de video de cientos de sitios. La versión está basada en la versión de fecha youtube-dl: YY.MDD.V donde V es la subversión específica del complemento. También permite descargas con la opción de descarga en segundo plano con una cola y un administrador de colas.</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=200877</forum>
+        <source>https://github.com/ruuk/script.module.youtube.dl</source>
+    </extension>
+</addon>
+
+<addon id="script.module.youtube_channels" name="YouTube Channels" version="0.1.0" provider-name="Alexander Seiler">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="plugin.video.youtube" version="6.4.0"/>
+    <import addon="script.module.simplecache" version="1.0.11"/>
+    <import addon="script.module.kodi-six" version="0.0.2"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Helps you to include YouTube channels in a Kodi plugin.</summary>
+    <description lang="en_GB">YouTube Channels offers helper function to include a list of different YouTube channels into your Kodi plugin.</description>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+    <email>seileralex@gmail.com</email>
+    <source>https://github.com/goggle/script.module.youtube_channels</source>
+    <assets>
+        <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
 </addon>
 
 <addon id="script.safekodi" name="SafeKodi" version="1.0.1" provider-name="Yunming">
