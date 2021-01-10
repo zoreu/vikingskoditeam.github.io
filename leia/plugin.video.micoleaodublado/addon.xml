@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.micoleaodublado" name="[B]Mico-leão [COLOR orange]Dublado[/COLOR][/B]" version="1.0.0" provider-name="Addon Mico-leão Dublado">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.httplib2"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson"/> 
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">O melhor conteudo em filmes e series dubladas , um addon feito para toda a família!</summary>
+    <description lang="en">
+	[B][COLOR orange]| [/COLOR]FILMES E SERIES[COLOR orange] |[/COLOR][COLOR orange] [/COLOR]TORRENT[COLOR orange] |[/COLOR]
+[COLOR orange] MICO-LEAO DUBLADO [/COLOR][/B][B][COLOR white] é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
