@@ -1773,9 +1773,9 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
 </addon>
 
 <addon id="plugin.video.newsupremo"
-       name="[COLOR white][B]newsupremo[/B][/COLOR]"
-       version="1.0"
-       provider-name="will">
+       name="[COLOR cyan][B]newsupremo[/B][/COLOR]"
+       version="3.0"
+       provider-name="equipe newsupremo">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -1798,9 +1798,8 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
 
 
   <extension point="xbmc.addon.metadata">
-    <summary>AGRADEÇEMOS A COLABORAÇÃO e APOIO DOS ENVOLVIDOS NA CRIAÇÃO DO ADDONS</summary>
+    <summary>agradecemos a todos pela parceria.</summary>
     <description>
-        PROIBIDA A VENDA DO ADDONS CONTEUDO TOTALMENTE GRATUITO!!
 
     </description>
     <platform>all</platform>

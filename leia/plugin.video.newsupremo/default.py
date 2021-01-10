@@ -21,6 +21,7 @@ except:
 import SimpleDownloader as downloader
 import time
 tsdownloader=False
+hlsretry=False
 resolve_url=['180upload.com', 'allmyvideos.net', 'bestreams.net', 'clicknupload.com', 'cloudzilla.to', 'movshare.net', 'novamov.com', 'nowvideo.sx', 'videoweed.es', 'daclips.in', 'datemule.com', 'fastvideo.in', 'faststream.in', 'filehoot.com', 'filenuke.com', 'sharesix.com',  'plus.google.com', 'picasaweb.google.com', 'gorillavid.com', 'gorillavid.in', 'grifthost.com', 'hugefiles.net', 'ipithos.to', 'ishared.eu', 'kingfiles.net', 'mail.ru', 'my.mail.ru', 'videoapi.my.mail.ru', 'mightyupload.com', 'mooshare.biz', 'movdivx.com', 'movpod.net', 'movpod.in', 'movreel.com', 'mrfile.me', 'nosvideo.com', 'openload.io', 'played.to', 'bitshare.com', 'filefactory.com', 'k2s.cc', 'oboom.com', 'rapidgator.net', 'primeshare.tv', 'bitshare.com', 'filefactory.com', 'k2s.cc', 'oboom.com', 'rapidgator.net', 'sharerepo.com', 'stagevu.com', 'streamcloud.eu', 'streamin.to', 'thefile.me', 'thevideo.me', 'tusfiles.net', 'uploadc.com', 'zalaa.com', 'uploadrocket.net', 'uptobox.com', 'v-vids.com', 'veehd.com', 'vidbull.com', 'videomega.tv', 'vidplay.net', 'vidspot.net', 'vidto.me', 'vidzi.tv', 'vimeo.com', 'vk.com', 'vodlocker.com', 'xfileload.com', 'xvidstage.com', 'zettahost.tv']
 g_ignoreSetResolved=['plugin.video.dramasonline','plugin.video.f4mTester','plugin.video.shahidmbcnet','plugin.video.SportsDevil','plugin.stream.vaughnlive.tv','plugin.video.ZemTV-shani']
 
@@ -28,9 +29,6 @@ class NoRedirection(urllib2.HTTPErrorProcessor):
    def http_response(self, request, response):
        return response
    https_response = http_response
-
-def play_m3u(url):
-    xbmc.Player().play(""+url+"")
 
 REMOTE_DBG=False;
 if REMOTE_DBG:
@@ -68,27 +66,10 @@ if os.path.exists(source_file)==True:
     SOURCES = open(source_file).read()
 else: SOURCES = []
 
-base =  ''                                                                                                                                                                                                                                                                                                "=YLWE4APY2QMH4ROPZ5CGZ5FN33GGXYNJTYKG2NOBD46SXIHTD4IH2BN"
-tam = len(base)
-basedem = base[::-1]
-MainBase = base64.b32decode(basedem)
-
-off =  MainBase
-
-def CHIndex():
-    addon_log("CHIndex")
-	#addDir('[COLOR white][B] [/COLOR][/B]','100',100,icon,FANART,'','','','')
-    getData(off,'')
-    msg2 = "https://raw.githubusercontent.com/williamrdn44/inicio-addon/master/mensagem"
-    msg = msg2
-    line1 = urllib2.urlopen(msg).read()
-    time = 45000 #in miliseconds
-    xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%('[COLOR red][B]--newsupremo--[/COLOR][/B]',line1, time, icon))
-    xbmcplugin.endOfDirectory(int(sys.argv[1]))
 
 def addon_log(string):
     if debug == 'true':
-        xbmc.log("[addon.vida-%s]: %s" %(addon_version, string))
+        xbmc.log("[addon.GHOST-%s]: %s" %(addon_version, string))
 
 
 def makeRequest(url, headers=None):
@@ -119,12 +100,12 @@ def makeRequest(url, headers=None):
         except urllib2.URLError, e:
             addon_log('URL: '+url)
             if hasattr(e, 'code'):
-                addon_log('ERRO - CODIGO - %s.' % e.code)
-                xbmc.executebuiltin("XBMC.Notification(vida,ERRO - CODIGO - "+str(e.code)+",10000,"+icon+")")
+                addon_log('We failed with error code - %s.' % e.code)
+                xbmc.executebuiltin("XBMC.Notification(GHOST,We failed with error code - "+str(e.code)+",10000,"+icon+")")
             elif hasattr(e, 'reason'):
-                addon_log('ERRO DE SERVIDOR.')
+                addon_log('We failed to reach a server.')
                 addon_log('Reason: %s' %e.reason)
-                xbmc.executebuiltin("XBMC.Notification(vida,ERRO DE SERVIDOR. - "+str(e.reason)+",10000,"+icon+")")
+                xbmc.executebuiltin("XBMC.Notification(GHOST,We failed to reach a server. - "+str(e.reason)+",10000,"+icon+")")
 
 def getSources():
         try:
@@ -184,7 +165,7 @@ def addSource(url=None):
             source_url = url
         if source_url == '' or source_url is None:
             return
-        addon_log('Adding New Source: '+source_url.encode('utf-8'))
+        addon_log('Adicionando Nova Fonte: '+source_url.encode('utf-8'))
 
         media_info = None
         #print 'source_url',source_url
@@ -219,7 +200,7 @@ def addSource(url=None):
                 nameStr = source_url.split('\\')[-1].split('.')[0]
             if '%' in nameStr:
                 nameStr = urllib.unquote_plus(nameStr)
-            keyboard = xbmc.Keyboard(nameStr,'Displayed Name, Rename?')
+            keyboard = xbmc.Keyboard(nameStr,'Nome da Lista, Renomeia?')
             keyboard.doModal()
             if (keyboard.isConfirmed() == False):
                 return
@@ -245,7 +226,7 @@ def addSource(url=None):
             b.close()
         addon.setSetting('new_url_source', "")
         addon.setSetting('new_file_source', "")
-        xbmc.executebuiltin("XBMC.Notification(vida,New source added.,5000,"+icon+")")
+        xbmc.executebuiltin("XBMC.Notification(CANAIS,Nova fonte adicionada.,5000,"+icon+")")
         if not url is None:
             if 'xbmcplus.xb.funpic.de' in url:
                 xbmc.executebuiltin("XBMC.Container.Update(%s?mode=14,replace)" %sys.argv[0])
@@ -311,19 +292,41 @@ def getCommunitySources(browse=False):
                 addDir(name,url+name,11,icon,fanart,'','','','','download')
 
 def getSoup(url,data=None):
-        print 'getsoup',url,data
+        global viewmode,tsdownloader, hlsretry
+        tsdownloader=False
+        hlsretry=False
         if url.startswith('http://') or url.startswith('https://'):
-            data = makeRequest(url)
-            try:
-                if '+AVL15ADA413443FCAZ1+' in data:
-                    data = data.split('+AVL15ADA413443FCAZ1+')
-                    data =base64.b32decode(data[0])
-            except: pass
-            if re.search("#EXTM3U",data) or 'm3u' in url: 
-                print 'found m3u data',data
-                return data
+            enckey=False
+            if '$$TSDOWNLOADER$$' in url:
+                tsdownloader=True
+                url=url.replace("$$TSDOWNLOADER$$","")
+            if '$$HLSRETRY$$' in url:
+                hlsretry=True
+                url=url.replace("$$HLSRETRY$$","")
+            if '$$LSProEncKey=' in url:
+                enckey=url.split('$$LSProEncKey=')[1].split('$$')[0]
+                rp='$$LSProEncKey=%s$$'%enckey
+                url=url.replace(rp,"")
                 
+            data =makeRequest(url)
+            if enckey:
+                    import pyaes
+                    enckey=enckey.encode("ascii")
+                    print enckey
+                    missingbytes=16-len(enckey)
+                    enckey=enckey+(chr(0)*(missingbytes))
+                    print repr(enckey)
+                    data=base64.b64decode(data)
+                    decryptor = pyaes.new(enckey , pyaes.MODE_ECB, IV=None)
+                    data=decryptor.decrypt(data).split('\0')[0]
+                    #print repr(data)
+            if re.search("#EXTM3U",data) or 'm3u' in url:
+#                print 'found m3u data'
+                return data
         elif data == None:
+            if not '/'  in url or not '\\' in url:
+#                print 'No directory found. Lets make the url to cache dir'
+                url = os.path.join(communityfiles,url)
             if xbmcvfs.exists(url):
                 if url.startswith("smb://") or url.startswith("nfs://"):
                     copy = xbmcvfs.copy(url, os.path.join(profile, 'temp', 'sorce_temp.txt'))
@@ -334,18 +337,27 @@ def getSoup(url,data=None):
                         addon_log("failed to copy from smb:")
                 else:
                     data = open(url, 'r').read()
-                    #xbmc.log(data)
-                    if '++d3c0d3r++' in data:
-                        data = data.split('++d3c0d3r++')
-                        data = base64.b64decode(data[0])
-                    if re.match("#EXTM3U",data) or 'm3u' in url: 
-                        print 'found m3u data',data
+                    if re.match("#EXTM3U",data)or 'm3u' in url:
+#                        print 'found m3u data'
                         return data
             else:
                 addon_log("Soup Data not found!")
                 return
+        if '<SetViewMode>' in data:
+            try:
+                viewmode=re.findall('<SetViewMode>(.*?)<',data)[0]
+                xbmc.executebuiltin("Container.SetViewMode(%s)"%viewmode)
+                print 'done setview',viewmode
+            except: pass
         return BeautifulSOAP(data, convertEntities=BeautifulStoneSoup.XML_ENTITIES)
 
+def processPyFunction(data):
+    try:
+        if data and len(data)>0 and data.startswith('$pyFunction:'):
+            data=doEval(data.split('$pyFunction:')[1],'',None,None )
+    except: pass
+
+    return data
 
 def getData(url,fanart, data=None):
     import checkbad
@@ -372,7 +384,7 @@ def getData(url,fanart, data=None):
                 thumbnail = channel('thumbnail')[0].string
                 if thumbnail == None:
                     thumbnail = ''
-
+                thumbnail=processPyFunction(thumbnail)
                 try:
                     if not channel('fanart'):
                         if addon.getSetting('use_thumb') == "true":
@@ -469,6 +481,8 @@ def parse_m3u(data):
                 stream_url = 'plugin://plugin.video.F.T.V/?name='+urllib.quote(channel_name) +'&url=' +stream_url +'&mode=125&ch_fanart=na'
         elif tsdownloader and '.ts' in stream_url:
             stream_url = 'plugin://plugin.video.f4mTester/?url='+urllib.quote_plus(stream_url)+'&amp;streamtype=TSDOWNLOADER&name='+urllib.quote(channel_name)
+        elif hlsretry and '.m3u8' in stream_url:
+            stream_url = 'plugin://plugin.video.f4mTester/?url='+urllib.quote_plus(stream_url)+'&amp;streamtype=HLSRETRY&name='+urllib.quote(channel_name)
         addLink(stream_url, channel_name,thumbnail,'','','','','',None,'',total)
 def getChannelItems(name,url,fanart):
         soup = getSoup(url)
@@ -486,6 +500,7 @@ def getChannelItems(name,url,fanart):
                 thumbnail = channel('thumbnail')[0].string
                 if thumbnail == None:
                     raise
+                thumbnail=processPyFunction(thumbnail)
             except:
                 thumbnail = ''
             try:
@@ -637,79 +652,7 @@ def getItems(items,fanart,dontLink=False):
                         if not i.string == None:
                             dm = "plugin://plugin.video.dailymotion_com/?mode=playLiveVideo&url=" + i.string
                             url.append(dm)
-							
-                elif len(item('vidatvn')) >0:
-                    for i in item('vidatvn'):
-                        if not i.string == None:
-                            vidatvn = 'http://nazabox.ddns.net/'+i.string+'.mp4'
-                            url.append(vidatvn)
-
-                elif len(item('vidatvb')) >0:
-                    for i in item('vidatvb'):
-                        if not i.string == None:
-                            vidatvb = 'http://www.blogger.com/video-play.mp4?contentId='+i.string
-                            url.append(vidatvb)
-
-                elif len(item('vidatvg')) >0:
-                    for i in item('vidatvg'):
-                        if not i.string == None:
-                            vidatvg = 'plugin://plugin.video.gdrive?mode=streamURL&amp;url=https://docs.google.com/file/d/'+i.string
-                            url.append(vidatvg)
-
-                elif len(item('playthis')) >0:
-                    for i in item('playthis'):
-                        if not i.string == None:
-                            playthis = 'plugin://plugin.video.playthis/?mode=play&player=false&path='+i.string
-                            url.append(playthis)
-
-                elif len(item('sony')) >0:
-                    for i in item('sony'):
-                        if not i.string == None:
-                            sony = ""+i.string+""'|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
-                            url.append(sony)
-
-                elif len(item('urlsolve')) >0:
-                    for i in item('urlsolve'):
-                        if not i.string == None:
-                            urlsolve = ''+i.string+''
-                            url.append(urlsolve)
-
-                elif len(item('vidaonef')) >0:
-                    for i in item(vidaonef):
-                        if not i.string == None:
-                            vidaonef = 'plugin://plugin.video.playthis/?mode=play&player=false&path=https://emcc-my.sharepoint.com/:v:/g/personal/vidafilmes_ondrive_pw/'+i.string+'?download=1&rebase=on'
-                            url.append(vidaonef)
-
-                elif len(item('vidaones')) >0:
-                    for i in item('vidaones'):
-                        if not i.string == None:
-                            vidaones = 'plugin://plugin.video.playthis/?mode=play&player=false&path=https://emcc-my.sharepoint.com/:v:/g/personal/vidaseries_ondrive_pw/'+i.string+'?download=1&rebase=on'
-                            url.append(vidaones)
-
-                elif len(item('base64x')) >0:
-                    for i in item('base64x'):
-                        if not i.string == None:
-                            base64x = base64.b64decode(''+i.string+'')
-                            url.append(base64x)							
-							
-		elif len(item('m3u')) >0:
-                    for i in item('m3u'):
-                        if not i.string == None:
-                            #m3u = "plugin://plugin.video.playthis/?mode=play&player=false&history=false&path=" + i.string
-                            m3u = "plugin://plugin.video.m3u/?logos=&amp;move=0&amp;mode=3&amp;index=-1&amp;url="+ i.string
-                            url.append(m3u)
-
-                elif len(item('yutube')) >0:
-                    for i in item('yutube'):
-                        if not i.string == None:
-                            #m3u = "plugin://plugin.video.playthis/?mode=play&player=false&history=false&path=" + i.string
-                            yutube = 'plugin://plugin.video.youtube/playlist/'+ i.string +'/' 
-                            url.append(yutube)
-                            
-                            
-							
                 elif len(item('utube')) >0:
-                    tam = len(item('utube'))
                     for i in item('utube'):
                         if not i.string == None:
                             if ' ' in i.string :
@@ -724,8 +667,6 @@ def getItems(items,fanart,dontLink=False):
                             elif i.string.startswith('UC') and len(i.string) > 12:
                                 utube = 'plugin://plugin.video.youtube/channel/' + i.string + '/'
                                 isJsonrpc=utube
-                            #elif i.string.startswith('PL') or i.string.startswith('UU'):
-                            #   utube = 'plugin://plugin.video.youtube/playlist/'+i.string[1:tam]+'/'
                             elif not i.string.startswith('UC') and not (i.string.startswith('PL'))  :
                                 utube = 'plugin://plugin.video.youtube/user/' + i.string + '/'
                                 isJsonrpc=utube
@@ -788,6 +729,7 @@ def getItems(items,fanart,dontLink=False):
                 thumbnail = item('thumbnail')[0].string
                 if thumbnail == None:
                     raise
+                thumbnail=processPyFunction(thumbnail)
             except:
                 thumbnail = ''
             try:
@@ -2262,12 +2204,12 @@ def urlsolver(url):
         else:
             resolver = resolved
     else:
-        xbmc.executebuiltin("XBMC.Notification(TeamBlue,Urlresolver donot support this domain. - ,5000)")
+        xbmc.executebuiltin("XBMC.Notification(CANAIS,Urlresolver donot support this domain. - ,5000)")
         resolver=url
     return resolver
 def tryplay(url,listitem,pdialogue=None):    
 
-    if url.lower().startswith('plugin'):
+    if url.lower().startswith('plugin') and 'youtube' not in  url.lower():
         print 'playing via runplugin'
         xbmc.executebuiltin('XBMC.RunPlugin('+url+')') 
         for i in range(8):
@@ -2277,6 +2219,7 @@ def tryplay(url,listitem,pdialogue=None):
                 if xbmc.getCondVisibility("Player.HasMedia") and xbmc.Player().isPlaying():
                     return True
             except: pass
+        print 'returning now'
         return False
     import  CustomPlayer,time
 
@@ -2313,6 +2256,7 @@ def play_playlist(name, mu_playlist,queueVideo=None):
             progress = xbmcgui.DialogProgress()
             progress.create('Progress', 'Trying Multiple Links')
             for i in mu_playlist:
+                
 
                 if '$$lsname=' in i:
                     d_name=i.split('$$lsname=')[1].split('&regexs')[0]
@@ -2333,7 +2277,7 @@ def play_playlist(name, mu_playlist,queueVideo=None):
                 print 'auto playnamexx',playname
                 if "&mode=19" in mu_playlist[index]:
                         #playsetresolved (urlsolver(mu_playlist[index].replace('&mode=19','')),name,iconimage,True)
-                    liz = xbmcgui.ListItem(playname, iconImage=iconimage)
+                    liz = xbmcgui.ListItem(playname, iconImage=iconimage, thumbnailImage=iconimage)
                     liz.setInfo(type='Video', infoLabels={'Title':playname})
                     liz.setProperty("IsPlayable","true")
                     urltoplay=urlsolver(mu_playlist[index].replace('&mode=19','').replace(';',''))
@@ -2346,7 +2290,7 @@ def play_playlist(name, mu_playlist,queueVideo=None):
 #                    print sepate
                     url,setresolved = getRegexParsed(sepate[1], sepate[0])
                     url2 = url.replace(';','')
-                    liz = xbmcgui.ListItem(playname, iconImage=iconimage)
+                    liz = xbmcgui.ListItem(playname, iconImage=iconimage, thumbnailImage=iconimage)
                     liz.setInfo(type='Video', infoLabels={'Title':playname})
                     liz.setProperty("IsPlayable","true")
                     liz.setPath(url2)
@@ -2356,7 +2300,7 @@ def play_playlist(name, mu_playlist,queueVideo=None):
                 else:
                     url = mu_playlist[index]
                     url=url.split('&regexs=')[0]
-                    liz = xbmcgui.ListItem(playname, iconImage=iconimage)
+                    liz = xbmcgui.ListItem(playname, iconImage=iconimage, thumbnailImage=iconimage)
                     liz.setInfo(type='Video', infoLabels={'Title':playname})
                     liz.setProperty("IsPlayable","true")
                     liz.setPath(url)
@@ -2370,9 +2314,7 @@ def play_playlist(name, mu_playlist,queueVideo=None):
             import urlparse
             names = []
             iloop=0
-            print mu_playlist
             for i in mu_playlist:
-                print i
                 if '$$lsname=' in i:
                     d_name=i.split('$$lsname=')[1].split('&regexs')[0]
                     names.append(d_name)                                       
@@ -2386,13 +2328,13 @@ def play_playlist(name, mu_playlist,queueVideo=None):
                     
                 iloop+=1
             dialog = xbmcgui.Dialog()
-            index = dialog.select('Escolha um link', names)
+            index = dialog.select('Choose a video source', names)
             if index >= 0:
                 playname=names[index]
                 print 'playnamexx',playname
                 if "&mode=19" in mu_playlist[index]:
                         #playsetresolved (urlsolver(mu_playlist[index].replace('&mode=19','')),name,iconimage,True)
-                    liz = xbmcgui.ListItem(playname, iconImage=iconimage)
+                    liz = xbmcgui.ListItem(playname, iconImage=iconimage, thumbnailImage=iconimage)
                     liz.setInfo(type='Video', infoLabels={'Title':playname})
                     liz.setProperty("IsPlayable","true")
                     urltoplay=urlsolver(mu_playlist[index].replace('&mode=19','').replace(';',''))
@@ -2404,7 +2346,7 @@ def play_playlist(name, mu_playlist,queueVideo=None):
 #                    print sepate
                     url,setresolved = getRegexParsed(sepate[1], sepate[0])
                     url2 = url.replace(';','')
-                    liz = xbmcgui.ListItem(playname, iconImage=iconimage)
+                    liz = xbmcgui.ListItem(playname, iconImage=iconimage, thumbnailImage=iconimage)
                     liz.setInfo(type='Video', infoLabels={'Title':playname})
                     liz.setProperty("IsPlayable","true")
                     liz.setPath(url2)
@@ -2413,7 +2355,7 @@ def play_playlist(name, mu_playlist,queueVideo=None):
                 else:
                     url = mu_playlist[index]
                     url=url.split('&regexs=')[0]
-                    liz = xbmcgui.ListItem(playname, iconImage=iconimage)
+                    liz = xbmcgui.ListItem(playname, iconImage=iconimage, thumbnailImage=iconimage)
                     liz.setInfo(type='Video', infoLabels={'Title':playname})
                     liz.setProperty("IsPlayable","true")
                     liz.setPath(url)
@@ -2450,12 +2392,12 @@ def play_playlist(name, mu_playlist,queueVideo=None):
 
 def download_file(name, url):
         if addon.getSetting('save_location') == "":
-            xbmc.executebuiltin("XBMC.Notification('TeamBlue','Escolha um local para guardar os ficheiros.',15000,"+icon+")")
+            xbmc.executebuiltin("XBMC.Notification('CANAIS','Choose a location to save files.',15000,"+icon+")")
             addon.openSettings()
         params = {'url': url, 'download_path': addon.getSetting('save_location')}
         downloader.download(name, params)
         dialog = xbmcgui.Dialog()
-        ret = dialog.yesno('TeamBlue', 'Do you want to add this file as a source?')
+        ret = dialog.yesno('CANAIS', 'Do you want to add this file as a source?')
         if ret:
             addSource(os.path.join(addon.getSetting('save_location'), name))
 
@@ -2477,7 +2419,7 @@ def _search(url,name):
     names = ['Gensis TV','Genesis Movie','Salt movie','salt TV','Muchmovies','viooz','ORoroTV',\
              'Yifymovies','cartoonHD','Youtube','DailyMotion','Vimeo']
     dialog = xbmcgui.Dialog()
-    index = dialog.select('Escolha a fonte de video', names)
+    index = dialog.select('Choose a video source', names)
 
     if index >= 0:
         url = pluginsearchurls[index]
@@ -2512,21 +2454,21 @@ def addDir(name,url,mode,iconimage,fanart,description,genre,date,credits,showcon
 #            print 'parentalblockedpin',parentalblockedpin
             if len(parentalblockedpin)>0:
                 if parentalblock:
-                    contextMenu.append(('Desativar Controlo Parental','XBMC.RunPlugin(%s?mode=55&name=%s)' %(sys.argv[0], urllib.quote_plus(name))))
+                    contextMenu.append(('Disable Parental Block','XBMC.RunPlugin(%s?mode=55&name=%s)' %(sys.argv[0], urllib.quote_plus(name))))
                 else:
-                    contextMenu.append(('Ativar Parental Block','XBMC.RunPlugin(%s?mode=56&name=%s)' %(sys.argv[0], urllib.quote_plus(name))))
+                    contextMenu.append(('Enable Parental Block','XBMC.RunPlugin(%s?mode=56&name=%s)' %(sys.argv[0], urllib.quote_plus(name))))
                     
             if showcontext == 'source':
             
                 if name in str(SOURCES):
-                    contextMenu.append(('Remove from Sources','XBMC.RunPlugin(%s?mode=8&name=%s)' %(sys.argv[0], urllib.quote_plus(name))))
+                    contextMenu.append(('Remover a Lista Selecionada','XBMC.RunPlugin(%s?mode=8&name=%s)' %(sys.argv[0], urllib.quote_plus(name))))
                     
                     
             elif showcontext == 'download':
                 contextMenu.append(('Download','XBMC.RunPlugin(%s?url=%s&mode=9&name=%s)'
                                     %(sys.argv[0], urllib.quote_plus(url), urllib.quote_plus(name))))
             elif showcontext == 'fav':
-                contextMenu.append(('Remover de TeamBlue Favorites','XBMC.RunPlugin(%s?mode=6&name=%s)'
+                contextMenu.append(('Remove a CANAIS','XBMC.RunPlugin(%s?mode=6&name=%s)'
                                     %(sys.argv[0], urllib.quote_plus(name))))
             if showcontext == '!!update':
                 fav_params2 = (
@@ -2535,7 +2477,7 @@ def addDir(name,url,mode,iconimage,fanart,description,genre,date,credits,showcon
                     )
                 contextMenu.append(('[COLOR yellow]!!update[/COLOR]','XBMC.RunPlugin(%s)' %fav_params2))
             if not name in FAV:
-                contextMenu.append(('Adicionar a TeamBlue Favorites','XBMC.RunPlugin(%s?mode=5&name=%s&url=%s&iconimage=%s&fanart=%s&fav_mode=%s)'
+                contextMenu.append(('Adiciona CANAIS aos Favoritos','XBMC.RunPlugin(%s?mode=5&name=%s&url=%s&iconimage=%s&fanart=%s&fav_mode=%s)'
                          %(sys.argv[0], urllib.quote_plus(name), urllib.quote_plus(url), urllib.quote_plus(iconimage), urllib.quote_plus(fanart), mode)))
             liz.addContextMenuItems(contextMenu)
         ok=xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=u,listitem=liz,isFolder=True)
@@ -2623,7 +2565,7 @@ def pluginquerybyJSON(url,give_me_result=None,playlist=False):
         xbmcplugin.endOfDirectory(int(sys.argv[1]))
 
 def addLink(url,name,iconimage,fanart,description,genre,date,showcontext,playlist,regexs,total,setCookie="",allinfo={}):
-        #print 'url,name',url,name
+        #print 'url,name',url,name,iconimage
         contextMenu =[]
         parentalblock =addon.getSetting('parentalblocked')
         parentalblock= parentalblock=="true"
@@ -2688,7 +2630,9 @@ def addLink(url,name,iconimage,fanart,description,genre,date,showcontext,playlis
             u += "&regexs="+regexs
         if not setCookie == '':
             u += "&setCookie="+urllib.quote_plus(setCookie)
-
+        if iconimage and  not iconimage == '':
+            u += "&iconimage="+urllib.quote_plus(iconimage)
+            
         if date == '':
             date = None
         else:
@@ -2715,7 +2659,7 @@ def addLink(url,name,iconimage,fanart,description,genre,date,showcontext,playlis
             #contextMenu = []
             if showcontext == 'fav':
                 contextMenu.append(
-                    ('Remover de TeamBlue Favorites','XBMC.RunPlugin(%s?mode=6&name=%s)'
+                    ('Remove CANAIS do Favoritos','XBMC.RunPlugin(%s?mode=6&name=%s)'
                      %(sys.argv[0], urllib.quote_plus(name)))
                      )
             elif not name in FAV:
@@ -2733,16 +2677,18 @@ def addLink(url,name,iconimage,fanart,description,genre,date,showcontext,playlis
                     fav_params += 'playlist='+urllib.quote_plus(str(playlist).replace(',','||'))
                 if regexs:
                     fav_params += "&regexs="+regexs
-                contextMenu.append(('Adicionar a TeamBlue Favorites','XBMC.RunPlugin(%s)' %fav_params))
+                contextMenu.append(('Adiciona CANAIS aos Favoritos','XBMC.RunPlugin(%s)' %fav_params))
             liz.addContextMenuItems(contextMenu)
-        if not playlist is None:
-            if addon.getSetting('add_playlist') == "false":
-                playlist_name = name.split(') ')[1]
-                contextMenu_ = [
-                    ('Play '+playlist_name+' PlayList','XBMC.RunPlugin(%s?mode=13&name=%s&playlist=%s)'
-                     %(sys.argv[0], urllib.quote_plus(playlist_name), urllib.quote_plus(str(playlist).replace(',','||'))))
-                     ]
-                liz.addContextMenuItems(contextMenu_)
+        try:
+            if not playlist is None:
+                if addon.getSetting('add_playlist') == "false":
+                    playlist_name = name.split(') ')[1]
+                    contextMenu_ = [
+                        ('Play '+playlist_name+' PlayList','XBMC.RunPlugin(%s?mode=13&name=%s&playlist=%s)'
+                         %(sys.argv[0], urllib.quote_plus(playlist_name), urllib.quote_plus(str(playlist).replace(',','||'))))
+                         ]
+                    liz.addContextMenuItems(contextMenu_)
+        except: pass
         #print 'adding',name
         ok=xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=u,listitem=liz,totalItems=total,isFolder=isFolder)
 
@@ -2760,7 +2706,7 @@ def playsetresolved(url,name,iconimage,setresolved=True,reg=None):
         if reg and 'notplayable' in reg:
             setres=False
 
-        liz = xbmcgui.ListItem(name, iconImage=iconimage)
+        liz = xbmcgui.ListItem(name, iconImage=iconimage, thumbnailImage=iconimage)
         liz.setInfo(type='Video', infoLabels={'Title':name})
         liz.setProperty("IsPlayable","true")
         liz.setPath(url)
@@ -2915,10 +2861,6 @@ if mode==None:
     addon_log("getSources")
     getSources()
     xbmcplugin.endOfDirectory(int(sys.argv[1]))
-	
-if mode==None:
-    addon_log("Index")
-    CHIndex()
 
 elif mode==1:
     addon_log("getData")
@@ -3174,13 +3116,13 @@ elif mode==17 or mode==117:
             else:
                 playsetresolved(url,name,iconimage,setresolved,regexs)
         else:
-            xbmc.executebuiltin("XBMC.Notification(TeamBlue,Failed to extract regex. - "+"this"+",4000,"+icon+")")
+            xbmc.executebuiltin("XBMC.Notification(GHOST,Failed to extract regex. - "+"this"+",4000,"+icon+")")
 elif mode==18:
     addon_log("youtubedl")
     try:
         import youtubedl
     except Exception:
-        xbmc.executebuiltin("XBMC.Notification(TeamBlue,Por favor [COLOR yellow]instale Youtube-dl[/COLOR] module ,10000,"")")
+        xbmc.executebuiltin("XBMC.Notification(GHOST,Please [COLOR yellow]install Youtube-dl[/COLOR] module ,10000,"")")
     stream_url=youtubedl.single_YD(url)
     playsetresolved(stream_url,name,iconimage)
 elif mode==19:
@@ -3209,25 +3151,21 @@ elif mode==55:
         newStr = keyboard.getText()
         if newStr==parentalblockedpin:
             addon.setSetting('parentalblocked', "false")
-            xbmc.executebuiltin("XBMC.Notification(TeamBlue,Controlo Parental desativado,5000,"+icon+")")
+            xbmc.executebuiltin("XBMC.Notification(GHOST,Parental Block Disabled,5000,"+icon+")")
         else:
-            xbmc.executebuiltin("XBMC.Notification(TeamBlue,Pin errado??,5000,"+icon+")")
+            xbmc.executebuiltin("XBMC.Notification(GHOST,Wrong Pin??,5000,"+icon+")")
     xbmcplugin.endOfDirectory(int(sys.argv[1]))
 elif mode==56:
     addon_log("disable lock")
     addon.setSetting('parentalblocked', "true")
-    xbmc.executebuiltin("XBMC.Notification(TeamBlue,Controlo Parental ativado,5000,"+icon+")")
+    xbmc.executebuiltin("XBMC.Notification(,Parental block enabled,5000,"+icon+")")
     xbmcplugin.endOfDirectory(int(sys.argv[1]))
 
 elif mode==53:
     addon_log("Requesting JSON-RPC Items")
     pluginquerybyJSON(url)
     #xbmcplugin.endOfDirectory(int(sys.argv[1]))
-
-elif mode ==100:
-    xbmc.Player().play(mp3)
-    
 if not viewmode==None:
    print 'setting view mode'
    xbmc.executebuiltin("Container.SetViewMode(%s)"%viewmode)
-
+    
