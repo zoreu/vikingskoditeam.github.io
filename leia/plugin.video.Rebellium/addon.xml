@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.Rebellium" name="[B][COLOR skyblue]REBELLIUM[/COLOR][/B]" version="1.0" provider-name="[B][COLOR skyblue]REBELLIUM[/COLOR][/B]">
+<addon id="plugin.video.Rebellium" name="[B][COLOR skyblue]REBELLIUM[/COLOR][/B]" version="1.1" provider-name="[B][COLOR skyblue]REBELLIUM[/COLOR][/B]">
 <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.t0mm0.common"/>

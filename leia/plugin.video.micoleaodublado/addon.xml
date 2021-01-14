@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.micoleaodublado" name="[B]Mico-leão [COLOR orange]Dublado[/COLOR][/B]" version="1.0.0" provider-name="Addon Mico-leão Dublado">
+<addon id="plugin.video.micoleaodublado" name="[B]Mico-leão [COLOR orange]Dublado[/COLOR][/B]" version="1.0.1" provider-name="Addon Mico-leão Dublado">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>

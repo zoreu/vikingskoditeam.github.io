@@ -85,7 +85,7 @@ dialog_playlist = 'Selecione um item'
 useragent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"
 
 #Base
-url_b64_principal = 'aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L1JrcHZHdDkw'
+url_b64_principal = 'aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L2tGTFJzQkQ2'
 url_principal = base64.b64decode(url_b64_principal).decode('utf-8')
 
 
