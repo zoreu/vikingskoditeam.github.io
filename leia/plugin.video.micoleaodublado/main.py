@@ -81,7 +81,7 @@ dialog_playlist = 'Selecione um item'
 
 
 useragent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"
-favoritos_content = 'aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2lkPTF5VjIwaGZab1lXWTRhLW5CM3k3TFZqcmhIYWlFMlVRLSZleHBvcnQ9ZG93bmxvYWQ='
+favoritos_content = 'aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2lkPTFyUVZBTEd6SmgxbFJ1ZFhQUWs2MGlmeDhFSFVYUVhxcCZleHBvcnQ9ZG93bmxvYWQ='
 
 if sys.argv[1] == 'limparFavoritos':
     Path = xbmc.translatePath(xbmcaddon.Addon().getAddonInfo('profile')).decode("utf-8")
