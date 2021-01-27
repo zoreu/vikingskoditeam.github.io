@@ -1289,7 +1289,7 @@ version="6.0.0~alpha6" />
   </extension>
 </addon>
 
-<addon id="plugin.video.Infinity" name="[COLOR yellow][B]Infi[/B][/COLOR][COLOR yellow][B]nity[/B][/COLOR]" version="2.1" provider-name="Flechanegra">
+<addon id="plugin.video.Infinity" name="[COLOR yellow][B]Infi[/B][/COLOR][COLOR yellow][B]nity[/B][/COLOR]" version="2.3" provider-name="Flechanegra">
   <requires>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -2324,6 +2324,46 @@ IMDb: 6.9
   </extension>
 </addon>
 
+<addon id="plugin.video.Thepiratebr"
+       name="[B][COLOR yellow]The Pirate[/COLOR] [COLOR green]Br+[/COLOR][/B]"
+       version="1.0"
+       provider-name="Equipe TPB+">  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.httplib2"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>[I][COLOR yellow]O Melhor do torrent,na sua casa[/COLOR][/I]</summary>
+<description>
+
+[I]Somos apenas um agregador de links,tal como google.com[/I]
+
+[B]Addon voltado para apenas filmes e séries[/B]
+[B]Não deixem o torrent morrer,virem SEEDRS![/B]
+
+[B][COLOR yellow]Não aceitamos doações. Addon totalmento gratuito![/COLOR][/B]
+</description>
+    <platform>all</platform>
+<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+       <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="plugin.video.tokusatsuBr" name="TOKUSATSU BR" version="0.0.1" provider-name="Bruno holanda">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -2880,7 +2920,7 @@ www.fenixflix.ml</news>
 	</extension>
 </addon>
 
-<addon id="repository.flechanegra" name="[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR] Repository" version="2.5" provider-name="Flecha Negra">
+<addon id="repository.flechanegra" name="[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] Repository" version="2.6" provider-name="Flecha Negra">
 	<requires>
         <import addon="xbmc.python" version="2.1.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -2901,7 +2941,7 @@ www.fenixflix.ml</news>
 	    <import addon="script.module.addon.signals" version="0.0.1"/>
 	    <import addon="script.module.youtube.dl" optional="true"/>
 	</requires>
-	<extension point="xbmc.addon.repository" name="[B][COLOR red]Flecha Negra [COLOR red]repositorio[/B][/COLOR]">
+	<extension point="xbmc.addon.repository" name="[COLOR red]Flecha Negra [COLOR red]repositorio[/COLOR]">
 		    <info compressed="false">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/addons.xml</info>
 		    <checksum>https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/addons.xml.md5</checksum>
 		    <datadir zip="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master</datadir>
