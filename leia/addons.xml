@@ -1744,41 +1744,6 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
   </extension>
 </addon>
 
-<addon id="plugin.video.micoleaodublado" name="[B][COLOR white]Mico-leão[/COLOR] [COLOR orange]Dublado[/COLOR][/B]" version="1.1.0" provider-name="[B][COLOR white]fb.com/micoleaodublado[/COLOR][/B]">
-<requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.t0mm0.common"/>
-    <import addon="script.module.beautifulsoup"/>
-    <import addon="script.module.beautifulsoup4"/>
-    <import addon="script.module.simple.downloader"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.httplib2"/>
-    <import addon="script.module.urlresolver"/>
-    <import addon="script.module.simplejson"/>
-    <import addon="script.common.plugin.cache"/>
-    <import addon="script.module.metahandler"/>
-</requires>
-
-<extension point="xbmc.python.pluginsource" library="main.py">
-	<provides>video</provides>
-</extension>
-
-<extension point="xbmc.addon.metadata">
-    <summary>[COLOR orange]| [/COLOR]FILMES E SERIES[COLOR orange] |[/COLOR][COLOR orange] [/COLOR]TORRENT E WEB[COLOR orange] |[/COLOR]</summary>
-    <description lang="en">[B][COLOR orange] MICO-LEAO DUBLADO [/COLOR][/B][B][COLOR white] é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</description>
-    <disclaimer lang="en">[B][COLOR orange]Para manter o addon atualizado recomendamos instalar o repositório Vikings: https://vkodi.net/repo[/COLOR][/B]</disclaimer>
-	<platform>all</platform>
-    <assets>
-	<icon>icon.png</icon>
-    <fanart>fanart.jpg</fanart>
-    <screenshot>resources/screenshots/01.jpg</screenshot>
-    <screenshot>resources/screenshots/02.jpg</screenshot>
-    <screenshot>resources/screenshots/03.jpg</screenshot>
-	</assets>
-</extension>
-
-</addon>
-
 <addon id="plugin.video.netfreeplay"
        name="[B][COLOR yellow]NETFREE[/COLOR] PLAY[/B]"
        version="2.0"
@@ -2349,8 +2314,8 @@ IMDb: 6.9
 
 <addon id="plugin.video.Thepiratebr"
        name="[B][COLOR yellow]The Pirate[/COLOR] [COLOR green]Br+[/COLOR][/B]"
-       version="1.0"
-       provider-name="Equipe TPB+">  <requires>
+       version="1.1"
+       provider-name="TPB+">  <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
@@ -2376,7 +2341,8 @@ IMDb: 6.9
 
 [B][COLOR yellow]Não aceitamos doações. Addon totalmento gratuito![/COLOR][/B]
 </description>
-    <platform>all</platform>
+        <news>V1.1 - Correçoes de sublinks. Agora com nome nas qualidades dos filmes.</news>
+	<platform>all</platform>
 <assets>
        <icon>icon.png</icon>
        <fanart>fanart.jpg</fanart>

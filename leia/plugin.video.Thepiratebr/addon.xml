@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.Thepiratebr"
        name="[B][COLOR yellow]The Pirate[/COLOR] [COLOR green]Br+[/COLOR][/B]"
-       version="1.0"
-       provider-name="Equipe TPB+">  <requires>
+       version="1.1"
+       provider-name="TPB+">  <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
@@ -28,7 +28,8 @@
 
 [B][COLOR yellow]Não aceitamos doações. Addon totalmento gratuito![/COLOR][/B]
 </description>
-    <platform>all</platform>
+        <news>V1.1 - Correçoes de sublinks. Agora com nome nas qualidades dos filmes.</news>   
+	<platform>all</platform>
 <assets>
        <icon>icon.png</icon>
        <fanart>fanart.jpg</fanart>

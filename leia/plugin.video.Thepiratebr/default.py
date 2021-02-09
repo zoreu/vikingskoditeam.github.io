@@ -67,7 +67,7 @@ else: SOURCES = []
 
 def addon_log(string):
     if debug == 'true':
-        xbmc.log("[addon.maxtorrent-%s]: %s" %(addon_version, string))
+        xbmc.log("[addon.Thepiratebr-%s]: %s" %(addon_version, string))
 
 
 def makeRequest(url, headers=None):
@@ -208,7 +208,7 @@ def addSource(url=None):
             b.close()
         addon.setSetting('new_url_source', "")
         addon.setSetting('new_file_source', "")
-        xbmc.executebuiltin("XBMC.Notification(maxtorrent,New source added.,5000,"+icon+")")
+        xbmc.executebuiltin("XBMC.Notification(Thepiratebr,New source added.,5000,"+icon+")")
         if not url is None:
             if 'xbmcplus.xb.funpic.de' in url:
                 xbmc.executebuiltin("XBMC.Container.Update(%s?mode=14,replace)" %sys.argv[0])
@@ -2058,37 +2058,123 @@ def urlsolver(url):
         else:
             resolver = resolved
     else:
-        xbmc.executebuiltin("XBMC.Notification(maxtorrent,Urlresolver donot support this domain. - ,5000)")
+        xbmc.executebuiltin("XBMC.Notification(Thepiratebr,Urlresolver donot support this domain. - ,5000)")
     return resolver
 def play_playlist(name, mu_playlist,queueVideo=None):
         playlist = xbmc.PlayList(xbmc.PLAYLIST_VIDEO)
-
-        if addon.getSetting('ask_playlist_items') == 'true' and not queueVideo :
+        #print 'mu_playlist',mu_playlist
+        if '$$LSPlayOnlyOne$$' in mu_playlist[0]:
+            mu_playlist[0]=mu_playlist[0].replace('$$LSPlayOnlyOne$$','')
             import urlparse
             names = []
+            iloop=0
+            progress = xbmcgui.DialogProgress()
+            progress.create('Progress', 'Trying Multiple Links')
             for i in mu_playlist:
-                d_name=urlparse.urlparse(i).netloc
-                if d_name == '':
-                    names.append(name)
+                
+
+                if '$$lsname=' in i:
+                    d_name=i.split('$$lsname=')[1].split('&regexs')[0]
+                    names.append(d_name)                                       
+                    mu_playlist[iloop]=i.split('$$lsname=')[0]+('&regexs'+i.split('&regexs')[1] if '&regexs' in i else '')                    
                 else:
-                    names.append(d_name)
-            dialog = xbmcgui.Dialog()
-            index = dialog.select('Choose a video source', names)
-            if index >= 0:
+                    d_name=urlparse.urlparse(i).netloc
+                    if d_name == '':
+                        names.append(name)
+                    else:
+                        names.append(d_name)
+                index=iloop
+                iloop+=1
+                
+                playname=names[index]
+                if progress.iscanceled(): return 
+                progress.update( iloop/len(mu_playlist)*100,"", "Link#%d"%(iloop),playname  )
+                print 'auto playnamexx',playname
                 if "&mode=19" in mu_playlist[index]:
-                    #playsetresolved (urlsolver(mu_playlist[index].replace('&mode=19','')),name,iconimage,True)
-                    xbmc.Player().play(urlsolver(mu_playlist[index].replace('&mode=19','').replace(';','')))
+                        #playsetresolved (urlsolver(mu_playlist[index].replace('&mode=19','')),name,iconimage,True)
+                    liz = xbmcgui.ListItem(playname, iconImage=iconimage, thumbnailImage=iconimage)
+                    liz.setInfo(type='Video', infoLabels={'Title':playname})
+                    liz.setProperty("IsPlayable","true")
+                    urltoplay=urlsolver(mu_playlist[index].replace('&mode=19','').replace(';',''))
+                    liz.setPath(urltoplay)
+                    #xbmc.Player().play(urltoplay,liz)
+                    played=tryplay(urltoplay,liz)
                 elif "$doregex" in mu_playlist[index] :
-                    print mu_playlist[index]
+#                    print mu_playlist[index]
                     sepate = mu_playlist[index].split('&regexs=')
-                    print sepate
+#                    print sepate
                     url,setresolved = getRegexParsed(sepate[1], sepate[0])
                     url2 = url.replace(';','')
-                    xbmc.Player().play(url2)
+                    liz = xbmcgui.ListItem(playname, iconImage=iconimage, thumbnailImage=iconimage)
+                    liz.setInfo(type='Video', infoLabels={'Title':playname})
+                    liz.setProperty("IsPlayable","true")
+                    liz.setPath(url2)
+                    #xbmc.Player().play(url2,liz)
+                    played=tryplay(url2,liz)
 
                 else:
                     url = mu_playlist[index]
-                    xbmc.Player().play(url)
+                    url=url.split('&regexs=')[0]
+                    liz = xbmcgui.ListItem(playname, iconImage=iconimage, thumbnailImage=iconimage)
+                    liz.setInfo(type='Video', infoLabels={'Title':playname})
+                    liz.setProperty("IsPlayable","true")
+                    liz.setPath(url)
+                    #xbmc.Player().play(url,liz)
+                    played=tryplay(url,liz)
+                    print 'played',played
+                print 'played',played
+                if played: return
+            return     
+        if addon.getSetting('ask_playlist_items') == 'true' and not queueVideo :
+            import urlparse
+            names = []
+            iloop=0
+            for i in mu_playlist:
+                if '$$lsname=' in i:
+                    d_name=i.split('$$lsname=')[1].split('&regexs')[0]
+                    names.append(d_name)                                       
+                    mu_playlist[iloop]=i.split('$$lsname=')[0]+('&regexs'+i.split('&regexs')[1] if '&regexs' in i else '')                    
+                else:
+                    d_name=urlparse.urlparse(i).netloc
+                    if d_name == '':
+                        names.append(name)
+                    else:
+                        names.append(d_name)
+                    
+                iloop+=1
+            dialog = xbmcgui.Dialog()
+            index = dialog.select('Choose a video source', names)
+            if index >= 0:
+                playname=names[index]
+                print 'playnamexx',playname
+                if "&mode=19" in mu_playlist[index]:
+                        #playsetresolved (urlsolver(mu_playlist[index].replace('&mode=19','')),name,iconimage,True)
+                    liz = xbmcgui.ListItem(playname, iconImage=iconimage, thumbnailImage=iconimage)
+                    liz.setInfo(type='Video', infoLabels={'Title':playname})
+                    liz.setProperty("IsPlayable","true")
+                    urltoplay=urlsolver(mu_playlist[index].replace('&mode=19','').replace(';',''))
+                    liz.setPath(urltoplay)
+                    xbmc.Player().play(urltoplay,liz)
+                elif "$doregex" in mu_playlist[index] :
+#                    print mu_playlist[index]
+                    sepate = mu_playlist[index].split('&regexs=')
+#                    print sepate
+                    url,setresolved = getRegexParsed(sepate[1], sepate[0])
+                    url2 = url.replace(';','')
+                    liz = xbmcgui.ListItem(playname, iconImage=iconimage, thumbnailImage=iconimage)
+                    liz.setInfo(type='Video', infoLabels={'Title':playname})
+                    liz.setProperty("IsPlayable","true")
+                    liz.setPath(url2)
+                    xbmc.Player().play(url2,liz)
+
+                else:
+                    url = mu_playlist[index]
+                    url=url.split('&regexs=')[0]
+                    liz = xbmcgui.ListItem(playname, iconImage=iconimage, thumbnailImage=iconimage)
+                    liz.setInfo(type='Video', infoLabels={'Title':playname})
+                    liz.setProperty("IsPlayable","true")
+                    liz.setPath(url)
+                    xbmc.Player().play(url,liz)
         elif not queueVideo:
             #playlist = xbmc.PlayList(1) # 1 means video
             playlist.clear()
@@ -2100,7 +2186,7 @@ def play_playlist(name, mu_playlist,queueVideo=None):
                 try:
                     if "$doregex" in i:
                         sepate = i.split('&regexs=')
-                        print sepate
+#                        print sepate
                         url,setresolved = getRegexParsed(sepate[1], sepate[0])
                     elif "&mode=19" in i:
                         url = urlsolver(i.replace('&mode=19','').replace(';',''))                        
@@ -2119,14 +2205,16 @@ def play_playlist(name, mu_playlist,queueVideo=None):
                 playlist.add(mu_playlist, listitem)
 
 
+
+
 def download_file(name, url):
         if addon.getSetting('save_location') == "":
-            xbmc.executebuiltin("XBMC.Notification('maxtorrent','Choose a location to save files.',15000,"+icon+")")
+            xbmc.executebuiltin("XBMC.Notification('Thepiratebr','Choose a location to save files.',15000,"+icon+")")
             addon.openSettings()
         params = {'url': url, 'download_path': addon.getSetting('save_location')}
         downloader.download(name, params)
         dialog = xbmcgui.Dialog()
-        ret = dialog.yesno('maxtorrent', 'Do you want to add this file as a source?')
+        ret = dialog.yesno('Thepiratebr', 'Do you want to add this file as a source?')
         if ret:
             addSource(os.path.join(addon.getSetting('save_location'), name))
 
@@ -2186,7 +2274,7 @@ def addDir(name,url,mode,iconimage,fanart,description,genre,date,credits,showcon
                 contextMenu.append(('Download','XBMC.RunPlugin(%s?url=%s&mode=9&name=%s)'
                                     %(sys.argv[0], urllib.quote_plus(url), urllib.quote_plus(name))))
             elif showcontext == 'fav':
-                contextMenu.append(('Remove from maxtorrent Favorites','XBMC.RunPlugin(%s?mode=6&name=%s)'
+                contextMenu.append(('Remove from Thepiratebr Favorites','XBMC.RunPlugin(%s?mode=6&name=%s)'
                                     %(sys.argv[0], urllib.quote_plus(name))))
             if showcontext == '!!update':
                 fav_params2 = (
@@ -2195,7 +2283,7 @@ def addDir(name,url,mode,iconimage,fanart,description,genre,date,credits,showcon
                     )
                 contextMenu.append(('[COLOR yellow]!!update[/COLOR]','XBMC.RunPlugin(%s)' %fav_params2))
             if not name in FAV:
-                contextMenu.append(('Add to maxtorrent Favorites','XBMC.RunPlugin(%s?mode=5&name=%s&url=%s&iconimage=%s&fanart=%s&fav_mode=%s)'
+                contextMenu.append(('Add to Thepiratebr Favorites','XBMC.RunPlugin(%s?mode=5&name=%s&url=%s&iconimage=%s&fanart=%s&fav_mode=%s)'
                          %(sys.argv[0], urllib.quote_plus(name), urllib.quote_plus(url), urllib.quote_plus(iconimage), urllib.quote_plus(fanart), mode)))
             liz.addContextMenuItems(contextMenu)
         ok=xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=u,listitem=liz,isFolder=True)
@@ -2381,7 +2469,7 @@ def addLink(url,name,iconimage,fanart,description,genre,date,showcontext,playlis
             #contextMenu = []
             if showcontext == 'fav':
                 contextMenu.append(
-                    ('Remove from maxtorrent Favorites','XBMC.RunPlugin(%s?mode=6&name=%s)'
+                    ('Remove from Thepiratebr Favorites','XBMC.RunPlugin(%s?mode=6&name=%s)'
                      %(sys.argv[0], urllib.quote_plus(name)))
                      )
             elif not name in FAV:
@@ -2393,7 +2481,7 @@ def addLink(url,name,iconimage,fanart,description,genre,date,showcontext,playlis
                     fav_params += 'playlist='+urllib.quote_plus(str(playlist).replace(',','||'))
                 if regexs:
                     fav_params += "&regexs="+regexs
-                contextMenu.append(('Add to maxtorrent Favorites','XBMC.RunPlugin(%s)' %fav_params))
+                contextMenu.append(('Add to Thepiratebr Favorites','XBMC.RunPlugin(%s)' %fav_params))
             liz.addContextMenuItems(contextMenu)
         if not playlist is None:
             if addon.getSetting('add_playlist') == "false":
@@ -2716,13 +2804,13 @@ elif mode==17:
             else:
                 playsetresolved(url,name,iconimage,setresolved)
         else:
-            xbmc.executebuiltin("XBMC.Notification(maxtorrent,Failed to extract regex. - "+"this"+",4000,"+icon+")")
+            xbmc.executebuiltin("XBMC.Notification(Thepiratebr,Failed to extract regex. - "+"this"+",4000,"+icon+")")
 elif mode==18:
     addon_log("youtubedl")
     try:
         import youtubedl
     except Exception:
-        xbmc.executebuiltin("XBMC.Notification(maxtorrent,Please [COLOR yellow]install Youtube-dl[/COLOR] module ,10000,"")")
+        xbmc.executebuiltin("XBMC.Notification(Thepiratebr,Please [COLOR yellow]install Youtube-dl[/COLOR] module ,10000,"")")
     stream_url=youtubedl.single_YD(url)
     playsetresolved(stream_url,name,iconimage)
 elif mode==19:
@@ -2751,14 +2839,14 @@ elif mode==55:
         newStr = keyboard.getText()
         if newStr==parentalblockedpin:
             addon.setSetting('parentalblocked', "false")
-            xbmc.executebuiltin("XBMC.Notification(maxtorrent,Parental Block Disabled,5000,"+icon+")")
+            xbmc.executebuiltin("XBMC.Notification(Thepiratebr,Parental Block Disabled,5000,"+icon+")")
         else:
-            xbmc.executebuiltin("XBMC.Notification(maxtorrent,Wrong Pin??,5000,"+icon+")")
+            xbmc.executebuiltin("XBMC.Notification(Thepiratebr,Wrong Pin??,5000,"+icon+")")
     xbmcplugin.endOfDirectory(int(sys.argv[1]))
 elif mode==56:
     addon_log("disable lock")
     addon.setSetting('parentalblocked', "true")
-    xbmc.executebuiltin("XBMC.Notification(maxtorrent,Parental block enabled,5000,"+icon+")")
+    xbmc.executebuiltin("XBMC.Notification(Thepiratebr,Parental block enabled,5000,"+icon+")")
     xbmcplugin.endOfDirectory(int(sys.argv[1]))
 
 elif mode==53:
