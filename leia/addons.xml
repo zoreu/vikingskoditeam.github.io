@@ -830,6 +830,40 @@ O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Founda
   </extension>
 </addon>
 
+<addon id="plugin.video.Dwight_Farrokh_Lista"
+       name="[COLOR white][B]DWIGHT FARROKH LISTAS GRATIS[/B][/COLOR]"
+       version="1.0"
+       provider-name="Dwight Farrokh">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+	<import addon="plugin.video.SportsDevil" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Dwight Farrokh Lista Grátis</summary>
+    <description>
+TODO CONTEUDO AQUI POSTADO ESTÁ LOCALIZADO NA INTERNET, MÃO ARMAZENAMOS QUALQUER COMTEUDO ENCONTRADO AQUI NESTE ADDON.
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.ELLAS" name="[COLOR gold]ELLAS[/COLOR]"	version="1.1"	provider-name="Anabel">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
