@@ -1190,7 +1190,7 @@ l [COLOR firebrick]FENIX[/COLOR] FLIX - O MELHOR DO CINEMA NO SEU KODI - 100% FH
 
 <addon id="plugin.video.FREEDDONS"
        name="[COLOR white][B]FREEDDONS[/B][/COLOR]"
-       version="1.0"
+       version="2.0"
        provider-name="ALAN TURING">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1216,6 +1216,7 @@ l [COLOR firebrick]FENIX[/COLOR] FLIX - O MELHOR DO CINEMA NO SEU KODI - 100% FH
   <extension point="xbmc.addon.metadata">
     <summary>TODO CONTEÚDO DESSE EDDONS FOI EXTRAÍDO DENTRO DO GOOGLE, OU SEJA, ESTA VIA DOMÍNIO PÚBLICO. NÃO ME RESPONSABILIZO POR FINS LUCRATIVOS DE TERCEIROS.</summary>
     <description>
+
 
     </description>
     <platform>all</platform>

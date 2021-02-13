@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="2.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.FREEDDONS"
        name="[COLOR white][B]FREEDDONS[/B][/COLOR]"
-       version="1.0"
+       version="2.0"
        provider-name="ALAN TURING">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -27,7 +27,8 @@
   <extension point="xbmc.addon.metadata">
     <summary>TODO CONTEÚDO DESSE EDDONS FOI EXTRAÍDO DENTRO DO GOOGLE, OU SEJA, ESTA VIA DOMÍNIO PÚBLICO. NÃO ME RESPONSABILIZO POR FINS LUCRATIVOS DE TERCEIROS.</summary>
     <description>
-                     
+        
+             
     </description>
     <platform>all</platform>
   </extension>
