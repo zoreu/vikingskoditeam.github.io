@@ -1,2 +1,0 @@
-# FeraCanais 
-SEJAM BEM VINDOS
