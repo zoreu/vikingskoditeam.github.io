@@ -486,62 +486,6 @@ Channels and Playlists organized by categories. Source: Youtube Website.
   </extension>
 </addon>
 
-<addon id="plugin.video.blackarrow1click" name="[COLOR red]BLACKARROW[/COLOR][COLORblack] 1CLICK[/COLOR]" version="2.3" provider-name="@by_flecha_negra">
-  <requires>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" />
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR] [COLORorange][B]é um addon da familia K-PT FLECHANEGRA.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</summary>
-    <description lang="en">[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR] [COLORorange][B]é um addon da familia K-PT FLECHANEGRA..TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.Blackarrowtorrent"
-       name="[COLOR red][B]BlackArrow [B][/COLOR] [COLOR red][B]Torrent[/B][/COLOR]"
-       version="1.2"
-       provider-name="Flecha Negra">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">BlackArrow Torrent</summary>
-    <description lang="en">BlackArrow é um addon torrent 2020</description>
-    <platform>all</platform>
-  </extension>
- </addon>
-
 <addon id="plugin.video.BlurayPlay" name="[B][COLOR red]BLURAY[/COLOR][/B] [B][COLOR white]PLAY'S[/COLOR][/B]" version="3.2.7" provider-name="[B][COLOR yellow]TEAM[/COLOR] [COLOR white]BLURAY[/COLOR] [COLOR red]PLAY'S[/B][/COLOR]">
 <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1095,58 +1039,6 @@ l [COLOR firebrick]FENIX[/COLOR] FLIX - O MELHOR DO CINEMA NO SEU KODI - 100% FH
     </extension>
 </addon>
 
-<addon id="plugin.video.flash_brasil" name="[COLOR orange]Flash[/COLOR][COLORlime]Brasil[/COLOR]" version="3.5" provider-name="Flechanegra">
-  <requires>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" />
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR orange]Flash[/COLOR][COLORlime]Brasil[/COLOR] [COLORred]é um addon da familia FLECHANEGRA Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
-    <description lang="en">[COLOR orange]Flash[/COLOR][COLORlime]Brasil[/COLOR] [COLORred]it´s a FLECHANEGRA Team family´s addon. ALL THE LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.flechanegra" name="[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR]" version="4.9" provider-name="Flechanegra">
-  <requires>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" />
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR] [COLORorange][B]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</summary>
-    <description lang="en">[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR] [COLORorange][B]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 
 <addon id="plugin.video.FORMIGAtv" name="[COLOR  blue][B]FORMIGA[COLOR  silver][B]tv[/B][/COLOR]" version="3.0" provider-name="TEAMFORMIGAtv">
 
@@ -1323,58 +1215,6 @@ version="6.0.0~alpha6" />
     </extension>
 </addon>
 
-<addon id="plugin.video.IncoGnit" name="[COLOR lime]IncoGnit[/COLOR]" version="2.3" provider-name="Flechanegra">
-  <requires>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" />
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR lime]IncoGnit[/COLOR] [COLORorange]é um add-on da familia FLECHANEGRA Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
-    <description lang="en">[COLOR lime]IncoGnit[/COLOR] [COLORorange] is a family FLECHANEGRA team´s add-on .ALL THE LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.Infinity" name="[COLOR yellow][B]Infi[/B][/COLOR][COLOR yellow][B]nity[/B][/COLOR]" version="2.3" provider-name="Flechanegra">
-  <requires>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" />
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR lime][B]Infi[/B][/COLOR] [COLOR yellow][B]nity[/B][/COLOR] [COLORorange][B]é um addon da familia Flechanegra Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</summary>
-    <description lang="en">[COLOR lime][B]Infi[/B][/COLOR] [COLOR yellow][B]nity[/B][/COLOR] [COLORorange][B]é um addon da familia Flechanegra Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.infotec.iptv" name="[COLOR springgreen][B]Infotec[/B][/COLOR].[COLOR red][B]IPTV[/B][/COLOR]" version="0.0.14" provider-name="Anonymous">
   <requires>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
@@ -1422,35 +1262,6 @@ version="6.0.0~alpha6" />
 Playlists organizadas por categorias, totalmente dedicadas aos mais pequenos, com muitos desenhos animados recentes, classicos e musicais.
 Toda a fonte  vem de utilizadores do Youtube.
 [B][COLOR lime][ Aconselhado Youtube 6.*.* ][/B][/COLOR]</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.K-PT" name="[COLOR orange]K-PT[/COLOR]" version="3.2" provider-name="[COLOR orange]@By_flecha_negra[/COLOR]">
-  <requires>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" />
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>[COLOR yellow]K-PT addon, tv grátis para todos.[/COLOR]</summary>
-    <description>
-        [COLOR orange]K-PT[/COLOR]
-
-    </description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -2918,8 +2729,6 @@ version="1.0.2" provider-name="Marciocn">">
 	</extension>
 </addon>
 
-<addon id="repository.elementum" name="Elementum Repository" version="0.1.58" provider-name="elgatito"><requires></requires><extension point="xbmc.addon.repository" name="Elementum Repository"><info compressed="false">http://127.0.0.1:65220/repository/elgatito/plugin.video.elementum/addons.xml</info><checksum>http://127.0.0.1:65220/repository/elgatito/plugin.video.elementum/addons.xml.md5</checksum><datadir zip="true">http://127.0.0.1:65220/repository/elgatito/</datadir></extension><extension point="xbmc.addon.metadata"><platform>all</platform><summary lang="en">GitHub repository for Elementum updates</summary></extension></addon>
-
 <addon id="repository.FaustinoTV" name="[B][COLOR blue]Faustino[/COLOR][COLOR yellow]TV[/COLOR] [COLOR cyan]Repo[/COLOR][/B]" version="2.2" provider-name="Equipe FaustinoTV">
     <extension point="xbmc.addon.repository" name="Repositório FaustinoTV">
         <info>https://github.com/faustinotv/repo.faustinotv/raw/master/addons.xml</info>
@@ -2961,51 +2770,6 @@ www.fenixflix.ml</news>
         <screenshot>resources/screenshots/02.jpg</screenshot>
         <screenshot>resources/screenshots/03.jpg</screenshot>
       </assets>
-	</extension>
-</addon>
-
-<addon id="repository.flechanegra" name="[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] Repository" version="2.6" provider-name="Flecha Negra">
-	<requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-		<import addon="xbmc.addon" version="12.0.0"/>
-        <import addon="script.module.simple.downloader" version="0.9.4"/>
-        <import addon="script.module.t0mm0.common" version="2.0.0"/>
-        <import addon="script.module.beautifulsoup4" />
-        <import addon="script.module.requests" />
-        <import addon="script.module.httplib2" />
-        <import addon="script.module.simple.downloader" version="0.9.4"/>
-        <import addon="plugin.video.youtube" version="5.2.1" />
-        <import addon="script.module.urlresolver" />
-        <import addon="script.module.simplejson" />
-        <import addon="script.module.livestreamer"/>
-        <import addon="script.module.pyamf"/>
-        <import addon="script.common.plugin.cache" version="2.5.2"/>
-        <import addon="script.module.metahandler" version="2.5.1"/>
-	    <import addon="script.module.addon.common" />
-	    <import addon="script.module.addon.signals" version="0.0.1"/>
-	    <import addon="script.module.youtube.dl" optional="true"/>
-	</requires>
-	<extension point="xbmc.addon.repository" name="[COLOR red]Flecha Negra [COLOR red]repositorio[/COLOR]">
-		    <info compressed="false">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/addons.xml</info>
-		    <checksum>https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/addons.xml.md5</checksum>
-		    <datadir zip="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master</datadir>
-		<dir minversion="17.0.0">
-			<info compressed="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/krypton/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/krypton/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/krypton</datadir>
-		</dir>
-		<dir minversion="17.9.0">
-			<info compressed="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/leia/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/leia/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/leia</datadir>
-		</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>repositorio Flecha Negra</summary>
-		<description>repositorio oficial Flecha Negra - Proibido reproducao sem previa autorizacao</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-		<news>[I]v1.2[/I][CR]- Suporte para uma Skin!</news>
 	</extension>
 </addon>
 
