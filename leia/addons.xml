@@ -35,20 +35,6 @@
 	</extension>
 </addon>
 
-<addon id="demagorgon.repository" name="Demagorgon repository" version="0.0.2" provider-name="Demagorgon">
-	<extension point="xbmc.addon.repository" name="Demagorgon Add-on Repository">
-		<info compressed="false">https://raw.githubusercontent.com/cmvac/demagorgon.repository/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/cmvac/demagorgon.repository/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/cmvac/demagorgon.repository/master/repo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Demagorgon Addons</summary>
-		<description>The Demagorgon takes you to the next dimension of Kodi! ;)</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="One.repo" name="[B][COLOR white]Repositorio[/COLOR]: [COLOR aquamarine]OnePlay[/COLOR][/B]" version="1.04" provider-name="Team [COLOR aquamarine]OnePlay[/COLOR]">
 	<requires>
 	<import addon="xbmc.addon" version="12.0.0"/>
@@ -2210,7 +2196,7 @@ IMDb: 6.9
 
 <addon id="plugin.video.tvfogo"
        name="[B][COLOR chocolate]Tv Fogo HD[/COLOR][/B]"
-       version="8.4.5"
+       version="8.4.6"
        provider-name="[B][COLOR yellow]Equipe: TV Fogo[/COLOR][/B]">
 
   <requires>
