@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.video.micoleaodublado.matrix" name="[B][COLOR white]Mico-leão[/COLOR] [COLOR orange]Dublado[/COLOR][/B]" version="3.0.0+matrix.1" provider-name="[B][COLOR white]fb.com/micoleaodublado[/COLOR][/B]">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	 <summary lang="en">[COLOR orange]| [/COLOR]FILMES E SERIES[COLOR orange] |[/COLOR][COLOR orange] [/COLOR]TORRENT E WEB[COLOR orange] |[/COLOR]</summary>
+    <description lang="en">[B][COLOR orange] MICO-LEAO DUBLADO [/COLOR][/B][B][COLOR white] é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</description>
+    <disclaimer lang="en">[B][COLOR orange]Para manter o addon atualizado recomendamos instalar o repositório Vikings: https://vkodi.net/repo[/COLOR][/B]</disclaimer>
+	<platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/1.png</screenshot>
+<screenshot>resources/screenshots/2.png</screenshot>
+<screenshot>resources/screenshots/3.png</screenshot>
+</assets>
+	<news>
+[B][COLOR orange]VERSÃO 3.0.0 - NOVA VERSÃO PARA KODI 19 (MATRIX)[/COLOR][/B]
+	</news>
+</extension>
+</addon>
+
 <addon id="plugin.video.OnePlay.Matrix" name="[COLOR aquamarine][B]ONE[/COLOR][COLOR white]PLAY[/B][/COLOR]" version="3.1.0+matrix.1" provider-name="Equipe OnePlay">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -175,6 +203,39 @@ v0.1.0 (2019-11-08)
     <fanart>resources/media/fanart.png</fanart>
   </assets>
   <reuselanguageinvoker>true</reuselanguageinvoker>
+</extension>
+</addon>
+
+<addon id="plugin.video.team.milhanos" name="[B][COLOR lime]TEAM [/COLOR][COLOR yellow]MILHANOS [/COLOR] [COLOR red] MATRIX [/B][/COLOR]" version="0.3+Matrix" provider-name="[B][COLOR lime]TEAM [/COLOR][COLOR yellow]MILHANOS [/COLOR] [COLOR red] MATRIX [/B][/COLOR]">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.repository" name="[COLOR lime]TEAM[B][/COLOR][COLOR yellow] MILHANOS[/B][/COLOR]">
+	<info compressed="false">https://raw.githubusercontent.com/Alado2020/repo.alado/master/addons.xml</info>
+	<checksum>https://raw.githubusercontent.com/Alado2020/repo.alado/master/addons.xml.md5</checksum>
+	<datadir zip="true">https://raw.githubusercontent.com/Alado2020/repo.alado/master/</datadir>
+	<hashes>false</hashes>
+</extension>
+<extension point="xbmc.addon.metadata">
+	<summary lang="en"></summary>
+	<summary lang="pt">BY TEAM MILHANO</summary>
+	<description lang="en"></description>
+	<description lang="pt">TEAM MILHANO "WE LEAD THE WAY"</description>
+    <disclaimer lang="en"></disclaimer>
+	<disclaimer lang="pt"></disclaimer>
+    <platform>all</platform>
+	<assets>
+    <icon>icon.gif</icon>
+    <fanart>fanart.gif</fanart>
+  </assets>
+<news>Team Milhanos no Kodi Matrix plataforma Python3
+</news>
 </extension>
 </addon>
 
