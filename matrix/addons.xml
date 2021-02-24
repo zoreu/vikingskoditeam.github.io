@@ -206,7 +206,7 @@ v0.1.0 (2019-11-08)
 </extension>
 </addon>
 
-<addon id="plugin.video.team.milhanos" name="[B][COLOR lime]TEAM [/COLOR][COLOR yellow]MILHANOS [/COLOR] [COLOR red] MATRIX [/B][/COLOR]" version="0.3.Matrix" provider-name="[B][COLOR lime]TEAM [/COLOR][COLOR yellow]MILHANOS [/COLOR] [COLOR red] MATRIX [/B][/COLOR]">
+<addon id="plugin.video.team.milhanos" name="[B][COLOR lime]TEAM [/COLOR][COLOR yellow]MILHANOS [/COLOR] [COLOR red] MATRIX [/B][/COLOR]" version="0.3+Matrix" provider-name="[B][COLOR lime]TEAM [/COLOR][COLOR yellow]MILHANOS [/COLOR] [COLOR red] MATRIX [/B][/COLOR]">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
