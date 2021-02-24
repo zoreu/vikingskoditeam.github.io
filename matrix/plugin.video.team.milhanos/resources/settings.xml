@@ -1,9 +1,0 @@
-<settings>
-<category label="Definições">
-        <setting id="key" type="text" label="Enable Login IPTV:" values="" option="hidden" default=""/>
-	    <setting label="Exibir Favoritos" id="favoritos" type="bool" default="true" />
-        <setting label="Entre aqui para limpar os favoritos" type="action" action="RunScript(plugin.video.alado.tv, limparFavoritos)"/>	
-	    <setting label="Executar Youtube" id="ytbmode" type="enum" values="Interno 1|Interno 2|Externo" default="1" />	
-        <setting label="Use Miniaturas como Fanart" id="use_thumb" type="bool" default="false" />
-</category>
-</settings>
