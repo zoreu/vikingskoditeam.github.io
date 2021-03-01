@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.video.Addon.BXL" name="[B][COLOR red]ADDON[/COLOR] [COLOR blue]BXL[/COLOR][/B]" version="3.0.0+matrix" provider-name="Equipe KODISH">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	 <summary lang="en">TODO CONTEÚDO DESSE EDDONS FOI EXTRAÍDO DENTRO DO GOOGLE, OU SEJA, ESTA VIA DOMÍNIO PÚBLICO. NÃO ME RESPONSABILIZO POR FINS LUCRATIVOS DE TERCEIROS.</summary>
+    <description lang="en">descricao</description>
+    <disclaimer lang="en"></disclaimer>
+	<platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/home.png</screenshot>
+<screenshot>resources/screenshots/movies.png</screenshot>
+<screenshot>resources/screenshots/series.png</screenshot>
+</assets>
+	<news>news
+	</news>
+</extension>
+</addon>
+
 <addon id="plugin.video.animesplay.matrix" name="[B][COLOR white]Animes[/COLOR] [COLOR yellow]Play[/COLOR][/B]" version="1.0.2.matrix.1" provider-name="Equipe OnePlay">
     <requires>
 		<import addon="xbmc.python" version="3.0.0"/>
@@ -146,6 +173,34 @@ Channels and Playlists organized by categories. Source: Youtube Website.
 </extension>
 </addon>
 
+<addon id="plugin.video.magusplay.matrix" name="MAGUSPLAY-VIDEO" version="3.0.0+matrix.1" provider-name="Magus Iav">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	<summary lang="pt">Addon Magusplay filmes series e animes atualizados Diariamente</summary>
+	<description lang="pt">Addon para entreterimento sem fins lucrativos todos os links estão disponiveis na internet.</description>
+	<disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+	   <screenshot>resources/screenshots/1.png</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpeg</screenshot>
+    </assets>
+	<news>
+v1.0.0.matrix.1
+	</news>
+</extension>
+</addon>
+
 <addon id="plugin.video.micoleaodublado.matrix" name="[B][COLOR white]Mico-leão[/COLOR] [COLOR orange]Dublado[/COLOR][/B]" version="3.0.0+matrix.1" provider-name="[B][COLOR white]fb.com/micoleaodublado[/COLOR][/B]">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -170,6 +225,33 @@ Channels and Playlists organized by categories. Source: Youtube Website.
 </assets>
 	<news>
 [B][COLOR orange]VERSÃO 3.0.0 - NOVA VERSÃO PARA KODI 19 (MATRIX)[/COLOR][/B]
+	</news>
+</extension>
+</addon>
+
+<addon id="plugin.video.newsupremo" name="[B][COLOR red]new[/COLOR] [COLOR blue]supremo[/COLOR][/B]" version="3.0.0+matrix" provider-name="Equipe KODISH">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	 <summary lang="en">TODO CONTEÚDO DESSE EDDONS FOI EXTRAÍDO DENTRO DO GOOGLE, OU SEJA, ESTA VIA DOMÍNIO PÚBLICO. NÃO ME RESPONSABILIZO POR FINS LUCRATIVOS DE TERCEIROS.</summary>
+    <description lang="en">obrigado por todo apoio dos de mais</description>
+    <disclaimer lang="en"></disclaimer>
+	<platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/home.png</screenshot>
+<screenshot>resources/screenshots/movies.png</screenshot>
+<screenshot>resources/screenshots/series.png</screenshot>
+</assets>
+	<news>news
 	</news>
 </extension>
 </addon>
@@ -310,7 +392,7 @@ v1.0.7.matrix
  </extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="6.8.9+matrix.1" provider-name="anxdpanic, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="6.8.10+matrix.1" provider-name="anxdpanic, bromix">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.six" version="1.11.0"/>
@@ -324,11 +406,8 @@ v1.0.7.matrix
     <extension point="xbmc.python.module" library="resources/lib/"/>
     <extension point="xbmc.addon.metadata">
         <news>
-[fix] my subscriptions section using YouTube RSS |contrib: PureHemp|
-[fix] items per page settings on Kodi 19
-[chg] recommendations only available for users with custom history playlist id configured
-[chg] no longer show watch later unless custom watch later playlist is configured
-[rem] remove usage of discontinued api and dual login (no longer required)
+[fix] fix javascript player retrieval and playback of some videos for affected users |contrib: thomazz-nl|
+    - Invalid URL 'http://': No host supplied
         </news>
         <assets>
             <icon>icon.png</icon>
