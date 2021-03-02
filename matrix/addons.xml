@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.Addon.BXL" name="[B][COLOR red]ADDON[/COLOR] [COLOR blue]BXL[/COLOR][/B]" version="3.0.0+matrix" provider-name="Equipe KODISH">
+<addon id="plugin.video.Addon.BXL" name="[B][COLOR red]ADDON[/COLOR] [COLOR blue]BXL[/COLOR][/B]" version="3.0.0+matrix.1" provider-name="Equipe KODISH">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
@@ -229,7 +229,7 @@ v1.0.0.matrix.1
 </extension>
 </addon>
 
-<addon id="plugin.video.newsupremo" name="[B][COLOR red]new[/COLOR] [COLOR blue]supremo[/COLOR][/B]" version="3.0.0+matrix" provider-name="Equipe KODISH">
+<addon id="plugin.video.newsupremo" name="[B][COLOR red]new[/COLOR] [COLOR blue]supremo[/COLOR][/B]" version="3.0.0+matrix.1" provider-name="Equipe KODISH">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
