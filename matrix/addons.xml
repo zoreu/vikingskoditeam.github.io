@@ -229,6 +229,37 @@ v1.0.0.matrix.1
 </extension>
 </addon>
 
+<addon id="plugin.video.musicando" name="Musicando" version="KDS1.0" provider-name="Catoal mod by Kodish Team">
+  <requires>
+
+	<trycatch>
+            <try>
+                <import addon="xbmc.python" version="3.0.0"/>
+            </try>
+
+            <catch>
+                <import addon="xbmc.python" version="2.24.0"/>
+            </catch>
+        </trycatch>
+
+
+       <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+ <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+ </extension>
+ <extension point="xbmc.addon.metadata">
+    <summary lang="en">Musicando</summary>
+    <description lang="en">Los Videos mas destacados de la red</description>
+    <platform>all</platform>
+    <forum></forum>
+    <website></website>
+    <assets>
+    <icon>icon.jpg</icon>
+    </assets>
+ </extension>
+</addon>
+
 <addon id="plugin.video.newsupremo" name="[B][COLOR red]new[/COLOR] [COLOR blue]supremo[/COLOR][/B]" version="3.0.0+matrix.1" provider-name="Equipe KODISH">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
