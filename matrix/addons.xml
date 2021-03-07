@@ -228,37 +228,6 @@ v1.0.0.matrix.1
 </extension>
 </addon>
 
-<addon id="plugin.video.maximus.matrix" name="[COLOR white][B]Maximus[/B][/COLOR]" version="1.0-Matrix" provider-name="[B][COLOR gold]Maximus[/B][/COLOR]">
-<requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.requests"/>
-	<import addon="inputstream.adaptive"/>
-    <import addon="script.module.simplejson"/>
-	<import addon="script.module.kodi-six" />
-</requires>
-<extension point="xbmc.python.pluginsource" library="default.py">
-	<provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-    <summary lang="en">Maximus levando o melhor conteudo a sua familia e aos quatro cantos do Mundo!!!</summary>
-    <description lang="en">[B][COLOR red]ADDON oficial MAXIMUS - Proibido reprodução total ou parcial sem prévia autorização[/COLOR][/B]
-[B][COLOR white]Addon MAXIMUS é de uso gratuito!![/COLOR][/B]
-[B][COLOR firebrick]Mais um excelente addon de língua portuguesa como filmes recentes e também antigos, séries, animação em PT.[/COLOR][/B]</description>
-   <disclaimer lang="en">[B][COLOR orange]ADDON Maximus - Matrix 2021[/COLOR][/B]</disclaimer>
-      <news>V1.0.0 - Criação de Addon.Maximus - Matrix</news>
-    <platform>all</platform>
-	<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-       <screenshot>resources/screenshots/1.jpg</screenshot>
-       <screenshot>resources/screenshots/2.jpg</screenshot>
-       <screenshot>resources/screenshots/3.jpg</screenshot>
-    </assets>
-	<news>
-	</news>
-</extension>
-</addon>
-
 <addon id="plugin.video.micoleaodublado.matrix" name="[B][COLOR white]Mico-leão[/COLOR] [COLOR orange]Dublado[/COLOR][/B]" version="3.0.0+matrix.1" provider-name="[B][COLOR white]fb.com/micoleaodublado[/COLOR][/B]">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
