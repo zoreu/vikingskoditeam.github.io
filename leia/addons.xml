@@ -1427,7 +1427,7 @@ Toda a fonte  vem de utilizadores do Youtube.
 </addon>
 
 <addon id="plugin.video.magusplay"
-       name="[B][COLOR beige]MA[COLOR lime][B]GU[/B][COLOR  beige][B]S[/COLOR][COLOR blue]-[COLOR lime]PLAY[COLOR blue]-[COLOR green]VIDEO[/COLOR][/B]"
+       name="[B][COLOR beige]MAGUS[/COLOR][COLOR blue]-[COLOR lime]PLAY[COLOR blue]-[COLOR green]VIDEO[/COLOR][/B]"
        version="2.0.5"
        provider-name="Magus Yav">
   <requires>
@@ -1450,9 +1450,9 @@ Toda a fonte  vem de utilizadores do Youtube.
     <provides>video</provides>
   </extension>
  <extension point="xbmc.addon.repository" name="Repositório Magusplay">
-	<info compressed="false">https://github.com/magusplay/ENTRADA/blob/master/magusplay/addon/addons.xml</info>
-	<checksum>https://raw.githubusercontent.com/magusplay/ENTRADA/master/magusplay/addon/magusplay/matrix/addons.xml.md5</checksum>
-	<datadir zip="true">https://github.com/magusplay/ENTRADA/tree/master/magusplay/addon</datadir>
+	<info compressed="false">https://raw.githubusercontent.com/magusplay/magusplayrepo/master/zips/addons.xml</info>
+	<checksum>https://raw.githubusercontent.com/magusplay/magusplayrepo/master/zips/addons.xml.md5</checksum>
+	<datadir zip="true">https://raw.githubusercontent.com/magusplay/magusplayrepo/master/zips/</datadir>
   </extension>
 
   <extension point="xbmc.addon.metadata">
