@@ -226,6 +226,43 @@ v1.0.0.matrix.1
 </extension>
 </addon>
 
+<addon id="plugin.video.BlurayPlay.Matrix" name="[B][COLOR red]BLURAY[/COLOR][/B] [B][COLOR white]PLAY'S[/COLOR][/B]" version="1.0.0+matrix.1" provider-name="[B][COLOR yellow]TEAM[/COLOR] [COLOR white]BLURAY[/COLOR] [COLOR red]PLAY'S[/B][/COLOR]">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+
+<extension point="xbmc.addon.repository" name="Bluray Plays REPO">
+	<info compressed="false">https://raw.githubusercontent.com/rauankeneddy/repository.bluraysplays/master/addons.xml</info>
+	<checksum>https://raw.githubusercontent.com/rauankeneddy/repository.bluraysplays/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/rauankeneddy/repository.bluraysplays/master/addons</datadir>
+</extension>
+
+<extension point="xbmc.addon.metadata">
+    <summary>[COLOR white][B]FILMES, SERIES EM FHD, HD, SD, NOVELAS, DOCUMENTARIOS, DESENHOS, ETC, DUBLADOS e Legendados. O MELHOR ADDON DE FILMES E SERIES PRO SEU KODI!, AQUI VOCÊ ENCONTRA TUDO, GARANTIDO!. Se Não ACHA FALA COM NOSSO TEAM.[/B][/COLOR]</summary>
+    <description lang="en">[COLOR red][B]BLURAY PLAY'S É Addon Do Kodi, Onde Organizamos Os Conteudos e Upamos Para Nosso Servidor Privado, Então Se Quiser Copiar Deixa Os Creditos, Fela Da Puta... Ateciosamente Team BLURAY PLAY'S[/B][/COLOR]</description>
+    <disclaimer lang="en">[COLOR yellow][B]O autor hospedar o conteúdo exibido por este complemento. BLURAY PLAY'S tem nenhuma afiliação com o provedor de conteúdo, somente é responsável por coletar os melhores filmes da Internet, categorização e otimizá-los, de modo a que esta ao alcance de seus clientes. tão fácil e descomplicada.[/B][/COLOR]</disclaimer>
+	<platform>all</platform>
+    <assets>
+	<icon>icon.png</icon>
+    <fanart>fanart.png</fanart>
+    <screenshot>resources/screenshots/01.jpg</screenshot>
+    <screenshot>resources/screenshots/02.jpg</screenshot>
+    <screenshot>resources/screenshots/03.jpg</screenshot>
+
+    </assets>
+	<news>
+v1.0.0.matrix.1
+- Addon BLURAY PLAY'S
+	</news>
+</extension>
+</addon>
+
 <addon id="plugin.video.BrazucaPlay.Matrix" name="[B][COLOR white]BRAZUCA PLAY[/COLOR][/B]" version="2.1.3" provider-name="[B][COLOR white]Brazuca Play[/COLOR][/B]">
 <requires>
 <import addon="xbmc.python" version="3.0.0"/>
@@ -284,6 +321,88 @@ v1.0.0.matrix.1
 	<news>news
 	</news>
 </extension>
+</addon>
+
+<addon id="plugin.video.conexao" name="[B][COLOR beige]CONE[B][COLOR aqua][B]X[/B][COLOR  beige][B]ÃO[/COLOR][COLOR aqua][B] PLAY[/COLOR][/B]" version="1.0.0+matrix.1" provider-name="[B][COLOR beige]Team[B][COLOR lime]:[/B] [B][COLOR beige]Cone[COLOR lime][B]x[/B][COLOR  beige][B]ão[/COLOR][COLOR blue]-[COLOR lime]Multi[COLOR blue]-[COLOR green]Addons[/COLOR][/B]">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.repository" name="Vikings Repository">
+    <info compressed="false">http://raw.github.com/Marciocn/repo.conexaoTV/master/addons.xml</info>
+	<checksum>http://raw.github.com/Marciocn/repo.conexaoTV/master/addons.xml.md5</checksum>
+	<datadir zip="true">http://raw.githubusercontent.com/Marciocn/repo.conexaoTV/master/ZipFiles/</datadir>
+</extension>
+<extension point="xbmc.addon.metadata">
+    <summary lang="en">[B][COLOR beige]CONE[B][COLOR aqua][B]X[/B][COLOR  beige][B]ÃO[/COLOR][COLOR aqua][B] PLAY[/COLOR][/B][/COLOR][/B][COLOR aqua][B]  Feito Pra Você[/B][/COLOR]</summary>
+    <disclaimer lang="en">O autor não é responsável pelo uso deste addon. O autor não é responsável pelo conteúdo encontrado usando este addon. O autor não hospeda ou possui qualquer conteúdo encontrado dentro deste addon. O autor não é de forma alguma afiliado com Kodi, Team Kodi, ou a Fundação XBMC. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais. fins protegidos pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, ao permitir o uso não licenciado de obras protegidas por direitos autorais.</disclaimer>
+	<description lang="en">[COLOR lime]*TV*[COLOR red]*FILMES*[/COLOR][COLOR firebrick]*SERIES*[COLOR blue]*DESENHOS*[COLOR orange]*ANIMES*[COLOR cyan]*LANCAMENTOS*[COLOR lime]*HD*[COLOR yellow]*FHD*[/COLOR]</description>
+
+	<assets>
+    <icon>icon.gif</icon>
+    <fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/home.png</screenshot>
+<screenshot>resources/screenshots/movies.png</screenshot>
+<screenshot>resources/screenshots/series.png</screenshot>
+</assets>
+<news>[COLOR lime] Atualização[COLOR red]1.0.0+matrix.1 :[/COLOR] [COLOR gold][B]Melhorias de estabilidade[/B][/COLOR][COLOR red][B]Compatilhibidade Com MATRIX[/B][/COLOR]
+</news>
+</extension>
+</addon>
+
+<addon id="plugin.video.fenix.flix.matrix" name="[B][COLOR firebrick]FENIX[/COLOR] [COLOR white]FLIX[/COLOR][/B]" version="1.0.0+matrix.1" provider-name="Team Fênix Flix">
+<requires>
+<import addon="xbmc.python" version="3.0.0"/>
+<import addon="script.module.requests"/>
+<import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+
+</extension>
+	<extension point="xbmc.addon.repository" name="Repositorio Fenix Flix">
+		<info compressed="false">https://raw.githubusercontent.com/fenixflix/repository.fenix.flix/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/fenixflix/repository.fenix.flix/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/fenixflix/repository.fenix.flix/master/ZipFiles</datadir>
+	</extension>
+<extension point="xbmc.addon.metadata">
+<summary lang="en">[COLOR firebrick]Fênix[/COLOR] [COLOR white]Flix[/COLOR] - O Melhor do Cinema no seu Kodi!</summary>
+
+	<description lang="en">[COLOR firebrick]l[/COLOR] TV [COLOR firebrick]l[/COLOR] FILMES [COLOR firebrick]l[/COLOR] SERIES [COLOR firebrick]l[/COLOR] DESENHOS [COLOR firebrick]l[/COLOR] ANIMES [COLOR firebrick]l[/COLOR] LANCAMENTOS [COLOR firebrick]l[/COLOR] HD [COLOR firebrick]l[/COLOR] FHD [COLOR firebrick]l[/COLOR]
+[COLOR firebrick]l[/COLOR] O autor nao hospeda nem possui nenhum conteudo encontrado neste addon. O autor nao e responsavel pelo uso e pelo conteudo encontrado neste addon [COLOR firebrick]l[/COLOR]
+
+l [COLOR firebrick]FENIX[/COLOR] FLIX - O MELHOR DO CINEMA NO SEU KODI - 100% FHD [COLOR firebrick]l[/COLOR]</description>
+<disclaimer lang="en">O autor nao e de forma alguma afiliado a Kodi, a Team Kodi ou a XBMC Foundation. Este e um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a secao 107, que promove a liberdade de expressao, permitindo o uso nao licenciado de obras protegidas por direitos autorais.</disclaimer>
+	<website>www.fenixflix.ml</website>
+<email></email>
+	<news>[COLOR firebrick]l[/COLOR] Lançamento[COLOR firebrick] Matrix v1.0.0[/COLOR] [COLOR firebrick]l[/COLOR]
+
+[COLOR firebrick]l[/COLOR] Adicionado Data Base (IMDb TMDb) nas categorias [COLOR firebrick]l[/COLOR]
+[COLOR firebrick]l[/COLOR] Filmes, Series e Desenhos (Somente Dublados) [COLOR firebrick]l[/COLOR]
+[COLOR firebrick]l[/COLOR] Só Conteudos em HD e FHD [COLOR firebrick]l[/COLOR]
+
+[B][COLOR firebrick]FENIX[/COLOR] [COLOR white]FLIX[/COLOR][/B]
+[COLOR firebrick]www.fenixflix.ml[/COLOR]</news>
+<platform>all</platform>
+<assets>
+	<icon>icon.png</icon>
+	<fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/01.jpg</screenshot>
+<screenshot>resources/screenshots/02.jpg</screenshot>
+<screenshot>resources/screenshots/03.jpg</screenshot>
+</assets>
+	<news>
+v1.0.0.matrix.1
+- Addon FENIX FLIX
+	</news>
+</extension>
+
 </addon>
 
 <addon id="plugin.video.freeddons.matrix" name="[COLOR white][B]FREEDDONS[/B][/COLOR]" version="3.0.0+matrix.1" provider-name="ALAN TURING">
@@ -380,7 +499,7 @@ v1.0.0.matrix.1
 </extension>
 </addon>
 
-<addon id="plugin.video.magusplay.matrix" name="MAGUSPLAY-VIDEO" version="3.0.0+matrix.1" provider-name="Magus Iav">
+<addon id="plugin.video.magusplay.matrix" name="[B]MAGUSPLAY-VIDEO[/B]" version="3.0.1+matrix" provider-name="Magus Yav">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
@@ -390,6 +509,11 @@ v1.0.0.matrix.1
 <extension point="xbmc.python.pluginsource" library="default.py">
 	<provides>video</provides>
 </extension>
+<extension point="xbmc.addon.repository" name="Repositório Magusplay">
+	<info compressed="false">https://raw.githubusercontent.com/magusplay/magusplayrepo/master/zips/addons.xml</info>
+	<checksum>https://raw.githubusercontent.com/magusplay/magusplayrepo/master/zips/addons.xml.md5</checksum>
+	<datadir zip="true">https://raw.githubusercontent.com/magusplay/magusplayrepo/master/zips/</datadir>
+  </extension>
 <extension point="xbmc.addon.metadata">
 	<summary lang="pt">Addon Magusplay filmes series e animes atualizados Diariamente</summary>
 	<description lang="pt">Addon para entreterimento sem fins lucrativos todos os links estão disponiveis na internet.</description>
@@ -403,7 +527,7 @@ v1.0.0.matrix.1
        <screenshot>resources/screenshots/3.jpeg</screenshot>
     </assets>
 	<news>
-v1.0.0.matrix.1
+v3.0.1.matrix.1
 	</news>
 </extension>
 </addon>
@@ -435,34 +559,6 @@ v1.0.0.matrix.1
        <screenshot>resources/screenshots/3.jpg</screenshot>
     </assets>
 	<news>
-	</news>
-</extension>
-</addon>
-
-<addon id="plugin.video.micoleaodublado.matrix" name="[B][COLOR white]Mico-leão[/COLOR] [COLOR orange]Dublado[/COLOR][/B]" version="3.0.1+matrix.1" provider-name="[B][COLOR white]fb.com/micoleaodublado[/COLOR][/B]">
-<requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.simplejson"/>
-	<import addon="script.module.kodi-six" />
-</requires>
-<extension point="xbmc.python.pluginsource" library="default.py">
-	<provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-	 <summary lang="en">[COLOR orange]| [/COLOR]FILMES E SERIES[COLOR orange] |[/COLOR][COLOR orange] [/COLOR]TORRENT E WEB[COLOR orange] |[/COLOR]</summary>
-    <description lang="en">[B][COLOR orange] MICO-LEAO DUBLADO [/COLOR][/B][B][COLOR white] é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</description>
-    <disclaimer lang="en">[B][COLOR orange]Não hospedamnos nenhum conteúdo, os links disponiveis são em sua grande maioria Torrents disponiveis na internet![/COLOR][/B]</disclaimer>
-	<platform>all</platform>
-	<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-<screenshot>resources/screenshots/1.png</screenshot>
-<screenshot>resources/screenshots/2.png</screenshot>
-<screenshot>resources/screenshots/3.png</screenshot>
-</assets>
-	<news>
-[B][COLOR orange]VERSÃO 3.0.1 - ATUALIZAÇÃO DE SEGURANÇA[/COLOR][/B]
 	</news>
 </extension>
 </addon>
@@ -674,6 +770,40 @@ Rumble - v1.0.0.matrix
     </assets>
 <news>Team Milhanos no Kodi Matrix plataforma Python3</news>
 </extension>
+</addon>
+
+<addon id="plugin.video.torrent.play.matrix" name="[B][COLOR white]Torrent[/COLOR][COLOR darkorange] - [/COLOR][COLOR darkgreen]Play[/COLOR][/B]" version="1.0.0+matrix.1" provider-name="Team KelTec Media'Play e Team Zorel OnePlay">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.beautifulsoup4"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="YaP.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.repository" name="[B]KelTe-Medi-Play Repositório[/B]">
+		<info compressed="false">https://raw.githubusercontent.com/keltecmp-repo/repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/keltecmp-repo/repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/keltecmp-repo/repo/master/Plugins</datadir>
+		<hashes>false</hashes>
+	</extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Créditos Team ZOREL [COLOR crimson]Filmes Torrent - Series Torrent - [COLOR gold] (Dual-Audio) 1080P - 720P[/COLOR] OBS: Necessario repositório Vikings instalado no seu Kodi!</summary>
+        <description lang="en">[COLOR gold][B]Torrent[COLOR white] - [/COLOR]Play[/B][/COLOR][COLOR crimson], oferece Filmes e Series, de qualidade 4K, H265 - 7.1, H264 - 5.1, 3D, 1080P e 720P e WEB-RIP, disponíveis para download via torrent, links totalmente funcionais e constantemente
+            atualizados.[/COLOR],</description>
+        <disclaimer lang="en">[COLOR darkgrey][B] Torrent[/B][/COLOR][COLOR crimson]O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais; nao tem nenhuma afiliação com o provedor de conteúdo.[COLOR darkgrey][B] Torrent[/B] [/COLOR]Os creditos para Zorel sem ele não chegariamos aqui Obrigado![/COLOR]</disclaimer>
+        <website>https://keltecmp.net/</website>
+        <forum></forum>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3.</license>
+        <platform>all</platform>
+	<assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+	<news>
+v1.0.0+matrix.1
+- Addon Torrent Play
+	</news>
+    </extension>
 </addon>
 
 <addon id="plugin.video.vrlivre" name="[COLOR blue]VRlivreTV[/COLOR] [COLOR red]By Sergio[/COLOR]" version="19.0.0.4" provider-name="Sergio Tools e Mod Kodish Team">
