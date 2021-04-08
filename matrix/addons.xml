@@ -1295,7 +1295,7 @@ v0.5.0 (2020-06-25)
 
 <addon
 		id="vkkodi.repo" name="[B][COLOR yellow]  Vikings  [COLOR orange]Repositorio Vikings Oficial, SEM BANIMENTO, agora compativel com Kodi Matrix!![/B][/COLOR]"
-		version="3.05"
+		version="3.10"
 		provider-name="[B][COLOR gold]Vikings TEAM[/B][/COLOR]">
 
 		<requires>
@@ -1312,15 +1312,7 @@ v0.5.0 (2020-06-25)
 			<hashes>false</hashes>
     </dir>
 
-	<dir minversion="16.0.0" maxversion="16.9.9">
-			<info compressed="false">https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/jarvis/addons.xml</info>
-			<checksum>https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/jarvis/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/jarvis</datadir>
-			<hashes>false</hashes>
-    </dir>
-
-
-	<dir minversion="17.0.0" maxversion="18.9.0">
+	<dir minversion="16.0.0" maxversion="18.9.0">
 			<info compressed="false">https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/leia/addons.xml</info>
 			<checksum>https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/leia/addons.xml.md5</checksum>
 			<datadir zip="true">https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/leia</datadir>
