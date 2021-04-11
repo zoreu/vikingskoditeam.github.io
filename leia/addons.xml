@@ -2362,6 +2362,27 @@ IMDb: 6.9
   </extension>
 </addon>
 
+<addon
+	id="plugin.video.VikingsPro"
+	name="[B][COLOR yellow]  Vikings  [COLOR orange]Pro[/B][/COLOR]"
+	version="1.0.0"
+	provider-name="[B][COLOR gold]Vikings TEAM[/B][/COLOR]">
+
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="2.9.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">VikingsPro</summary>
+    <description lang="en">IPTV de Qualidade, a preço acessivel, para as massas!</description>
+    <platform>all</platform>
+	<news></news>
+  </extension>
+</addon>
+
 <addon id="plugin.video.vrlivre" name="[COLOR blue]VRlivreTV[/COLOR] [COLOR red]By Sergio[/COLOR]" version="0.0.4" provider-name="Sergio Tools">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
