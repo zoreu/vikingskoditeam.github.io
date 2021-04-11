@@ -352,7 +352,7 @@ v1.0.0.matrix.1
 </extension>
 </addon>
 
-<addon id="plugin.video.conexao" name="[B][COLOR beige]CONE[B][COLOR aqua][B]X[/B][COLOR  beige][B]ÃO[/COLOR][COLOR aqua][B] PLAY[/COLOR][/B]" version="1.0.0+matrix.1" provider-name="[B][COLOR beige]Team[B][COLOR lime]:[/B] [B][COLOR beige]Cone[COLOR lime][B]x[/B][COLOR  beige][B]ão[/COLOR][COLOR blue]-[COLOR lime]Multi[COLOR blue]-[COLOR green]Addons[/COLOR][/B]">
+<addon id="plugin.video.conexao" name="[B][COLOR beige]CONE[B][COLOR aqua][B]X[/B][COLOR  beige][B]ÃO[/COLOR][COLOR aqua][B] PLAY[/COLOR][/B]" version="1.0.1+matrix.1" provider-name="[B][COLOR beige]Team[B][COLOR lime]:[/B] [B][COLOR beige]Cone[COLOR lime][B]x[/B][COLOR  beige][B]ão[/COLOR][COLOR blue]-[COLOR lime]Multi[COLOR blue]-[COLOR green]Addons[/COLOR][/B]">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
@@ -951,6 +951,69 @@ v1.0.2+matrix.1
         <source>https://github.com/anxdpanic/plugin.video.youtube</source>
         <reuselanguageinvoker>true</reuselanguageinvoker>
     </extension>
+</addon>
+
+<addon
+		id="repo.conexaoTV"
+		name="[B][COLOR white]Repositorio Cone[B][COLOR violet]x[B][COLOR  white]ão[/COLOR][/B] [B][COLOR violet]Tv[/COLOR][/B]"
+		version="2.00"
+		 provider-name="Conexao TEAM">">
+
+		<requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+		</requires>
+
+		<extension point="xbmc.addon.repository" name="Repositorio ConexaoTV">
+
+
+	<dir>
+			<info compressed="false">https://raw.github.com/Marciocn/repo.conexaoTV/master/addons.xml</info>
+			<checksum>https://raw.github.com/Marciocn/repo.conexaoTV/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/Marciocn/repo.conexaoTV/master</datadir>
+			<hashes>false</hashes>
+    </dir>
+
+	<dir minversion="16.0.0" maxversion="18.9.0">
+			<info compressed="false">https://raw.github.com/Marciocn/repo.conexaoTV/master/leia/addons.xml</info>
+			<checksum>https://raw.github.com/Marciocn/repo.conexaoTV/master/leia/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/Marciocn/repo.conexaoTV/master/leia</datadir>
+			<hashes>false</hashes>
+    </dir>
+
+   <dir minversion="18.9.1">
+			<info compressed="false">https://raw.github.com/Marciocn/repo.conexaoTV/master/matrix/addons.xml</info>
+			<checksum>https://raw.github.com/Marciocn/repo.conexaoTV/master/matrix/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/Marciocn/repo.conexaoTV/master/matrix</datadir>
+			<hashes>false</hashes>
+    </dir>
+
+	</extension>
+
+
+	<extension point="xbmc.addon.metadata">
+		<summary lang="pt_br"></summary>
+        <description lang="pt_br"></description>
+		<platform>all</platform>
+		<source></source>
+		 <assets>
+            <icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+        </assets>
+
+	<news>
+	[COLOR blue]LOG DE CORREÇÔES[/COLOR]
+
+	[COLOR green]*[/COLOR] V 2.00 - compatibilidade com Kodi 19 Matrix
+
+	</news>
+
+	<summary>Repositório ConexãoTV</summary>
+
+	<description></description>
+
+<disclaimer></disclaimer>
+
+	</extension>
 </addon>
 
 <addon id="repositorio.magusplayrepo"
