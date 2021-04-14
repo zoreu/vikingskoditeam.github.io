@@ -753,6 +753,45 @@ v1.0.7.matrix
   </extension>
 </addon>
 
+<addon id="plugin.video.Reviva.Matrix"
+       name="[COLOR white][B]Reviva-Matrix[/B][/COLOR]"
+       version="3.0.0+matrix"
+       provider-name="Viko K">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	 <summary lang="en">REVIVA as cronologias e os grandes sucessos de bilheteria do cinema!
+||| AGORA TBM NA VERSÃO MATRIX |||</summary>
+    <description lang="pt">Addon cópia da versão anterior do REVIVA, apenas atualizado para versão Matrix.
+Meu addon apenas redireciona os links. Não armazeno conteúdo multimidia. Os conteúdos são de domínio público encontrados na internet via torrent!
+RESOLUÇÃO: 1080p
+Qualidade: Blu-ray Rip
+Formato:   MKV | MP4
+Qualidade de Áudio: 10 (5.1)
+Qualidade de Vídeo: 10</description>
+
+    <disclaimer lang="pt"></disclaimer>
+	<platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/home.png</screenshot>
+<screenshot>resources/screenshots/movies.png</screenshot>
+<screenshot>resources/screenshots/series.png</screenshot>
+</assets>
+	<news>3.0.0+matrix
+by Viko K
+	</news>
+</extension>
+</addon>
+
 <addon id="plugin.video.rumble.matrix" name="[B]Rumble[/B]" version="1.0.0+matrix.1" provider-name="Oneplay team">
 <requires>
 	<import addon="xbmc.python" version="3.0.0"/>
