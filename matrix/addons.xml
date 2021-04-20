@@ -903,7 +903,7 @@ v1.0.2+matrix.1
 <addon
 	id="plugin.video.VikingsPro"
 	name="[B][COLOR yellow]  Vikings  [COLOR orange]Pro[/B][/COLOR]"
-	version="1.0.0+matrix"
+	version="1.1.0+matrix"
 	provider-name="[B][COLOR gold]Vikings TEAM[/B][/COLOR]">
 
  <requires>
