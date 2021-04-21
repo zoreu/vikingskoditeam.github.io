@@ -531,7 +531,7 @@ v1.0.2.matrix.1
 </extension>
 </addon>
 
-<addon id="plugin.video.luminartstudio_matrix" name="[COLOR orange][B]LUMINART STUDIO[/B][/COLOR]" version="1.4.21+matrix.G" provider-name="[COLOR white][B]JOHN DOE[/B][/COLOR]">
+<addon id="plugin.video.luminartstudio.matrix" name="[COLOR orange][B]LUMINART STUDIO[/B][/COLOR]" version="1.4.21+matrix.G" provider-name="[COLOR white][B]JOHN DOE[/B][/COLOR]">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
