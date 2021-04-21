@@ -1401,9 +1401,9 @@ Toda a fonte  vem de utilizadores do Youtube.
 
 </addon>
 
-<addon id="plugin.video.luminartstudio_kripton"
+<addon id="plugin.video.luminartstudio.kripton"
        name="[COLOR orange] LUMINART STUDIO [/COLOR]"
-       version="1.4.21+kripton.G"
+       version="1.4.21+kripton"
        provider-name="[COLOR white][B]JOHN DOE[/B][/COLOR]">  <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
