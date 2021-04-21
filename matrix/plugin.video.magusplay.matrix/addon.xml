@@ -1,5 +1,5 @@
 ﻿<?xml version="3.0.1" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.magusplay.matrix" name="[B]MAGUSPLAY-VIDEO[/B]" version="3.0.1+matrix" provider-name="Magus Yav"> 
+<addon id="plugin.video.magusplay.matrix" name="[B]MAGUSPLAY[/B]" version="3.0.1+matrix.1" provider-name="Magus Iav"> 
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
@@ -9,10 +9,25 @@
 <extension point="xbmc.python.pluginsource" library="default.py">
 	<provides>video</provides>
 </extension>  
-<extension point="xbmc.addon.repository" name="Repositório Magusplay">
-	<info compressed="false">https://raw.githubusercontent.com/magusplay/magusplayrepo/master/zips/addons.xml</info>
-	<checksum>https://raw.githubusercontent.com/magusplay/magusplayrepo/master/zips/addons.xml.md5</checksum>
-	<datadir zip="true">https://raw.githubusercontent.com/magusplay/magusplayrepo/master/zips/</datadir>
+<extension point="xbmc.addon.repository" name="Nome Repository">
+	<info compressed="false">https://raw.githubusercontent.com/magusplay/magusplayrepo/main/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/magusplay/magusplayrepo/main/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/magusplay/magusplayrepo/master</datadir>
+			<hashes>false</hashes>
+			
+			<dir minversion="17.0.0" maxversion="18.9.0">
+			<info compressed="false">https://raw.githubusercontent.com/magusplay/magusplayrepo/master/leia/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/magusplay/magusplayrepo/master/leia/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/magusplay/magusplayrepo/master/leia</datadir>
+			<hashes>false</hashes>
+    </dir>
+   
+   <dir minversion="18.9.1">
+			<info compressed="false">https://raw.githubusercontent.com/magusplay/magusplayrepo/master/matrix/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/magusplay/magusplayrepo/master/matrix/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/magusplay/magusplayrepo/master/matrix</datadir>
+			<hashes>false</hashes>
+    </dir>
   </extension> 
 <extension point="xbmc.addon.metadata">
 	<summary lang="pt">Addon Magusplay filmes series e animes atualizados Diariamente</summary>
