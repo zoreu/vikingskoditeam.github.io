@@ -900,6 +900,33 @@ v1.0.2+matrix.1
     </extension>
 </addon>
 
+<addon
+	id="plugin.video.VikingsPro"
+	name="[B][COLOR yellow]  Vikings  [COLOR orange]Pro[/B][/COLOR]"
+	version="1.1.0+matrix"
+	provider-name="[B][COLOR gold]Vikings TEAM[/B][/COLOR]">
+
+ <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Vikings Pro</summary>
+    <description lang="en_GB">IPTV de Qualidade, a preço acessivel, para as massas!</description>
+    <language>en de</language>
+    <platform>all</platform>
+      <assets>
+        <icon>icon.png</icon>
+	</assets>
+  </extension>
+
+</addon>
+
 <addon id="plugin.video.vrlivre" name="[COLOR blue]VRlivreTV[/COLOR] [COLOR red]By Sergio[/COLOR]" version="19.0.0.4" provider-name="Sergio Tools e Mod Kodish Team">
   <requires>
     <import addon="xbmc.python2" version="3.0.0"/>
