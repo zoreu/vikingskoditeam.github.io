@@ -10,7 +10,7 @@
 	    <setting label="Usuário" id="username" type="text" default="" enable="!eq(-1,false)"/>
 	    <setting label="Senha" id="password" type="text" default="" enable="!eq(-2,false)" option="hidden"/>
 	    <setting label="Saida de Transmissão VIP" id="saida" type="enum" values="M3U8|TS" default="0" />
-	    <setting label="Exibir Menu VIP" id="exibirvip" type="bool" default="false" />
+	    <setting label="Exibir Menu VIP" id="exibirvip" type="bool" default="true" />
 </category>
 <category label="Proxy">
 		<setting label="[COLOR lightblue][B]Opções do Proxy:[/B][/COLOR]" type="lsep"/>
@@ -29,7 +29,7 @@
 		<setting label="Exibir Canais FHD (Lista M3U)" id="fhdtv" type="bool" default="true" />
 		<setting label="Exibir Canais HD (Lista M3U)" id="hdtv" type="bool" default="true" />
 		<setting label="Exibir Canais SD (Lista M3U)" id="sdtv" type="bool" default="true" />
-		<setting label="(Lista M3U) Exibir Apenas Canais de" id="filtrar" type="enum" values="Desativado|Futebol|Esportes|Filmes e Series|Infantil|Documentario|Aberto|Reality show|Noticias|24 Horas|PPV|" default="0" />
+		<setting label="(Lista M3U) Exibir Apenas Canais de" id="filtrar" type="enum" values="Desativado|Futebol|Esportes|Filmes e Series|Infantil|Documentario|Aberto|Reality show|Noticias|24 Horas|PPV" default="0" />
 </category>
 <category label="Controle dos Pais">
 		<setting label="[COLOR lightblue]Controle dos Pais:[/COLOR]" type="lsep"/>
