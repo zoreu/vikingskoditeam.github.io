@@ -1,8 +1,8 @@
 # Repositorio Vikings
- Repositorio Oficial VIkings Build Somente Addons, super seleção de addons gringos!
+ Repositorio Oficial VIkings Build Somente Addons, super seleção de addons em Idioma BR e PT da Atualidade!
  
  
- Como Unstalar esse repositório para ter acesso aos conteúdos!
+ Como Instalar o repositório Vikings para ter acesso aos Mlehores Conteúdos da Atualidade!
 
 
 <p align="left">
