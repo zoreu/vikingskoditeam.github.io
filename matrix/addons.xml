@@ -139,6 +139,25 @@ v2.3.14 (2019-02-10)
   </extension>
 </addon>
 
+<addon id="plugin.audio.estudioKazaFM" version="3.0.1+matrix.1" name="Estúdio KAZA FM" provider-name="TEAM Estúdio KAZA FM">
+<requires>
+  <import addon="xbmc.python" version="3.0.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+  <provides>audio</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Estúdio KAZA FM</summary>
+  <description lang="en_GB">BANDEIRANTES-PR</description>
+  <disclaimer lang="en_GB">No warranty</disclaimer>
+  <assets>
+    <icon>resources/images/icon.png</icon>
+    <fanart>resources/images/fanart.jpg</fanart>
+  </assets>
+  <news>3.0.3 - additional Streams added[CR]3.0.2 - Stop player between channels to avoid crackling noises[CR]3.0.0 - Initial Release for Matrix</news>
+</extension>
+</addon>
+
 <addon id="plugin.video.Addon.BXL" name="[B][COLOR red]ADDON[/COLOR] [COLOR blue]BXL[/COLOR][/B]" version="3.0.0+matrix.1" provider-name="Equipe KODISH">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
