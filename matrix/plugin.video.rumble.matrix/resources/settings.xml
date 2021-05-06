@@ -1,5 +1,0 @@
-<settings>
-<category label="Language">
-	<setting label="Language" id="lang" type="enum" values="English|Português" default="0" />
-</category>
-</settings>
