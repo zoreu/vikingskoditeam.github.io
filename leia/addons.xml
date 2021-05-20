@@ -1402,7 +1402,7 @@ Toda a fonte  vem de utilizadores do Youtube.
 </addon>
 
 
-<addon id="plugin.video.KronosPlay" name="[COLOR red]Kronos[/COLOR] Play" version="1.0" provider-name="Kronos Play">
+<addon id="plugin.video.KronosPlay" name="[COLOR red]Kronos[/COLOR] Play" version="2.0" provider-name="Kronos Play">
 
   <requires>
 
