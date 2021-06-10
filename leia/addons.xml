@@ -35,6 +35,19 @@
 	</extension>
 </addon>
 
+<addon id="KeltecMP.repository" name="[B][COLOR gold]Repositorio[/COLOR]: [COLOR blue]KelTecMP[/COLOR] [COLOR red]IPTV[/COLOR][/B]" version="0.0.9" provider-name="Team Ezequiel KelTec">
+	<extension point="xbmc.addon.repository" name="KelTecMP IPTV Repo">
+	    <info compressed="false">https://raw.githubusercontent.com/keltecmp-repo/repo/master/addons.xml</info>
+	    <checksum>https://raw.githubusercontent.com/keltecmp-repo/repo/master/addons.xml.md5</checksum>
+	    <datadir zip="true">https://raw.githubusercontent.com/keltecmp-repo/repo/master/Plugins</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repositorio Oficial KelTecMP IPTV</summary>
+		<description>Repositorio Oficial KelTecMP IPTV - Proibido reproducao //Grupo Facebook KeltecMP IPTV https://www.facebook.com/groups/KELTEC.MP/</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="One.repo" name="[B][COLOR white]Repositorio[/COLOR]: [COLOR aquamarine]OnePlay[/COLOR][/B]" version="1.04" provider-name="Team [COLOR aquamarine]OnePlay[/COLOR]">
 	<requires>
 	<import addon="xbmc.addon" version="12.0.0"/>
@@ -1227,7 +1240,7 @@ Toda a fonte  vem de utilizadores do Youtube.
   </extension>
 </addon>
 
-<addon id="plugin.video.KelTec-MP.torrents" name="[B][COLOR dimgrey]KelTec-Media-Play[COLOR white] - [/COLOR][COLOR darkgreen]TORRENTS![/COLOR][/B]" version="3.0" provider-name="[COLOR crimson]Team - KelTec-Media-Play[/COLOR]">
+<addon id="plugin.video.KelTec-MP.torrents" name="[B][COLOR dimgrey]KelTec-Media-Play[COLOR white] - [/COLOR][COLOR darkgreen]TORRENTS![/COLOR][/B]" version="3.2" provider-name="[COLOR crimson]Team - KelTec-Media-Play[/COLOR]">
     <requires>
         <import addon="xbmc.python" version="2.24.0" />
         <import addon="ElementumKTMP.repository" optional="false" />
@@ -1236,9 +1249,9 @@ Toda a fonte  vem de utilizadores do Youtube.
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.repository" name="[B]KelTe-Medi-Play Repositório[/B]">
-		<info compressed="false">https://raw.githubusercontent.com/Jhonny-lima/Reposit-rio-KelTec-MP/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Jhonny-lima/Reposit-rio-KelTec-MP/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/Jhonny-lima/Reposit-rio-KelTec-MP/master/Plugins</datadir>
+		<info compressed="false">https://keltecplay.ml/rp/addons.xml</info>
+		<checksum>https://keltecplay.ml/rp/addons.xml.md5</checksum>
+		<datadir zip="true">https://keltecplay.ml/rp/Plugins</datadir>
 	</extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">[COLOR crimson]Filmes Torrent - Series Torrent - [COLOR gold] (Dual-Audio) 1080P - 720P[/COLOR] OBS: Necessario repositório Vikings instalado no seu Kodi!</summary>
@@ -1254,7 +1267,7 @@ Toda a fonte  vem de utilizadores do Youtube.
 
 <addon id="plugin.video.KeltecMP"
        name="[B][COLOR dimgrey]KelTec[/COLOR] [COLOR crimson]Media Play[/COLOR][/B]"
-       version="7.0"
+       version="7.3"
        provider-name="Team KelTec Media'Play">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
@@ -1298,21 +1311,46 @@ Toda a fonte  vem de utilizadores do Youtube.
     </extension>
 </addon>
 
-<addon id="plugin.video.KelTecPlay" name="[B][COLOR white]KelTec[/COLOR] [COLOR crimson]Play[/COLOR][/B]" version="2.0c" provider-name="Team KelTec">
+<addon id="plugin.video.KelTecTvPlay" name="KelTec Play Tv" version="1.0.0" provider-name="Team KelTec">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="2.9.1"/>
+    <import addon="script.module.xmltodict" version="0.11.0"/>
+    <import addon="script.module.dateutil" version="2.8.1"/>
+  </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
   </extension>
-  <extension point="xbmc.addon.repository" name="Repositório KelTec Media-Play">
-		<info compressed="false">https://raw.githubusercontent.com/Jhonny-lima/Reposit-rio-KelTec-MP/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Jhonny-lima/Reposit-rio-KelTec-MP/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/Jhonny-lima/Reposit-rio-KelTec-MP/master/Plugins</datadir>
+  <extension point="xbmc.addon.repository" name="[B]KelTecMP Repo[/B]">
+	 <info compressed="false">https://raw.githubusercontent.com/keltecmp-repo/repo/master/addons.xml</info>
+	<checksum>https://raw.githubusercontent.com/keltecmp-repo/repo/master/addons.xml.md5</checksum>
+	<datadir zip="true">https://raw.githubusercontent.com/keltecmp-repo/repo/master/Plugins</datadir>
 	</extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Filmes e Series</summary>
-    <description lang="en">Addon modificado do PlaylistLoader 1.2.0 por Avigdor https://github.com/avigdork/xbmc-avigdork. Nao somos responsaveis por colocar o conteudo online, apenas indexamos. Para sugestoes e report de bugs nossa pagina no FB: [COLOR blue]https://www.facebook.com/groups/KelTec.Media.Play[/COLOR]</description>
-	<disclaimer lang="en">O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais.</disclaimer>
+<extension point="xbmc.addon.metadata">
+	<summary lang="en">TV, Movies, Series, Drawings Online - KelTec Media'Play Official Repository</summary>
+	<summary lang="pt">TV,Filmes,Series,Desenhos Online - Repositorio Oficial KelTec Media'Play</summary>
+	<description lang="en">[COLOR orange] [B] KelTec Play Tv [/ B] [/ COLOR]
+	        [COLOR silver] The Add-on offers TV, Movies, Series, Online Drawings - KelTec Media'Play Official Repository, links that are fully functional and constantly
+updated NOTE: The creator of this Add-on does not host any content, we just reorganized, indexed it again, all content can be found on the internet with a simple search. [/ COLOR],</description>
+	<description lang="pt">TV,Filmes,Series,Desenhos Online - Repositorio Oficial KelTec Media'Play
+[COLOR darkorange][B]KelTec Play Tv[/B] [/COLOR]
+[COLOR silver]O Add-on oferece TV,Filmes,Series,Desenhos Online - Repositório Oficial KelTec Media'Play, links totalmente funcionais e constantemente
+atualizados OBS: O criador desse Add-on não hospeda nenhum conteúdo apenas reorganizamos, indexamos novamente, todo conteúdo pode ser encontrado na internet com busca simples.[/COLOR],</description>
+    <disclaimer lang="en">The author is in no way affiliated with Kodi, Team Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
+	<disclaimer lang="pt">[COLOR darkgrey][B] KelTec Play Tv[/B][/COLOR]
+[COLOR crimson]O  autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais; nao tem nenhuma afiliação com o provedor de conteúdo.[COLOR darkgrey][B] KelTec Play Tv[/B] [/COLOR]</disclaimer>
+    <language>en de</language>
     <platform>all</platform>
-	<news></news>
+	<assets>
+       <icon>icon.gif</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>
+	<news>
+v1.0.0
+- Addon KelTec Play TV
+- Atualização de Repositório Oficial
+- Atualização das Imagens do Add-on Créditos César Prado "CV Prado"
+	</news>
   </extension>
 </addon>
 
@@ -1401,41 +1439,45 @@ Toda a fonte  vem de utilizadores do Youtube.
 
 </addon>
 
-
-<addon id="plugin.video.KronosPlay" name="[COLOR red]Kronos[/COLOR] Play" version="2.0" provider-name="Kronos Play">
-
+<addon id="plugin.video.KronosPlay"
+       name="[B][COLOR white]KronosPlay[/COLOR][/B]"
+       version="3.0"
+       provider-name="[B][COLOR white]KronosPlay[/COLOR][/B]">
   <requires>
-
     <import addon="xbmc.python" version="2.1.0"/>
-
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-
-    <import addon="script.module.beautifulsoup4"/>
-
+	<import addon="script.module.t0mm0.common"/>
+    <import addon="script.module.beautifulsoup"/>
+    <import addon="script.module.simple.downloader"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader"/>
     <import addon="script.module.requests"/>
-
     <import addon="script.module.httplib2"/>
-
+    <import addon="script.module.urlresolver"/>
     <import addon="script.module.simplejson"/>
-
+    <import addon="script.common.plugin.cache"/>
+    <import addon="script.module.metahandler"/>
   </requires>
-
-  <extension point="xbmc.python.pluginsource" library="kronos.py">
-
-        <provides>video</provides>
-
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
   </extension>
-
+  <extension point="xbmc.addon.repository" name="Kronos Play Repository">
+<dir>
+<info compressed="false">https://raw.github.com/kronosrisk/kronosplay/master/repo/addons.xml</info>
+<checksum>https://raw.github.com/kronosrisk/kronosplay/master/repo/addons.xml.md5</checksum>
+<datadir zip="true">https://raw.github.com/kronosrisk/kronosplay/master/repo/Plugins/</datadir>
+<hashes>false</hashes>
+</dir>
+</extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Kronos Play</summary>
-	     <description lang="pt">é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.</description>
-		 <disclaimer lang="en">SEJA BEM VINDO : )</disclaimer>
+    <summary></summary>
+    <description>[B][COLOR gold]●[/COLOR] [COLOR white]KronosPlay é um AGREGADOR de links, e como sites de pesquisa como google, apenas agrega e organiza os links externos. Não somos responsáveis pelos conteúdos aqui encontrados.[/COLOR][/B]</description>
+     <disclaimer>[B][COLOR white]SEJA BEM VINDO [COLOR gold]:)[/COLOR][/COLOR][/B]</disclaimer>
     <platform>all</platform>
-
- </extension>
-
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
 </addon>
 
 <addon id="plugin.video.luminartstudio.kripton"
@@ -1602,6 +1644,36 @@ SITE: https://luminartstudio.blogspot.com/ </news>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">TV Online</summary>
     <description lang="en">[B][COLOR white]Este addon e apenas um redirecionador de links, nao armazenamos conteudos adultos  multimidias, todo seu conteudo e de dominio publico facilmente encontrado na internet[/COLOR][/B]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.megatv"
+       name="[COLOR blue][B]Mega[/B][/COLOR][COLOR white][B] TV [/B][/COLOR]"
+       version="3.0.3"
+       provider-name="Mega TV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+	<import addon="plugin.video.SportsDevil" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>[COLOR white]TV, Filmes, Séries, Desenhos, Séries Animadas e Rádios FM[/COLOR]</summary>
+    <description>[B][COLOR lime]●[/COLOR] [COLOR blue]Mega[/COLOR] [COLOR white]TV[/COLOR] [COLOR white]é Apenas um Agregador e Assim Como o Google.com, Apenas Agrega e Organiza os Links Externos. Não Somos Responsáveis Pelos Arquivos Aqui Encontrados.[/COLOR][/B] [B][COLOR firebrick]●[/COLOR] [COLOR white]Proibido a Venda dos Add-ons [COLOR blue]Mega[/COLOR] [COLOR white]TV[/COLOR][/B] [B][COLOR firebrick]●[/COLOR] [COLOR white]Não Vendemos IPTV, Caso Ache Sites ou Mesmo Apps é Falso.[/COLOR][/B]</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -2990,6 +3062,40 @@ www.fenixflix.ml</news>
         <screenshot>resources/screenshots/03.jpg</screenshot>
       </assets>
 	</extension>
+</addon>
+
+<addon id="repository.KronosPlay" name="[B][COLOR white]KronosPlay [COLOR gold]Repo[/COLOR][/COLOR][/B]" version="1.0" provider-name="KronosPlay">
+<requires>
+<import addon="xbmc.addon" version="12.0.0"/>
+</requires>
+<extension point="xbmc.addon.repository" name="Kronos Play Repository">
+<dir minversion="16.0.0" maxversion="18.9.0">
+<info compressed="false">https://raw.github.com/kronosrisk/kronosplay/master/repo/addons.xml</info>
+<checksum>https://raw.github.com/kronosrisk/kronosplay/master/repo/addons.xml.md5</checksum>
+<datadir zip="true">https://raw.github.com/kronosrisk/kronosplay/master/repo/Plugins/</datadir>
+<hashes>false</hashes>
+</dir>
+<dir minversion="18.9.1">
+<info compressed="false">https://raw.github.com/kronosrisk/kronosplay/master/repo/addons_matrix.xml</info>
+<checksum>https://raw.github.com/kronosrisk/kronosplay/master/repo/addons_matrix.xml.md5</checksum>
+<datadir zip="true">https://raw.github.com/kronosrisk/kronosplay/master/repo/Plugins/</datadir>
+<hashes>false</hashes>
+</dir>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary lang="pt_br"></summary>
+<description lang="pt_br"></description>
+<platform>all</platform>
+<assets>
+<icon>icon.png</icon>
+<fanart>fanart.jpg</fanart>
+</assets>
+<summary>Repositório KronosPlay</summary>
+<description>
+[B][COLOR gold]●[/COLOR] [COLOR white]Repositório oficial do KronosPlay[/COLOR][/B]
+</description>
+<disclaimer>[B][COLOR white]KronosPlay é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</disclaimer>
+</extension>
 </addon>
 
 <addon id="repository.Nordes.Tv" name="[COLOR green][B]Nordes [/B][/COLOR][COLOR yellow][B]TV[/B][/COLOR][COLOR white] Repo[/COLOR]" version="1.3" provider-name="Luis Carlos">
