@@ -11,10 +11,7 @@ import xbmcaddon
 import xbmcvfs
 import sqlite3
 import base64
-try:
-    import urllib.parse as urllib
-except ImportError:
-    import urllib
+import urllib.parse as urllib
 try:
     import json
 except:
@@ -22,7 +19,7 @@ except:
    
 
 
-nome_contador = "OneX-1.0.0.Matrix"
+nome_contador = "OneX-1.0.7.Matrix"
 link_contador = "https://whos.amung.us/pingjs/?k=6gjsucgcje"
 db_host = 'https://raw.githubusercontent.com/zoreu/base_onex/main/base.txt'
 
@@ -31,23 +28,15 @@ addon = xbmcaddon.Addon()
 addonname = addon.getAddonInfo('name')
 icon = addon.getAddonInfo('icon')
 addon_version = addon.getAddonInfo('version')
-try:
-    profile = xbmcvfs.translatePath(addon.getAddonInfo('profile').decode('utf-8'))
-except:
-    profile = xbmcvfs.translatePath(addon.getAddonInfo('profile'))
-try:
-    home = xbmcvfs.translatePath(addon.getAddonInfo('path').decode('utf-8'))
-except:
-    home = xbmcvfs.translatePath(addon.getAddonInfo('path'))
-icon_menu = home+'/resources/media/icon_menu.png'
-fanart_default = home+'/fanart.jpg'
+profile = xbmcvfs.translatePath(addon.getAddonInfo('profile'))
+home = xbmcvfs.translatePath(addon.getAddonInfo('path'))
+fanart_default = os.path.join(home, 'fanart.jpg')
 favorites = os.path.join(profile, 'favorites.dat')
-temp = profile
+
 if os.path.exists(favorites)==True:
     FAV = open(favorites).read()
 else:
     FAV = []
-
 
 
 def notify(message,name=False,iconimage=False,timeShown=5000):
@@ -59,7 +48,7 @@ def notify(message,name=False,iconimage=False,timeShown=5000):
 
 def database_update(url):
     try:
-        os.mkdir(temp)
+        os.mkdir(profile)
     except:
         pass
     try:
@@ -71,28 +60,38 @@ def database_update(url):
         filename = ntpath.basename(link)
         # r=root, d=directories, f = files
         myfile = []
-        for r, d, f in os.walk(temp):
+        for r, d, f in os.walk(profile):
             for file in f:
                 if file.endswith(".db"):
                     myfile.append(os.path.join(r, file))
         if not filename in str(myfile):
-            for r, d, f in os.walk(temp):
+            for r, d, f in os.walk(profile):
                 for file in f:
                     if file.endswith(".db"):
                         try:
                             os.remove(os.path.join(r, file))
                         except:
                             pass
-            r2 = requests.get(link, allow_redirects=True, headers={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36"})
-            open(temp+'/'+filename, 'wb').write(r2.content)            
+            from lib import downloader
+            dest = os.path.join(profile, filename)
+            downloader.download(link, 'dados', dest)            
     except:
         pass
+        
+def database_clear():
+    for r, d, f in os.walk(profile):
+        for file in f:
+            if file.endswith(".db"):
+                try:
+                    os.remove(os.path.join(r, file))
+                except:
+                    pass
     
        
 def conection_sqlite(sql):
     try:
         db_list = []
-        for r, d, f in os.walk(temp):
+        for r, d, f in os.walk(profile):
             for file in f:
                 if file.endswith(".db"):
                     db_list.append(os.path.join(r, file))        
@@ -104,7 +103,7 @@ def conection_sqlite(sql):
         conn.close
         return rows
     except:
-        rows = ''
+        rows = []
         return rows        
         
 
@@ -119,7 +118,6 @@ def principal():
     addDir('[B]Rádios[/B]','',17,'','','','','','')
     addDir('[B]Verificar e atualizar conteúdos[/B]','',18,'','','','','','')
     SetView('WideList')
-    #xbmcplugin.endOfDirectory(addon_handle,cacheToDisc=False)
     xbmcplugin.endOfDirectory(addon_handle)
     
  
@@ -142,8 +140,8 @@ def get_search_string(heading='', message=''):
 def find():
     vq = get_search_string(heading="Digite algo para pesquisar")        
     if ( not vq ): return False, 0
-    title = urllib.quote_plus(vq)
-    pesquisar(title)
+    #title = urllib.quote_plus(vq)
+    pesquisar(vq)
 
 
 def pesquisar(name):
@@ -156,6 +154,71 @@ def pesquisar(name):
     xbmcplugin.endOfDirectory(addon_handle) 
 
 
+def open_url(url,referer=False):
+    if referer:    
+        headers = {
+        "sec-ch-ua": '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
+        "sec-ch-ua-mobile": "?0",
+        "Upgrade-Insecure-Requests": "1",    
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Sec-Fetch-Site": "same-origin",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Dest": "iframe",
+        "Referer": referer,     
+        "accept-language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"
+        }
+    else:
+        headers = {
+        "sec-ch-ua": '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
+        "sec-ch-ua-mobile": "?0",
+        "Upgrade-Insecure-Requests": "1",    
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Sec-Fetch-Site": "same-origin",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Dest": "iframe",    
+        "accept-language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"
+        }
+    try:
+        r = requests.get(url, allow_redirects=True, headers=headers, verify=False)
+        r.encoding = 'utf-8'
+        data = r.text
+        return data
+    except:
+        try:
+            import urllib.request as urllib2
+            import http.cookiejar as cookielib
+            cj = cookielib.CookieJar()
+            opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
+            if referer:
+                opener.addheaders=[('Accept-Language', 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'),('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36'),('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'), ('Referer', referer)]
+            else:
+                opener.addheaders=[('Accept-Language', 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'),('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36'),('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9')]
+            request_url = opener.open(url).read()
+            data = request_url.decode('utf-8')
+        except:
+            data = ''
+        return data 
+
+
+def pegar_ano():
+    data = open_url('http://datadehoje.com/')
+    try:
+        ano = re.compile('<p id="fecha">.+?<span>(.*?)</span>').findall(data)
+        if ano !=[]:
+            ano_atual = ano[0].split('de')[-1].replace(' ', '')
+        else:
+            from datetime import date
+            data_atual = date.today()
+            ano_atual = data_atual.year
+    except:
+        from datetime import date
+        data_atual = date.today()
+        ano_atual = data_atual.year        
+    return ano_atual
+
+
 def pesquisar_filmes(name):
     sql = "SELECT * FROM filmes WHERE search like '%"+name+"%' ORDER BY name"
     rows = conection_sqlite(sql)
@@ -163,6 +226,18 @@ def pesquisar_filmes(name):
         for grupo,cover,search,name,link,subtitle,thumbnail,fanart,info in rows:
             nome_negrito = '[B]'+name+'[/B]'
             addDir(nome_negrito.encode('utf-8', 'ignore'),link.encode('utf-8'),20,str(subtitle),str(thumbnail),str(fanart),str(info).encode('utf-8', 'ignore'),'','',favorite=True)
+            
+
+def lancamento_filmes(name):
+    sql = "SELECT * FROM filmes WHERE search like '%"+name+"%' ORDER BY name"
+    rows = conection_sqlite(sql)
+    if rows !=[]:
+        for grupo,cover,search,name,link,subtitle,thumbnail,fanart,info in rows:
+            nome_negrito = '[B]'+name+'[/B]'            
+            addDir(nome_negrito.encode('utf-8', 'ignore'),link.encode('utf-8'),20,str(subtitle),str(thumbnail),str(fanart),str(info).encode('utf-8', 'ignore'),'','',True,False,favorite=True)
+    xbmcplugin.setContent(addon_handle, 'movies')
+    SetView('InfoWall')
+    xbmcplugin.endOfDirectory(addon_handle)
     
 
 def pesquisar_series(name):
@@ -204,8 +279,11 @@ def pesquisar_novelas(name):
 def categorias_filmes():
     sql = 'SELECT * FROM filmes ORDER BY category'
     rows = conection_sqlite(sql)
+    ano = pegar_ano()
     if rows !=[]:
         categorias = []
+        lancamentos = '[B]Lançamentos '+str(ano)+'[/B]'
+        addDir(lancamentos.encode('utf-8', 'ignore'),'',19,'','','','',str(ano).encode('utf-8', 'ignore'),'')
         for cat,cover,search,name,link,subtitle,thumbnail,fanart,info in rows:            
             if str(cat) not in categorias and not str(cat) == 'None':
                 categorias.append(str(cat))
@@ -270,8 +348,8 @@ def categorias_novelas():
     SetView('InfoWall')
     xbmcplugin.endOfDirectory(addon_handle)     
     
-def exibir_temporadas(cat):
-    sql = 'SELECT * FROM series ORDER BY category'
+def exibir_temporadas_series(cat):
+    sql = 'SELECT * FROM series ORDER BY season'
     rows = conection_sqlite(sql)
     if rows !=[]:
         temporadas = []
@@ -285,7 +363,7 @@ def exibir_temporadas(cat):
     xbmcplugin.endOfDirectory(addon_handle)
     
 def exibir_temporadas_animes(cat):
-    sql = 'SELECT * FROM animes ORDER BY category'
+    sql = 'SELECT * FROM animes ORDER BY season'
     rows = conection_sqlite(sql)
     if rows !=[]:
         temporadas = []
@@ -299,7 +377,7 @@ def exibir_temporadas_animes(cat):
     xbmcplugin.endOfDirectory(addon_handle)
 
 def exibir_temporadas_novelas(cat):
-    sql = 'SELECT * FROM novelas ORDER BY category'
+    sql = 'SELECT * FROM novelas ORDER BY season'
     rows = conection_sqlite(sql)
     if rows !=[]:
         temporadas = []
@@ -312,7 +390,7 @@ def exibir_temporadas_novelas(cat):
     SetView('InfoWall')
     xbmcplugin.endOfDirectory(addon_handle)    
 
-def exibir_episodios(cat,season):
+def exibir_episodios_series(cat,season):
     sql = 'SELECT * FROM series ORDER BY episode'
     rows = conection_sqlite(sql)
     if rows !=[]:
@@ -365,14 +443,8 @@ def base64decode(string):
 
 def play_video(name,url,iconimage,description,subtitle,play):
     #notify('Resolvendo url...',name,iconimage)
-    #url_resolved = str(resolve(url))
     url_resolved = str(resolve(url))
     if url_resolved !='' or url_resolved !='None':
-        legenda = xbmcaddon.Addon().getSetting("legenda")
-        if legenda == 'true':
-            file_srt = srt_browser()
-        else:
-            file_srt = ''
         if 'netcine' in url_resolved:
             url_final = url_resolved+'|Referer=https://p.netcine.biz/'
         else:
@@ -394,57 +466,105 @@ def play_video(name,url,iconimage,description,subtitle,play):
             else:        
                 xbmc.Player().play(item=url_final, listitem=li)
     else:
-        #xbmcgui.Dialog().ok('[B][COLOR white]AVISO[/COLOR][/B]','Não foi possivel reproduzir o video')
         notify('Falha ao resolver url!',name,iconimage)
 
   
-
-def open_url(url,referer=False):
-    if referer:    
-        headers = {
-        "sec-ch-ua": '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
-        "sec-ch-ua-mobile": "?0",
-        "Upgrade-Insecure-Requests": "1",    
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36",
-        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
-        "Sec-Fetch-Site": "same-origin",
-        "Sec-Fetch-Mode": "navigate",
-        "Sec-Fetch-Dest": "iframe",
-        "Referer": referer,     
-        "accept-language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"
-        }
+def netcine_resolve(url,LOG=False):
+    data = open_url(url, 'https://p.netcine.biz/')
+    if LOG:
+        try:
+            f = open(xbmcvfs.translatePath(home+'/LOG-URLRESOLVE.txt'),'w')
+            f.write(data)
+            f.close()
+        except:
+            pass
+    page_select = re.compile('iframe.+?src="(.+?)"', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(data)
+    page1 = re.compile("location.href='(.+?)'", re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(data)
+    page2 = re.compile('<div.+?class="itens">.+?<a.+?href.+?=".+?data=(.+?)"', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(data)
+    if page_select !=[]:
+        for url_iframe in page_select:
+            if url_iframe.find('selec') >= 0:
+                data_iframe = open_url(url_iframe, '')
+                data_iframe_RE = re.compile('data=(.+?)"', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(data_iframe)
+                if data_iframe_RE !=[]:
+                    try:
+                        player = data_iframe_RE[0]
+                        resolved = netcine_resolve(player)
+                    except:
+                        resolved = ''
+                else:
+                    resolved = ''
+            elif url_iframe.find('camp') >= 0:
+                data_iframe = open_url(url_iframe, 'https://p.netcine.biz/')
+                data_iframe_RE = re.compile('data=(.+?)"', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(data_iframe)
+                if data_iframe_RE !=[]:
+                    try:
+                        player = data_iframe_RE[0]
+                        resolved = netcine_resolve(player)
+                    except:
+                        resolved = ''
+                else:
+                    resolved = ''            
+            else:
+                data_iframe = open_url(url_iframe, 'https://p.netcine.biz/')
+                data_iframe_RE = re.compile('data=(.+?)"', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(data_iframe)
+                if data_iframe_RE !=[]:
+                    try:
+                        player = data_iframe_RE[0]
+                        resolved = netcine_resolve(player)
+                    except:
+                        resolved = ''
+                else:
+                    resolved = ''       
+    elif page1 !=[]:
+        for player_url in page1:
+            if player_url.find('desktop') >= 0:
+                page2 = open_url(player_url, 'https://p.netcine.biz/')
+                video_url_RE = re.compile("file':'(.+?)'", re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(page2)
+                if video_url_RE !=[]:
+                    for video_url in video_url_RE:
+                        if video_url.find('-ALTO') >= 0:
+                            resolved = video_url
+                        else:
+                            resolved = ''
+                else:
+                    resolved = ''
+            #else:
+            #    try:
+            #        resolved = urlresolve(page1[0])
+            #    except:
+            #        resolved = ''
+    elif page2 !=[]:
+        try:
+            player = page2[0]
+            data = open_url(player, 'https://p.netcine.biz/')
+            video_url_RE = re.compile('file:.+?"(.+?)"', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(data)
+            if video_url_RE !=[]:
+                for video_url in video_url_RE:
+                    if video_url.find('-ALTO') >= 0:
+                        resolved = video_url
+                    else:
+                        resolved = ''
+            else:
+                resolved = ''
+        except:
+            resolved = '' 
     else:
-        headers = {
-        "sec-ch-ua": '"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',
-        "sec-ch-ua-mobile": "?0",
-        "Upgrade-Insecure-Requests": "1",    
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36",
-        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
-        "Sec-Fetch-Site": "same-origin",
-        "Sec-Fetch-Mode": "navigate",
-        "Sec-Fetch-Dest": "iframe",    
-        "accept-language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"
-        }
-    try:
-        r = requests.get(url, allow_redirects=True, headers=headers, verify=False)
-        r.encoding = 'utf-8'
-        data = r.text
-        return data
-    except:
-        data = ''
-        return data 
+        video_url_RE = re.compile("file':'(.+?)'", re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(data)
+        if video_url_RE !=[]:
+            for video_url in video_url_RE:
+                if video_url.find('-ALTO') >= 0:
+                    resolved = video_url
+                else:
+                    resolved = ''
+        else:
+            resolved = ''
+    return resolved
 
 #streamtape.com        
 def streamtape(url):
     correct_url = url.replace('streamtape.com/v/', 'streamtape.com/e/')
-    headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36",
-    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
-    "accept-language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"
-    }
-    r = requests.get(url, allow_redirects=True, headers=headers, verify=False)
-    r.encoding = 'utf-8'
-    data = r.text
+    data = open_url(correct_url)
     link_part1_re = re.compile('videolink.+?style="display:none;">(.*?)&token=').findall(data)
     link_part2_re = re.compile("<script>.+?token=(.*?)'.+?</script>").findall(data)
     if link_part1_re !=[] and link_part2_re !=[]:
@@ -562,6 +682,20 @@ def fsh_link(url):
         resolved = ''
     return resolved
     
+
+def zeroflix(url):
+    if 'zeroflix.org/player' in url:
+        data = open_url(url)
+        video = re.compile('source.+?src="(.*?)"').findall(data)
+        if video !=[]:
+            resolved = video[0]
+        else:
+            resolved = ''
+    else:
+        resolved = ''
+    return resolved
+        
+
 def youtube(url):
     url_data = urllib.urlparse(url)
     query = urllib.parse_qs(url_data.query)
@@ -573,15 +707,10 @@ def youtube(url):
 def resolve(url):
     #obs: fembeed é feurl
     try:
-        from lib import resolveurl
-    except:
-        pass
-    try:
         url = base64decode(url)
     except:
         pass
-    #resolved1 = resolveurl.resolve(url)
-    #xbmcgui.Dialog().ok('[COLOR white][B]AVISO[/B][/COLOR]', str(resolved1))
+        
     try:
         if 'streamtape' in url:
             resolved = streamtape(url)
@@ -605,31 +734,39 @@ def resolve(url):
             resolved = fsh_link(url)
         elif 'youtube.com' in url and 'watch' in url:
             resolved = youtube(url)
-        elif not 'feurl' in url and not 'fembed' in url and '.mp4' in url or '.m3u8' in url or '.mp3' in url:
+        elif 'netcine' in url:
+            resolved = netcine_resolve(url)
+        elif 'zeroflix.org/player' in url:
+            resolved = zeroflix(url)
+        elif not 'feurl' in url and not 'fembed' in url and '.mp4' in url or not 'feurl' in url and not 'fembed' in url and '.mp3' in url or not 'feurl' in url and not 'fembed' in url and '.mkv' in url or not 'feurl' in url and not 'fembed' in url and '.m3u8' in url:
             resolved = url
         else:
+            try:
+                from lib import resolveurl
+                status = 'ok'
+            except:
+                status = 'error'
             if 'feurl.com' and 'api' in url:
                 url = url.replace('api/source','v')
-            resolved = resolveurl.resolve(url)
-            if not 'http' in str(resolved):
+            try:
+                resolved = resolveurl.resolve(url)
+            except:
+                resolved = 'none'
+            if not 'http' in str(resolved) and not status == 'error':
                 notify('Falha ao resolver, tente novamente...')
-            #xbmcgui.Dialog().ok('Sucesso', resolved)
+            elif status == 'error':
+                notify('Falha ao importar resolver, tente novamente...')
     except:
         resolved = url
     return resolved
        
 
 def limpar_lista():
-    try:
-        Path = xbmcvfs.translatePath(xbmcaddon.Addon().getAddonInfo('profile')).decode("utf-8")
-    except:
-        Path = xbmcvfs.translatePath(xbmcaddon.Addon().getAddonInfo('profile'))
-    arquivo = os.path.join(Path, "favorites.dat")
-    exists = os.path.isfile(arquivo)
+    exists = os.path.isfile(favorites)
     if exists:
         if xbmcgui.Dialog().yesno(addonname, 'Deseja limpar minha lista?'):
             try:
-                os.remove(arquivo)
+                os.remove(favorites)
             except:
                 pass
             xbmcgui.Dialog().ok('Sucesso', '[B][COLOR white]Minha lista limpa com sucesso![/COLOR][/B]')
@@ -653,13 +790,19 @@ def getFavorites():
                 description = i[6]
                 cat = i[7]
                 season = i[8]
-                play = i[9]
-                if play == 'True':
+                #play = i[9]
+                if mode == 20:
                     play = True
-                    folder = False
+                    folder= False
                 else:
                     play = False
                     folder = True
+                #if play == 'True':
+                #    play = True
+                #    folder = False
+                #else:
+                #    play = False
+                #    folder = True
                 
                 addDir(name.encode('utf-8', 'ignore'),url.encode('utf-8'),mode,str(subtitle),str(iconimage),str(fanArt),str(description).encode('utf-8', 'ignore'),str(cat).encode('utf-8', 'ignore'),str(season).encode('utf-8', 'ignore'),play=play,folder=folder,favorite=True)
             xbmcplugin.setContent(addon_handle, 'movies')
@@ -794,8 +937,6 @@ def SetView(name):
             pass
 
 
-
-
 def get_params():
     param=[]
     paramstring=sys.argv[2]
@@ -884,7 +1025,7 @@ def main():
 
     if mode==None:
         database_update(db_host)
-        principal()        
+        principal()
     elif mode==1:
         database_update(db_host)
         categorias_filmes()
@@ -896,10 +1037,10 @@ def main():
         categorias_series()
     elif mode==4:
         database_update(db_host)
-        exibir_temporadas(cat)
+        exibir_temporadas_series(cat)
     elif mode==5:
         database_update(db_host)
-        exibir_episodios(cat,season)
+        exibir_episodios_series(cat,season)
     elif mode==6:
         database_update(db_host)
         find()
@@ -949,8 +1090,12 @@ def main():
         database_update(db_host)
         radios()
     elif mode==18:
+        database_clear()
         database_update(db_host)
         notify('Conteúdos verificados!')
+    elif mode==19:
+        database_update(db_host)
+        lancamento_filmes(cat)
     elif mode==20:
         play_video(name,url,iconimage,description,subtitle,play)
 
