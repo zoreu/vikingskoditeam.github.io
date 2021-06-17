@@ -788,40 +788,6 @@ O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Founda
   </extension>
 </addon>
 
-<addon id="plugin.video.Dwight_Farrokh_Lista"
-       name="[COLOR white][B]DWIGHT FARROKH LISTAS GRATIS[/B][/COLOR]"
-       version="1.0"
-       provider-name="Dwight Farrokh">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-	<import addon="plugin.video.SportsDevil" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-
-  <extension point="xbmc.addon.metadata">
-    <summary>Dwight Farrokh Lista Grátis</summary>
-    <description>
-TODO CONTEUDO AQUI POSTADO ESTÁ LOCALIZADO NA INTERNET, MÃO ARMAZENAMOS QUALQUER COMTEUDO ENCONTRADO AQUI NESTE ADDON.
-    </description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.ELLAS" name="[COLOR gold]ELLAS[/COLOR]"	version="1.1"	provider-name="Anabel">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1440,41 +1406,6 @@ v1.0.0
     <description lang="en">Play Karaoke Videos from KODIKARAOKE.COM</description>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id="plugin.video.Kraken" name="[B][COLOR blueviolet]KRAKEN[/COLOR][/B]" version="1.0" provider-name="[B][COLOR white]Davy Jones[/COLOR][/B]">
-<requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.t0mm0.common"/>
-    <import addon="script.module.beautifulsoup"/>
-    <import addon="script.module.beautifulsoup4"/>
-    <import addon="script.module.simple.downloader"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.httplib2"/>
-    <import addon="script.module.urlresolver"/>
-    <import addon="script.module.simplejson"/>
-    <import addon="script.common.plugin.cache"/>
-    <import addon="script.module.metahandler"/>
-</requires>
-
-<extension point="xbmc.python.pluginsource" library="main.py">
-	<provides>video</provides>
-</extension>
-
-<extension point="xbmc.addon.metadata">
-    <summary>[COLOR blueviolet][B]KRAKEN - Filmes e Series, você vai encontrar aqui, então entre e fique a vontade[/B][/COLOR]</summary>
-    <description lang="en">][COLOR white][B]Davy Jones "Você teme a Morte?" -[/B][/COLOR]</description>
-    <disclaimer lang="en">[COLOR gold][B]Duvidas ou Sugestões nos chame no WhatsApp (11) 95202-7986[/B][/COLOR]</disclaimer>
-	<platform>all</platform>
-    <assets>
-	<icon>icon.png</icon>
-    <fanart>fanart.jpg</fanart>
-    <screenshot>resources/screenshots/01.jpg</screenshot>
-    <screenshot>resources/screenshots/02.jpg</screenshot>
-    <screenshot>resources/screenshots/03.jpg</screenshot>
-	</assets>
-</extension>
-
 </addon>
 
 <addon id="plugin.video.KronosPlay"
