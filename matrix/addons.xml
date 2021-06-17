@@ -750,33 +750,6 @@ v1.0.1.+matrix
 </extension>
 </addon>
 
-<addon id="plugin.video.Kraken" name="[B][COLOR blueviolet]KRAKEN[/COLOR][/B] - [B][COLOR green]MATRIX[/COLOR][/B]" version="1.0.0+matrix.1" provider-name="[B][COLOR white]Davy Jones[/COLOR][/B]">
-<requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.simplejson"/>
-	<import addon="script.module.kodi-six" />
-</requires>
-<extension point="xbmc.python.pluginsource" library="default.py">
-	<provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-	 <summary lang="en">[B][COLOR blueviolet]KRAKEN MATRIX - Filmes e Series, você vai encontrar aqui, então entre e fique a vontade[/COLOR][/B]</summary>
-    <description lang="en">[B][COLOR white]Davy Jones - "Você teme a Morte?"[/COLOR][/B]</description>
-    <disclaimer lang="en">[B][COLOR gold]Duvidas ou Sugestões nos chame no WhatsApp (11) 95202-7986[/COLOR][/B]</disclaimer>
-	<platform>all</platform>
-	<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-<screenshot>resources/screenshots/home.png</screenshot>
-<screenshot>resources/screenshots/movies.png</screenshot>
-<screenshot>resources/screenshots/series.png</screenshot>
-</assets>
-	<news>news
-	</news>
-</extension>
-</addon>
-
 <addon id="plugin.video.KronosPlay.Matrix" name="[B][COLOR white]KronosPlay[/COLOR][/B]" version="3.0" provider-name="[B][COLOR white]KronosPlay[/COLOR][/B]">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -1304,44 +1277,35 @@ v1.0.2+matrix.1
 </addon>
 
 <addon id="plugin.video.VikingsFREE"
-       name="[B][COLOR pink]  Vikings  [COLOR violet]FREE TV[/B][/COLOR]"
-       version="1.00"
-       provider-name="VikingsTEAM">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Tenha o melhor conteudo no seu Kodi.</summary>
-    <description lang="en"></description>
-     <disclaimer lang="en">Não fazemos parte da equipe do kodi, utilizamos links de terceiros, portanto não nos responsabilizamos por eles.</disclaimer>
-	 	<news>V1.00 - Criação de Addon.</news>
+name="[B][COLOR pink]  Vikings  [COLOR violet]FREE TV[/B][/COLOR]"
+version="1.00+matrix.1"
+provider-name="VikingsTeam">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	<summary lang="en"></summary>
+	<summary lang="pt"></summary>
+	<description lang="en">Addon for kodi 19</description>
+	<description lang="pt">Addon para kodi 19</description>
+    <disclaimer lang="en">The author is in no way affiliated with Kodi, Team Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
+	<disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
     <platform>all</platform>
 	<assets>
        <icon>icon.png</icon>
        <fanart>fanart.jpg</fanart>
-       <screenshot>resources/screenshots/1.jpg</screenshot>
-       <screenshot>resources/screenshots/2.jpg</screenshot>
-       <screenshot>resources/screenshots/3.jpg</screenshot>
     </assets>
-  </extension>
+	<news>
+v1.00.matrix.1
+- Addon modelo
+	</news>
+</extension>
 </addon>
 
 <addon
