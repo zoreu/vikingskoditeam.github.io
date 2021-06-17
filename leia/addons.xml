@@ -675,6 +675,29 @@ O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Founda
   </extension>
 </addon>
 
+<addon id="plugin.video.BrunoFlix" name="[COLOR white][B]BRUNO[/B][/COLOR][COLOR yellow][B]FLIX[/B][/COLOR]" version="1.0.1" provider-name="TEAM-BRUNOFLIX">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.httplib2"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">BrunoFlix</summary>
+    <description lang="en">O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.BXL"
        name="[COLOR red][B]ADDON [B][/COLOR] [COLOR white][B]BXL[/B][/COLOR]"
        version="2.5.2"
@@ -1025,6 +1048,29 @@ l [COLOR firebrick]FENIX[/COLOR] FLIX - O MELHOR DO CINEMA NO SEU KODI - 100% FH
         <screenshot>resources/screenshots/02.jpg</screenshot>
         <screenshot>resources/screenshots/03.jpg</screenshot>
       </assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.flixtv" name="[COLOR white][B]FLIX[/B][/COLOR][COLOR yellow][B]TV[/B][/COLOR]" version="1.0.1" provider-name="TEAM-BRUNOFLIX">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.httplib2"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">FLIXTV</summary>
+    <description lang="en">O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais.</description>
+    <platform>all</platform>
   </extension>
 </addon>
 
@@ -2987,6 +3033,28 @@ provider-name="Magusplay">
 </description>
 <disclaimer>[B][COLOR white]Brazuca Play é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</disclaimer>
 </extension>
+</addon>
+
+<addon id="repository.BrunoFlixRepo" name="BrunoFlix Repo" version="1.0" provider-name="TEAM-BRUNOFFLIX">
+    <extension point="xbmc.addon.repository" name="Nome Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/brunoflix/BrunoFlixRepo/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/brunoflix/BrunoFlixRepo/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/brunoflix/BrunoFlixRepo/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>BrunoFlix Repo</summary>
+        <description>O BrunoFlix é Um Plugin de vídeo para o KODI que agrega Links de reprodução de Vídeos de vários tipos.
+
+Levando o lazer e o prazer Para vocês assistir e curtir cada momento com a família e amigos.</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
 
 <addon id="Repositorio.BXL"
