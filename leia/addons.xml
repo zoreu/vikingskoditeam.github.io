@@ -2509,7 +2509,7 @@ IMDb: 6.9
 
 <addon id="plugin.video.VikingsFREE"
        name="[B][COLOR pink]  Vikings  [COLOR violet]FREE TV[/B][/COLOR]"
-       version="1.00"
+       version="1.20"
        provider-name="VikingsTEAM">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -2536,7 +2536,9 @@ IMDb: 6.9
     <summary lang="en">Tenha o melhor conteudo no seu Kodi.</summary>
     <description lang="en"></description>
      <disclaimer lang="en">Não fazemos parte da equipe do kodi, utilizamos links de terceiros, portanto não nos responsabilizamos por eles.</disclaimer>
-	 	<news>V1.00 - Criação de Addon.</news>
+	 	<news>	V1.00 - Criação de Addon.
+				V1.10 - Ajuste de Dependencias.
+		</news>
     <platform>all</platform>
 	<assets>
        <icon>icon.png</icon>
