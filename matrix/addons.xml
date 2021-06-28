@@ -683,7 +683,7 @@ v1.0.2.matrix.1
 </extension>
 </addon>
 
-<addon id="plugin.video.KronosPlay.Matrix" name="[B][COLOR white]KronosPlay[/COLOR][/B]" version="3.0" provider-name="[B][COLOR white]KronosPlay[/COLOR][/B]">
+<addon id="plugin.video.KronosPlay.Matrix" name="[B][COLOR white]KronosPlay[/COLOR][/B]" version="4.0" provider-name="[B][COLOR white]KronosPlay[/COLOR][/B]">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
@@ -1228,6 +1228,33 @@ v1.00.matrix.1
 - Addon modelo
 	</news>
 </extension>
+</addon>
+
+<addon
+	id="plugin.video.VikingsPro"
+	name="[B][COLOR yellow]  Vikings  [COLOR orange]Pro[/B][/COLOR]"
+	version="1.10+matrix"
+	provider-name="[B][COLOR gold]Vikings TEAM[/B][/COLOR]">
+
+ <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Vikings Pro</summary>
+    <description lang="en_GB">IPTV de Qualidade, a preço acessivel, para as massas!</description>
+    <language>en de</language>
+    <platform>all</platform>
+      <assets>
+        <icon>icon.png</icon>
+	</assets>
+  </extension>
+
 </addon>
 
 <addon id="plugin.video.VisionPlay" name="[B][COLOR white]VISION[/COLOR][/B] [B][COLOR lime]PLAY[/COLOR][/B]" version="2.0.0+matrix.1" provider-name="[B][COLOR white]Team VISION[/COLOR][/B]">
