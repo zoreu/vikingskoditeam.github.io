@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.visaolibertaria" name="[B]Visão Libertária[/B]" version="1.0.0" provider-name="zoreu"> 
+<requires>
+	<import addon="xbmc.python" version="3.0.0"/>
+	<import addon="script.module.requests"/>
+	<import addon="script.module.simplejson"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+    <summary lang="pt_br">Visão Libertária é um canal defensor do libertarianismo com enfase no anarco-capitalismo.</summary>
+    <description lang="pt_br">Visão Libertária traz conteudo de libertarianismo com enfase no anarco-capitalismo.</description>
+    <disclaimer lang="pt_br">Todos os videos são de reponsabilidade do canal visão libertária.</disclaimer>
+    <platform>all</platform>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+    </assets>
+	<news>
+v1.0.0
+- versao inicial
+	</news>
+</extension>
+</addon>

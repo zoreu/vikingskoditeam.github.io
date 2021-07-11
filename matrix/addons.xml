@@ -476,7 +476,7 @@ MUITO OBRIGADO, CREDTIOS:Joel Silva zoreu
 </extension>
 </addon>
 
-<addon id="plugin.video.conexao" name="[B][COLOR beige]CONE[B][COLOR aqua][B]X[/B][COLOR  beige][B]ÃO[/COLOR][COLOR aqua][B] PLAY[/COLOR][/B]" version="1.0.3+matrix.1" provider-name="[B][COLOR beige]Team[B][COLOR lime]:[/B] [B][COLOR beige]Cone[COLOR lime][B]x[/B][COLOR  beige][B]ão[/COLOR][COLOR blue]-[COLOR lime]Multi[COLOR blue]-[COLOR green]Addons[/COLOR][/B]">
+<addon id="plugin.video.conexao" name="[B][COLOR beige]CONE[B][COLOR aqua][B]X[/B][COLOR  beige][B]ÃO[/COLOR][COLOR aqua][B] PLAY[/COLOR][/B]" version="1.0.6+matrix.1" provider-name="[B][COLOR beige]Team[B][COLOR lime]:[/B] [B][COLOR beige]Cone[COLOR lime][B]x[/B][COLOR  beige][B]ão[/COLOR][COLOR blue]-[COLOR lime]Multi[COLOR blue]-[COLOR green]Addons[/COLOR][/B]">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
@@ -639,13 +639,16 @@ v1.0.0.matrix.1
 </extension>
 </addon>
 
-<addon id="plugin.video.KelTec.MP.matrix" name="[B][COLOR dimgrey]KelTec[/COLOR] [COLOR crimson]Media Play[/COLOR][/B]" version="1.0.6+matrix.1" provider-name="Team KelTec">
+<addon id="plugin.video.KelTec.MP.matrix" name="[B][COLOR dimgrey]KelTec[/COLOR] [COLOR crimson]Media Play[/COLOR][/B]" version="1.0.9+matrix.1" provider-name="Team KelTec">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
 	<import addon="script.module.beautifulsoup4"/>
-    <import addon="script.module.requests" version="2.22.0"/>
     <import addon="script.module.simplejson"/>
-	<import addon="script.module.kodi-six" />
+    <import addon="script.module.six" version="1.0.0"/>
+    <import addon="script.module.kodi-six" version="0.1.3.1"/>
+    <import addon="script.module.requests" version="2.7.0"/>
+    <import addon="script.module.simplecache" version="1.0.0"/>
+    <import addon="script.module.routing" version="0.2.3"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="default.py">
 	<provides>video</provides>
@@ -687,6 +690,12 @@ v1.0.5.matrix.1
 - Corrigido erro de instalação. -- Update 23-06-21  --
 v1.0.6.matrix.1
 - Corrigido iniciar do add-on. -- Update 01-07-21  --
+v1.0.7.matrix.1
+- Add-on. -- Update 09-07-21  --
+v1.0.8.matrix.1
+- Corrigido iniciar do add-on Add-on. -- Update 09-07-21  --
+v1.0.9.matrix.1
+- Corrigido iniciar do add-on Add-on. -- Update 10-07-21  --
 
 
 	</news>
@@ -1267,6 +1276,31 @@ v1.00.matrix.1
 
 </addon>
 
+<addon id="plugin.video.visaolibertaria" name="[B]Visão Libertária[/B]" version="1.0.0" provider-name="zoreu">
+<requires>
+	<import addon="xbmc.python" version="3.0.0"/>
+	<import addon="script.module.requests"/>
+	<import addon="script.module.simplejson"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+    <summary lang="pt_br">Visão Libertária é um canal defensor do libertarianismo com enfase no anarco-capitalismo.</summary>
+    <description lang="pt_br">Visão Libertária traz conteudo de libertarianismo com enfase no anarco-capitalismo.</description>
+    <disclaimer lang="pt_br">Todos os videos são de reponsabilidade do canal visão libertária.</disclaimer>
+    <platform>all</platform>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+    </assets>
+	<news>
+v1.0.0
+- versao inicial
+	</news>
+</extension>
+</addon>
+
 <addon id="plugin.video.VisionPlay" name="[B][COLOR white]VISION[/COLOR][/B] [B][COLOR lime]PLAY[/COLOR][/B]" version="2.0.0+matrix.1" provider-name="[B][COLOR white]Team VISION[/COLOR][/B]">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -1313,6 +1347,36 @@ v1.00.matrix.1
 	<fanart>fanart.jpg</fanart>
     </assets>
  </extension>
+</addon>
+
+<addon id="plugin.video.vtvonline"
+       name="[COLOR white][B]VTV [COLOR pink][B]Online[/B][/COLOR]"
+       version="3.0.6+matrix"
+       provider-name="RicardoJ">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	 <summary lang="en">Bem-vindo ao VTV Online</summary>
+    <description lang="en">Conteúdo de forma rápida e com qualidade, Agregamos todos os dias o melhor conteúdo da Internet, Filmes , Series, Animes, Tv Online e muito mais em um só lugar  </description>
+    <disclaimer lang="en"></disclaimer>
+	<platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/home.png</screenshot>
+<screenshot>resources/screenshots/movies.png</screenshot>
+<screenshot>resources/screenshots/series.png</screenshot>
+</assets>
+	<news>Novidades
+	</news>
+</extension>
 </addon>
 
 <addon id="plugin.video.youtube" name="YouTube" version="6.8.10+matrix.1" provider-name="anxdpanic, bromix">

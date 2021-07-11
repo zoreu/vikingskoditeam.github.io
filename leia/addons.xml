@@ -741,6 +741,52 @@ O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Founda
 	</extension>
 </addon>
 
+<addon id="plugin.video.cobraplay"
+       name="Cobra Play"
+       version="1.0.0"
+       provider-name="MAXIMUS">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+ <extension point="xbmc.addon.repository" name="Repositório Teste">
+	<info compressed="false">https://raw.githubusercontent.com/lokimaximus/jokerREPO/master/zips/addons.xml</info>
+	<checksum>https://raw.githubusercontent.com/lokimaximus/jokerREPO/master/zips/addons.xml.md5</checksum>
+	<datadir zip="true">https://raw.githubusercontent.com/lokimaximus/jokerREPO/master/zips/</datadir>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Seja muito bem-vindo ao nosso ADDON Cobra Play. Queremos que se Divirta, obrigado por nos escolher!</summary>
+    <description lang="en">Proibido reprodução total ou parcial sem prévia autorização</description>
+     <disclaimer lang="en">Não fazemos parte da equipe do kodi, utilizamos links de terceiros, portanto não nos responsabilizamos por eles.</disclaimer>
+	 	<news>V1.0.0 - Criação de Addon.</news>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.gif</icon>
+       <fanart>fanart.jpg</fanart>
+       <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="plugin.video.conexao"
        name="[B][COLOR beige]Cone[COLOR lime][B]x[/B][COLOR  beige][B]ão[/COLOR][COLOR blue]-[COLOR lime]Multi[COLOR blue]-[COLOR green]Addons[/COLOR][/B]"
        version="3.0.5"
@@ -2472,6 +2518,40 @@ IMDb: 6.9
   </extension>
 </addon>
 
+<addon id="plugin.video.vtvonlinekodi18"
+       name="[COLOR white][B]VTV Online[/B][/COLOR]"
+       version="1.1"
+       provider-name="RicardoJ">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+	<import addon="plugin.video.SportsDevil" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Bem-vindo ao VTV Online para o Kodi 18</summary>
+    <description>
+Conteúdo de forma rápida e com qualidade, Agregamos todos os dias o melhor conteúdo da Internet, Filmes , Series, Animes, Tv Online e muito mais em um só lugar
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.WolfTV"
        name="WolfTV"
        version="11.1"
@@ -3072,6 +3152,26 @@ www.fenixflix.ml</news>
       <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
+</addon>
+
+<addon id="repository.vtvonline" name="VTV Online Repositorio" version="2.0" provider-name="RicardoJ">
+    <extension point="xbmc.addon.repository" name="Vtv Online">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/lricardobrlj/VTVOnline-Repositorio/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/lricardobrlj/VTVOnline-Repositorio/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/lricardobrlj/VTVOnline-Repositorio/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>VTV Online</summary>
+        <description>Repositorio Oficial do VTV Online</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
 
 <addon id="repository.xstream" name="xStream Repository" version="1.1.3" provider-name="xStream-Team">
