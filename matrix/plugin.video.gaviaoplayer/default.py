@@ -35,7 +35,7 @@ except:
 
 # Base - seu link principal
 url_b64_principal = ''
-url_principal = "https://docs.google.com/uc?export=download&id=1rakg7zciqkAKABFZ6jo6b146lWVSJ8Lf"
+url_principal = "https://docs.google.com/uc?export=download&id=1TS0GsEwH4CPoDdeL9QaoKg3C1xS9Xgjw"
 
 ##CONFIGURAÇÕES
 ####  TITULO DO MENU  #################################################################

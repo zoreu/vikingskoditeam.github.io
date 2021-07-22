@@ -1204,6 +1204,36 @@ version="6.0.0~alpha6" />
     </extension>
 </addon>
 
+<addon id="plugin.video.iptvpremium" name="[B]IPTV PREMIUM[/B]" version="1.0.1" provider-name="Equipe OnePlay">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+	<extension point="xbmc.addon.repository" name="[B]IPTV PREMIUM[/B]">
+		<info compressed="false">https://github.com/OnePlayHD/OneRepo/raw/master/leia/addons.xml</info>
+		<checksum>https://github.com/OnePlayHD/OneRepo/raw/master/leia/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/OnePlayHD/OneRepo/raw/master/leia</datadir>
+		<hashes>false</hashes>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Cliente IPTV para painel Xtream Codes</summary>
+		<description>Cliente para usuarios de IPTV do Xtream Codes</description>
+		<disclaimer>IPTV Premium não tem relação com a Kodi team</disclaimer>
+        <platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>
+- IPTV Premium em python 2, 1.0.0
+- correção bugs 1.0.1
+		</news>
+	</extension>
+</addon>
+
 <addon id="plugin.video.jami"
        name="[COLOR white][B]Jami[/B][/COLOR]"
        version="7.1"
@@ -1470,51 +1500,6 @@ SITE: https://luminartstudio.blogspot.com/ </news>
        <screenshot>resources/screenshots/aviso1.jpg</screenshot>
        <screenshot>resources/screenshots/aviso2.jpg</screenshot>
        <screenshot>resources/screenshots/aviso3.jpg</screenshot>
-    </assets>
-  </extension>
-</addon>
-
-<addon id="plugin.video.magusplay"
-       name="[B][COLOR beige]MAGUS[/COLOR][COLOR blue]-[COLOR lime]PLAY[COLOR blue]-[COLOR green]VIDEO[/COLOR][/B]"
-       version="2.0.5"
-       provider-name="Magus Yav">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
- <extension point="xbmc.addon.repository" name="Repositório Magusplay">
-	<info compressed="false">https://raw.githubusercontent.com/magusplay/magusplayrepo/master/zips/addons.xml</info>
-	<checksum>https://raw.githubusercontent.com/magusplay/magusplayrepo/master/zips/addons.xml.md5</checksum>
-	<datadir zip="true">https://raw.githubusercontent.com/magusplay/magusplayrepo/master/zips/</datadir>
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Tenha o melhor conteudo no seu Kodi.</summary>
-    <description lang="en">Filmes Seriados e Animes atualizados Diariamente no addon Magusplay.</description>
-     <disclaimer lang="en">Não fazemos parte da equipe do kodi, utilizamos links de terceiros, portanto não nos responsabilizamos por eles.</disclaimer>
-	 	<news>V2.0.5 - Magus Yav.</news>
-    <platform>all</platform>
-	<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-       <screenshot>resources/screenshots/1.jpg</screenshot>
-       <screenshot>resources/screenshots/2.jpg</screenshot>
-       <screenshot>resources/screenshots/3.jpg</screenshot>
     </assets>
   </extension>
 </addon>
