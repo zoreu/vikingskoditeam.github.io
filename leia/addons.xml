@@ -1257,34 +1257,9 @@ Toda a fonte  vem de utilizadores do Youtube.
   </extension>
 </addon>
 
-<addon id="plugin.video.KelTec-MP.torrents" name="[B][COLOR dimgrey]KelTec-Media-Play[COLOR white] - [/COLOR][COLOR darkgreen]TORRENTS![/COLOR][/B]" version="3.2" provider-name="[COLOR crimson]Team - KelTec-Media-Play[/COLOR]">
-    <requires>
-        <import addon="xbmc.python" version="2.24.0" />
-        <import addon="ElementumKTMP.repository" optional="false" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="YaP.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.repository" name="[B]KelTe-Medi-Play Repositório[/B]">
-		<info compressed="false">https://keltecplay.ml/rp/addons.xml</info>
-		<checksum>https://keltecplay.ml/rp/addons.xml.md5</checksum>
-		<datadir zip="true">https://keltecplay.ml/rp/Plugins</datadir>
-	</extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">[COLOR crimson]Filmes Torrent - Series Torrent - [COLOR gold] (Dual-Audio) 1080P - 720P[/COLOR] OBS: Necessario repositório Vikings instalado no seu Kodi!</summary>
-        <description lang="en">[COLOR gold][B]KelTec-Media-Play[COLOR white] - [/COLOR]TORRENTS![/B][/COLOR][COLOR crimson], oferece Filmes e Series, de qualidade 4K, H265 - 7.1, H264 - 5.1, 3D, 1080P e 720P e WEB-RIP, disponíveis para download via torrent, links totalmente funcionais e constantemente
-            atualizados.[/COLOR],</description>
-        <disclaimer lang="en">[COLOR darkgrey][B] KelTec-Media-Play[/B][/COLOR][COLOR crimson]O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais; nao tem nenhuma afiliação com o provedor de conteúdo.[COLOR darkgrey][B] KelTec-Media-Play[/B] [/COLOR]Os creditos para a pagina: http://www.megatorrentshd.com[/COLOR]</disclaimer>
-        <website>https://keltecmp.net/</website>
-        <forum></forum>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 3.</license>
-        <platform>all</platform>
-    </extension>
-</addon>
-
 <addon id="plugin.video.KeltecMP"
-       name="[B][COLOR dimgrey]KelTec[/COLOR] [COLOR crimson]Media Play[/COLOR][/B]"
-       version="7.3"
+       name="[B][COLOR silver]KelTec[/COLOR] [COLOR crimson]Media Play[/COLOR][/B]"
+       version="9.1"
        provider-name="Team KelTec Media'Play">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
@@ -1310,10 +1285,10 @@ Toda a fonte  vem de utilizadores do Youtube.
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
-  <extension point="xbmc.addon.repository" name="[B]KelTecMP Repo[/B]">
-		<info compressed="false">https://raw.githubusercontent.com/Jhonny-lima/Reposit-rio-KelTec-MP/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Jhonny-lima/Reposit-rio-KelTec-MP/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/Jhonny-lima/Reposit-rio-KelTec-MP/master/Plugins</datadir>
+  <extension point="xbmc.addon.repository" name="[B]Repo KelTec Media Play[/B]">
+		<info compressed="false">https://raw.githubusercontent.com/keltecmp-repo/repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/keltecmp-repo/repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/keltecmp-repo/repo/master/Plugins</datadir>
 	</extension>
   <extension point="xbmc.addon.metadata">
 	<summary>TV,Filmes,Series,Desenhos Online - Repositorio Oficial KelTec Media'Play</summary>
@@ -1326,49 +1301,6 @@ Toda a fonte  vem de utilizadores do Youtube.
         <license>GNU GENERAL PUBLIC LICENSE. Version 2.</license>
         <platform>all</platform>
     </extension>
-</addon>
-
-<addon id="plugin.video.KelTecTvPlay" name="KelTec Play Tv" version="1.0.0" provider-name="Team KelTec">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.requests" version="2.9.1"/>
-    <import addon="script.module.xmltodict" version="0.11.0"/>
-    <import addon="script.module.dateutil" version="2.8.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.repository" name="[B]KelTecMP Repo[/B]">
-	 <info compressed="false">https://raw.githubusercontent.com/keltecmp-repo/repo/master/addons.xml</info>
-	<checksum>https://raw.githubusercontent.com/keltecmp-repo/repo/master/addons.xml.md5</checksum>
-	<datadir zip="true">https://raw.githubusercontent.com/keltecmp-repo/repo/master/Plugins</datadir>
-	</extension>
-<extension point="xbmc.addon.metadata">
-	<summary lang="en">TV, Movies, Series, Drawings Online - KelTec Media'Play Official Repository</summary>
-	<summary lang="pt">TV,Filmes,Series,Desenhos Online - Repositorio Oficial KelTec Media'Play</summary>
-	<description lang="en">[COLOR orange] [B] KelTec Play Tv [/ B] [/ COLOR]
-	        [COLOR silver] The Add-on offers TV, Movies, Series, Online Drawings - KelTec Media'Play Official Repository, links that are fully functional and constantly
-updated NOTE: The creator of this Add-on does not host any content, we just reorganized, indexed it again, all content can be found on the internet with a simple search. [/ COLOR],</description>
-	<description lang="pt">TV,Filmes,Series,Desenhos Online - Repositorio Oficial KelTec Media'Play
-[COLOR darkorange][B]KelTec Play Tv[/B] [/COLOR]
-[COLOR silver]O Add-on oferece TV,Filmes,Series,Desenhos Online - Repositório Oficial KelTec Media'Play, links totalmente funcionais e constantemente
-atualizados OBS: O criador desse Add-on não hospeda nenhum conteúdo apenas reorganizamos, indexamos novamente, todo conteúdo pode ser encontrado na internet com busca simples.[/COLOR],</description>
-    <disclaimer lang="en">The author is in no way affiliated with Kodi, Team Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
-	<disclaimer lang="pt">[COLOR darkgrey][B] KelTec Play Tv[/B][/COLOR]
-[COLOR crimson]O  autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais; nao tem nenhuma afiliação com o provedor de conteúdo.[COLOR darkgrey][B] KelTec Play Tv[/B] [/COLOR]</disclaimer>
-    <language>en de</language>
-    <platform>all</platform>
-	<assets>
-       <icon>icon.gif</icon>
-       <fanart>fanart.jpg</fanart>
-    </assets>
-	<news>
-v1.0.0
-- Addon KelTec Play TV
-- Atualização de Repositório Oficial
-- Atualização das Imagens do Add-on Créditos César Prado "CV Prado"
-	</news>
-  </extension>
 </addon>
 
 <addon id="plugin.video.KINGBR" name="[B][COLOR white]KING-BR[/COLOR][/B]" version="1.2.5" provider-name="[B][COLOR yellow] EVERSON SANTOS[/B][/COLOR]">
@@ -2812,68 +2744,6 @@ provider-name="Lord Grey">
 <disclaimer></disclaimer>
 
 	</extension>
-</addon>
-
-<addon id="repositorio.magusplayrepo"
-name="Magusplay Repo"
-version="1.0.0"
-provider-name="Magusplay">
-
-	<requires>
-        <import addon="xbmc.addon" version="12.0.0"/>
-	</requires>
-
-    <extension point="xbmc.addon.repository" name="Nome Repository">
-
-	<dir>
-			<info compressed="false">https://raw.githubusercontent.com/magusplay/magusplayrepo/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/magusplay/magusplayrepo/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/magusplay/magusplayrepo/master</datadir>
-			<hashes>false</hashes>
-    </dir>
-
-	<dir minversion="17.0.0" maxversion="18.9.0">
-			<info compressed="false">https://raw.githubusercontent.com/magusplay/magusplayrepo/master/leia/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/magusplay/magusplayrepo/master/leia/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/magusplay/magusplayrepo/master/leia</datadir>
-			<hashes>false</hashes>
-    </dir>
-
-   <dir minversion="18.9.1">
-			<info compressed="false">https://raw.githubusercontent.com/magusplay/magusplayrepo/master/matrix/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/magusplay/magusplayrepo/master/matrix/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/magusplay/magusplayrepo/master/matrix</datadir>
-			<hashes>false</hashes>
-    </dir>
-
-	</extension>
-
-       <extension point="xbmc.addon.metadata">
-		<summary lang="pt_br"></summary>
-        <description lang="pt_br"></description>
-		<platform>all</platform>
-		<source>https://magusplay.github.io/magusplayrepo/</source>
-		 <assets>
-            <icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-        </assets>
-
-		<news>
-	[COLOR green]LOG DE CORREÇÔES[/COLOR]
-
-	[COLOR blue]*[/COLOR] V 1.00 - VErsão inciail Leia e Matrix
-	</news>
-
-	<summary>REPO Magusplay</summary>
-
-	<description>
-                    [B][COLOR red]Repositorio oficial Magusplay[/COLOR][/B]
-
-	</description>
-
-	<disclaimer></disclaimer>
-
-    </extension>
 </addon>
 
 <addon id="repository.alado.tv" name="[COLOR lime][B]Alado[/COLOR][COLOR gold] Repository[/B][/COLOR]" version="0.0.2" provider-name="[COLOR lime][B]ALADO[/B][/COLOR]">
