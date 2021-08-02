@@ -11,15 +11,13 @@ import xbmcaddon
 import xbmcvfs
 import sqlite3
 import base64
-import urllib.parse as urllib
+import urllib
 try:
     import json
 except:
     import simplejson as json
-   
-
-
-nome_contador = "OneX-1.1.2.Matrix"
+    
+nome_contador = "OneX-1.1.1"
 link_contador = "https://whos.amung.us/pingjs/?k=6gjsucgcje"
 db_host = 'https://raw.githubusercontent.com/zoreu/base_onex/main/base.txt'
 
@@ -28,22 +26,23 @@ addon = xbmcaddon.Addon()
 addonname = addon.getAddonInfo('name')
 icon = addon.getAddonInfo('icon')
 addon_version = addon.getAddonInfo('version')
-profile = xbmcvfs.translatePath(addon.getAddonInfo('profile'))
-home = xbmcvfs.translatePath(addon.getAddonInfo('path'))
+profile = xbmc.translatePath(addon.getAddonInfo('profile')).decode('utf-8')
+home = xbmc.translatePath(addon.getAddonInfo('path')).decode('utf-8')
 fanart_default = os.path.join(home, 'fanart.jpg')
 favorites = os.path.join(profile, 'favorites.dat')
+#path_lib = os.path.join(home, 'lib')
+#sys.path.insert(1, path_lib)  
 
 if os.path.exists(favorites)==True:
     FAV = open(favorites).read()
 else:
     FAV = []
 
-
 def notify(message,name=False,iconimage=False,timeShown=5000):
     if name and iconimage:
         xbmc.executebuiltin('Notification(%s, %s, %d, %s)' % (name, message, timeShown, iconimage))
     else:
-        xbmc.executebuiltin('Notification(%s, %s, %d, %s)' % (addonname, message, timeShown, icon))
+        xbmc.executebuiltin('Notification(%s, %s, %d, %s)' % (addonname, message, timeShown, icon))    
 
 
 def database_update(url):
@@ -63,7 +62,8 @@ def database_update(url):
         for r, d, f in os.walk(profile):
             for file in f:
                 if file.endswith(".db"):
-                    myfile.append(os.path.join(r, file))
+                    myfile.append(os.path.join(r, file))        
+        
         if not filename in str(myfile):
             for r, d, f in os.walk(profile):
                 for file in f:
@@ -187,8 +187,8 @@ def open_url(url,referer=False):
         return data
     except:
         try:
-            import urllib.request as urllib2
-            import http.cookiejar as cookielib
+            import urllib2
+            import cookielib
             cj = cookielib.CookieJar()
             opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
             if referer:
@@ -224,8 +224,16 @@ def pesquisar_filmes(name):
     rows = conection_sqlite(sql)
     if rows !=[]:
         for grupo,cover,search,name,link,subtitle,thumbnail,fanart,info in rows:
+            if subtitle == None:
+                subtitle = 'none'
+            if thumbnail == None:
+                thumbnail = 'none'
+            if fanart == None:
+                fanart = 'none'
+            if info == None:
+                info = 'none'                
             nome_negrito = '[B]'+name+'[/B]'
-            addDir(nome_negrito.encode('utf-8', 'ignore'),link.encode('utf-8'),20,str(subtitle),str(thumbnail),str(fanart),str(info).encode('utf-8', 'ignore'),'','',favorite=True)
+            addDir(nome_negrito.encode('utf-8', 'ignore'),link.encode('utf-8'),20,subtitle,thumbnail,fanart,info.encode('utf-8', 'ignore'),'','',favorite=True)
             
 
 def lancamento_filmes(name):
@@ -233,8 +241,16 @@ def lancamento_filmes(name):
     rows = conection_sqlite(sql)
     if rows !=[]:
         for grupo,cover,search,name,link,subtitle,thumbnail,fanart,info in rows:
+            if subtitle == None:
+                subtitle = 'none'
+            if thumbnail == None:
+                thumbnail = 'none'
+            if fanart == None:
+                fanart = 'none'
+            if info == None:
+                info = 'none' 
             nome_negrito = '[B]'+name+'[/B]'            
-            addDir(nome_negrito.encode('utf-8', 'ignore'),link.encode('utf-8'),20,str(subtitle),str(thumbnail),str(fanart),str(info).encode('utf-8', 'ignore'),'','',True,False,favorite=True)
+            addDir(nome_negrito.encode('utf-8', 'ignore'),link.encode('utf-8'),20,subtitle,thumbnail,fanart,info.encode('utf-8', 'ignore'),'','',True,False,favorite=True)
     xbmcplugin.setContent(addon_handle, 'movies')
     SetView('InfoWall')
     xbmcplugin.endOfDirectory(addon_handle)
@@ -246,10 +262,16 @@ def pesquisar_series(name):
     if rows !=[]:
         categorias = []
         for cat,cover,search,season,main_info,episode,link,subtitle,thumbnail,fanart,episode_info in rows:
-            if str(cat) not in categorias and not str(cat) == 'None':
-                categorias.append(str(cat))
-                nome_negrito = '[B]'+str(cat)+'[/B]'
-                addDir(nome_negrito.encode('utf-8', 'ignore'),'',4,'',str(cover),'',str(main_info).encode('utf-8', 'ignore'),str(cat).encode('utf-8', 'ignore'),'',favorite=True)
+            if cat == None:
+                cat = 'none'
+            if cover == None:
+                cover = 'none'
+            if main_info == None:
+                main_info = 'none'
+            if cat not in categorias and not cat == 'none':
+                categorias.append(cat)
+                nome_negrito = '[B]'+cat+'[/B]'
+                addDir(nome_negrito.encode('utf-8', 'ignore'),'',4,'',cover,'',main_info.encode('utf-8', 'ignore'),cat.encode('utf-8', 'ignore'),'',favorite=True)
     
 
 def pesquisar_animes(name):
@@ -258,10 +280,16 @@ def pesquisar_animes(name):
     if rows !=[]:
         categorias = []
         for cat,cover,search,season,main_info,episode,link,subtitle,thumbnail,fanart,episode_info in rows:
-            if str(cat) not in categorias and not str(cat) == 'None':
-                categorias.append(str(cat))
-                nome_negrito = '[B]'+str(cat)+'[/B]'
-                addDir(nome_negrito.encode('utf-8', 'ignore'),'',8,'',str(cover),'',str(main_info).encode('utf-8', 'ignore'),str(cat).encode('utf-8', 'ignore'),'',favorite=True)
+            if cat == None:
+                cat = 'none'
+            if cover == None:
+                cover = 'none'
+            if main_info == None:
+                main_info = 'none'
+            if cat not in categorias and not cat == 'none':
+                categorias.append(cat)
+                nome_negrito = '[B]'+cat+'[/B]'
+                addDir(nome_negrito.encode('utf-8', 'ignore'),'',8,'',cover,'',main_info.encode('utf-8', 'ignore'),cat.encode('utf-8', 'ignore'),'',favorite=True)
 
 
 def pesquisar_novelas(name):
@@ -270,10 +298,16 @@ def pesquisar_novelas(name):
     if rows !=[]:
         categorias = []
         for cat,cover,search,season,main_info,episode,link,subtitle,thumbnail,fanart,episode_info in rows:
-            if str(cat) not in categorias and not str(cat) == 'None':
-                categorias.append(str(cat))
-                nome_negrito = '[B]'+str(cat)+'[/B]'
-                addDir(nome_negrito.encode('utf-8', 'ignore'),'',11,'',str(cover),'',str(main_info).encode('utf-8', 'ignore'),str(cat).encode('utf-8', 'ignore'),'',favorite=True)
+            if cat == None:
+                cat = 'none'
+            if cover == None:
+                cover = 'none'
+            if main_info == None:
+                main_info = 'none'        
+            if cat not in categorias and not cat == 'none':
+                categorias.append(cat)
+                nome_negrito = '[B]'+cat+'[/B]'
+                addDir(nome_negrito.encode('utf-8', 'ignore'),'',11,'',cover,'',main_info.encode('utf-8', 'ignore'),cat.encode('utf-8', 'ignore'),'',favorite=True)
 
 
 def categorias_filmes():
@@ -283,24 +317,40 @@ def categorias_filmes():
     if rows !=[]:
         categorias = []
         lancamentos = '[B]Lançamentos '+str(ano)+'[/B]'
-        addDir(lancamentos.encode('utf-8', 'ignore'),'',19,'','','','',str(ano).encode('utf-8', 'ignore'),'')
-        for cat,cover,search,name,link,subtitle,thumbnail,fanart,info in rows:            
-            if str(cat) not in categorias and not str(cat) == 'None':
-                categorias.append(str(cat))
-                nome_negrito = '[B]'+str(cat)+'[/B]'
-                addDir(nome_negrito.encode('utf-8', 'ignore'),'',2,'',str(cover),'','',str(cat).encode('utf-8', 'ignore'),'')
+        addDir(str(lancamentos),'',19,'','','','',str(ano),'')
+        for cat,cover,search,name,link,subtitle,thumbnail,fanart,info in rows:
+            if cat == None:
+                cat = 'none'
+            if cover == None:
+                cover = 'none'            
+            if cat not in categorias:
+                categorias.append(cat)
+                nome_negrito = '[B]'+cat+'[/B]'
+                addDir(nome_negrito.encode('utf-8', 'ignore'),'',2,'',cover.encode('utf-8', 'ignore'),'','',cat.encode('utf-8', 'ignore'),'')
     SetView('WideList')
     xbmcplugin.endOfDirectory(addon_handle)
     
 
 def exibir_filmes(cat):
+    try:
+        cat = cat.decode('utf-8')
+    except:
+        pass
     sql = 'SELECT * FROM filmes ORDER BY name'
     rows = conection_sqlite(sql)
     if rows !=[]:
         for grupo,cover,search,name,link,subtitle,thumbnail,fanart,info in rows:
-            if str(grupo) == cat:
+            if subtitle == None:
+                subtitle = 'none'
+            if thumbnail == None:
+                thumbnail = 'none'
+            if fanart == None:
+                fanart = 'none'
+            if info == None:
+                info = 'none'
+            if grupo == cat:
                 nome_negrito = '[B]'+name+'[/B]'
-                addDir(nome_negrito.encode('utf-8', 'ignore'),link.encode('utf-8'),20,str(subtitle),str(thumbnail),str(fanart),str(info).encode('utf-8', 'ignore'),str(cat).encode('utf-8'),'',True,False,favorite=True)
+                addDir(nome_negrito.encode('utf-8', 'ignore'),link.encode('utf-8'),20,subtitle,thumbnail,fanart,info.encode('utf-8', 'ignore'),cat.encode('utf-8'),'',True,False,favorite=True)
     xbmcplugin.setContent(addon_handle, 'movies')
     SetView('InfoWall')
     xbmcplugin.endOfDirectory(addon_handle)
@@ -311,10 +361,16 @@ def categorias_series():
     if rows !=[]:
         categorias = []
         for cat,cover,search,season,main_info,episode,link,subtitle,thumbnail,fanart,episode_info in rows:
-            if str(cat) not in categorias and not str(cat) == 'None':
-                categorias.append(str(cat))
-                nome_negrito = '[B]'+str(cat)+'[/B]'
-                addDir(nome_negrito.encode('utf-8', 'ignore'),'',4,'',str(cover),'',str(main_info).encode('utf-8', 'ignore'),str(cat).encode('utf-8', 'ignore'),'',favorite=True)
+            if cat == None:
+                cat = 'none'
+            if cover == None:
+                cover = 'none'
+            if main_info == None:
+                main_info = 'none'
+            if cat not in categorias and not cat == 'none':
+                categorias.append(cat)
+                nome_negrito = '[B]'+cat+'[/B]'
+                addDir(nome_negrito.encode('utf-8', 'ignore'),'',4,'',cover,'',main_info.encode('utf-8', 'ignore'),cat.encode('utf-8', 'ignore'),'',favorite=True)
     xbmcplugin.setContent(addon_handle, 'movies')
     SetView('InfoWall')
     xbmcplugin.endOfDirectory(addon_handle)
@@ -326,10 +382,16 @@ def categorias_animes():
     if rows !=[]:
         categorias = []
         for cat,cover,search,season,main_info,episode,link,subtitle,thumbnail,fanart,episode_info in rows:
-            if str(cat) not in categorias and not str(cat) == 'None':
-                categorias.append(str(cat))
-                nome_negrito = '[B]'+str(cat)+'[/B]'
-                addDir(nome_negrito.encode('utf-8', 'ignore'),'',8,'',str(cover),'',str(main_info).encode('utf-8', 'ignore'),str(cat).encode('utf-8', 'ignore'),'',favorite=True)
+            if cat == None:
+                cat = 'none'
+            if cover == None:
+                cover = 'none'
+            if main_info == None:
+                main_info = 'none'
+            if cat not in categorias and not cat == 'none':
+                categorias.append(cat)
+                nome_negrito = '[B]'+cat+'[/B]'
+                addDir(nome_negrito.encode('utf-8', 'ignore'),'',8,'',cover,'',main_info.encode('utf-8', 'ignore'),cat.encode('utf-8', 'ignore'),'',favorite=True)
     xbmcplugin.setContent(addon_handle, 'movies')
     SetView('InfoWall')
     xbmcplugin.endOfDirectory(addon_handle)
@@ -340,88 +402,178 @@ def categorias_novelas():
     if rows !=[]:
         categorias = []
         for cat,cover,search,season,main_info,episode,link,subtitle,thumbnail,fanart,episode_info in rows:
-            if str(cat) not in categorias and not str(cat) == 'None':
-                categorias.append(str(cat))
-                nome_negrito = '[B]'+str(cat)+'[/B]'
-                addDir(nome_negrito.encode('utf-8', 'ignore'),'',11,'',str(cover),'',str(main_info).encode('utf-8', 'ignore'),str(cat).encode('utf-8', 'ignore'),'',favorite=True)
+            if cat == None:
+                cat = 'none'
+            if cover == None:
+                cover = 'none'
+            if main_info == None:
+                main_info = 'none'        
+            if cat not in categorias and not cat == 'none':
+                categorias.append(cat)
+                nome_negrito = '[B]'+cat+'[/B]'
+                addDir(nome_negrito.encode('utf-8', 'ignore'),'',11,'',cover,'',main_info.encode('utf-8', 'ignore'),cat.encode('utf-8', 'ignore'),'',favorite=True)
     xbmcplugin.setContent(addon_handle, 'movies')
     SetView('InfoWall')
     xbmcplugin.endOfDirectory(addon_handle)     
     
 def exibir_temporadas_series(cat):
+    try:
+        cat = cat.decode('utf-8')
+    except:
+        pass
     sql = 'SELECT * FROM series ORDER BY season'
     rows = conection_sqlite(sql)
     if rows !=[]:
         temporadas = []
         for grupo,cover,search,season,main_info,episode,link,subtitle,thumbnail,fanart,episode_info in rows:
-            if str(grupo) == cat and str(season) not in temporadas and not str(season) == 'None':
-                temporadas.append(str(season))
-                nome_negrito = '[B]'+str(season)+'[/B]'
-                addDir(nome_negrito.encode('utf-8', 'ignore'),'',5,'',str(cover),'',str(main_info).encode('utf-8', 'ignore'),str(cat).encode('utf-8', 'ignore'),str(season).encode('utf-8', 'ignore'))
+            if season == None:
+                season = 'none'
+            if cover == None:
+                cover = 'none'
+            if main_info == None:
+                main_info = 'none'                 
+            if grupo == cat and season not in temporadas and not season == 'none':
+                temporadas.append(season)
+                nome_negrito = '[B]'+season+'[/B]'
+                addDir(nome_negrito.encode('utf-8', 'ignore'),'',5,'',cover,'',main_info.encode('utf-8', 'ignore'),cat.encode('utf-8', 'ignore'),season.encode('utf-8', 'ignore'))
     xbmcplugin.setContent(addon_handle, 'movies')
     SetView('InfoWall')
     xbmcplugin.endOfDirectory(addon_handle)
     
 def exibir_temporadas_animes(cat):
+    try:
+        cat = cat.decode('utf-8')
+    except:
+        pass
     sql = 'SELECT * FROM animes ORDER BY season'
     rows = conection_sqlite(sql)
     if rows !=[]:
         temporadas = []
         for grupo,cover,search,season,main_info,episode,link,subtitle,thumbnail,fanart,episode_info in rows:
-            if str(grupo) == cat and str(season) not in temporadas and not str(season) == 'None':
-                temporadas.append(str(season))
-                nome_negrito = '[B]'+str(season)+'[/B]'
-                addDir(nome_negrito.encode('utf-8', 'ignore'),'',9,'',str(cover),'',str(main_info).encode('utf-8', 'ignore'),str(cat).encode('utf-8', 'ignore'),str(season).encode('utf-8', 'ignore'))
+            if season == None:
+                season = 'none'
+            if cover == None:
+                cover = 'none'
+            if main_info == None:
+                main_info = 'none'          
+            if grupo == cat and season not in temporadas and not season == 'none':
+                temporadas.append(season)
+                nome_negrito = '[B]'+season+'[/B]'
+                addDir(nome_negrito.encode('utf-8', 'ignore'),'',9,'',cover,'',main_info.encode('utf-8', 'ignore'),cat.encode('utf-8', 'ignore'),season.encode('utf-8', 'ignore'))
     xbmcplugin.setContent(addon_handle, 'movies')
     SetView('InfoWall')
     xbmcplugin.endOfDirectory(addon_handle)
 
 def exibir_temporadas_novelas(cat):
+    try:
+        cat = cat.decode('utf-8')
+    except:
+        pass
     sql = 'SELECT * FROM novelas ORDER BY season'
     rows = conection_sqlite(sql)
     if rows !=[]:
         temporadas = []
         for grupo,cover,search,season,main_info,episode,link,subtitle,thumbnail,fanart,episode_info in rows:
-            if str(grupo) == cat and str(season) not in temporadas and not str(season) == 'None':
-                temporadas.append(str(season))
-                nome_negrito = '[B]'+str(season)+'[/B]'
-                addDir(nome_negrito.encode('utf-8', 'ignore'),'',12,'',str(cover),'',str(main_info).encode('utf-8', 'ignore'),str(cat).encode('utf-8', 'ignore'),str(season).encode('utf-8', 'ignore'))
+            if season == None:
+                season = 'none'
+            if cover == None:
+                cover = 'none'
+            if main_info == None:
+                main_info = 'none'        
+            if grupo == cat and season not in temporadas and not season == 'none':
+                temporadas.append(season)
+                nome_negrito = '[B]'+season+'[/B]'
+                addDir(nome_negrito.encode('utf-8', 'ignore'),'',12,'',cover,'',main_info.encode('utf-8', 'ignore'),cat.encode('utf-8', 'ignore'),season.encode('utf-8', 'ignore'))
     xbmcplugin.setContent(addon_handle, 'movies')
     SetView('InfoWall')
     xbmcplugin.endOfDirectory(addon_handle)    
 
 def exibir_episodios_series(cat,season):
+    try:
+        cat = cat.decode('utf-8')
+    except:
+        pass
+    try:
+        season = season.decode('utf-8')
+    except:
+        pass        
     sql = 'SELECT * FROM series ORDER BY episode'
     rows = conection_sqlite(sql)
     if rows !=[]:
         for grupo,cover,search,temp,main_info,episode,link,subtitle,thumbnail,fanart,episode_info in rows:
-            if str(grupo) == cat and str(temp) == season and not str(temp) == 'None':
-                nome_negrito = '[B]'+str(episode)+'[/B]'
-                addDir(nome_negrito.encode('utf-8', 'ignore'),link.encode('utf-8'),20,str(subtitle),str(thumbnail),str(fanart),str(episode_info).encode('utf-8', 'ignore'),'','',True,False)
+            if temp == None:
+                temp = 'none'
+            if subtitle == None:
+                subtitle = 'none'
+            if thumbnail == None:
+                thumbnail = 'none'
+            if fanart == None:
+                fanart = 'none'
+            if episode_info == None:
+                episode_info = 'none'
+            if grupo == cat and temp == season and not temp == 'none':
+                nome_negrito = '[B]'+episode+'[/B]'
+                addDir(nome_negrito.encode('utf-8', 'ignore'),link.encode('utf-8'),20,subtitle,thumbnail,fanart,episode_info.encode('utf-8', 'ignore'),'','',True,False)
     xbmcplugin.setContent(addon_handle, 'movies')
     SetView('InfoWall')
     xbmcplugin.endOfDirectory(addon_handle)
 
 def exibir_episodios_animes(cat,season):
+    try:
+        cat = cat.decode('utf-8')
+    except:
+        pass
+    try:
+        season = season.decode('utf-8')
+    except:
+        pass 
     sql = 'SELECT * FROM animes ORDER BY episode'
     rows = conection_sqlite(sql)
     if rows !=[]:
         for grupo,cover,search,temp,main_info,episode,link,subtitle,thumbnail,fanart,episode_info in rows:
-            if str(grupo) == cat and str(temp) == season and not str(temp) == 'None':
-                nome_negrito = '[B]'+str(episode)+'[/B]'
-                addDir(nome_negrito.encode('utf-8', 'ignore'),link.encode('utf-8'),20,str(subtitle),str(thumbnail),str(fanart),str(episode_info).encode('utf-8', 'ignore'),'','',True,False)
+            if temp == None:
+                temp = 'none'
+            if subtitle == None:
+                subtitle = 'none'
+            if thumbnail == None:
+                thumbnail = 'none'
+            if fanart == None:
+                fanart = 'none'
+            if episode_info == None:
+                episode_info = 'none'        
+            if grupo == cat and temp == season and not temp == 'none':
+                nome_negrito = '[B]'+episode+'[/B]'
+                addDir(nome_negrito.encode('utf-8', 'ignore'),link.encode('utf-8'),20,subtitle,thumbnail,fanart,episode_info.encode('utf-8', 'ignore'),'','',True,False)
     xbmcplugin.setContent(addon_handle, 'movies')
     SetView('InfoWall')
     xbmcplugin.endOfDirectory(addon_handle)
 
 def exibir_episodios_novelas(cat,season):
+    try:
+        cat = cat.decode('utf-8')
+    except:
+        pass
+    try:
+        season = season.decode('utf-8')
+    except:
+        pass 
     sql = 'SELECT * FROM novelas ORDER BY episode'
     rows = conection_sqlite(sql)
     if rows !=[]:
         for grupo,cover,search,temp,main_info,episode,link,subtitle,thumbnail,fanart,episode_info in rows:
-            if str(grupo) == cat and str(temp) == season and not str(temp) == 'None':
+            if temp == None:
+                temp = 'none'
+            if subtitle == None:
+                subtitle = 'none'
+            if thumbnail == None:
+                thumbnail = 'none'
+            if fanart == None:
+                fanart = 'none'
+            if episode_info == None:
+                episode_info = 'none'         
+            if grupo == cat and temp == season and not temp == 'none':
                 nome_negrito = '[B]'+str(episode)+'[/B]'
-                addDir(nome_negrito.encode('utf-8', 'ignore'),link.encode('utf-8'),20,str(subtitle),str(thumbnail),str(fanart),str(episode_info).encode('utf-8', 'ignore'),'','',True,False)
+                addDir(nome_negrito.encode('utf-8', 'ignore'),link.encode('utf-8'),20,subtitle,thumbnail,fanart,episode_info.encode('utf-8', 'ignore'),'','',True,False)
     xbmcplugin.setContent(addon_handle, 'movies')
     SetView('InfoWall')
     xbmcplugin.endOfDirectory(addon_handle)     
@@ -431,7 +583,14 @@ def radios():
     rows = conection_sqlite(sql)
     if rows !=[]:
         for name,url,thumbnail,fanart,description in rows:
-            addDir(name.encode('utf-8', 'ignore'),url.encode('utf-8'),20,'',str(thumbnail),str(fanart),str(description).encode('utf-8', 'ignore'),'radios','',play=True,folder=False,favorite=True)
+            if thumbnail == None:
+                thumbnail = 'none'
+            if fanart == None:
+                fanart = 'none'
+            if description == None:
+                description = 'none'
+            if name !=None:
+                addDir(name.encode('utf-8', 'ignore'),url.encode('utf-8'),20,'',thumbnail,fanart,description.encode('utf-8', 'ignore'),'radios','',play=True,folder=False,favorite=True)
     xbmcplugin.setContent(addon_handle, 'movies')
     SetView('InfoWall')
     xbmcplugin.endOfDirectory(addon_handle) 
@@ -444,7 +603,7 @@ def base64decode(string):
 def play_video(name,url,iconimage,description,subtitle,play):
     #notify('Resolvendo url...',name,iconimage)
     url_resolved = str(resolve(url))
-    if url_resolved > '' and url_resolved !='None':
+    if url_resolved > '' and url_resolved !='None' and url_resolved !='none':
         if 'netcine' in url_resolved:
             url_final = url_resolved+'|Referer=https://p.netcine.biz/'
         else:
@@ -452,10 +611,11 @@ def play_video(name,url,iconimage,description,subtitle,play):
         if 'plugin://' in url_resolved:
             xbmc.executebuiltin('RunPlugin(' + url_resolved + ')')
         else:
-            li = xbmcgui.ListItem(name, path=url_final)
-            li.setArt({"icon": iconimage, "thumb": iconimage})
+            #li = xbmcgui.ListItem(name, path=url_final)
+            li = xbmcgui.ListItem(name, path=url_final, iconImage=iconimage, thumbnailImage=iconimage)
+            #li.setArt({"icon": iconimage, "thumb": iconimage})
             li.setInfo(type='video', infoLabels={'Title': name, 'plot': description })
-            if subtitle !='' and subtitle !=None and subtitle !='None':
+            if subtitle !='' and subtitle !=None and subtitle !='None' and subtitle !='none':
                 try:
                     subtitle = base64decode(subtitle)
                 except:
@@ -463,7 +623,7 @@ def play_video(name,url,iconimage,description,subtitle,play):
                 li.setSubtitles([subtitle])
             if play == 'True':
                 xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, li)
-            else:        
+            elif play == 'False':        
                 xbmc.Player().play(item=url_final, listitem=li)
     else:
         notify('Falha ao resolver url!',name,iconimage)
@@ -473,7 +633,7 @@ def netcine_resolve(url,LOG=False):
     data = open_url(url, 'https://p.netcine.biz/')
     if LOG:
         try:
-            f = open(xbmcvfs.translatePath(home+'/LOG-URLRESOLVE.txt'),'w')
+            f = open(xbmc.translatePath(home+'/LOG-URLRESOLVE.txt'),'w')
             f.write(data)
             f.close()
         except:
@@ -726,7 +886,11 @@ def resolve(url):
         
     try:
         if 'streamtape' in url:
-            resolved = streamtape(url)
+            result = streamtape(url)
+            if result > '':
+                resolved = result
+            else:
+                resolved = 'None'
         elif 'filmes.click' in url and 'index2.php' in url or 'filmes.click' in url and 'play2.php' in url:
             resolved = filmes_click(url)
         elif 'filmes.click' in url and '.mp4' in url:
@@ -806,6 +970,18 @@ def getFavorites():
                 cat = i[7]
                 season = i[8]
                 #play = i[9]
+                if subtitle == None:
+                    subtitle = 'none'
+                if iconimage == None:
+                    iconimage = 'none'
+                if fanArt == None:
+                    fanArt = 'none'
+                if description == None:
+                    description = 'none'
+                if season == None:
+                    season = 'none'
+                if cat == None:
+                    cat = 'none'
                 if mode == 20:
                     play = True
                     folder= False
@@ -818,8 +994,8 @@ def getFavorites():
                 #else:
                 #    play = False
                 #    folder = True
-                
-                addDir(name.encode('utf-8', 'ignore'),url.encode('utf-8'),mode,str(subtitle),str(iconimage),str(fanArt),str(description).encode('utf-8', 'ignore'),str(cat).encode('utf-8', 'ignore'),str(season).encode('utf-8', 'ignore'),play=play,folder=folder,favorite=True)
+                if name !=None:
+                    addDir(name.encode('utf-8', 'ignore'),url.encode('utf-8'),mode,subtitle,iconimage,fanArt,description.encode('utf-8', 'ignore'),cat.encode('utf-8', 'ignore'),season.encode('utf-8', 'ignore'),play=play,folder=folder,favorite=True)
             xbmcplugin.setContent(addon_handle, 'movies')
             SetView('InfoWall')
             xbmcplugin.endOfDirectory(addon_handle)
@@ -833,9 +1009,14 @@ def getFavorites():
 
 def addFavorite(name,url,mode,subtitle,iconimage,fanart,description,cat,season,play):
     favList = []
+    try:
+        # seems that after
+        name = name.encode('utf-8', 'ignore')
+    except:
+        pass    
     if os.path.exists(favorites)==False:
         addonID = xbmcaddon.Addon().getAddonInfo('id')
-        addon_data_path = xbmcvfs.translatePath(os.path.join('special://home/userdata/addon_data', addonID))
+        addon_data_path = xbmc.translatePath(os.path.join('special://home/userdata/addon_data', addonID))
         if os.path.exists(addon_data_path)==False:
             os.mkdir(addon_data_path)
         xbmc.sleep(7)
@@ -874,9 +1055,9 @@ def addDir(name,url,mode,subtitle,iconimage,fanart,description,cat,season,play=F
     u=sys.argv[0]+"?url="+urllib.quote_plus(url)+"&mode="+str(mode)+"&name="+urllib.quote_plus(name)+"&fanart="+urllib.quote_plus(fanart)+"&iconimage="+urllib.quote_plus(iconimage)+"&subtitle="+urllib.quote_plus(subtitle)+"&description="+urllib.quote_plus(description)+"&cat="+urllib.quote_plus(cat)+"&season="+urllib.quote_plus(season)+"&play="+urllib.quote_plus(str(play))       
     li=xbmcgui.ListItem(name)
     if folder:
-        li.setArt({"icon": "DefaultFolder.png", "thumb": iconimage})
+        li=xbmcgui.ListItem(name, iconImage="DefaultFolder.png", thumbnailImage=iconimage)
     else:
-        li.setArt({"icon": "DefaultVideo.png", "thumb": iconimage})
+        li=xbmcgui.ListItem(name, iconImage="DefaultVideo.png", thumbnailImage=iconimage)
     li.setInfo(type="Video", infoLabels={"Title": name, "Plot": description})
     if fanart > '':
         li.setProperty('fanart_image', fanart)
@@ -892,10 +1073,10 @@ def addDir(name,url,mode,subtitle,iconimage,fanart,description,cat,season,play=F
         try:
             contextMenu = []
             if name_fav in FAV:
-                contextMenu.append(('Remover da Minha lista','RunPlugin(%s?mode=14&name=%s)'%(sys.argv[0], urllib.quote_plus(name))))
+                contextMenu.append(('Remover da Minha lista','XBMC.RunPlugin(%s?mode=14&name=%s)'%(sys.argv[0], urllib.quote_plus(name))))
             else:
                 fav_params = ('%s?mode=13&name=%s&url=%s&subtitle=%s&iconimage=%s&fanart=%s&description=%s&cat=%s&season=%s&play=%s&fav_mode=%s'%(sys.argv[0], urllib.quote_plus(name), urllib.quote_plus(url), urllib.quote_plus(subtitle), urllib.quote_plus(iconimage), urllib.quote_plus(fanart), urllib.quote_plus(description), urllib.quote_plus(cat), urllib.quote_plus(season), urllib.quote_plus(str(play)), str(mode)))
-                contextMenu.append(('Adicionar a Minha Lista','RunPlugin(%s)' %fav_params))
+                contextMenu.append(('Adicionar a Minha Lista','XBMC.RunPlugin(%s)' %fav_params))
             li.addContextMenuItems(contextMenu)
         except:
             pass
@@ -904,7 +1085,7 @@ def addDir(name,url,mode,subtitle,iconimage,fanart,description,cat,season,play=F
 
 def contador():
     try:
-        import urllib.request as urllib2
+        import urllib2
         opener = urllib2.build_opener()
         opener.addheaders=[('Accept-Language', 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'),('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36'),('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'), ('Referer', nome_contador)]
         data = opener.open(link_contador).read()
@@ -1088,6 +1269,10 @@ def main():
             pass
         addFavorite(name,url,fav_mode,subtitle,iconimage,fanart,description,cat,season,play)        
     elif mode==14:
+        try:
+            name = name.decode('utf-8')
+        except:
+            pass
         try:
             name = name.split('\\ ')[1]
         except:

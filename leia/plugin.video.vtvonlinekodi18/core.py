@@ -1,1 +1,0 @@
-[{"url": "https://pastebin.com/raw/XWsxVXix", "fanart": ".\\fanart.jpg", "title": "CANAIS"}]

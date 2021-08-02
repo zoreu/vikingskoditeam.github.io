@@ -476,7 +476,7 @@ MUITO OBRIGADO, CREDTIOS:Joel Silva zoreu
 </extension>
 </addon>
 
-<addon id="plugin.video.conexao" name="[B][COLOR beige]CONE[B][COLOR aqua][B]X[/B][COLOR  beige][B]ÃO[/COLOR][COLOR aqua][B] PLAY[/COLOR][/B]" version="1.0.6+matrix.1" provider-name="[B][COLOR beige]Team[B][COLOR lime]:[/B] [B][COLOR beige]Cone[COLOR lime][B]x[/B][COLOR  beige][B]ão[/COLOR][COLOR blue]-[COLOR lime]Multi[COLOR blue]-[COLOR green]Addons[/COLOR][/B]">
+<addon id="plugin.video.conexao" name="[B][COLOR beige]CONE[B][COLOR aqua][B]X[/B][COLOR  beige][B]ÃO[/COLOR][COLOR aqua][B] PLAY[/COLOR][/B]" version="1.0.7+matrix.1" provider-name="[B][COLOR beige]Team[B][COLOR lime]:[/B] [B][COLOR beige]Cone[COLOR lime][B]x[/B][COLOR  beige][B]ão[/COLOR][COLOR blue]-[COLOR lime]Multi[COLOR blue]-[COLOR green]Addons[/COLOR][/B]">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
@@ -716,15 +716,15 @@ v1.1.0.matrix.1
 </extension>
 </addon>
 
-<addon id="plugin.video.KronosPlay.Matrix" name="[B][COLOR white]KronosPlay[/COLOR][/B]" version="4.0" provider-name="[B][COLOR white]KronosPlay[/COLOR][/B]">
+<addon id="plugin.video.KronosPlay.Matrix" name="[B][COLOR red]Kronos [COLOR white]Play[/COLOR][/COLOR][/B]" version="5.0" provider-name="[B][COLOR white]Team Kronos Play[/COLOR][/B]">
 <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.simplejson"/>
-	<import addon="script.module.kodi-six" />
+<import addon="xbmc.python" version="3.0.0"/>
+<import addon="script.module.requests"/>
+<import addon="script.module.simplejson"/>
+<import addon="script.module.kodi-six" />
 </requires>
 <extension point="xbmc.python.pluginsource" library="default.py">
-	<provides>video</provides>
+<provides>video</provides>
 </extension>
 <extension point="xbmc.addon.repository" name="Kronos Play Repository">
 <dir>
@@ -735,14 +735,17 @@ v1.1.0.matrix.1
 </dir>
 </extension>
 <extension point="xbmc.addon.metadata">
-	<summary></summary>
-	<description>[B][COLOR gold]●[/COLOR] [COLOR white]KronosPlay é um AGREGADOR de links, e como sites de pesquisa como google, apenas agrega e organiza os links externos. Não somos responsáveis pelos conteúdos aqui encontrados.[/COLOR][/B]</description>
-    <disclaimer>[B][COLOR white]SEJA BEM VINDO [COLOR gold]:)[/COLOR][/COLOR][/B]</disclaimer>
-    <platform>all</platform>
-	<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-    </assets>
+<summary></summary>
+<description>[B][COLOR gold]●[/COLOR] [COLOR white]KronosPlay é um AGREGADOR de links, e como sites de pesquisa como google, apenas agrega e organiza os links externos. Não somos responsáveis pelos conteúdos aqui encontrados.[/COLOR][/B]</description>
+<disclaimer>[B][COLOR white]SEJA BEM VINDO [COLOR gold]:)[/COLOR][/COLOR][/B]</disclaimer>
+<platform>all</platform>
+<assets>
+<icon>icon.png</icon>
+<fanart>fanart.jpg</fanart>
+</assets>
+<news>
+CORRIGIDO MENUS EM BRANCO
+</news>
 </extension>
 </addon>
 
@@ -913,7 +916,7 @@ v3.1.0.matrix.1
 </extension>
 </addon>
 
-<addon id="plugin.video.OneX.Matrix" name="[B]One[COLOR aquamarine]X[/COLOR][/B]" version="1.0.8" provider-name="Equipe OnePlay">
+<addon id="plugin.video.OneX.Matrix" name="[B]One[COLOR aquamarine]X[/COLOR][/B]" version="1.1.2" provider-name="Equipe OnePlay">
 <requires>
 	<import addon="xbmc.python" version="3.0.0"/>
 	<import addon="script.module.simplejson"/>
@@ -956,6 +959,8 @@ v1.0.7
 - suporte a novo site
 v1.0.8
 - suporte a novo site
+v1.0.9
+- correção
 	</news>
 </extension>
 </addon>
@@ -1317,7 +1322,7 @@ v1.0.0
 
 <addon id="plugin.video.vtvonline"
        name="[COLOR white][B]VTV [COLOR pink][B]Online[/B][/COLOR]"
-       version="3.0.6+matrix"
+       version="3.0.7+matrix"
        provider-name="RicardoJ">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
