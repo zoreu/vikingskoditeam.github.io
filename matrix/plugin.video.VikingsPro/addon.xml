@@ -2,7 +2,7 @@
 <addon 
 	id="plugin.video.VikingsPro" 
 	name="[B][COLOR yellow]  Vikings  [COLOR orange]Pro[/B][/COLOR]"
-	version="1.31+matrix" 
+	version="1.31.1+matrix" 
 	provider-name="[B][COLOR gold]Vikings TEAM[/B][/COLOR]">
 	 
  <requires>
