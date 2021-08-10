@@ -1220,6 +1220,33 @@ v1.00.matrix.1
 </extension>
 </addon>
 
+<addon
+	id="plugin.video.VikingsPro"
+	name="[B][COLOR yellow]  Vikings  [COLOR orange]Pro[/B][/COLOR]"
+	version="1.30+matrix"
+	provider-name="[B][COLOR gold]Vikings TEAM[/B][/COLOR]">
+
+ <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Vikings Pro</summary>
+    <description lang="en_GB">IPTV de Qualidade, a preço acessivel, para Todos!</description>
+    <language>en de</language>
+    <platform>all</platform>
+      <assets>
+        <icon>icon.png</icon>
+	</assets>
+  </extension>
+
+</addon>
+
 <addon id="plugin.video.visaolibertaria" name="[B]Visão Libertária[/B]" version="1.0.0" provider-name="zoreu">
 <requires>
 	<import addon="xbmc.python" version="3.0.0"/>
