@@ -1,0 +1,217 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Playlist Loader\n"
+"Report-Msgid-Bugs-To: https://github.com/avigdork/xbmc-avigdork/issues\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Me\n"
+"Language-Team: English (United Kingdom)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30001"
+msgid "Adicionar Nova Lista"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Selecione o Local da Lista de Reprodução"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Favoritos"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Informe um Nome Para a Lista"
+msgstr ""
+
+msgctxt "#30005"
+msgid "URL da Lista"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Escolha a Lista Para Reproduzir"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Ja Tem Um Endereco Igual"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Remover a Lista de Reproducao"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Adicionar Este a Minha Lista de Favoritos"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Remover da Minha Lista de Favoritos"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Ja Esta no Favoritos"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Adicionado aos Seus Favoritos"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Adiciona um Novo Canal"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Informe o Nome do Canal"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Informe a URL do Novo Canal"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Informe a URL da Nova Lista (URL)"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Local da Lista (File)"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Selecione a Fonte de Logotipos dos Canais"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Informe a URL Dos Logotipos dos Canais"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Informe a Pasta dos Logotipos dos Canais"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Nenhum"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Escolha o Logotipo da Lista"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Escolha o Logotipo do Canal"
+msgstr ""
+
+msgctxt "#30024"
+msgid "URL do Logotipo"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Logo do Arquivo"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Renomear"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Mudar a Fonte"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Mudar o Logo"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Alterar Fonte de Logotipos dos Canais"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Subir"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Descer"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Mover Para"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Selecione um Novo Local"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Selecione os Minutos Para Armazenar a Lista em Disco"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Alterar o Tempo de Cache da Lista"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Mostrar os Grupos das Listas de Canais"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Sim"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Nao"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Clique Para Mudar"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Adicionar Novo Diretorio"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Adicionar a Um Diretorio Existente"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Selecione um Icone para Este Diretorio ( opcional )"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Excluir o Diretorio e Seu Conteudo"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Excluir o Diretorio e Mover o Conteudo para a Raiz do Dispositvo"
+msgstr ""
+
+msgctxt "#30101"
+msgid "Excluis Listas de Reproducao"
+msgstr ""
+
+msgctxt "#30102"
+msgid "Excluir Conteudo dos Favoritos"
+msgstr ""
+
+msgctxt "#70002"
+msgid "Escolha a Forma como Pretende Utilizar Seu Vikings Pro"
+msgstr ""
+
+msgctxt "#70005"
+msgid "Coloque a Lista do Seu Painel Vikings Pro encurtado"
+msgstr ""
+
+msgctxt "#70006"
+msgid "Escolha uma Forma acessar Vikings Pro"
+msgstr ""
+
+msgctxt "#70016"
+msgid "Informe Abaixo a  URL Encurtada do Seu Vikings Pro (URL)"
+msgstr ""
+
+msgctxt "#70017"
+msgid "Informe Abaixo o Caminho de Sua Lista M3U Vikings Pro (M3U)"
+msgstr ""
