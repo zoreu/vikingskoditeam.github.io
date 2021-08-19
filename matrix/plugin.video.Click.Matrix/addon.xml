@@ -1,0 +1,30 @@
+<?xml version="3.0.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.Click.Matrix" name="[B][COLOR aquamarine]Click by Matrix[/B][/COLOR]" version="3.0.0+matrix" provider-name="Viko.Ok"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	<summary lang="pt">[COLOR lightgreen]Bem vindos ao Click![/COLOR]</summary>
+	<description lang="pt">[COLOR aquamarine]Addon Click é uma reformulação do Addon Reviva. Agora mais dinâmico, mais moderno. Bolinhas verdes ([B][COLOR lightgreen]●[/COLOR][/B]) encontradas junto ao título de algum filme, significam que esse possui link direto ao streaming, dando mais fluidez e estabilidade aos vídeos, sem a necessidade do plugin Elementum.[/COLOR]</description>
+	<disclaimer lang="pt">[COLOR aquamarine]Do mesmo autor do Addon REVIVA. O mesmo não é afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Todos os links são encontrados no Google, não podendo o autor dar os devidos créditos.[/COLOR]</disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/01.jpg</screenshot>
+<screenshot>resources/screenshots/02.jpg</screenshot>
+<screenshot>resources/screenshots/03.jpg</screenshot>
+    </assets>
+	<news>
+3.0.0 versão matrix - Kodi 19
+by Viko.Ok - autor do Addon REVIVA!
+</news>
+</extension>
+</addon>
+ddon>
