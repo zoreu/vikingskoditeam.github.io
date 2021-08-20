@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.Click18_9"
+       name="[B][COLOR aquamarine]Click 18.9[/B][/COLOR]"
+       version="1.0.0"
+       provider-name="by Viko.Ok">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" /> 
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+ <extension point="xbmc.addon.repository" name="Repositório Teste">
+	<info compressed="false">http://raw.github.com/zoreu/meuaddon/master/addons.xml</info>
+	<checksum>http://raw.github.com/zoreu/meuaddon/master/addons.xml.md5</checksum>
+	<datadir zip="true">http://raw.github.com/zoreu/meuaddon/master/zip/</datadir>
+  </extension>
+  
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR lightgreen]Bem vindos ao Click![/COLOR]</summary>
+    <description lang="en">[COLOR aquamarine]Addon Click é uma reformulação do Addon Reviva. Agora mais dinâmico, mais moderno, mais organizado. Bolinhas verdes ([B][COLOR lightgreen]●[/COLOR][/B]) encontradas junto ao título de algum filme, significam que esse possui link direto ao streaming, dando mais fluidez e estabilidade aos vídeos. Nos demais títulos é preciso do plugin Elementum.[/COLOR]</description>
+     <disclaimer lang="en">[COLOR aquamarine]Do mesmo autor do Addon REVIVA. O mesmo não é afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Todos os links são encontrados no Google, não podendo o autor dar os devidos créditos.[/COLOR]</disclaimer>
+	 	<news>V1.0.0 by Viko.Ok</news>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+       <screenshot>resources/screenshots/01.jpg</screenshot>
+       <screenshot>resources/screenshots/02.jpg</screenshot>
+       <screenshot>resources/screenshots/03.jpg</screenshot>
+    </assets>
+  </extension>
+</addon>
