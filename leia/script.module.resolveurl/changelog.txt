@@ -1,12 +1,15 @@
-Version 5.1.17 (December 07, 2020)
+Version 5.1.40 (Sep 04, 2021)
 - Code Base Changes:
-    - Regression error with PY2
+    - None
 
 - Resolvers Added:
     - None
  
 - Resolvers Fixed/Updated:
-    - None 
+    - CDA
+    - FEmbed
+    - Streamz
+    - UpVideo
 
 - Resolvers Removed
     - None
