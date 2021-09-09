@@ -588,33 +588,6 @@ v1.0.0.matrix.1
 
 </addon>
 
-<addon id="plugin.video.feracanais.matrix" name="[B][COLOR yellow]FERA CANAIS[/COLOR][/B]" version="1.0.0+matrix.1" provider-name="[B][COLOR red]Fera Canais[/COLOR][/B]">
-<requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.simplejson"/>
-	<import addon="script.module.kodi-six" />
-</requires>
-<extension point="xbmc.python.pluginsource" library="default.py">
-	<provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-	 <summary lang="en">[B][COLOR red]| [/COLOR][COLOR yellow]CANAIS DE TV AO VIVO[/COLOR][COLOR red]| [/COLOR][/B]</summary>
-    <description lang="en">[B][COLOR red] FERA CANAIS ADDON [/COLOR][/B][B][COLOR white] é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</description>
-    <disclaimer lang="en"></disclaimer>
-	<platform>all</platform>
-	<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.png</fanart>
-<screenshot>resources/screenshots/home.png</screenshot>
-<screenshot>resources/screenshots/movies.png</screenshot>
-<screenshot>resources/screenshots/series.png</screenshot>
-</assets>
-	<news>FERA CANAIS NOVA VERSÃO PARA KODI 19 - MATRIX !
-	</news>
-</extension>
-</addon>
-
 <addon id="plugin.video.freeddons.matrix" name="[COLOR white][B]FREEDDONS[/B][/COLOR]" version="3.0.0+matrix.1" provider-name="ALAN TURING">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -991,45 +964,6 @@ v1.0.8
 - suporte a novo site
 v1.0.9
 - correção
-	</news>
-</extension>
-</addon>
-
-<addon id="plugin.video.PlayCine.Matrix" name="[B][COLOR red]Play[/COLOR] [COLOR white]Cine[/COLOR][/B]" version="1.0.7+matrix.1" provider-name="Equipe OnePlay">
-<requires>
-	<import addon="xbmc.python" version="3.0.0"/>
-	<import addon="script.module.simplejson"/>
-</requires>
-<extension point="xbmc.python.pluginsource" library="main.py">
-	<provides>video</provides>
-</extension>
-<extension point="xbmc.addon.repository" name="[B][COLOR red]Play[/COLOR] [COLOR white]Cine[/COLOR][/B]">
-	<info compressed="false">https://github.com/OnePlayHD/OneRepo/raw/master/matrix/addons.xml</info>
-	<checksum>https://github.com/OnePlayHD/OneRepo/raw/master/matrix/addons.xml.md5</checksum>
-	<datadir zip="true">https://github.com/OnePlayHD/OneRepo/raw/master/matrix</datadir>
-	<hashes>false</hashes>
-</extension>
-<extension point="xbmc.addon.metadata">
-    <summary lang="pt_br">Play Cine para sua Familia.</summary>
-    <description lang="pt_br">Play Cine oferece as melhores séries e filmes e conta com Tv Ao vivo para você no seu kodi.</description>
-    <disclaimer lang="pt_br">PlayCine não hospeda os conteudos, todos os filmes e series são links agregados ao addon.</disclaimer>
-	<website>http://www.oneplayhd.com/</website>
-    <platform>all</platform>
-	<source>https://github.com/OnePlayHD/OneRepo/tree/master/matrix/plugin.video.PlayCine.Matrix</source>
-	<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-		<screenshot>resources/media/screenshot01.jpg</screenshot>
-		<screenshot>resources/media/screenshot02.jpg</screenshot>
-		<screenshot>resources/media/screenshot03.jpg</screenshot>
-    </assets>
-	<news>
-v1.0.5.matrix
-- Inauguração do PlayCine em Python 3
-v1.0.6.matrix.1
-- Adicionado Tv Ao vivo
-v1.0.7.matrix
-- Correção da codificação
 	</news>
 </extension>
 </addon>
