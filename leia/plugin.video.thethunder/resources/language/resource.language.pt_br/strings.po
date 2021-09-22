@@ -3,7 +3,7 @@
 # Addon Provider: Equipe Oneplay
 msgid ""
 msgstr ""
-"Project-Id-Version: The Crew\n"
+"Project-Id-Version: The Thunder\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2016-08-01 02:03+0000\n"
 "Last-Translator: lambda81\n"
@@ -24,7 +24,7 @@ msgstr "Series"
 
 msgctxt "#32004"
 msgid "Primiere"
-msgstr "Filmes Novos"
+msgstr "Novos Filmes"
 
 msgctxt "#32005"
 msgid "Trending"
@@ -60,7 +60,7 @@ msgstr "Pesquisar"
 
 msgctxt "#32013"
 msgid "Premiere"
-msgstr "Series Novas"
+msgstr "Novas Series"
 
 msgctxt "#32014"
 msgid "New Episodes"

@@ -24,7 +24,7 @@ msgstr "Series"
 
 msgctxt "#32004"
 msgid "Primiere"
-msgstr "Filmes Novos"
+msgstr "Novos Filmes"
 
 msgctxt "#32005"
 msgid "Trending"
@@ -60,7 +60,7 @@ msgstr "Pesquisar"
 
 msgctxt "#32013"
 msgid "Premiere"
-msgstr "Series Novas"
+msgstr "Novas Series"
 
 msgctxt "#32014"
 msgid "New Episodes"
