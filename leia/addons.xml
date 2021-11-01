@@ -1997,29 +1997,22 @@ Toda a fonte  vem de utilizadores do Youtube.
     </extension>
 </addon>
 
-<addon id="plugin.video.ricosaddon" name="[B]Canal Ricos[/B]" version="KDS2.1" provider-name="Kodish Team">
-  <requires>
-    	<trycatch>
-            <try>
-                <import addon="xbmc.python" version="3.0.0"/>
-            </try>
-
-            <catch>
-                <import addon="xbmc.python" version="2.24.0"/>
-            </catch>
-        </trycatch>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en"></summary>
-    <description lang="en">[B]Canal Ricos [/B] </description>
-    <platform>all</platform>
-	<assets>
-    <icon>icon.png</icon>
-    </assets>
-  </extension>
+<addon id="plugin.video.ricosaddon" name="[B]Canal Ricos[/B]" version="KDS2.2" provider-name="Kodish Team,Zoreu">
+	<requires>
+		<import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en">[B]Canal Ricos [/B] </description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
 </addon>
 
 <addon id="plugin.video.rodasemotores"
@@ -3405,7 +3398,7 @@ AMF3, the default serialization for ActionScript 3.0, provides various advantage
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.45" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.49" provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />

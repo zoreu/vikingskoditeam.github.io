@@ -1,14 +1,16 @@
-Version 5.1.45 (Oct 7, 2021)
+Version 5.1.49 (Oct 28, 2021)
 - Code Base Changes:
-    - Handle X.509 certificate alternate path error using certifi
+    - None
 
 - Resolvers Added:
-    - None
+    - videoo
  
 - Resolvers Fixed/Updated:
+    - fembed
     - streamingcommunity
-    - vidbom
-    - vidcloud9
+    - streamtape
+    - streamz
+    - youdbox
 
 - Resolvers Removed
     - None
