@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.ricosaddon" name="[B]Canal Ricos[/B]" version="KDS2.2" provider-name="Kodish Team,Zoreu">
+<addon id="plugin.video.ricosaddon" name="[B]Canal Ricos[/B]" version="2.2" provider-name="Kodish Team,Zoreu">
 	<requires>
 		<import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
