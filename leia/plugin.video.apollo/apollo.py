@@ -1,11 +1,4568 @@
-# encoded by Apollo
-# https://deus-apollo.ml
+# -*- coding: utf-8 -*-
+import urllib
+import urllib2
+import datetime
+import re
+import os
+import base64
+import codecs
+import xbmcplugin
+import xbmcgui
+import xbmcaddon
+import xbmcvfs
+import traceback
+import cookielib
+import time
+import xbmcgui
+import xbmc
+import xbmcplugin
+import webbrowser
+import os
+import xbmcaddon
+from BeautifulSoup import BeautifulStoneSoup , BeautifulSoup , BeautifulSOAP
+if 64 - 64: i11iIiiIii
+if 65 - 65: O0 / iIii1I11I1II1 % OoooooooOO - i1IIi
+o0OO00 = None
+try :
+ from xml . sax . saxutils import escape
+except : traceback . print_exc ( )
+if 78 - 78: i11i . oOooOoO0Oo0O
+try :
+ import json
+except :
+ import simplejson as json
+import SimpleDownloader as downloader
+import time
+import requests
+iI1 = False
+if 43 - 43: I11i11Ii
+if 65 - 65: i1iIi11iIIi1I
+Oo = "12.11.21"
+if 2 - 2: o0 * i1 * ii1IiI1i % OOooOOo / I11i / Ii1I
+if 48 - 48: iII111i % IiII + I1Ii111 / ooOoO0o * o00O0oo
+if 97 - 97: Ii1I - ii1IiI1i . I1Ii111 - OoooooooOO
+oO0o = 'aHR0cHM6Ly9hcG9sbG8tYXJxdWl2b3MubWwvQVBPTExPL0JBU0UtUFJJTkNJUEFML0Jhc2UtUHJpbmNpcGFsLmh0bWw='
+IIII = base64 . b64decode ( oO0o )
+if 59 - 59: i1IIi * i1IIi % I11i + i11i
+if 32 - 32: o0 . o00O0oo * i1IIi . ooOoO0o / I1Ii111
+o00 = "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x67\x69\x74\x6c\x61\x62\x2e\x63\x6f\x6d\x2f\x73\x69\x6c\x76\x61\x64\x65\x69\x76\x69\x73\x6f\x6e\x35\x36\x36\x2f\x67\x69\x74\x70\x6c\x61\x79\x2f\x2d\x2f\x72\x61\x77\x2f\x6d\x61\x73\x74\x65\x72\x2f\x52\x45\x47\x45\x58\x2e\x52\x45\x44"
+if 62 - 62: i11iIiiIii - i11i % ooOoO0o - iIii1I11I1II1 . ii1IiI1i . i11i
+if 61 - 61: OOooOOo / o0 / IiII * i1iIi11iIIi1I . i11i
+Ii1IIii11 = '[COLOR orange][B]->[/COLOR][/B][COLOR deepskyblue][B] BEM-VINDOS[/COLOR][/B]'
+if 55 - 55: iIii1I11I1II1 - oOooOoO0Oo0O . iII111i * I1Ii111 * i1IIi / iIii1I11I1II1
+if 79 - 79: OOooOOo + ooOoO0o . o00O0oo * I1Ii111 % Ii1I . oOooOoO0Oo0O
+if 94 - 94: IiII * iII111i / I1Ii111 . i1IIi * IiII
+iiiii11iII1 = '-> BAIXE E INSTALE!'
+if 54 - 54: o00O0oo . o00O0oo / iIii1I11I1II1 / Ii1I + OOooOOo / i1
+if 39 - 39: Ii1I / ooOoO0o . Ii1I - Ii1I
+if 68 - 68: I11i . oOooOoO0Oo0O / IiII
+if 72 - 72: i1iIi11iIIi1I / i1iIi11iIIi1I
+i111IiI = 'aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3LzJQTk4xUGpL'
+iIIIIiI = base64 . b64decode ( i111IiI )
+if 91 - 91: O0 / OOooOOo - IiII + I11i % i1IIi
+if 20 - 20: i1IIi
+if 48 - 48: i1iIi11iIIi1I . OoooooooOO - o0 % I11i / iII111i . iII111i
+if 11 - 11: o00O0oo / O0 - i1IIi
+if 85 - 85: I11i % ii1IiI1i * o00O0oo
+OO0O00OooO = 'aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L3BYR2gyckVu'
+OoooooOoo = base64 . b64decode ( OO0O00OooO )
+if 70 - 70: i1iIi11iIIi1I . i1iIi11iIIi1I - i1iIi11iIIi1I / ii1IiI1i * I11i
+if 86 - 86: i11iIiiIii + iII111i + o00O0oo * Ii1I + i1
+if 61 - 61: i1iIi11iIIi1I / i11iIiiIii
+IiIiIi = 'aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L1hDdDl6clRm'
+II = base64 . b64decode ( IiIiIi )
+if 14 - 14: I11i11Ii . oOooOoO0Oo0O / iII111i
+if 38 - 38: i11i % i11iIiiIii . o00O0oo - I11i + iII111i
+Ooooo0Oo00oO0 = 3000
+if 12 - 12: iIii1I11I1II1 * oOooOoO0Oo0O . o00O0oo % Ii1I + O0
+if 70 - 70: iII111i . OOooOOo * o00O0oo . iII111i
+if 35 - 35: i1 + IiII + IiII
+if 11 - 11: IiII - i1iIi11iIIi1I % o00O0oo % IiII / o0 - i1iIi11iIIi1I
+if 74 - 74: IiII * O0
+oOOo0oo = 'aHR0cHM6Ly91cmxwbGF5LmNvbS9OMHJkTEI='
+o0oo0o0O00OO = base64 . b64decode ( oOOo0oo )
+if 80 - 80: i1IIi
+if 70 - 70: o0 - i1
+if 43 - 43: Ii1I / i11i / OoooooooOO . i1 . iII111i
+if 19 - 19: Ii1I + o00O0oo
+ooo = 'ǭq�{���}���w���'
+if 18 - 18: i1
+if 28 - 28: I11i - I1Ii111 . I1Ii111 + o0 - OoooooooOO + O0
+if 95 - 95: i1iIi11iIIi1I % OOooOOo . O0
+I1i1I = 'TORRENT'
+oOO00oOO = 'https://i.imgur.com/OKPqt3k.png'
+OoOo = 'https://i.imgur.com/By1pLrx.jpg'
+if 18 - 18: i11iIiiIii
+Ii11I = 'aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L0JVYk5CWlFB'
+OOO0OOO00oo = base64 . b64decode ( Ii11I )
+if 31 - 31: i11i - I11i . ooOoO0o % o0 - O0
+iii11 = 'aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L0JVYk5CWlFB'
+O0oo0OO0oOOOo = base64 . b64decode ( iii11 )
+if 35 - 35: I1Ii111 % oOooOoO0Oo0O
+if 70 - 70: IiII * ii1IiI1i
+if 46 - 46: o00O0oo / i1iIi11iIIi1I
+if 52 - 52: i1 - OoooooooOO + iII111i + iII111i - i1 / ooOoO0o
+I1I = '[COLOR white]Selecione um item:[/COLOR]'
+if 24 - 24: ii1IiI1i
+o0Oo0O0Oo00oO = '[COLOR white]!!Download em execução!![/COLOR]'
+I11i1I1I = '!!Download [COLOR seablue]Audio!![/COLOR]'
+if 83 - 83: ii1IiI1i / o00O0oo
+if 49 - 49: i1
+if 35 - 35: o0 - OoooooooOO / ii1IiI1i % i1IIi
+o00OO00OoO = '[COLOR deepskyblue][B] CHECAR POR ATUALIZAÇÃO[/COLOR][/B]'
+OOOO0OOoO0O0 = 'https://i.imgur.com/22LSvnr.png'
+O0Oo000ooO00 = 'aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L2E5dE1DMEh1'
+oO0 = base64 . b64decode ( O0Oo000ooO00 )
+if 45 - 45: i11iIiiIii * i11i % iIii1I11I1II1 + ii1IiI1i - iII111i
+if 17 - 17: I1Ii111
+if 62 - 62: iIii1I11I1II1 * o0
+i1OOO = 'BEM-VINDOS'
+Oo0oOOo = 'aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L3F0NmhqV0VY'
+Oo0OoO00oOO0o = 'https://i.imgur.com/fHRcl7O.png'
+OOO00O = 'https://i.imgur.com/Y4QXRab.jpg'
+OOoOO0oo0ooO = base64 . b64decode ( Oo0oOOo )
+if 98 - 98: IiII * IiII / IiII + Ii1I
+if 34 - 34: o00O0oo
+if 15 - 15: Ii1I * o00O0oo * I11i11Ii % i11iIiiIii % o0 - I11i
+O0ooo0O0oo0 = '$texto='
+oo0oOo = 'orange'
+o000O0o = 'itens'
+if 42 - 42: o0
+if 41 - 41: I11i11Ii . o00O0oo + O0 * i1 % I11i11Ii * I11i11Ii
+__addon__ = xbmcaddon . Addon ( )
+__addonname__ = __addon__ . getAddonInfo ( 'name' )
+__icon__ = __addon__ . getAddonInfo ( 'icon' )
+if 19 - 19: IiII
+if 46 - 46: ii1IiI1i - iII111i . iIii1I11I1II1 / ii1IiI1i
+Ii1i = [ '180upload.com' , 'allmyvideos.net' , 'bestreams.net' , 'clicknupload.com' , 'cloudzilla.to' , 'movshare.net' , 'novamov.com' , 'nowvideo.sx' , 'videoweed.es' , 'daclips.in' , 'datemule.com' , 'fastvideo.in' , 'faststream.in' , 'filehoot.com' , 'filenuke.com' , 'sharesix.com' , 'docs.google.com' , 'plus.google.com' , 'picasaweb.google.com' , 'gorillavid.com' , 'gorillavid.in' , 'grifthost.com' , 'hugefiles.net' , 'ipithos.to' , 'ishared.eu' , 'kingfiles.net' , 'mail.ru' , 'my.mail.ru' , 'videoapi.my.mail.ru' , 'mightyupload.com' , 'mooshare.biz' , 'movdivx.com' , 'movpod.net' , 'movpod.in' , 'movreel.com' , 'mrfile.me' , 'nosvideo.com' , 'openload.io' , 'played.to' , 'bitshare.com' , 'filefactory.com' , 'k2s.cc' , 'oboom.com' , 'rapidgator.net' , 'uploaded.net' , 'primeshare.tv' , 'bitshare.com' , 'filefactory.com' , 'k2s.cc' , 'oboom.com' , 'rapidgator.net' , 'uploaded.net' , 'sharerepo.com' , 'stagevu.com' , 'streamcloud.eu' , 'streamin.to' , 'thefile.me' , 'thevideo.me' , 'tusfiles.net' , 'uploadc.com' , 'zalaa.com' , 'uploadrocket.net' , 'uptobox.com' , 'v-vids.com' , 'veehd.com' , 'vidbull.com' , 'videomega.tv' , 'vidplay.net' , 'vidspot.net' , 'vidto.me' , 'vidzi.tv' , 'vimeo.com' , 'vk.com' , 'vodlocker.com' , 'xfileload.com' , 'xvidstage.com' , 'zettahost.tv' ]
+I1 = [ 'plugin.video.dramasonline' , 'plugin.video.f4mTester' , 'plugin.video.shahidmbcnet' , 'plugin.video.SportsDevil' , 'plugin.stream.vaughnlive.tv' , 'plugin.video.ZemTV-shani' ]
+if 15 - 15: i11i
+class Ii ( urllib2 . HTTPErrorProcessor ) :
+ def http_response ( self , request , response ) :
+  return response
+ https_response = http_response
+ if 79 - 79: OoooooooOO / O0
+OO0OoO0o00 = False ;
+if OO0OoO0o00 :
+ if 53 - 53: O0 * i1iIi11iIIi1I + I11i
+ if 50 - 50: O0 . O0 - OOooOOo / oOooOoO0Oo0O - i1 * o0
+ try :
+  import pysrc . pydevd as pydevd
+  if 61 - 61: Ii1I
+  pydevd . settrace ( 'localhost' , stdoutToServer = True , stderrToServer = True )
+ except ImportError :
+  sys . stderr . write ( "Error: " +
+ "You must add org.python.pydev.debug.pysrc to your PYTHONPATH." )
+  sys . exit ( 1 )
+  if 86 - 86: Ii1I % o0 / oOooOoO0Oo0O / o0
+  if 42 - 42: i1iIi11iIIi1I
+o0o = xbmcaddon . Addon ( )
+o00OooOO000 = o0o . getAddonInfo ( 'version' )
+OOoOoo = xbmc . translatePath ( o0o . getAddonInfo ( 'profile' ) . decode ( 'utf-8' ) )
+oO0000OOo00 = xbmc . translatePath ( o0o . getAddonInfo ( 'path' ) . decode ( 'utf-8' ) )
+iiIi1IIiIi = os . path . join ( OOoOoo , 'favorites' )
+oOO00Oo = os . path . join ( OOoOoo , 'history' )
+if 6 - 6: OOooOOo
+oOOo0oOo0 = os . path . join ( OOoOoo , 'list_revision' )
+IIooooo = os . path . join ( oO0000OOo00 , 'icon.gif' )
+II1I = os . path . join ( oO0000OOo00 , 'icon_config.png' )
+O0i1II1Iiii1I11 = os . path . join ( oO0000OOo00 , 'favorites.png' )
+IIIIiiIiI = os . path . join ( oO0000OOo00 , 'fanart.jpg' )
+o00oooO0Oo = os . path . join ( OOoOoo , 'source_file' )
+o0O0OOO0Ooo = OOoOoo
+if 45 - 45: O0 / i1
+downloader = downloader . SimpleDownloader ( )
+i1IIIII11I1IiI = o0o . getSetting ( 'debug' )
+if os . path . exists ( iiIi1IIiIi ) == True :
+ i1I = open ( iiIi1IIiIi ) . read ( )
+else : i1I = [ ]
+if os . path . exists ( o00oooO0Oo ) == True :
+ OoOO = open ( o00oooO0Oo ) . read ( )
+else : OoOO = [ ]
+if 53 - 53: I11i11Ii
+if 29 - 29: ii1IiI1i + OOooOOo % O0
+def I1I11 ( url ) :
+ try :
+  import urllib . request as urllib2
+ except ImportError :
+  import urllib2
+ II1 = urllib2 . build_opener ( )
+ II1 . addheaders = [ ( 'User-Agent' , 'Mozilla/5.0' ) ]
+ if 70 - 70: ooOoO0o - I11i11Ii / iII111i
+ O00OOOOOoo0 = II1 . open ( url )
+ ii1 = O00OOOOOoo0 . read ( ) . decode ( 'utf-8' )
+ I1iI1iIi111i = ii1
+ return I1iI1iIi111i
+ if 44 - 44: i1IIi % i11i + Ii1I
+def I1I1I ( message , timeShown = 5000 ) :
+ xbmc . executebuiltin ( 'Notification(%s, %s, %d, %s)' % ( __addonname__ , message , timeShown , __icon__ ) )
+ if 95 - 95: i11i + i1 + IiII * iIii1I11I1II1 % OOooOOo / I1Ii111
+ if 56 - 56: IiII
+def oo0oO0oOOoo ( string ) :
+ if i1IIIII11I1IiI == 'true' :
+  if 51 - 51: I11i11Ii * i11iIiiIii
+  xbmc . log ( "[APOLLO-%s]: %s" % ( o00OooOO000 , string ) )
+  if 94 - 94: iII111i - i11i . I11i % Ii1I . i11iIiiIii + O0
+  if 26 - 26: Ii1I - iIii1I11I1II1 - oOooOoO0Oo0O / i1iIi11iIIi1I . o0 % iIii1I11I1II1
+  if 91 - 91: i1 . iIii1I11I1II1 / OOooOOo + i1IIi
+  if 42 - 42: o00O0oo . i1 . o00O0oo - ii1IiI1i
+def i1ii1I1I1 ( msg ) :
+ oO = o0o . getSetting ( 'suporte' )
+ if oO == 'true' :
+  oO0O0o0Oooo ( iiiii11iII1 , o0oo0o0O00OO , 44 , oOO00oOO , IIIIiiIiI , I1Ii1iI1 ( OoooooOoo ) , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' )
+  if 87 - 87: I11i11Ii . I1Ii111
+def O0OO0O ( msg ) :
+ xbmcgui . Dialog ( )
+ OO = xbmcgui . Dialog ( )
+ OoOoO = OO . select ( '[COLOR orange][B]PARA ASSISTIR FILMES EM 4K LINKS ABAIXO![/COLOR][/B]' , [ '[COLOR deepskyblue][B]BAIXAR[/COLOR][/B][COLOR orange][B] ELEMENTUM[/COLOR][/B]' , '[COLOR deepskyblue][B]BAIXAR[/COLOR][/B][COLOR orange][B] ELEMENTUM BURST[/COLOR][/B]' , '' ] )
+ if OoOoO == 0 :
+  if xbmc . getCondVisibility ( 'system.platform.android' ) :
+   xbmc . executebuiltin ( 'StartAndroidActivity(,android.intent.action.VIEW,,%s)' % ( 'https://github.com/elgatito/plugin.video.elementum/releases/download/v0.1.83/plugin.video.elementum-0.1.83.zip' ) )
+  else :
+   webbrowser . open ( 'https://github.com/elgatito/plugin.video.elementum/releases/download/v0.1.83/plugin.video.elementum-0.1.83.zip' )
+ if OoOoO == 1 :
+  if xbmc . getCondVisibility ( 'system.platform.android' ) :
+   xbmc . executebuiltin ( 'StartAndroidActivity(,android.intent.action.VIEW,,%s)' % ( 'https://github.com/elgatito/script.elementum.burst/releases/download/v0.0.70/script.elementum.burst-0.0.70.zip' ) )
+  else :
+   webbrowser . open ( 'https://github.com/elgatito/script.elementum.burst/releases/download/v0.0.70/script.elementum.burst-0.0.70.zip' )
+   if 43 - 43: i11iIiiIii + I11i11Ii * i11i * ooOoO0o * O0
+ if OoOoO == 5 :
+  xbmcaddon . Addon ( ) . openSettings ( )
+  if 64 - 64: I11i % iIii1I11I1II1 * OOooOOo
+  xbmc . executebuiltin ( "XBMC.Container.Refresh(%s?mode=None, replace)" % sys . argv [ 0 ] )
+  xbmcplugin . endOfDirectory ( int ( sys . argv [ 1 ] ) )
+  if 79 - 79: O0
+def oOO00O ( ) :
+ OOOoo0OO = o0o . getSetting ( 'username' )
+ oO0o0 = o0o . getSetting ( 'password' )
+ iI1Ii11iIiI1 = o0o . getSetting ( 'servidor' )
+ OO0Oooo0oOO0O = o0o . getSetting ( 'exibirTORRENT' )
+ o00O0 = o0o . getSetting ( 'saida' )
+ if OO0Oooo0oOO0O == 'true' :
+  if iI1Ii11iIiI1 == 'TORRENT' :
+   oOO0O00Oo0O0o = 'http://sv1.iptvcasa.online:25461/get.php?username=%s&password=%s&type=m3u_plus&output=%s' % ( OOOoo0OO , oO0o0 , o00O0 )
+   oO0O0o0Oooo ( I1i1I , oOO0O00Oo0O0o , 1 , oOO00oOO , OoOo , I1Ii1iI1 ( OOO0OOO00oo ) , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' )
+  if iI1Ii11iIiI1 == 'Nenhum' :
+   oO0O0o0Oooo ( I1i1I , '' , 42 , oOO00oOO , OoOo , I1Ii1iI1 ( OOO0OOO00oo ) , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' )
+ OOOoo0OO = o0o . getSetting ( 'username2' )
+ oO0o0 = o0o . getSetting ( 'password2' )
+ iI1Ii11iIiI1 = o0o . getSetting ( 'servidor2' )
+ OO0Oooo0oOO0O = o0o . getSetting ( 'exibirTORRENT2' )
+ o00O0 = o0o . getSetting ( 'saida2' )
+ if OO0Oooo0oOO0O == 'true' :
+  if iI1Ii11iIiI1 == 'TORRENT' :
+   oOO0O00Oo0O0o = 'http://cloudsteam.club:8080/get.php?username=%s&password=%s&type=m3u_plus&output=%s' % ( OOOoo0OO , oO0o0 , o00O0 )
+   oO0O0o0Oooo ( titulo_TORRENT2 , oOO0O00Oo0O0o , 1 , thumbnail_TORRENT2 , OoOo , I1Ii1iI1 ( OOO0OOO00oo ) , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' )
+  if iI1Ii11iIiI1 == 'Nenhum' :
+   oO0O0o0Oooo ( titulo_TORRENT2 , '' , 42 , thumbnail_TORRENT2 , fanart_TORRENT2 , I1Ii1iI1 ( OOO0OOO00oo ) , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' )
+   if 13 - 13: OoooooooOO
+def I111iI ( msg ) :
+ oOOo0 = o0o . getSetting ( 'mensagem1' )
+ if oOOo0 == 'true' :
+  OO = xbmcgui . Dialog ( )
+  OoOoO = OO . select ( '[COLOR orange][B]AJUDE O ADD-ON FAÇA SUA[/COLOR][/B][COLOR deepskyblue][B] DOAÇÃO[/COLOR][/B]' , [ '[COLOR deepskyblue][B]APOLLO ->[/COLOR][/B][COLOR orange][B] SEJA VIP [/COLOR][/B]' , '[COLOR deepskyblue][B]APOLLO ->[/COLOR][/B][COLOR orange][B] SITE OFICIAL![/COLOR][/B]' , '[COLOR deepskyblue][B]AJUDE ->[/COLOR][/B][COLOR orange][B] DOAÇÃO PELO[/COLOR][/B][COLOR lightcyan][B] PIC[/COLOR][/B][COLOR lime][B]PAY [/COLOR][/B]' , '[COLOR deepskyblue][B]AJUDE ->[/COLOR][/B][COLOR orange][B] DOAÇÃO PELO[/COLOR][/B][COLOR royalblue][B] PAY[/COLOR][/B][COLOR lightcyan][B]PAL [/COLOR][/B]' , '[COLOR deepskyblue][B]AJUDE ->[/COLOR][/B][COLOR orange][B] DOAÇÃO PELO[/COLOR][/B][COLOR blueviolet][B] NUBANK[/COLOR][/B]' , '[COLOR deepskyblue][B]AJUDE ->[/COLOR][/B][COLOR orange][B] DOAÇÃO PELO[/COLOR][/B][COLOR lightcyan][B] MERCADO[/COLOR][/B][COLOR dodgerblue][B]PAGO [/COLOR][/B]' , '[COLOR deepskyblue][B]APOLLO ->[/COLOR][/B][COLOR orange][B] GRUPO TELEGRAM[/COLOR][/B]' , '[COLOR deepskyblue][B]APOLLO ->[/COLOR][/B][COLOR orange][B] GRUPO FACEBOOK[/COLOR][/B]' , '[COLOR deepskyblue][B]ENTRAR NO[/COLOR][/B][COLOR orange][B] ADD-ON[/COLOR][/B]' ] )
+  if 16 - 16: OOooOOo % ii1IiI1i * i11iIiiIii % i11iIiiIii
+  if OoOoO == 0 :
+   if xbmc . getCondVisibility ( 'system.platform.android' ) :
+    xbmc . executebuiltin ( 'StartAndroidActivity(,android.intent.action.VIEW,,%s)' % ( 'https://bit.ly/3kntqYO_QUERO_SER_VIP' ) )
+   else :
+    webbrowser . open ( 'https://bit.ly/3kntqYO_QUERO_SER_VIP' )
+    if 65 - 65: iII111i - OOooOOo + OOooOOo + i11i
+    if 96 - 96: I11i % O0 / O0
+  if OoOoO == 1 :
+   if xbmc . getCondVisibility ( 'system.platform.android' ) :
+    xbmc . executebuiltin ( 'StartAndroidActivity(,android.intent.action.VIEW,,%s)' % ( 'http://deus-apollo.tk/' ) )
+   else :
+    webbrowser . open ( 'http://deus-apollo.tk/' )
+    if 44 - 44: OOooOOo / Ii1I / Ii1I
+    if 87 - 87: I11i11Ii . oOooOoO0Oo0O - i11i + O0 / I11i11Ii / OOooOOo
+  if OoOoO == 2 :
+   if xbmc . getCondVisibility ( 'system.platform.android' ) :
+    xbmc . executebuiltin ( 'StartAndroidActivity(,android.intent.action.VIEW,,%s)' % ( 'https://picpay.me/deus.apollo' ) )
+   else :
+    webbrowser . open ( 'https://picpay.me/deus.apollo' )
+    if 25 - 25: oOooOoO0Oo0O . oOooOoO0Oo0O - o0 % o0 - i11iIiiIii / ooOoO0o
+    if 51 - 51: I11i11Ii / o0 . I11i * i1 + i1iIi11iIIi1I * I1Ii111
+  if OoOoO == 3 :
+   if xbmc . getCondVisibility ( 'system.platform.android' ) :
+    xbmc . executebuiltin ( 'StartAndroidActivity(,android.intent.action.VIEW,,%s)' % ( 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=44A92DUKBAKAN&source=url' ) )
+   else :
+    webbrowser . open ( 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=44A92DUKBAKAN&source=url' )
+    if 73 - 73: i1iIi11iIIi1I + OoooooooOO - O0 - iII111i - i11i
+    if 99 - 99: o00O0oo . iII111i + ooOoO0o + OoooooooOO % i1
+  if OoOoO == 4 :
+   if xbmc . getCondVisibility ( 'system.platform.android' ) :
+    xbmc . executebuiltin ( 'StartAndroidActivity(,android.intent.action.VIEW,,%s)' % ( 'https://nubank.com.br/pagar/1djpv6/FJzleug9nF' ) )
+   else :
+    webbrowser . open ( 'https://nubank.com.br/pagar/1djpv6/FJzleug9nF' )
+    if 51 - 51: iIii1I11I1II1
+    if 34 - 34: OOooOOo + oOooOoO0Oo0O - OOooOOo
+  if OoOoO == 5 :
+   if xbmc . getCondVisibility ( 'system.platform.android' ) :
+    xbmc . executebuiltin ( 'StartAndroidActivity(,android.intent.action.VIEW,,%s)' % ( 'https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=203668628-f9a8d299-8b36-4cbd-84f4-0eb34ed0be11' ) )
+   else :
+    webbrowser . open ( 'https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=203668628-f9a8d299-8b36-4cbd-84f4-0eb34ed0be11' )
+    if 17 - 17: i11i % IiII + Ii1I - IiII / I11i + o00O0oo
+    if 59 - 59: I11i % o0 . iII111i * ii1IiI1i % Ii1I
+    if 59 - 59: OOooOOo - IiII
+  if OoOoO == 6 :
+   if xbmc . getCondVisibility ( 'system.platform.android' ) :
+    xbmc . executebuiltin ( 'StartAndroidActivity(,android.intent.action.VIEW,,%s)' % ( 'https://t.me/DeusApollo' ) )
+   else :
+    webbrowser . open ( 'https://t.me/DeusApollo' )
+    if 15 - 15: ooOoO0o . i11iIiiIii . OoooooooOO / i1iIi11iIIi1I % iII111i
+  if OoOoO == 7 :
+   if xbmc . getCondVisibility ( 'system.platform.android' ) :
+    xbmc . executebuiltin ( 'StartAndroidActivity(,android.intent.action.VIEW,,%s)' % ( 'www.facebook.com/groups/Deus.Apollo/' ) )
+   else :
+    webbrowser . open ( 'www.facebook.com/groups/Deus.Apollo/' )
+    if 93 - 93: O0 % i1IIi . I11i / oOooOoO0Oo0O - ooOoO0o / oOooOoO0Oo0O
+  if OoOoO == 9 :
+   xbmc . executebuiltin ( "XBMC.Container.Refresh('close()')" )
+   xbmcplugin . endOfDirectory ( int ( sys . argv [ 1 ] ) )
+   if 36 - 36: OOooOOo % OOooOOo % i1IIi / i1IIi - o00O0oo
+   if 30 - 30: Ii1I / oOooOoO0Oo0O
+  if OoOoO == 9 :
+   xbmc . executebuiltin ( "XBMC.Container.Refresh('close()')" )
+   xbmcplugin . endOfDirectory ( int ( sys . argv [ 1 ] ) )
+   if 35 - 35: i11i % I11i . o00O0oo + o00O0oo % i11i % i11i
+   if 72 - 72: i11i + i1IIi + i1
+def OOO ( url , ref , useragent = False ) :
+ try :
+  try :
+   import cookielib
+  except ImportError :
+   import http . cookiejar as cookielib
+  try :
+   import urllib2
+  except ImportError :
+   import urllib . request as urllib2
+  if ref > '' :
+   IIiI1i1i = ref
+  else :
+   IIiI1i1i = url
+  if useragent :
+   O00Oo0 = useragent
+  else :
+   O00Oo0 = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36'
+  IiII111i1i11 = cookielib . CookieJar ( )
+  II1 = urllib2 . build_opener ( urllib2 . HTTPCookieProcessor ( IiII111i1i11 ) )
+  II1 . addheaders = [ ( 'Accept-Language' , 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7' ) , ( 'User-Agent' , O00Oo0 ) , ( 'Accept' , 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' ) , ( 'Referer' , IIiI1i1i ) ]
+  ii1 = II1 . open ( url ) . read ( )
+  O00OOOOOoo0 = ii1 . decode ( 'utf-8' )
+  return O00OOOOOoo0
+ except urllib2 . URLError as i111iIi1i1II1 :
+  if hasattr ( i111iIi1i1II1 , 'code' ) :
+   xbmc . executebuiltin ( "XBMC.Notification(Falha, código de erro - " + str ( i111iIi1i1II1 . code ) + ",10000," + __icon__ + ")" )
+  elif hasattr ( i111iIi1i1II1 , 'reason' ) :
+   xbmc . executebuiltin ( "XBMC.Notification(Falha, motivo - " + str ( i111iIi1i1II1 . reason ) + ",10000," + __icon__ + ")" )
+   if 86 - 86: iIii1I11I1II1 / o0 . i11i
+  O00OOOOOoo0 = ''
+  return O00OOOOOoo0
+  if 19 - 19: ii1IiI1i % OoooooooOO % I1Ii111 * i1 % O0
+  if 67 - 67: oOooOoO0Oo0O . i1IIi
+def i1i1iI1iiiI ( channel ) :
+ try :
+  if 51 - 51: oOooOoO0Oo0O % ooOoO0o . OOooOOo / iIii1I11I1II1 / Ii1I . OOooOOo
+  IIIii11 = str ( channel )
+  iiIiIIIiiI = OOO ( o00 , '' ) . replace ( '\n' , '' ) . replace ( '\r' , '' )
+  iiI1IIIi = re . compile ( 'player="(.+?)".+?eferer="(.+?)".+?eferer_canal="(.+?)".+?ser_agent="(.+?)"' ) . findall ( iiIiIIIiiI )
+  II11IiIi11 = iiI1IIIi [ 0 ] [ 0 ] . replace ( '\n' , '' ) . replace ( '\r' , '' )
+  IIOOO0O00O0OOOO = iiI1IIIi [ 0 ] [ 1 ] . replace ( '\n' , '' ) . replace ( '\r' , '' )
+  I1iiii1I = iiI1IIIi [ 0 ] [ 2 ] . replace ( '\n' , '' ) . replace ( '\r' , '' )
+  OOo0 = iiI1IIIi [ 0 ] [ 3 ] . replace ( '\n' , '' ) . replace ( '\r' , '' )
+  ii1 = OOO ( str ( II11IiIi11 ) + IIIii11 , str ( IIOOO0O00O0OOOO ) + IIIii11 , OOo0 )
+  oO00ooooO0o = '|Referer=' + I1iiii1I + '&User-Agent=' + urllib . quote_plus ( OOo0 )
+  oo0o = re . compile ( 'source.+?"(.+?)"' , re . MULTILINE | re . DOTALL | re . IGNORECASE ) . findall ( ii1 ) [ 0 ] . replace ( '\n' , '' ) . replace ( '\r' , '' )
+  o0oO0oooOoo = oo0o + oO00ooooO0o
+  return o0oO0oooOoo
+ except :
+  o0oO0oooOoo = ''
+  return o0oO0oooOoo
+  if 7 - 7: ooOoO0o * i1iIi11iIIi1I - o00O0oo + I11i * oOooOoO0Oo0O % i1iIi11iIIi1I
+  if 15 - 15: o0 % oOooOoO0Oo0O * Ii1I
+def O0OoooO0 ( url ) :
+ ooo0O0o00O = url . replace ( 'streamtape.com/v/' , 'streamtape.com/e/' )
+ ii1 = OOO ( ooo0O0o00O , '' )
+ I1i11 = re . compile ( 'videolink.+?style="display:none;">(.*?)&token=' ) . findall ( ii1 )
+ IiIi1I1 = re . compile ( "<script>.+?token=(.*?)'.+?</script>" ) . findall ( ii1 )
+ if I1i11 != [ ] and IiIi1I1 != [ ] :
+  if 39 - 39: i11i + o0 - o00O0oo . o0
+  OoOoO = 'https:' + I1i11 [ 0 ] + '&token=' + IiIi1I1 [ 0 ]
+ else :
+  OoOoO = ''
+ return OoOoO
+ if 84 - 84: i1iIi11iIIi1I + i1IIi - i11i . ii1IiI1i * OoooooooOO + oOooOoO0Oo0O
+ if 38 - 38: I11i + i11i % o00O0oo % o0 - iII111i / OoooooooOO
+def oOOoo0000O0o0 ( msg ) :
+ oO0O0o0Oooo ( Ii1IIii11 , o0oo0o0O00OO , 1 , IIooooo , IIIIiiIiI , I1Ii1iI1 ( iIIIIiI ) , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' )
+ i1ii1I1I1 ( True )
+ oOO00O ( )
+ if 1 - 1: OOooOOo + OOooOOo % o0 + i11iIiiIii
+ oo0o0000 ( IIII , '' )
+ oO0O0o0Oooo ( o00OO00OoO , '' , 54 , OOOO0OOoO0O0 , IIIIiiIiI , I1Ii1iI1 ( oO0 ) , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' )
+ if 11 - 11: iIii1I11I1II1
+ IiIIII1i11I ( )
+ I111iI ( True )
+ if 86 - 86: I11i11Ii . O0 - OoooooooOO . i1iIi11iIIi1I + iII111i
+ xbmcplugin . endOfDirectory ( int ( sys . argv [ 1 ] ) )
+ if 57 - 57: i1 . i1IIi . I1Ii111 * i11iIiiIii + ooOoO0o . I1Ii111
+ if 57 - 57: ooOoO0o
+def I11Iiii1I ( msg ) :
+ try :
+  oo00O0oO0O0 = urllib2 . urlopen ( "https://github.com/Tiagotj/repo.apollo/raw/master/plugin.video.apollo/version.txt" ) . read ( ) . replace ( '' , '' ) . replace ( '\r' , '' )
+  oo00O0oO0O0 = re . compile ( '[a-zA-Z\.\d]+' ) . findall ( oo00O0oO0O0 ) [ 0 ]
+  if 96 - 96: i11iIiiIii % o00O0oo / o0
+  if oo00O0oO0O0 != Oo :
+   I1IiI11 ( )
+   if 9 - 9: Ii1I
+  elif msg == True :
+   if 64 - 64: iIii1I11I1II1 / oOooOoO0Oo0O . i11i + OoooooooOO . i1iIi11iIIi1I
+   I111iI ( True )
+   if 56 - 56: I11i11Ii . ii1IiI1i . oOooOoO0Oo0O
+ except urllib2 . URLError , i111iIi1i1II1 :
+  if msg == True :
+   xbmcgui . Dialog ( ) . ok ( 'Apollo' , "Não foi possível checar" )
+   if 39 - 39: O0 + ooOoO0o
+def OoOooOoO ( msg ) :
+ try :
+  oo00O0oO0O0 = urllib2 . urlopen ( "https://github.com/Tiagotj/repo.apollo/raw/master/plugin.video.apollo/version.txt" ) . read ( ) . replace ( '' , '' ) . replace ( '\r' , '' )
+  oo00O0oO0O0 = re . compile ( '[a-zA-Z\.\d]+' ) . findall ( oo00O0oO0O0 ) [ 0 ]
+  if 43 - 43: i11i . OOooOOo / ii1IiI1i
+  if oo00O0oO0O0 != Oo :
+   I1IiI11 ( )
+   if 20 - 20: oOooOoO0Oo0O
+  elif msg == True :
+   xbmcgui . Dialog ( ) . ok ( '[COLOR orange][B]APOLLO[/COLOR][/B]' , "[COLOR deepskyblue][B] O ADD-ON JÁ ESTÁ NA ÚLTIMA VERSÃO![/COLOR][/B][COLOR orange][B] 1.5.9[/COLOR][/B] " + Oo + "[COLOR deepskyblue][B] ATUALIZAÇÕES SÃO AUTOMÁTICAS SE NÃO ATUALIZA ENTRE NO SITE[/COLOR][/B][COLOR orange][B] http://deus-apollo.ml[/COLOR][/B]" )
+   if 95 - 95: IiII - oOooOoO0Oo0O
+ except urllib2 . URLError , i111iIi1i1II1 :
+  if msg == True :
+   xbmcgui . Dialog ( ) . ok ( 'Apollo' , "Não foi possível checar" )
+   if 34 - 34: o00O0oo * oOooOoO0Oo0O . i1IIi * o00O0oo / o00O0oo
+   if 30 - 30: ii1IiI1i + I11i11Ii / I11i11Ii % ii1IiI1i . ii1IiI1i
+def I1IiI11 ( ) :
+ O0O0Oo00 = xbmc . translatePath ( xbmcaddon . Addon ( ) . getAddonInfo ( 'path' ) ) . decode ( "utf-8" )
+ try :
+  oOoO00o = urllib2 . urlopen ( "https://github.com/Tiagotj/repo.apollo/raw/master/plugin.video.apollo/apollo.py" ) . read ( ) . replace ( '' , '' )
+  oO00O0 = re . compile ( 'checkintegrity' ) . findall ( oOoO00o )
+  if oO00O0 :
+   IIi1IIIi = os . path . join ( O0O0Oo00 , "apollo.py" )
+   file = open ( IIi1IIIi , "w" )
+   file . write ( oOoO00o )
+   file . close ( )
+  oOoO00o = urllib2 . urlopen ( "https://github.com/Tiagotj/repo.apollo/raw/master/plugin.video.apollo/resources/settings.xml" ) . read ( ) . replace ( '' , '' )
+  oO00O0 = re . compile ( '</settings>' ) . findall ( oOoO00o )
+  if oO00O0 :
+   IIi1IIIi = os . path . join ( O0O0Oo00 , "resources/settings.xml" )
+   file = open ( IIi1IIIi , "w" )
+   file . write ( oOoO00o )
+   file . close ( )
+  oOoO00o = urllib2 . urlopen ( "https://github.com/Tiagotj/repo.apollo/raw/master/plugin.video.apollo/addon.xml" ) . read ( ) . replace ( '' , '' )
+  oO00O0 = re . compile ( '</addon>' ) . findall ( oOoO00o )
+  if oO00O0 :
+   IIi1IIIi = os . path . join ( O0O0Oo00 , "addon.xml" )
+   file = open ( IIi1IIIi , "w" )
+   file . write ( oOoO00o )
+   file . close ( )
+  xbmcgui . Dialog ( ) . ok ( '[COLOR deepskyblue][B]APOLLO[/COLOR][/B]' , "OBS: ADD-ON ESTÁ DESATUALIZADO! CLIQUE EM OK PARA ELE SE ALTO ATUALIZAR! CASO O ADD-ON NÃO SE ATUALIZE FAÇA O DOWNLOAD NO SITE OFICIAL! [COLOR deepskyblue][B]->[/COLOR][/B][COLOR orange][COLOR orange][B] https://deus-apollo.ml[/COLOR][/B]" ) . xbmc . executebuiltin
+ except :
+  xbmc . executebuiltin ( "Notification({0}, {1}, 9000, {2})" . format ( __addonname__ , "[COLOR orange][B]Atualizando o addon. Por favor aguarde 5 segundos e Pode Continuar![/COLOR][/B]" , __icon__ ) )
+ xbmc . executebuiltin ( "XBMC.Container.Refresh()" )
+ xbmcplugin . endOfDirectory ( int ( sys . argv [ 1 ] ) )
+ if 99 - 99: iII111i + i1iIi11iIIi1I * i11i . i1 - ii1IiI1i
+OoOooOoO ( False )
+if 58 - 58: iII111i + i1 - oOooOoO0Oo0O
+def i1i1ii ( ) :
+ import platform
+ if platform . system ( ) == 'Linux' :
+  iII1ii1 = 'Android 9; Mobile; rv:68.0'
+ elif platform . system ( ) == 'Windows' :
+  iII1ii1 = 'Windows NT 6.1; WOW64; rv:54.0'
+ elif platform . system ( ) == 'IOS' :
+  iII1ii1 = 'iPhone; CPU iPhone OS 12_2 like Mac OS X'
+ else :
+  iII1ii1 = ''
+ I1i1iiiI1 = {
+ "Accept-Language" : "en-US,en;q=0.5" ,
+ "\x55\x73\x65\x72\x2d\x61\x67\x65\x6e\x74" : iII1ii1 ,
+ "Accept" : "text/html,application/xhtml+xml,application/xml;q=0.9,/;q=0.8" ,
+ "Referer" : "APOLLO 1.5.8" ,
+ "Connection" : "keep-alive"
+ }
+ iIIi = urllib2 . Request ( "https://whos.amung.us/pingjs/?k=c4302b" , headers = I1i1iiiI1 )
+ O00OOOOOoo0 = urllib2 . urlopen ( iIIi ) . read ( )
+ if 62 - 62: I11i11Ii - Ii1I
+ if 21 - 21: O0 % I1Ii111 . oOooOoO0Oo0O / i11i + I1Ii111
+ OOOO0O00o = 0
+ xbmc . sleep ( OOOO0O00o * 0 )
+i1i1ii ( )
+if 62 - 62: iIii1I11I1II1
+def i1II ( url , headers = None ) :
+ try :
+  if headers is None :
+   if 14 - 14: OOooOOo / OOooOOo % o00O0oo
+   headers = { 'User-agent' : 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0' }
+   headers = { 'User-agent' : '�}q�|{�\�~1�|{�\�}�ߜ{�\Ǯqߌ{�\�~q߼{�\�~�߬{�\ǭq߼{�\ǭ�ߌ{�\�~�߼{�\�}�ߌ{�\�1ߜ{�\�qߜ{�' }
+  ooO = urllib2 . Request ( url , None , headers )
+  O00OOOOOoo0 = urllib2 . urlopen ( ooO )
+  ii1 = O00OOOOOoo0 . read ( )
+  O00OOOOOoo0 . close ( )
+  return ii1
+ except urllib2 . URLError , i111iIi1i1II1 :
+  oo0oO0oOOoo ( 'URL: ' + url )
+  if hasattr ( i111iIi1i1II1 , 'code' ) :
+   oo0oO0oOOoo ( 'Falha com o código de erro - %s.' % i111iIi1i1II1 . code )
+   if 6 - 6: iIii1I11I1II1 . o00O0oo % i1
+   if 50 - 50: IiII + O0 + iII111i . i11i / i1
+   xbmc . executebuiltin ( "XBMC.Notification(Falha, código de erro - " + str ( i111iIi1i1II1 . code ) + ",10000," + IIooooo + ")" )
+  elif hasattr ( i111iIi1i1II1 , 'reason' ) :
+   oo0oO0oOOoo ( 'Falha ao acessar um servidor.' )
+   oo0oO0oOOoo ( 'Razão: %s' % i111iIi1i1II1 . reason )
+   if 17 - 17: iII111i % iIii1I11I1II1 - iIii1I11I1II1
+   xbmc . executebuiltin ( "XBMC.Notification(Falha, motivo - " + str ( i111iIi1i1II1 . reason ) + ",10000," + IIooooo + ")" )
+   if 78 - 78: IiII + Ii1I . o00O0oo - IiII . iII111i
+def I1Ii1iI1 ( url ) :
+ II1 = urllib2 . build_opener ( )
+ if 30 - 30: oOooOoO0Oo0O + i1iIi11iIIi1I % iII111i * IiII / I11i11Ii - Ii1I
+ II1 . addheaders = [ ( 'User-Agent' , ooo ) ]
+ O00OOOOOoo0 = II1 . open ( url )
+ oooiIi1i = O00OOOOOoo0 . read ( )
+ return oooiIi1i
+ if 27 - 27: I11i * o00O0oo . ooOoO0o % I1Ii111 * I1Ii111 . i1IIi
+ if 72 - 72: I11i % ii1IiI1i + i1iIi11iIIi1I / OOooOOo + I1Ii111
+def IiIIII1i11I ( ) :
+ I1I1i = o0o . getSetting ( 'mensagem2' )
+ if I1I1i == 'true' :
+  II1 = urllib2 . build_opener ( )
+  if 1 - 1: Ii1I % I11i + O0 + i1IIi - i1iIi11iIIi1I
+  II1 . addheaders = [ ( 'User-Agent' , ooo ) ]
+  if 22 - 22: oOooOoO0Oo0O % ii1IiI1i
+  O00OOOOOoo0 = II1 . open ( II )
+  o0oo0O = O00OOOOOoo0 . read ( )
+  if 13 - 13: i11iIiiIii + i1IIi * iIii1I11I1II1 % OoooooooOO - i11i * I11i
+  time = Ooooo0Oo00oO0
+  xbmc . executebuiltin ( 'Notification(%s, %s, %d, %s)' % ( __addonname__ , o0oo0O , time , __icon__ ) )
+  if 26 - 26: OoooooooOO * oOooOoO0Oo0O + I11i
+  if 24 - 24: i11iIiiIii % iIii1I11I1II1 + I11i / i11iIiiIii
+def OOooO0oo0o00o ( ) :
+ xbmc . executebuiltin ( "XBMC.Container.Refresh()" )
+ if 100 - 100: i1
+def I1IiI11iII1iiiiIII ( ) :
+ if os . path . exists ( iiIi1IIiIi ) == True :
+  oO0O0o0Oooo ( 'Favorites' , 'url' , 4 , os . path . join ( oO0000OOo00 , 'resources' , 'favorite.png' ) , IIIIiiIiI , '' , '' , '' , '' )
+ if o0o . getSetting ( "browse_xml_database" ) == "true" :
+  oO0O0o0Oooo ( 'XML Database' , 'http://xbmcplus.xb.funpic.de/www-data/filesystem/' , 15 , IIooooo , IIIIiiIiI , '' , '' , '' , '' )
+ if o0o . getSetting ( "browse_community" ) == "true" :
+  oO0O0o0Oooo ( 'Community Files' , 'community_files' , 16 , IIooooo , IIIIiiIiI , '' , '' , '' , '' )
+ if os . path . exists ( oOO00Oo ) == True :
+  oO0O0o0Oooo ( 'Search History' , 'history' , 25 , os . path . join ( oO0000OOo00 , 'resources' , 'favorite.png' ) , IIIIiiIiI , '' , '' , '' , '' )
+ if o0o . getSetting ( "searchyt" ) == "true" :
+  oO0O0o0Oooo ( 'Search:Youtube' , 'youtube' , 25 , IIooooo , IIIIiiIiI , '' , '' , '' , '' )
+ if o0o . getSetting ( "searchDM" ) == "true" :
+  oO0O0o0Oooo ( 'Search:dailymotion' , 'dmotion' , 25 , IIooooo , IIIIiiIiI , '' , '' , '' , '' )
+ if o0o . getSetting ( "PulsarM" ) == "true" :
+  oO0O0o0Oooo ( 'Pulsar:IMDB' , 'IMDBidplay' , 27 , IIooooo , IIIIiiIiI , '' , '' , '' , '' )
+  if os . path . exists ( o00oooO0Oo ) == True :
+   OOoOO0oo00Oo = json . loads ( open ( o00oooO0Oo , "r" ) . read ( ) )
+   if 50 - 50: o00O0oo - ooOoO0o * I1Ii111 . ii1IiI1i
+  if len ( OOoOO0oo00Oo ) > 1 :
+   for I11iiiii1II in OOoOO0oo00Oo :
+    if 51 - 51: O0 % OOooOOo - i11i
+    if isinstance ( I11iiiii1II , list ) :
+     oO0O0o0Oooo ( I11iiiii1II [ 0 ] . encode ( 'utf-8' ) , I11iiiii1II [ 1 ] . encode ( 'utf-8' ) , 1 , IIooooo , IIIIiiIiI , '' , '' , '' , '' , 'source' )
+    else :
+     I1II = IIooooo
+     Oo000ooOOO = IIIIiiIiI
+     Ii11i1I11i = ''
+     I11i1 = ''
+     credits = ''
+     iIiIIIIIii = ''
+     OOo0ii11I1 = ''
+     oO0oo = ''
+     Ii111iIi1iIi = ''
+     IIIII = ''
+     o0ooOoO000oO = ''
+     OOo = ''
+     i1i11I1I1iii1 = ''
+     I1iii11 = ''
+     ooo0O = ''
+     iII1iii = ''
+     i11i1iiiII = ''
+     if I11iiiii1II . has_key ( 'thumbnail' ) :
+      I1II = I11iiiii1II [ 'thumbnail' ]
+     if I11iiiii1II . has_key ( 'fanart' ) :
+      Oo000ooOOO = I11iiiii1II [ 'fanart' ]
+     if I11iiiii1II . has_key ( 'description' ) :
+      Ii11i1I11i = I11iiiii1II [ 'description' ]
+     if I11iiiii1II . has_key ( 'date' ) :
+      I11i1 = I11iiiii1II [ 'date' ]
+     if I11iiiii1II . has_key ( 'genre' ) :
+      ooOO0oO0oo00o = I11iiiii1II [ 'genre' ]
+     if I11iiiii1II . has_key ( 'credits' ) :
+      credits = I11iiiii1II [ 'credits' ]
+     if I11iiiii1II . has_key ( 'year' ) :
+      iIiIIIIIii = I11iiiii1II [ 'year' ]
+     if I11iiiii1II . has_key ( 'director' ) :
+      OOo0ii11I1 = I11iiiii1II [ 'director' ]
+     if I11iiiii1II . has_key ( 'duration' ) :
+      oO0oo = I11iiiii1II [ 'duration' ]
+     if I11iiiii1II . has_key ( 'premiered' ) :
+      Ii111iIi1iIi = I11iiiii1II [ 'premiered' ]
+     if I11iiiii1II . has_key ( 'studio' ) :
+      IIIII = I11iiiii1II [ 'studio' ]
+     if I11iiiii1II . has_key ( 'rate' ) :
+      o0ooOoO000oO = I11iiiii1II [ 'rate' ]
+     if I11iiiii1II . has_key ( 'originaltitle' ) :
+      OOo = I11iiiii1II [ 'originaltitle' ]
+     if I11iiiii1II . has_key ( 'country' ) :
+      i1i11I1I1iii1 = I11iiiii1II [ 'country' ]
+     if I11iiiii1II . has_key ( 'rating' ) :
+      I1iii11 = I11iiiii1II [ 'rating' ]
+     if I11iiiii1II . has_key ( 'userrating' ) :
+      ooo0O = I11iiiii1II [ 'userrating' ]
+     if I11iiiii1II . has_key ( 'votes' ) :
+      iII1iii = I11iiiii1II [ 'votes' ]
+     if I11iiiii1II . has_key ( 'aired' ) :
+      i11i1iiiII = I11iiiii1II [ 'aired' ]
+     oO0O0o0Oooo ( I11iiiii1II [ 'title' ] . encode ( 'utf-8' ) , I11iiiii1II [ 'url' ] . encode ( 'utf-8' ) , 1 , I1II , Oo000ooOOO , Ii11i1I11i , ooOO0oO0oo00o , I11i1 , credits , iIiIIIIIii , OOo0ii11I1 , oO0oo , Ii111iIi1iIi , IIIII , o0ooOoO000oO , OOo , i1i11I1I1iii1 , I1iii11 , ooo0O , iII1iii , i11i1iiiII , 'source' )
+     if 83 - 83: OOooOOo - i11i - IiII
+  else :
+   if len ( OOoOO0oo00Oo ) == 1 :
+    if isinstance ( OOoOO0oo00Oo [ 0 ] , list ) :
+     oo0o0000 ( OOoOO0oo00Oo [ 0 ] [ 1 ] . encode ( 'utf-8' ) , IIIIiiIiI )
+    else :
+     oo0o0000 ( OOoOO0oo00Oo [ 0 ] [ 'url' ] , OOoOO0oo00Oo [ 0 ] [ 'fanart' ] )
+     if 3 - 3: ooOoO0o
+     if 45 - 45: ooOoO0o
+def oOIIi1iiii1iI ( url = None ) :
+ if url is None :
+  if not o0o . getSetting ( "new_file_source" ) == "" :
+   iIiiii = o0o . getSetting ( 'new_file_source' ) . decode ( 'utf-8' )
+  elif not o0o . getSetting ( "new_url_source" ) == "" :
+   iIiiii = o0o . getSetting ( 'new_url_source' ) . decode ( 'utf-8' )
+ else :
+  iIiiii = url
+ if iIiiii == '' or iIiiii is None :
+  return
+ oo0oO0oOOoo ( 'Adding New Source: ' + iIiiii . encode ( 'utf-8' ) )
+ if 89 - 89: IiII - o00O0oo % I11i11Ii % i1
+ IIiii11i = None
+ if 100 - 100: o00O0oo % iIii1I11I1II1 * i11i - IiII
+ ii1 = oo00O00oO000o ( iIiiii )
+ print 'source_url' , iIiiii
+ if isinstance ( ii1 , BeautifulSOAP ) :
+  if ii1 . find ( 'channels_info' ) :
+   IIiii11i = ii1 . channels_info
+  elif ii1 . find ( 'items_info' ) :
+   IIiii11i = ii1 . items_info
+ if IIiii11i :
+  OOo00OoO = { }
+  OOo00OoO [ 'url' ] = iIiiii
+  try : OOo00OoO [ 'title' ] = IIiii11i . title . string
+  except : pass
+  try : OOo00OoO [ 'thumbnail' ] = IIiii11i . thumbnail . string
+  except : pass
+  try : OOo00OoO [ 'fanart' ] = IIiii11i . fanart . string
+  except : pass
+  try : OOo00OoO [ 'genre' ] = IIiii11i . genre . string
+  except : pass
+  try : OOo00OoO [ 'description' ] = IIiii11i . description . string
+  except : pass
+  try : OOo00OoO [ 'date' ] = IIiii11i . date . string
+  except : pass
+  try : OOo00OoO [ 'credits' ] = IIiii11i . credits . string
+  except : pass
+  try : OOo00OoO [ 'year' ] = IIiii11i . year . string
+  except : pass
+  try : OOo00OoO [ 'director' ] = IIiii11i . director . string
+  except : pass
+  try : OOo00OoO [ 'premiered' ] = IIiii11i . premiered . string
+  except : pass
+  try : OOo00OoO [ 'studio' ] = IIiii11i . studio . string
+  except : pass
+  try : OOo00OoO [ 'rate' ] = IIiii11i . rate . string
+  except : pass
+  try : OOo00OoO [ 'originaltitle' ] = IIiii11i . originaltitle . string
+  except : pass
+  try : OOo00OoO [ 'country' ] = IIiii11i . country . string
+  except : pass
+  try : OOo00OoO [ 'rating' ] = IIiii11i . rating . string
+  except : pass
+  try : OOo00OoO [ 'userrating' ] = IIiii11i . userrating . string
+  except : pass
+  try : OOo00OoO [ 'votes' ] = IIiii11i . votes . string
+  except : pass
+  try : OOo00OoO [ 'aired' ] = IIiii11i . aired . string
+  except : pass
+ else :
+  if '/' in iIiiii :
+   iIi1 = iIiiii . split ( '/' ) [ - 1 ] . split ( '.' ) [ 0 ]
+  if '\\' in iIiiii :
+   iIi1 = iIiiii . split ( '\\' ) [ - 1 ] . split ( '.' ) [ 0 ]
+  if '%' in iIi1 :
+   iIi1 = urllib . unquote_plus ( iIi1 )
+  i11iiI1111 = xbmc . Keyboard ( iIi1 , 'Displayed Name, Rename?' )
+  i11iiI1111 . doModal ( )
+  if ( i11iiI1111 . isConfirmed ( ) == False ) :
+   return
+  oOoooo000Oo00 = i11iiI1111 . getText ( )
+  if len ( oOoooo000Oo00 ) == 0 :
+   return
+  OOo00OoO = { }
+  OOo00OoO [ 'title' ] = oOoooo000Oo00
+  OOo00OoO [ 'url' ] = iIiiii
+  OOo00OoO [ 'fanart' ] = Oo000ooOOO
+  if 93 - 93: ii1IiI1i / oOooOoO0Oo0O / iIii1I11I1II1 % ooOoO0o % ooOoO0o
+ if os . path . exists ( o00oooO0Oo ) == False :
+  IiI11iI1i1i1i = [ ]
+  IiI11iI1i1i1i . append ( OOo00OoO )
+  oO0Ooooooo = open ( o00oooO0Oo , "w" )
+  oO0Ooooooo . write ( json . dumps ( IiI11iI1i1i1i ) )
+  oO0Ooooooo . close ( )
+ else :
+  OOoOO0oo00Oo = json . loads ( open ( o00oooO0Oo , "r" ) . read ( ) )
+  OOoOO0oo00Oo . append ( OOo00OoO )
+  oO0Ooooooo = open ( o00oooO0Oo , "w" )
+  oO0Ooooooo . write ( json . dumps ( OOoOO0oo00Oo ) )
+  oO0Ooooooo . close ( )
+ o0o . setSetting ( 'new_url_source' , "" )
+ o0o . setSetting ( 'new_file_source' , "" )
+ if 39 - 39: I1Ii111 * I11i11Ii + iIii1I11I1II1 - I1Ii111 + I11i
+ xbmc . executebuiltin ( "XBMC.Notification(New source added.,5000," + IIooooo + ")" )
+ if not url is None :
+  if 'xbmcplus.xb.funpic.de' in url :
+   xbmc . executebuiltin ( "XBMC.Container.Update(%s?mode=14,replace)" % sys . argv [ 0 ] )
+  elif 'community-links' in url :
+   xbmc . executebuiltin ( "XBMC.Container.Update(%s?mode=10,replace)" % sys . argv [ 0 ] )
+ else : o0o . openSettings ( )
+ if 69 - 69: O0
+ if 85 - 85: o00O0oo / O0
+def iI1iIIIi1i ( name ) :
+ OOoOO0oo00Oo = json . loads ( open ( o00oooO0Oo , "r" ) . read ( ) )
+ for oooOooooO0oOO in range ( len ( OOoOO0oo00Oo ) ) :
+  if isinstance ( OOoOO0oo00Oo [ oooOooooO0oOO ] , list ) :
+   if OOoOO0oo00Oo [ oooOooooO0oOO ] [ 0 ] == name :
+    del OOoOO0oo00Oo [ oooOooooO0oOO ]
+    oO0Ooooooo = open ( o00oooO0Oo , "w" )
+    oO0Ooooooo . write ( json . dumps ( OOoOO0oo00Oo ) )
+    oO0Ooooooo . close ( )
+    break
+  else :
+   if OOoOO0oo00Oo [ oooOooooO0oOO ] [ 'title' ] == name :
+    del OOoOO0oo00Oo [ oooOooooO0oOO ]
+    oO0Ooooooo = open ( o00oooO0Oo , "w" )
+    oO0Ooooooo . write ( json . dumps ( OOoOO0oo00Oo ) )
+    oO0Ooooooo . close ( )
+    break
+ xbmc . executebuiltin ( "XBMC.Container.Refresh" )
+ if 30 - 30: OoooooooOO - OoooooooOO . O0 / IiII
+ if 31 - 31: I11i + i1 . OoooooooOO
+ if 89 - 89: i11i + i1IIi + i11i
+def IiII1II11I ( url , browse = False ) :
+ if url is None :
+  url = 'http://xbmcplus.xb.funpic.de/www-data/filesystem/'
+ O0Oo00O = BeautifulSoup ( i1II ( url ) , convertEntities = BeautifulSoup . HTML_ENTITIES )
+ for I11iiiii1II in O0Oo00O ( 'a' ) :
+  OOo0o000oO = I11iiiii1II [ 'href' ]
+  if not OOo0o000oO . startswith ( '?' ) :
+   oO0o00oOOooO0 = I11iiiii1II . string
+   if oO0o00oOOooO0 not in [ 'Parent Directory' , 'recycle_bin/' ] :
+    if OOo0o000oO . endswith ( '/' ) :
+     if browse :
+      oO0O0o0Oooo ( oO0o00oOOooO0 , url + OOo0o000oO , 15 , IIooooo , Oo000ooOOO , '' , '' , '' )
+     else :
+      oO0O0o0Oooo ( oO0o00oOOooO0 , url + OOo0o000oO , 14 , IIooooo , Oo000ooOOO , '' , '' , '' )
+    elif OOo0o000oO . endswith ( '.xml' ) :
+     if browse :
+      oO0O0o0Oooo ( oO0o00oOOooO0 , url + OOo0o000oO , 1 , IIooooo , Oo000ooOOO , '' , '' , '' , '' , 'download' )
+     else :
+      if os . path . exists ( o00oooO0Oo ) == True :
+       if oO0o00oOOooO0 in OoOO :
+        oO0O0o0Oooo ( oO0o00oOOooO0 + ' (in use)' , url + OOo0o000oO , 11 , IIooooo , Oo000ooOOO , '' , '' , '' , '' , 'download' )
+       else :
+        oO0O0o0Oooo ( oO0o00oOOooO0 , url + OOo0o000oO , 11 , IIooooo , Oo000ooOOO , '' , '' , '' , '' , 'download' )
+      else :
+       oO0O0o0Oooo ( oO0o00oOOooO0 , url + OOo0o000oO , 11 , IIooooo , Oo000ooOOO , '' , '' , '' , '' , 'download' )
+       if 79 - 79: i1iIi11iIIi1I - iIii1I11I1II1 + iII111i - ooOoO0o
+       if 93 - 93: i11i . oOooOoO0Oo0O - I11i11Ii + o0
+def ooO0o ( browse = False ) :
+ oOO0O00Oo0O0o = 'http://community-links.googlecode.com/svn/trunk/'
+ O0Oo00O = BeautifulSoup ( i1II ( oOO0O00Oo0O0o ) , convertEntities = BeautifulSoup . HTML_ENTITIES )
+ o000 = O0Oo00O ( 'ul' ) [ 0 ] ( 'li' ) [ 1 : ]
+ for I11iiiii1II in o000 :
+  oO0o00oOOooO0 = I11iiiii1II ( 'a' ) [ 0 ] [ 'href' ]
+  if browse :
+   oO0O0o0Oooo ( oO0o00oOOooO0 , oOO0O00Oo0O0o + oO0o00oOOooO0 , 1 , IIooooo , Oo000ooOOO , '' , '' , '' , '' , 'download' )
+  else :
+   oO0O0o0Oooo ( oO0o00oOOooO0 , oOO0O00Oo0O0o + oO0o00oOOooO0 , 11 , IIooooo , Oo000ooOOO , '' , '' , '' , '' , 'download' )
+   if 3 - 3: i11i / I11i + I1Ii111 . o00O0oo . i1iIi11iIIi1I
+   if 83 - 83: OOooOOo + OoooooooOO
+def oo00O00oO000o ( url , data = None ) :
+ global o0OO00 , iI1
+ iI1 = False
+ if url . startswith ( 'http://' ) or url . startswith ( 'https://' ) :
+  I111IiiIi1 = False
+  if '$$TSDOWNLOADER$$' in url :
+   iI1 = True
+   url = url . replace ( "$$TSDOWNLOADER$$" , "" )
+  if '$$LSProEncKey=' in url :
+   I111IiiIi1 = url . split ( '$$LSProEncKey=' ) [ 1 ] . split ( '$$' ) [ 0 ]
+   o00o = '$$LSProEncKey=%s$$' % I111IiiIi1
+   url = url . replace ( o00o , "" )
+  try :
+   print 'myRequest' , url , data
+   data = i1II ( url )
+   import gzip , binascii
+   from StringIO import StringIO
+   if 'tgjds' [ : : - 1 ] in data :
+    data = data . split ( 'tgjds' [ : : - 1 ] )
+    Ii1IIiiIIi = StringIO ( binascii . unhexlify ( data [ 0 ] ) )
+    Oo000o = gzip . GzipFile ( fileobj = Ii1IIiiIIi )
+    data = Oo000o . read ( )
+  except :
+   data = i1II ( url )
+  if I111IiiIi1 :
+   import pyaes
+   I111IiiIi1 = I111IiiIi1 . encode ( "ascii" )
+   print I111IiiIi1
+   i11I1iIi = 16 - len ( I111IiiIi1 )
+   I111IiiIi1 = I111IiiIi1 + ( chr ( 0 ) * ( i11I1iIi ) )
+   print repr ( I111IiiIi1 )
+   data = base64 . b64decode ( data )
+   O0Oo = pyaes . new ( I111IiiIi1 , pyaes . MODE_ECB , IV = None )
+   data = O0Oo . decrypt ( data ) . split ( '\0' ) [ 0 ]
+   if 81 - 81: OOooOOo * i1iIi11iIIi1I
+  if re . search ( "#EXTM3U" , data ) or 'm3u' in url :
+   if 38 - 38: o0 / IiII % I11i11Ii
+   return data
+ elif data == None :
+  if not '/' in url or not '\\' in url :
+   if 11 - 11: IiII - OOooOOo + i11i - iIii1I11I1II1
+   url = os . path . join ( communityfiles , url )
+  if xbmcvfs . exists ( url ) :
+   if url . startswith ( "smb://" ) or url . startswith ( "nfs://" ) :
+    I1i11ii11 = xbmcvfs . copy ( url , os . path . join ( OOoOoo , 'temp' , 'sorce_temp.txt' ) )
+    if I1i11ii11 :
+     data = open ( os . path . join ( OOoOoo , 'temp' , 'sorce_temp.txt' ) , "r" ) . read ( )
+     xbmcvfs . delete ( os . path . join ( OOoOoo , 'temp' , 'sorce_temp.txt' ) )
+    else :
+     oo0oO0oOOoo ( "failed to copy from smb:" )
+   else :
+    data = open ( url , 'r' ) . read ( )
+    if re . match ( "#EXTM3U" , data ) or 'm3u' in url :
+     if 81 - 81: I11i - Ii1I % o00O0oo - i1iIi11iIIi1I / I11i11Ii
+     return data
+  else :
+   oo0oO0oOOoo ( "Soup Data not found!" )
+   return
+ if '<SetViewMode>' in data :
+  try :
+   o0OO00 = re . findall ( '<SetViewMode>(.*?)<' , data ) [ 0 ]
+   xbmc . executebuiltin ( "Container.SetViewMode(%s)" % o0OO00 )
+   print 'done setview' , o0OO00
+  except : pass
+ return BeautifulSOAP ( data , convertEntities = BeautifulStoneSoup . XML_ENTITIES )
+ if 4 - 4: OoooooooOO - i1IIi % iII111i - I11i * i1
+ if 85 - 85: OoooooooOO * iIii1I11I1II1 . IiII / OoooooooOO % oOooOoO0Oo0O % O0
+def oo0o0000 ( url , fanart , data = None ) :
+ if 36 - 36: iII111i / i11i / I1Ii111 / I1Ii111 + ii1IiI1i
+ oO0Ooo0ooOO0 = "List"
+ if 46 - 46: iII111i % o0
+ O0Oo00O = oo00O00oO000o ( url , data )
+ if 64 - 64: i11iIiiIii - i11i
+ if isinstance ( O0Oo00O , BeautifulSOAP ) :
+  if len ( O0Oo00O ( 'layoutype' ) ) > 0 :
+   oO0Ooo0ooOO0 = "thumbnail"
+   if 77 - 77: o0 % iII111i
+  if len ( O0Oo00O ( 'channels' ) ) > 0 :
+   II1IiiIii = O0Oo00O ( 'channel' )
+   for oOo0OoOOo0 in II1IiiIii :
+    if 30 - 30: ii1IiI1i % oOooOoO0Oo0O
+    if 89 - 89: ooOoO0o + OoooooooOO + ooOoO0o * i1IIi + iIii1I11I1II1 % Ii1I
+    oOo0oO = ''
+    IIi1IIIIi = 0
+    try :
+     oOo0oO = oOo0OoOOo0 ( 'externallink' ) [ 0 ] . string
+     IIi1IIIIi = len ( oOo0OoOOo0 ( 'externallink' ) )
+    except : pass
+    if 70 - 70: I11i / i11i - iIii1I11I1II1 - IiII
+    if IIi1IIIIi > 1 : oOo0oO = ''
+    if 11 - 11: iIii1I11I1II1 . OoooooooOO . i11i / i1IIi - Ii1I
+    oO0o00oOOooO0 = oOo0OoOOo0 ( 'name' ) [ 0 ] . string
+    ii1ii11 = oOo0OoOOo0 ( 'thumbnail' ) [ 0 ] . string
+    if ii1ii11 == None :
+     ii1ii11 = ''
+     if 84 - 84: O0 . Ii1I - i11i . o00O0oo / i11i
+    try :
+     if not oOo0OoOOo0 ( 'fanart' ) :
+      if o0o . getSetting ( 'use_thumb' ) == "true" :
+       iii1 = ii1ii11
+      else :
+       iii1 = fanart
+     else :
+      iii1 = oOo0OoOOo0 ( 'fanart' ) [ 0 ] . string
+     if iii1 == None :
+      raise
+    except :
+     iii1 = fanart
+     if 32 - 32: iII111i . I1Ii111 . OoooooooOO - i1iIi11iIIi1I + OOooOOo
+    try :
+     Ii11i1I11i = oOo0OoOOo0 ( 'info' ) [ 0 ] . string
+     if Ii11i1I11i == None :
+      raise
+    except :
+     Ii11i1I11i = ''
+     if 88 - 88: IiII
+    try :
+     ooOO0oO0oo00o = oOo0OoOOo0 ( 'genre' ) [ 0 ] . string
+     if ooOO0oO0oo00o == None :
+      raise
+    except :
+     ooOO0oO0oo00o = ''
+     if 19 - 19: i11i * I1Ii111 + iII111i
+    try :
+     I11i1 = oOo0OoOOo0 ( 'date' ) [ 0 ] . string
+     if I11i1 == None :
+      raise
+    except :
+     I11i1 = ''
+     if 65 - 65: I11i . ooOoO0o . i1iIi11iIIi1I . IiII - I11i
+    try :
+     credits = oOo0OoOOo0 ( 'credits' ) [ 0 ] . string
+     if credits == None :
+      raise
+    except :
+     credits = ''
+     if 19 - 19: i11iIiiIii + IiII % o00O0oo
+    try :
+     iIiIIIIIii = oOo0OoOOo0 ( 'year' ) [ 0 ] . string
+     if iIiIIIIIii == None :
+      raise
+    except :
+     iIiIIIIIii = ''
+     if 14 - 14: i1iIi11iIIi1I . i11i . Ii1I / iII111i % ii1IiI1i - o00O0oo
+    try :
+     OOo0ii11I1 = oOo0OoOOo0 ( 'director' ) [ 0 ] . string
+     if OOo0ii11I1 == None :
+      raise
+    except :
+     OOo0ii11I1 = ''
+     if 67 - 67: Ii1I - I11i . i1IIi
+    try :
+     oO0oo = oOo0OoOOo0 ( 'duration' ) [ 0 ] . string
+     if oO0oo == None :
+      raise
+    except :
+     oO0oo = ''
+     if 35 - 35: IiII + o00O0oo - OOooOOo . IiII . I1Ii111
+    try :
+     Ii111iIi1iIi = oOo0OoOOo0 ( 'premiered' ) [ 0 ] . string
+     if Ii111iIi1iIi == None :
+      raise
+    except :
+     Ii111iIi1iIi = ''
+     if 87 - 87: o0
+    try :
+     IIIII = oOo0OoOOo0 ( 'studio' ) [ 0 ] . string
+     if IIIII == None :
+      raise
+    except :
+     IIIII = ''
+     if 25 - 25: i1IIi . i1iIi11iIIi1I - o0 / i1iIi11iIIi1I % i1iIi11iIIi1I * iIii1I11I1II1
+    try :
+     o0ooOoO000oO = oOo0OoOOo0 ( 'rate' ) [ 0 ] . string
+     if o0ooOoO000oO == None :
+      raise
+    except :
+     o0ooOoO000oO = ''
+     if 50 - 50: i1iIi11iIIi1I . i11iIiiIii - OOooOOo . OOooOOo
+    try :
+     OOo = oOo0OoOOo0 ( 'originaltitle' ) [ 0 ] . string
+     if OOo == None :
+      raise
+    except :
+     OOo = ''
+     if 31 - 31: I11i / I11i11Ii * i1IIi . o0
+    try :
+     i1i11I1I1iii1 = oOo0OoOOo0 ( 'country' ) [ 0 ] . string
+     if i1i11I1I1iii1 == None :
+      raise
+    except :
+     i1i11I1I1iii1 = ''
+     if 57 - 57: I11i + iIii1I11I1II1 % i1IIi % oOooOoO0Oo0O
+    try :
+     OO0oo = oOo0OoOOo0 ( 'mediatype' ) [ 0 ] . string
+     if OO0oo == None :
+      raise
+    except :
+     OO0oo = ''
+     if 15 - 15: iIii1I11I1II1 % OoooooooOO - I11i11Ii * iII111i + Ii1I
+    try :
+     I1iii11 = oOo0OoOOo0 ( 'rating' ) [ 0 ] . string
+     if I1iii11 == None :
+      raise
+    except :
+     I1iii11 = ''
+     if 11 - 11: IiII * iII111i - o0
+    try :
+     ooo0O = oOo0OoOOo0 ( 'userrating' ) [ 0 ] . string
+     if ooo0O == None :
+      raise
+    except :
+     ooo0O = ''
+     if 66 - 66: o0 . i11iIiiIii - IiII * i1 + OoooooooOO * ii1IiI1i
+    try :
+     iII1iii = oOo0OoOOo0 ( 'votes' ) [ 0 ] . string
+     if iII1iii == None :
+      raise
+    except :
+     iII1iii = ''
+     if 74 - 74: I11i11Ii
+    try :
+     i11i1iiiII = oOo0OoOOo0 ( 'aired' ) [ 0 ] . string
+     if i11i1iiiII == None :
+      raise
+    except :
+     i11i1iiiII = ''
+     if 61 - 61: I11i11Ii - ooOoO0o * i11i % o00O0oo * iIii1I11I1II1 + i1iIi11iIIi1I
+    try :
+     if oOo0oO == '' :
+      oO0O0o0Oooo ( oO0o00oOOooO0 . encode ( 'utf-8' , 'ignore' ) , url . encode ( 'utf-8' ) , 2 , ii1ii11 , iii1 , Ii11i1I11i , ooOO0oO0oo00o , I11i1 , credits , iIiIIIIIii , OOo0ii11I1 , oO0oo , Ii111iIi1iIi , IIIII , o0ooOoO000oO , OOo , i1i11I1I1iii1 , I1iii11 , ooo0O , iII1iii , i11i1iiiII , True )
+     else :
+      if 71 - 71: Ii1I / Ii1I * OOooOOo * OOooOOo / i11i
+      oO0O0o0Oooo ( oO0o00oOOooO0 . encode ( 'utf-8' ) , oOo0oO . encode ( 'utf-8' ) , 1 , ii1ii11 , iii1 , Ii11i1I11i , ooOO0oO0oo00o , I11i1 , None , iIiIIIIIii , OOo0ii11I1 , oO0oo , Ii111iIi1iIi , IIIII , o0ooOoO000oO , OOo , i1i11I1I1iii1 , I1iii11 , ooo0O , iII1iii , i11i1iiiII , 'source' )
+    except :
+     oo0oO0oOOoo ( 'There was a problem adding directory from getData(): ' + oO0o00oOOooO0 . encode ( 'utf-8' , 'ignore' ) )
+  else :
+   oo0oO0oOOoo ( 'No Channels: getItems' )
+   II1I1iiIII1I1 ( O0Oo00O ( 'item' ) , fanart )
+ else :
+  o0Ooo0o0ooo0 ( O0Oo00O )
+  if 70 - 70: i11iIiiIii % IiII
+ if oO0Ooo0ooOO0 == "thumbnail" :
+  I11Ii11iI1 ( )
+  if 39 - 39: oOooOoO0Oo0O * i11iIiiIii - OOooOOo / I1Ii111 % ooOoO0o % Ii1I
+  if 65 - 65: OOooOOo - o00O0oo % OoooooooOO / OoooooooOO % OoooooooOO
+  if 52 - 52: ii1IiI1i + ii1IiI1i . i11i
+def o0Ooo0o0ooo0 ( data ) :
+ Iii = data . rstrip ( )
+ IIIII1iii = re . compile ( r'#EXTINF:(.+?),(.*?)[\n\r]+([^\r\n]+)' ) . findall ( Iii )
+ IIiiii = len ( IIIII1iii )
+ print 'tsdownloader' , iI1
+ if 37 - 37: i1 % o00O0oo
+ for O0II11i11II , II1Ii1iI1i1 , o0OoO000O in IIIII1iii :
+  if 94 - 94: o0 . O0 / iII111i . ii1IiI1i - i1IIi
+  if 'tvg-logo' in O0II11i11II :
+   ii1ii11 = iIi1III1I ( O0II11i11II , 'tvg-logo=[\'"](.*?)[\'"]' )
+   if ii1ii11 :
+    if ii1ii11 . startswith ( 'http' ) :
+     ii1ii11 = ii1ii11
+     if 71 - 71: ooOoO0o
+    elif not o0o . getSetting ( 'logo-folderPath' ) == "" :
+     Ii1II = o0o . getSetting ( 'logo-folderPath' )
+     ii1ii11 = Ii1II + ii1ii11
+     if 67 - 67: iIii1I11I1II1 - iII111i + i1
+    else :
+     ii1ii11 = ii1ii11
+     if 97 - 97: I11i
+     if 92 - 92: I11i11Ii % ii1IiI1i * iIii1I11I1II1 - ii1IiI1i . i1
+  else :
+   ii1ii11 = ''
+   if 95 - 95: ooOoO0o % oOooOoO0Oo0O
+  if 'type' in O0II11i11II :
+   Iii1ii11 = iIi1III1I ( O0II11i11II , 'type=[\'"](.*?)[\'"]' )
+   if Iii1ii11 == 'yt-dl' :
+    o0OoO000O = o0OoO000O + "&mode=18"
+   elif Iii1ii11 == 'regex' :
+    oOO0O00Oo0O0o = o0OoO000O . split ( '&regexs=' )
+    if 86 - 86: o0 * i11i - O0 . o0 % iIii1I11I1II1 / I11i
+    IiIIiIIIiIii = I1i11II ( oo00O00oO000o ( '' , data = oOO0O00Oo0O0o [ 1 ] ) )
+    if 31 - 31: OOooOOo / I1Ii111 * i1 . i11i
+    oo ( oOO0O00Oo0O0o [ 0 ] , II1Ii1iI1i1 , ii1ii11 , '' , '' , '' , '' , '' , None , IiIIiIIIiIii , IIiiii )
+    continue
+   elif Iii1ii11 == 'ftv' :
+    o0OoO000O = 'plugin://plugin.video.F.T.V/?name=' + urllib . quote ( II1Ii1iI1i1 ) + '&url=' + o0OoO000O + '&mode=125&ch_fanart=na'
+  elif iI1 and '.ts' in o0OoO000O :
+   o0OoO000O = 'plugin://plugin.video.f4mTester/?url=' + urllib . quote_plus ( o0OoO000O ) + '&amp;streamtype=TSDOWNLOADER&name=' + urllib . quote ( II1Ii1iI1i1 )
+  oOO0OO0O ( o0OoO000O , II1Ii1iI1i1 , ii1ii11 , '' , '' , '' , '' , '' , None , '' , IIiiii )
+  if 78 - 78: iII111i / i11i % o0
+def oO00OoOO ( name , url , fanart ) :
+ O0Oo00O = oo00O00oO000o ( url )
+ I11IIiIiI = O0Oo00O . find ( 'channel' , attrs = { 'name' : name . decode ( 'utf-8' ) } )
+ iIIIi1i1I11i = I11IIiIiI ( 'item' )
+ try :
+  iii1 = I11IIiIiI ( 'fanart' ) [ 0 ] . string
+  if iii1 == None :
+   raise
+ except :
+  iii1 = fanart
+ for oOo0OoOOo0 in I11IIiIiI ( 'subchannel' ) :
+  name = oOo0OoOOo0 ( 'name' ) [ 0 ] . string
+  try :
+   ii1ii11 = oOo0OoOOo0 ( 'thumbnail' ) [ 0 ] . string
+   if ii1ii11 == None :
+    raise
+  except :
+   ii1ii11 = ''
+  try :
+   if not oOo0OoOOo0 ( 'fanart' ) :
+    if o0o . getSetting ( 'use_thumb' ) == "true" :
+     iii1 = ii1ii11
+   else :
+    iii1 = oOo0OoOOo0 ( 'fanart' ) [ 0 ] . string
+   if iii1 == None :
+    raise
+  except :
+   pass
+  try :
+   Ii11i1I11i = oOo0OoOOo0 ( 'info' ) [ 0 ] . string
+   if Ii11i1I11i == None :
+    raise
+  except :
+   Ii11i1I11i = ''
+   if 55 - 55: I11i11Ii - I11i
+  try :
+   ooOO0oO0oo00o = oOo0OoOOo0 ( 'genre' ) [ 0 ] . string
+   if ooOO0oO0oo00o == None :
+    raise
+  except :
+   ooOO0oO0oo00o = ''
+   if 84 - 84: ooOoO0o + I11i11Ii - o0 * o0
+  try :
+   I11i1 = oOo0OoOOo0 ( 'date' ) [ 0 ] . string
+   if I11i1 == None :
+    raise
+  except :
+   I11i1 = ''
+   if 61 - 61: OoooooooOO . OOooOOo . OoooooooOO / I11i11Ii
+  try :
+   credits = oOo0OoOOo0 ( 'credits' ) [ 0 ] . string
+   if credits == None :
+    raise
+  except :
+   credits = ''
+   if 72 - 72: i1IIi
+  try :
+   iIiIIIIIii = oOo0OoOOo0 ( 'year' ) [ 0 ] . string
+   if iIiIIIIIii == None :
+    raise
+  except :
+   iIiIIIIIii = ''
+   if 82 - 82: o0 + OoooooooOO / i11iIiiIii * ii1IiI1i . OoooooooOO
+  try :
+   OOo0ii11I1 = oOo0OoOOo0 ( 'director' ) [ 0 ] . string
+   if OOo0ii11I1 == None :
+    raise
+  except :
+   OOo0ii11I1 = ''
+   if 63 - 63: ii1IiI1i
+  try :
+   oO0oo = oOo0OoOOo0 ( 'duration' ) [ 0 ] . string
+   if oO0oo == None :
+    raise
+  except :
+   oO0oo = ''
+   if 6 - 6: o00O0oo / ii1IiI1i
+  try :
+   Ii111iIi1iIi = oOo0OoOOo0 ( 'premiered' ) [ 0 ] . string
+   if Ii111iIi1iIi == None :
+    raise
+  except :
+   Ii111iIi1iIi = ''
+   if 57 - 57: Ii1I
+  try :
+   IIIII = oOo0OoOOo0 ( 'studio' ) [ 0 ] . string
+   if IIIII == None :
+    raise
+  except :
+   IIIII = ''
+   if 67 - 67: i1iIi11iIIi1I . o00O0oo
+  try :
+   o0ooOoO000oO = oOo0OoOOo0 ( 'rate' ) [ 0 ] . string
+   if o0ooOoO000oO == None :
+    raise
+  except :
+   o0ooOoO000oO = ''
+   if 87 - 87: OOooOOo % iII111i
+  try :
+   OOo = oOo0OoOOo0 ( 'originaltitle' ) [ 0 ] . string
+   if OOo == None :
+    raise
+  except :
+   OOo = ''
+   if 83 - 83: i11i - Ii1I
+  try :
+   i1i11I1I1iii1 = oOo0OoOOo0 ( 'country' ) [ 0 ] . string
+   if i1i11I1I1iii1 == None :
+    raise
+  except :
+   i1i11I1I1iii1 = ''
+   if 35 - 35: i1IIi - iIii1I11I1II1 + i1IIi
+  try :
+   I1iii11 = oOo0OoOOo0 ( 'rating' ) [ 0 ] . string
+   if I1iii11 == None :
+    raise
+  except :
+   I1iii11 = ''
+   if 86 - 86: iIii1I11I1II1 + o0 . i11iIiiIii - iII111i
+  try :
+   ooo0O = oOo0OoOOo0 ( 'userrating' ) [ 0 ] . string
+   if ooo0O == None :
+    raise
+  except :
+   ooo0O = ''
+   if 51 - 51: o0
+  try :
+   iII1iii = oOo0OoOOo0 ( 'votes' ) [ 0 ] . string
+   if iII1iii == None :
+    raise
+  except :
+   iII1iii = ''
+   if 14 - 14: I1Ii111 % OOooOOo % I11i11Ii - i11iIiiIii
+  try :
+   i11i1iiiII = oOo0OoOOo0 ( 'aired' ) [ 0 ] . string
+   if i11i1iiiII == None :
+    raise
+  except :
+   i11i1iiiII = ''
+   if 53 - 53: iII111i % I11i11Ii
+  try :
+   oO0O0o0Oooo ( name . encode ( 'utf-8' , 'ignore' ) , url . encode ( 'utf-8' ) , 3 , ii1ii11 , iii1 , Ii11i1I11i , ooOO0oO0oo00o , credits , I11i1 , iIiIIIIIii , OOo0ii11I1 , oO0oo , Ii111iIi1iIi , IIIII , o0ooOoO000oO , OOo , i1i11I1I1iii1 , I1iii11 , ooo0O , iII1iii , i11i1iiiII )
+  except :
+   oo0oO0oOOoo ( 'There was a problem adding directory - ' + name . encode ( 'utf-8' , 'ignore' ) )
+ II1I1iiIII1I1 ( iIIIi1i1I11i , iii1 )
+ if 59 - 59: I11i % iIii1I11I1II1 . i1IIi + i11i * I1Ii111
+ if 41 - 41: iII111i % ii1IiI1i
+def i1iIiIi1I ( name , url , fanart ) :
+ O0Oo00O = oo00O00oO000o ( url )
+ I11IIiIiI = O0Oo00O . find ( 'subchannel' , attrs = { 'name' : name . decode ( 'utf-8' ) } )
+ iIIIi1i1I11i = I11IIiIiI ( 'subitem' )
+ II1I1iiIII1I1 ( iIIIi1i1I11i , fanart )
+ if 37 - 37: iII111i % i1iIi11iIIi1I
+ if 79 - 79: ii1IiI1i + oOooOoO0Oo0O / oOooOoO0Oo0O
+def OO0O0ooOOO00 ( name , url , iconimage , fanart ) :
+ IiIiiiiI1 = [ ] ; OO00OOoO0o = [ ] ; Iiiiiii1 = 0
+ oOO0oo = II1iIi1IiIii ( url , 'sublink:' , '#' )
+ for I111I11I111 in oOO0oo :
+  iiiiI11ii = I111I11I111 . replace ( 'sublink:' , '' ) . replace ( '#' , '' )
+  if 96 - 96: IiII . O0 / IiII % O0
+  if len ( iiiiI11ii ) > 10 :
+   Iiiiiii1 = Iiiiiii1 + 1 ; IiIiiiiI1 . append ( name + ' Source [' + str ( Iiiiiii1 ) + ']' ) ; OO00OOoO0o . append ( iiiiI11ii )
+   if 94 - 94: I1Ii111 + ooOoO0o / I11i
+ if Iiiiiii1 == 1 :
+  try :
+   if 91 - 91: Ii1I / i1IIi * i1IIi
+   Ii1 = xbmcgui . ListItem ( name , iconImage = iconimage , thumbnailImage = iconimage ) ; Ii1 . setInfo ( type = "Video" , infoLabels = { "Title" : name } )
+   O0OoOOO00 = xbmcplugin . addDirectoryItem ( handle = int ( sys . argv [ 1 ] ) , url = OO00OOoO0o [ 0 ] , listitem = Ii1 )
+   xbmc . Player ( ) . play ( o0ooOo0OOOO0o ( OO00OOoO0o [ 0 ] ) , Ii1 )
+  except :
+   pass
+ else :
+  OO = xbmcgui . Dialog ( )
+  if 98 - 98: I11i + i1IIi . oOooOoO0Oo0O - i11i - i1
+  iIIi1I1ii = OO . select ( 'Select A Source' , IiIiiiiI1 )
+  if iIIi1I1ii >= 0 :
+   Iiii = name
+   i1i = str ( OO00OOoO0o [ iIIi1I1ii ] )
+   if 81 - 81: o00O0oo + IiII
+   try :
+    Ii1 = xbmcgui . ListItem ( name , iconImage = iconimage , thumbnailImage = iconimage ) ; Ii1 . setInfo ( type = "Video" , infoLabels = { "Title" : name } )
+    O0OoOOO00 = xbmcplugin . addDirectoryItem ( handle = int ( sys . argv [ 1 ] ) , url = i1i , listitem = Ii1 )
+    xbmc . Player ( ) . play ( o0ooOo0OOOO0o ( i1i ) , Ii1 )
+   except :
+    pass
+    if 52 - 52: oOooOoO0Oo0O % ii1IiI1i - I11i + IiII . o0
+    if 63 - 63: I11i11Ii + ooOoO0o - i11i
+def i1II ( url , headers = None ) :
+ try :
+  if headers is None :
+   if 2 - 2: I1Ii111
+   headers = { 'User-agent' : 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0' }
+   headers = { 'User-agent' : '\xbd\xbf\xef\xbd\xbf\xef\x38\x62\x55\xbd\xbf\xef\xbd\xbf\xef\xbd\xbf\xef\x19' }
+  ooO = urllib2 . Request ( url , None , headers )
+  O00OOOOOoo0 = urllib2 . urlopen ( ooO )
+  ii1 = O00OOOOOoo0 . read ( )
+  O00OOOOOoo0 . close ( )
+  return ii1
+ except urllib2 . URLError , i111iIi1i1II1 :
+  oo0oO0oOOoo ( 'URL: ' + url )
+  if hasattr ( i111iIi1i1II1 , 'code' ) :
+   oo0oO0oOOoo ( 'Falha com o código de erro - %s.' % i111iIi1i1II1 . code )
+   if 97 - 97: OOooOOo - OoooooooOO
+   if 79 - 79: o0 % I1Ii111 % I11i11Ii
+   xbmc . executebuiltin ( "XBMC.Notification(Falha, código de erro - " + str ( i111iIi1i1II1 . code ) + ",10000," + IIooooo + ")" )
+  elif hasattr ( i111iIi1i1II1 , 'reason' ) :
+   oo0oO0oOOoo ( 'Falha ao acessar um servidor.' )
+   oo0oO0oOOoo ( 'Razão: %s' % i111iIi1i1II1 . reason )
+   if 29 - 29: OoooooooOO . oOooOoO0Oo0O % ii1IiI1i - IiII
+   xbmc . executebuiltin ( "XBMC.Notification(Falha, motivo - " + str ( i111iIi1i1II1 . reason ) + ",10000," + IIooooo + ")" )
+   if 8 - 8: i1IIi
+   if 32 - 32: OOooOOo / i11i
+def II1Iii ( ) :
+ if 73 - 73: Ii1I * OoooooooOO . O0 . I1Ii111
+ o0oooO = 'Name of channel show or movie'
+ ooOo = ''
+ i11iiI1111 = xbmc . Keyboard ( ooOo , o0oooO )
+ i11iiI1111 . doModal ( )
+ if i11iiI1111 . isConfirmed ( ) :
+  ooOo = i11iiI1111 . getText ( ) . replace ( '\n' , '' ) . strip ( )
+  if len ( ooOo ) == 0 :
+   xbmcgui . Dialog ( ) . ok ( 'RobinHood' , 'Nothing Entered' )
+   return
+   if 84 - 84: I11i
+ ooOo = ooOo . lower ( )
+ IiIiiiiI1 = [ ]
+ IiIiiiiI1 . append ( plugin_name )
+ o0OoO00 = 0
+ IIIIIiII1 = 1
+ iii11i1 = 0
+ oOiI = 0
+ Ii1IIi = xbmcgui . DialogProgress ( )
+ if 43 - 43: ooOoO0o % IiII
+ Ii1IIi . create ( 'Searching Please wait' , ' ' )
+ if 69 - 69: IiII % i1iIi11iIIi1I
+ while IIIIIiII1 <> iii11i1 :
+  oOOoO = IiIiiiiI1 [ iii11i1 ] . strip ( )
+  print 'read this one from file list (' + str ( iii11i1 ) + ')'
+  iii11i1 = iii11i1 + 1
+  if 19 - 19: i11iIiiIii
+  oo0 = ''
+  try :
+   oo0 = net . http_GET ( oOOoO ) . content
+   oo0 = oo0 . encode ( 'ascii' , 'ignore' ) . decode ( 'ascii' )
+   if 73 - 73: o0 . oOooOoO0Oo0O
+  except :
+   pass
+   if 32 - 32: o0 * oOooOoO0Oo0O % o00O0oo * iII111i . O0
+  if len ( oo0 ) < 10 :
+   oo0 = ''
+   o0OoO00 = o0OoO00 + 1
+   print '*** PASSED ****' + oOOoO + '  ************* Total Passed Urls: ' + str ( o0OoO00 )
+   time . sleep ( .5 )
+   if 48 - 48: IiII * IiII
+  I1I1 = int ( ( iii11i1 / 300 ) * 100 )
+  iI1I1iiIi1I = '     Pages Read: ' + str ( iii11i1 ) + '        Matches Found: ' + str ( oOiI )
+  Ii1IIi . update ( I1I1 , "" , iI1I1iiIi1I , "" )
+  if 26 - 26: I1Ii111 / i1IIi * OOooOOo . oOooOoO0Oo0O
+  if Ii1IIi . iscanceled ( ) :
+   return
+   if 17 - 17: iII111i . i11iIiiIii
+  if len ( oo0 ) > 10 :
+   IIIiiiI = II1iIi1IiIii ( oo0 , '<channel>' , '</channel>' )
+   for I111I11I111 in IIIiiiI :
+    iiiiI11ii = OoO00oo00 ( I111I11I111 , '<externallink>' , '</externallink>' )
+    if 76 - 76: OoooooooOO + I11i11Ii % I1Ii111 . i1iIi11iIIi1I + i11i
+    if 70 - 70: oOooOoO0Oo0O / Ii1I
+    if len ( iiiiI11ii ) > 5 :
+     IIIIIiII1 = IIIIIiII1 + 1
+     IiIiiiiI1 . append ( iiiiI11ii )
+     if 28 - 28: ii1IiI1i * OoooooooOO . i11i / i11iIiiIii + OOooOOo
+     if 38 - 38: I1Ii111 . iII111i
+   IIIIIIIiI = II1iIi1IiIii ( oo0 , '<item>' , '</item>' )
+   for I111I11I111 in IIIIIIIiI :
+    iiiiI11ii = OoO00oo00 ( I111I11I111 , '<link>' , '</link>' )
+    oO0o00oOOooO0 = OoO00oo00 ( I111I11I111 , '<title>' , '</title>' )
+    I1IIiI = '  ' + oO0o00oOOooO0 . lower ( ) + '  '
+    if 84 - 84: Ii1I - I11i11Ii / O0 - ooOoO0o
+    if len ( iiiiI11ii ) > 5 and I1IIiI . find ( ooOo ) > 0 :
+     oOiI = oOiI + 1
+     Oo000ooOOO = ''
+     ii1ii11 = OoO00oo00 ( I111I11I111 , '<thumbnail>' , '</thumbnail>' )
+     Oo000ooOOO = OoO00oo00 ( I111I11I111 , '<fanart>' , '</fanart>' )
+     if len ( Oo000ooOOO ) < 5 :
+      Oo000ooOOO = IIooooo
+     if iiiiI11ii . find ( 'sublink' ) > 0 :
+      oO0O0o0Oooo ( oO0o00oOOooO0 , iiiiI11ii , 30 , ii1ii11 , Oo000ooOOO , '' , '' , '' , '' )
+     else :
+      oo ( str ( iiiiI11ii ) , oO0o00oOOooO0 , ii1ii11 , Oo000ooOOO , '' , '' , '' , True , None , '' , 1 )
+      if 21 - 21: O0 * O0 % ii1IiI1i
+      if 94 - 94: Ii1I + i11i % i11iIiiIii
+ Ii1IIi . close ( )
+ xbmc . executebuiltin ( "Container.SetViewMode(50)" )
+ if 8 - 8: o00O0oo * O0
+def OOoO ( data , Searchkey ) :
+ Iii = data . rstrip ( )
+ IIIII1iii = re . compile ( r'#EXTINF:(.+?),(.*?)[\n\r]+([^\n]+)' ) . findall ( Iii )
+ IIiiii = len ( IIIII1iii )
+ print 'total m3u links' , IIiiii
+ for O0II11i11II , II1Ii1iI1i1 , o0OoO000O in IIIII1iii :
+  if 'tvg-logo' in O0II11i11II :
+   ii1ii11 = iIi1III1I ( O0II11i11II , 'tvg-logo=[\'"](.*?)[\'"]' )
+   if ii1ii11 :
+    if ii1ii11 . startswith ( 'http' ) :
+     ii1ii11 = ii1ii11
+     if 18 - 18: iIii1I11I1II1 + I11i11Ii - I11i + OoooooooOO * OoooooooOO
+    elif not o0o . getSetting ( 'logo-folderPath' ) == "" :
+     Ii1II = o0o . getSetting ( 'logo-folderPath' )
+     ii1ii11 = Ii1II + ii1ii11
+     if 41 - 41: o00O0oo . I11i11Ii + oOooOoO0Oo0O
+    else :
+     ii1ii11 = ii1ii11
+     if 100 - 100: iII111i + i1iIi11iIIi1I
+     if 73 - 73: i1IIi - ooOoO0o % o00O0oo / i1iIi11iIIi1I
+  else :
+   ii1ii11 = ''
+  if 'type' in O0II11i11II :
+   Iii1ii11 = iIi1III1I ( O0II11i11II , 'type=[\'"](.*?)[\'"]' )
+   if Iii1ii11 == 'yt-dl' :
+    o0OoO000O = o0OoO000O + "&mode=18"
+   elif Iii1ii11 == 'regex' :
+    oOO0O00Oo0O0o = o0OoO000O . split ( '&regexs=' )
+    if 40 - 40: ii1IiI1i * o00O0oo - oOooOoO0Oo0O / I1Ii111 / i11iIiiIii
+    IiIIiIIIiIii = I1i11II ( oo00O00oO000o ( '' , data = oOO0O00Oo0O0o [ 1 ] ) )
+    if 83 - 83: ii1IiI1i / ooOoO0o - i11iIiiIii . iIii1I11I1II1 + I11i11Ii
+    oo ( oOO0O00Oo0O0o [ 0 ] , II1Ii1iI1i1 , ii1ii11 , '' , '' , '' , '' , '' , None , IiIIiIIIiIii , IIiiii )
+    continue
+  oo ( o0OoO000O , II1Ii1iI1i1 , ii1ii11 , '' , '' , '' , '' , '' , None , '' , IIiiii )
+  if 59 - 59: O0 % I11i11Ii
+def O0o00O0Oo0 ( text , pattern ) :
+ o0I11iII = ""
+ try :
+  IiiIiI = re . findall ( pattern , text , flags = re . DOTALL )
+  o0I11iII = IiiIiI [ 0 ]
+ except :
+  o0I11iII = ""
+  if 23 - 23: Ii1I
+ return o0I11iII
+ if 40 - 40: i1 - i11i / I11i11Ii
+def II1iIi1IiIii ( text , start_with , end_with ) :
+ iiIiI1ii = re . findall ( "(?i)(" + start_with + "[\S\s]+?" + end_with + ")" , text )
+ return iiIiI1ii
+ if 56 - 56: OoooooooOO - Ii1I - i1IIi
+def OoO00oo00 ( text , from_string , to_string , excluding = True ) :
+ if excluding :
+  try : iiIiI1ii = re . search ( "(?i)" + from_string + "([\S\s]+?)" + to_string , text ) . group ( 1 )
+  except : iiIiI1ii = ''
+ else :
+  try : iiIiI1ii = re . search ( "(?i)(" + from_string + "[\S\s]+?" + to_string + ")" , text ) . group ( 1 )
+  except : iiIiI1ii = ''
+ return iiIiI1ii
+ if 8 - 8: ooOoO0o / I11i . oOooOoO0Oo0O + ii1IiI1i / i11iIiiIii
+def II1I1iiIII1I1 ( items , fanart , dontLink = False ) :
+ IIiiii = len ( items )
+ oo0oO0oOOoo ( 'Total Items: %s' % IIiiii )
+ I1Iii1iI1 = o0o . getSetting ( 'add_playlist' )
+ o0Oo0oOooOoOo = o0o . getSetting ( 'ask_playlist_items' )
+ I1i = o0o . getSetting ( 'use_thumb' )
+ OoIiIiIi1I1 = o0o . getSetting ( 'parentalblocked' )
+ OoIiIiIi1I1 = ''
+ OoIiIiIi1I1 = OoIiIiIi1I1 == "true"
+ for IiI1ii1Ii in items :
+  oooOOOoOOOo0O = False
+  O00oOoo0OoO0 = False
+  if 62 - 62: i1IIi / o00O0oo . oOooOoO0Oo0O * i1
+  i11i1Ii1 = 'false'
+  try :
+   i11i1Ii1 = IiI1ii1Ii ( 'parentalblock' ) [ 0 ] . string
+  except :
+   oo0oO0oOOoo ( 'parentalblock Error' )
+   i11i1Ii1 = ''
+  if i11i1Ii1 == 'true' and OoIiIiIi1I1 : continue
+  if 98 - 98: ooOoO0o
+  try :
+   oO0o00oOOooO0 = IiI1ii1Ii ( 'title' ) [ 0 ] . string
+   if oO0o00oOOooO0 is None :
+    oO0o00oOOooO0 = 'unknown?'
+  except :
+   oo0oO0oOOoo ( 'Name Error' )
+   oO0o00oOOooO0 = ''
+   if 92 - 92: ooOoO0o - iIii1I11I1II1
+   if 32 - 32: iII111i % i1iIi11iIIi1I * i1iIi11iIIi1I + I1Ii111 * i11i * iII111i
+  try :
+   if IiI1ii1Ii ( 'epg' ) :
+    if IiI1ii1Ii . epg_url :
+     oo0oO0oOOoo ( 'Get EPG Regex' )
+     iIiIii1I1II = IiI1ii1Ii . epg_url . string
+     O0Oooo = IiI1ii1Ii . epg_regex . string
+     oO000 = I1IiIiIi1IiI1 ( iIiIii1I1II , O0Oooo )
+     if oO000 :
+      oO0o00oOOooO0 += ' - ' + oO000
+    elif IiI1ii1Ii ( 'epg' ) [ 0 ] . string > 1 :
+     oO0o00oOOooO0 += O0OO0o0OO0OO ( IiI1ii1Ii ( 'epg' ) [ 0 ] . string )
+   else :
+    pass
+  except :
+   oo0oO0oOOoo ( 'EPG Error' )
+  try :
+   oOO0O00Oo0O0o = [ ]
+   if len ( IiI1ii1Ii ( 'link' ) ) > 0 :
+    if 64 - 64: i11i
+    if 40 - 40: o0 % i1iIi11iIIi1I
+    for I11iiiii1II in IiI1ii1Ii ( 'link' ) :
+     if not I11iiiii1II . string == None :
+      oOO0O00Oo0O0o . append ( I11iiiii1II . string )
+      if 62 - 62: i1
+   elif len ( IiI1ii1Ii ( 'sportsdevil' ) ) > 0 :
+    for I11iiiii1II in IiI1ii1Ii ( 'sportsdevil' ) :
+     if not I11iiiii1II . string == None :
+      I1i111i = 'plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=' + I11iiiii1II . string
+      IIOOO0O00O0OOOO = IiI1ii1Ii ( 'referer' ) [ 0 ] . string
+      if IIOOO0O00O0OOOO :
+       if 42 - 42: ii1IiI1i / i1IIi % o0
+       I1i111i = I1i111i + '%26referer=' + IIOOO0O00O0OOOO
+      oOO0O00Oo0O0o . append ( I1i111i )
+   elif len ( IiI1ii1Ii ( 'p2p' ) ) > 0 :
+    for I11iiiii1II in IiI1ii1Ii ( 'p2p' ) :
+     if not I11iiiii1II . string == None :
+      if 'sop://' in I11iiiii1II . string :
+       I11iiIIII1I1 = 'plugin://plugin.video.p2p-streams/?mode=2url=' + I11iiiii1II . string + '&' + 'name=' + oO0o00oOOooO0
+       oOO0O00Oo0O0o . append ( I11iiIIII1I1 )
+      else :
+       i1IIi1i1Ii1 = 'plugin://plugin.video.p2p-streams/?mode=1&url=' + I11iiiii1II . string + '&' + 'name=' + oO0o00oOOooO0
+       oOO0O00Oo0O0o . append ( i1IIi1i1Ii1 )
+   elif len ( IiI1ii1Ii ( 'vaughn' ) ) > 0 :
+    for I11iiiii1II in IiI1ii1Ii ( 'vaughn' ) :
+     if not I11iiiii1II . string == None :
+      Iiio0Oo0oO = 'plugin://plugin.stream.vaughnlive.tv/?mode=PlayLiveStream&amp;channel=' + I11iiiii1II . string
+      oOO0O00Oo0O0o . append ( Iiio0Oo0oO )
+   elif len ( IiI1ii1Ii ( 'ilive' ) ) > 0 :
+    for I11iiiii1II in IiI1ii1Ii ( 'ilive' ) :
+     if not I11iiiii1II . string == None :
+      if not 'http' in I11iiiii1II . string :
+       iI = 'plugin://plugin.video.tbh.ilive/?url=http://www.streamlive.to/view/' + I11iiiii1II . string + '&amp;link=99&amp;mode=iLivePlay'
+      else :
+       iI = 'plugin://plugin.video.tbh.ilive/?url=' + I11iiiii1II . string + '&amp;link=99&amp;mode=iLivePlay'
+   elif len ( IiI1ii1Ii ( 'yt-dl' ) ) > 0 :
+    for I11iiiii1II in IiI1ii1Ii ( 'yt-dl' ) :
+     if not I11iiiii1II . string == None :
+      II1iiIi11 = I11iiiii1II . string + '&mode=18'
+      oOO0O00Oo0O0o . append ( II1iiIi11 )
+   elif len ( IiI1ii1Ii ( 'dm' ) ) > 0 :
+    for I11iiiii1II in IiI1ii1Ii ( 'dm' ) :
+     if not I11iiiii1II . string == None :
+      ooOo0O0O0oOO0 = "plugin://plugin.video.dailymotion_com/?mode=playVideo&url=" + I11iiiii1II . string
+      oOO0O00Oo0O0o . append ( ooOo0O0O0oOO0 )
+   elif len ( IiI1ii1Ii ( 'dmlive' ) ) > 0 :
+    for I11iiiii1II in IiI1ii1Ii ( 'dmlive' ) :
+     if not I11iiiii1II . string == None :
+      ooOo0O0O0oOO0 = "plugin://plugin.video.dailymotion_com/?mode=playLiveVideo&url=" + I11iiiii1II . string
+      oOO0O00Oo0O0o . append ( ooOo0O0O0oOO0 )
+   elif len ( IiI1ii1Ii ( 'utube' ) ) > 0 :
+    for I11iiiii1II in IiI1ii1Ii ( 'utube' ) :
+     if not I11iiiii1II . string == None :
+      if ' ' in I11iiiii1II . string :
+       iIiIIi = 'plugin://plugin.video.youtube/search/?q=' + urllib . quote_plus ( I11iiiii1II . string )
+       O00oOoo0OoO0 = iIiIIi
+      elif len ( I11iiiii1II . string ) == 11 :
+       iIiIIi = 'plugin://plugin.video.youtube/play/?video_id=' + I11iiiii1II . string
+      elif ( I11iiiii1II . string . startswith ( 'PL' ) and not '&order=' in I11iiiii1II . string ) or I11iiiii1II . string . startswith ( 'UU' ) :
+       iIiIIi = 'plugin://plugin.video.youtube/play/?&order=default&playlist_id=' + I11iiiii1II . string
+      elif I11iiiii1II . string . startswith ( 'PL' ) or I11iiiii1II . string . startswith ( 'UU' ) :
+       iIiIIi = 'plugin://plugin.video.youtube/play/?playlist_id=' + I11iiiii1II . string
+      elif I11iiiii1II . string . startswith ( 'UC' ) and len ( I11iiiii1II . string ) > 12 :
+       iIiIIi = 'plugin://plugin.video.youtube/channel/' + I11iiiii1II . string + '/'
+       O00oOoo0OoO0 = iIiIIi
+      elif not I11iiiii1II . string . startswith ( 'UC' ) and not ( I11iiiii1II . string . startswith ( 'PL' ) ) :
+       iIiIIi = 'plugin://plugin.video.youtube/user/' + I11iiiii1II . string + '/'
+       O00oOoo0OoO0 = iIiIIi
+     oOO0O00Oo0O0o . append ( iIiIIi )
+     if 14 - 14: i1 / I11i - iIii1I11I1II1 - OOooOOo % o00O0oo
+   elif len ( IiI1ii1Ii ( 'gdrive' ) ) > 0 :
+    for I11iiiii1II in IiI1ii1Ii ( 'gdrive' ) :
+     if not I11iiiii1II . string == None :
+      if len ( I11iiiii1II . string ) == 33 :
+       I1iIiI1IiIIII = 'plugin://plugin.video.gdrive?mode=streamURL&amp;url=https://drive.google.com/open?id=' + I11iiiii1II . string
+       if 18 - 18: o00O0oo % i11iIiiIii . iIii1I11I1II1 - IiII
+     oOO0O00Oo0O0o . append ( I1iIiI1IiIIII )
+     if 80 - 80: oOooOoO0Oo0O + OOooOOo - i1IIi . iII111i / i1 / oOooOoO0Oo0O
+   elif len ( IiI1ii1Ii ( 'imdb' ) ) > 0 :
+    for I11iiiii1II in IiI1ii1Ii ( 'imdb' ) :
+     if not I11iiiii1II . string == None :
+      if o0o . getSetting ( 'genesisorpulsar' ) == '0' :
+       I1Iiii = 'plugin://plugin.video.genesis/?action=play&imdb=' + I11iiiii1II . string
+      else :
+       I1Iiii = 'plugin://plugin.video.pulsar/movie/tt' + I11iiiii1II . string + '/play'
+      oOO0O00Oo0O0o . append ( I1Iiii )
+   elif len ( IiI1ii1Ii ( 'f4m' ) ) > 0 :
+    for I11iiiii1II in IiI1ii1Ii ( 'f4m' ) :
+     if not I11iiiii1II . string == None :
+      if '.f4m' in I11iiiii1II . string :
+       I1III1II1I11 = 'plugin://plugin.video.f4mTester/?url=' + urllib . quote_plus ( I11iiiii1II . string )
+      elif '.m3u8' in I11iiiii1II . string :
+       I1III1II1I11 = 'plugin://plugin.video.f4mTester/?url=' + urllib . quote_plus ( I11iiiii1II . string ) + '&amp;streamtype=HLS'
+       if 30 - 30: i1 / I11i / I1Ii111 % o00O0oo + i11i
+      else :
+       I1III1II1I11 = 'plugin://plugin.video.f4mTester/?url=' + urllib . quote_plus ( I11iiiii1II . string ) + '&amp;streamtype=SIMPLE'
+     oOO0O00Oo0O0o . append ( I1III1II1I11 )
+   elif len ( IiI1ii1Ii ( 'ftv' ) ) > 0 :
+    for I11iiiii1II in IiI1ii1Ii ( 'ftv' ) :
+     if not I11iiiii1II . string == None :
+      I1III111i = 'plugin://plugin.video.F.T.V/?name=' + urllib . quote ( oO0o00oOOooO0 ) + '&url=' + I11iiiii1II . string + '&mode=125&ch_fanart=na'
+     oOO0O00Oo0O0o . append ( I1III111i )
+   elif len ( IiI1ii1Ii ( 'urlsolve' ) ) > 0 :
+    if 4 - 4: i1IIi + o00O0oo + i1IIi
+    for I11iiiii1II in IiI1ii1Ii ( 'urlsolve' ) :
+     if not I11iiiii1II . string == None :
+      i11IiIIi11I = I11iiiii1II . string + '&mode=19'
+      oOO0O00Oo0O0o . append ( i11IiIIi11I )
+   if len ( oOO0O00Oo0O0o ) < 1 :
+    raise
+  except :
+   oo0oO0oOOoo ( 'Error <link> element, Passing:' + oO0o00oOOooO0 . encode ( 'utf-8' , 'ignore' ) )
+   continue
+  try :
+   oooOOOoOOOo0O = IiI1ii1Ii ( 'externallink' ) [ 0 ] . string
+  except : pass
+  if 78 - 78: I1Ii111
+  if oooOOOoOOOo0O :
+   Oo0O0Oo00O = [ oooOOOoOOOo0O ]
+   oooOOOoOOOo0O = True
+  else :
+   oooOOOoOOOo0O = False
+  try :
+   O00oOoo0OoO0 = IiI1ii1Ii ( 'jsonrpc' ) [ 0 ] . string
+  except : pass
+  if O00oOoo0OoO0 :
+   if 9 - 9: i1 . oOooOoO0Oo0O - ii1IiI1i
+   Oo0O0Oo00O = [ O00oOoo0OoO0 ]
+   if 32 - 32: OoooooooOO / oOooOoO0Oo0O / iIii1I11I1II1 + i11i . OOooOOo . i1
+   O00oOoo0OoO0 = True
+  else :
+   O00oOoo0OoO0 = False
+  try :
+   ii1ii11 = IiI1ii1Ii ( 'thumbnail' ) [ 0 ] . string
+   if ii1ii11 == None :
+    raise
+  except :
+   ii1ii11 = ''
+  try :
+   if not IiI1ii1Ii ( 'fanart' ) :
+    if o0o . getSetting ( 'use_thumb' ) == "true" :
+     iii1 = ii1ii11
+    else :
+     iii1 = fanart
+   else :
+    iii1 = IiI1ii1Ii ( 'fanart' ) [ 0 ] . string
+   if iii1 == None :
+    raise
+  except :
+   iii1 = fanart
+  try :
+   Ii11i1I11i = IiI1ii1Ii ( 'info' ) [ 0 ] . string
+   if Ii11i1I11i == None :
+    raise
+  except :
+   Ii11i1I11i = ''
+   if 21 - 21: iIii1I11I1II1 / i11i % i1IIi
+  try :
+   ooOO0oO0oo00o = IiI1ii1Ii ( 'genre' ) [ 0 ] . string
+   if ooOO0oO0oo00o == None :
+    raise
+  except :
+   ooOO0oO0oo00o = ''
+   if 8 - 8: i1iIi11iIIi1I + o0 . iIii1I11I1II1 % O0
+  try :
+   I11i1 = IiI1ii1Ii ( 'date' ) [ 0 ] . string
+   if I11i1 == None :
+    raise
+  except :
+   I11i1 = ''
+   if 43 - 43: ii1IiI1i - IiII
+  try :
+   iIiIIIIIii = IiI1ii1Ii ( 'year' ) [ 0 ] . string
+   if I11i1 == None :
+    raise
+  except :
+   iIiIIIIIii = ''
+   if 70 - 70: IiII / I11i % o00O0oo - iII111i
+  try :
+   OOo0ii11I1 = IiI1ii1Ii ( 'director' ) [ 0 ] . string
+   if OOo0ii11I1 == None :
+    raise
+  except :
+   OOo0ii11I1 = ''
+   if 47 - 47: IiII
+  try :
+   oO0oo = IiI1ii1Ii ( 'duration' ) [ 0 ] . string
+   if oO0oo == None :
+    raise
+  except :
+   oO0oo = ''
+   if 92 - 92: I11i + o0 % i1IIi
+  try :
+   Ii111iIi1iIi = IiI1ii1Ii ( 'premiered' ) [ 0 ] . string
+   if Ii111iIi1iIi == None :
+    raise
+  except :
+   Ii111iIi1iIi = ''
+   if 23 - 23: ooOoO0o - I11i + iII111i - o0 * o0 . I11i11Ii
+  try :
+   IIIII = IiI1ii1Ii ( 'studio' ) [ 0 ] . string
+   if IIIII == None :
+    raise
+  except :
+   IIIII = ''
+   if 47 - 47: OOooOOo % iIii1I11I1II1
+  try :
+   o0ooOoO000oO = IiI1ii1Ii ( 'rate' ) [ 0 ] . string
+   if o0ooOoO000oO == None :
+    raise
+  except :
+   o0ooOoO000oO = ''
+   if 11 - 11: oOooOoO0Oo0O % iII111i - i1iIi11iIIi1I - OOooOOo + i1
+  try :
+   OOo = channel ( 'originaltitle' ) [ 0 ] . string
+   if OOo == None :
+    raise
+  except :
+   OOo = ''
+   if 98 - 98: IiII + iII111i - i1iIi11iIIi1I
+  try :
+   i1i11I1I1iii1 = channel ( 'country' ) [ 0 ] . string
+   if i1i11I1I1iii1 == None :
+    raise
+  except :
+   i1i11I1I1iii1 = ''
+   if 79 - 79: I11i / ooOoO0o . o0 - ii1IiI1i
+  try :
+   I1iii11 = channel ( 'rating' ) [ 0 ] . string
+   if I1iii11 == None :
+    raise
+  except :
+   I1iii11 = ''
+   if 47 - 47: OoooooooOO % O0 * IiII . iII111i
+  try :
+   ooo0O = channel ( 'userrating' ) [ 0 ] . string
+   if ooo0O == None :
+    raise
+  except :
+   ooo0O = ''
+   if 38 - 38: O0 - I1Ii111 % ooOoO0o
+  try :
+   iII1iii = channel ( 'votes' ) [ 0 ] . string
+   if iII1iii == None :
+    raise
+  except :
+   iII1iii = ''
+   if 64 - 64: iIii1I11I1II1
+  try :
+   i11i1iiiII = channel ( 'aired' ) [ 0 ] . string
+   if i11i1iiiII == None :
+    raise
+  except :
+   i11i1iiiII = ''
+   if 15 - 15: ii1IiI1i + I11i / ii1IiI1i / ooOoO0o
+  IiIIiIIIiIii = None
+  if IiI1ii1Ii ( 'regex' ) :
+   try :
+    I1Iii1I = IiI1ii1Ii ( 'regex' )
+    IiIIiIIIiIii = I1i11II ( I1Iii1I )
+   except :
+    pass
+  try :
+   if 13 - 13: i1 + O0
+   if len ( oOO0O00Oo0O0o ) > 1 :
+    O00o0O = 0
+    iIIIiI = [ ]
+    for I11iiiii1II in oOO0O00Oo0O0o :
+     if I1Iii1iI1 == "false" :
+      O00o0O += 1
+      oo ( I11iiiii1II , '%s) %s' % ( O00o0O , oO0o00oOOooO0 . encode ( 'utf-8' , 'ignore' ) ) , ii1ii11 , iii1 , Ii11i1I11i , ooOO0oO0oo00o , I11i1 , iIiIIIIIii , OOo0ii11I1 , oO0oo , Ii111iIi1iIi , IIIII , o0ooOoO000oO , OOo , i1i11I1I1iii1 , I1iii11 , ooo0O , iII1iii , i11i1iiiII , True , iIIIiI , IiIIiIIIiIii , IIiiii )
+     elif I1Iii1iI1 == "true" and o0Oo0oOooOoOo == 'true' :
+      if IiIIiIIIiIii :
+       iIIIiI . append ( I11iiiii1II + '&regexs=' + IiIIiIIIiIii )
+      elif any ( x in I11iiiii1II for x in Ii1i ) and I11iiiii1II . startswith ( 'http' ) :
+       iIIIiI . append ( I11iiiii1II + '&mode=19' )
+      else :
+       iIIIiI . append ( I11iiiii1II )
+     else :
+      iIIIiI . append ( I11iiiii1II )
+    if len ( iIIIiI ) > 1 :
+     oo ( '' , oO0o00oOOooO0 , ii1ii11 , iii1 , Ii11i1I11i , ooOO0oO0oo00o , I11i1 , iIiIIIIIii , OOo0ii11I1 , oO0oo , Ii111iIi1iIi , IIIII , o0ooOoO000oO , OOo , i1i11I1I1iii1 , I1iii11 , ooo0O , iII1iii , i11i1iiiII , True , iIIIiI , IiIIiIIIiIii , IIiiii )
+   else :
+    if 93 - 93: o00O0oo . iIii1I11I1II1 % i11iIiiIii . o0 % o00O0oo + O0
+    if dontLink :
+     return oO0o00oOOooO0 , oOO0O00Oo0O0o [ 0 ] , IiIIiIIIiIii
+    if oooOOOoOOOo0O :
+     if not IiIIiIIIiIii == None :
+      oO0O0o0Oooo ( oO0o00oOOooO0 . encode ( 'utf-8' ) , Oo0O0Oo00O [ 0 ] . encode ( 'utf-8' ) , 1 , ii1ii11 , fanart , Ii11i1I11i , ooOO0oO0oo00o , I11i1 , iIiIIIIIii , OOo0ii11I1 , oO0oo , Ii111iIi1iIi , IIIII , o0ooOoO000oO , OOo , i1i11I1I1iii1 , I1iii11 , ooo0O , iII1iii , i11i1iiiII , None , '!!update' , IiIIiIIIiIii , oOO0O00Oo0O0o [ 0 ] . encode ( 'utf-8' ) )
+      if 65 - 65: iII111i + i1iIi11iIIi1I - OoooooooOO
+     else :
+      oO0O0o0Oooo ( oO0o00oOOooO0 . encode ( 'utf-8' ) , Oo0O0Oo00O [ 0 ] . encode ( 'utf-8' ) , 1 , ii1ii11 , fanart , Ii11i1I11i , ooOO0oO0oo00o , I11i1 , iIiIIIIIii , OOo0ii11I1 , oO0oo , Ii111iIi1iIi , IIIII , o0ooOoO000oO , OOo , i1i11I1I1iii1 , I1iii11 , ooo0O , iII1iii , i11i1iiiII , None , 'source' , None , None )
+      if 51 - 51: I11i11Ii + OOooOOo / IiII - i1IIi
+    elif O00oOoo0OoO0 :
+     oO0O0o0Oooo ( oO0o00oOOooO0 . encode ( 'utf-8' ) , Oo0O0Oo00O [ 0 ] , 53 , ii1ii11 , fanart , Ii11i1I11i , ooOO0oO0oo00o , I11i1 , iIiIIIIIii , OOo0ii11I1 , oO0oo , Ii111iIi1iIi , IIIII , o0ooOoO000oO , OOo , i1i11I1I1iii1 , I1iii11 , ooo0O , iII1iii , i11i1iiiII , None , 'source' )
+     if 51 - 51: I11i11Ii - ii1IiI1i * Ii1I
+    else :
+     if 12 - 12: iIii1I11I1II1 % o00O0oo % o00O0oo
+     oo ( oOO0O00Oo0O0o [ 0 ] , oO0o00oOOooO0 . encode ( 'utf-8' , 'ignore' ) , ii1ii11 , iii1 , Ii11i1I11i , ooOO0oO0oo00o , I11i1 , iIiIIIIIii , OOo0ii11I1 , oO0oo , Ii111iIi1iIi , IIIII , o0ooOoO000oO , OOo , i1i11I1I1iii1 , I1iii11 , ooo0O , iII1iii , i11i1iiiII , True , None , IiIIiIIIiIii , IIiiii )
+     if 78 - 78: I1Ii111 . o0 . Ii1I
+  except :
+   oo0oO0oOOoo ( 'There was a problem adding item - ' + oO0o00oOOooO0 . encode ( 'utf-8' , 'ignore' ) )
+   if 97 - 97: OOooOOo
+def I1i11II ( reg_item ) :
+ try :
+  IiIIiIIIiIii = { }
+  for I11iiiii1II in reg_item :
+   IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] = { }
+   IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'name' ] = I11iiiii1II ( 'name' ) [ 0 ] . string
+   if 80 - 80: oOooOoO0Oo0O . iII111i
+   try :
+    IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'expres' ] = I11iiiii1II ( 'expres' ) [ 0 ] . string
+    if not IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'expres' ] :
+     IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'expres' ] = ''
+   except :
+    oo0oO0oOOoo ( "Regex: -- No Referer --" )
+   IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'page' ] = I11iiiii1II ( 'page' ) [ 0 ] . string
+   try :
+    IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'referer' ] = I11iiiii1II ( 'referer' ) [ 0 ] . string
+   except :
+    oo0oO0oOOoo ( "Regex: -- No Referer --" )
+   try :
+    IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'connection' ] = I11iiiii1II ( 'connection' ) [ 0 ] . string
+   except :
+    oo0oO0oOOoo ( "Regex: -- No connection --" )
+    if 47 - 47: Ii1I + o00O0oo + i11i % i11iIiiIii
+   try :
+    IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'notplayable' ] = I11iiiii1II ( 'notplayable' ) [ 0 ] . string
+   except :
+    oo0oO0oOOoo ( "Regex: -- No notplayable --" )
+    if 93 - 93: ii1IiI1i % o0 . O0 / IiII * OOooOOo
+   try :
+    IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'noredirect' ] = I11iiiii1II ( 'noredirect' ) [ 0 ] . string
+   except :
+    oo0oO0oOOoo ( "Regex: -- No noredirect --" )
+   try :
+    IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'origin' ] = I11iiiii1II ( 'origin' ) [ 0 ] . string
+   except :
+    oo0oO0oOOoo ( "Regex: -- No origin --" )
+   try :
+    IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'accept' ] = I11iiiii1II ( 'accept' ) [ 0 ] . string
+   except :
+    oo0oO0oOOoo ( "Regex: -- No accept --" )
+   try :
+    IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'includeheaders' ] = I11iiiii1II ( 'includeheaders' ) [ 0 ] . string
+   except :
+    oo0oO0oOOoo ( "Regex: -- No includeheaders --" )
+    if 29 - 29: i1
+    if 86 - 86: i11i . I1Ii111
+   try :
+    IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'listrepeat' ] = I11iiiii1II ( 'listrepeat' ) [ 0 ] . string
+    if 2 - 2: OoooooooOO
+   except :
+    oo0oO0oOOoo ( "Regex: -- No listrepeat --" )
+    if 60 - 60: i1iIi11iIIi1I
+    if 81 - 81: o0 % iII111i
+    if 87 - 87: iIii1I11I1II1 . OoooooooOO * o0
+   try :
+    IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'proxy' ] = I11iiiii1II ( 'proxy' ) [ 0 ] . string
+   except :
+    oo0oO0oOOoo ( "Regex: -- No proxy --" )
+    if 100 - 100: i1iIi11iIIi1I / i1IIi - oOooOoO0Oo0O % iII111i - iIii1I11I1II1
+   try :
+    IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'x-req' ] = I11iiiii1II ( 'x-req' ) [ 0 ] . string
+   except :
+    oo0oO0oOOoo ( "Regex: -- No x-req --" )
+    if 17 - 17: Ii1I / i1 % I11i11Ii
+   try :
+    IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'x-addr' ] = I11iiiii1II ( 'x-addr' ) [ 0 ] . string
+   except :
+    oo0oO0oOOoo ( "Regex: -- No x-addr --" )
+    if 71 - 71: I1Ii111 . ooOoO0o . i1iIi11iIIi1I
+   try :
+    IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'x-forward' ] = I11iiiii1II ( 'x-forward' ) [ 0 ] . string
+   except :
+    oo0oO0oOOoo ( "Regex: -- No x-forward --" )
+    if 68 - 68: i11iIiiIii % OOooOOo * i1iIi11iIIi1I * I1Ii111 * i11i + O0
+   try :
+    IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'agent' ] = I11iiiii1II ( 'agent' ) [ 0 ] . string
+   except :
+    oo0oO0oOOoo ( "Regex: -- No User Agent --" )
+   try :
+    IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'post' ] = I11iiiii1II ( 'post' ) [ 0 ] . string
+   except :
+    oo0oO0oOOoo ( "Regex: -- Not a post" )
+   try :
+    IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'rawpost' ] = I11iiiii1II ( 'rawpost' ) [ 0 ] . string
+   except :
+    oo0oO0oOOoo ( "Regex: -- Not a rawpost" )
+   try :
+    IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'htmlunescape' ] = I11iiiii1II ( 'htmlunescape' ) [ 0 ] . string
+   except :
+    oo0oO0oOOoo ( "Regex: -- Not a htmlunescape" )
+    if 66 - 66: Ii1I % ii1IiI1i % OoooooooOO
+    if 34 - 34: i1 / IiII % O0 . i1iIi11iIIi1I . i1IIi
+   try :
+    IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'readcookieonly' ] = I11iiiii1II ( 'readcookieonly' ) [ 0 ] . string
+   except :
+    oo0oO0oOOoo ( "Regex: -- Not a readCookieOnly" )
+    if 29 - 29: O0 . ooOoO0o
+   try :
+    IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'cookiejar' ] = I11iiiii1II ( 'cookiejar' ) [ 0 ] . string
+    if not IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'cookiejar' ] :
+     IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'cookiejar' ] = ''
+   except :
+    oo0oO0oOOoo ( "Regex: -- Not a cookieJar" )
+   try :
+    IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'setcookie' ] = I11iiiii1II ( 'setcookie' ) [ 0 ] . string
+   except :
+    oo0oO0oOOoo ( "Regex: -- Not a setcookie" )
+   try :
+    IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'appendcookie' ] = I11iiiii1II ( 'appendcookie' ) [ 0 ] . string
+   except :
+    oo0oO0oOOoo ( "Regex: -- Not a appendcookie" )
+    if 66 - 66: OOooOOo * iIii1I11I1II1 % iIii1I11I1II1 * I1Ii111 - o00O0oo - I1Ii111
+   try :
+    IiIIiIIIiIii [ I11iiiii1II ( 'name' ) [ 0 ] . string ] [ 'ignorecache' ] = I11iiiii1II ( 'ignorecache' ) [ 0 ] . string
+   except :
+    oo0oO0oOOoo ( "Regex: -- no ignorecache" )
+    if 70 - 70: ooOoO0o + OOooOOo
+    if 93 - 93: ooOoO0o + iII111i
+    if 33 - 33: O0
+    if 78 - 78: O0 / i11i * i1iIi11iIIi1I
+    if 50 - 50: OoooooooOO - iIii1I11I1II1 + i1IIi % ooOoO0o - iIii1I11I1II1 % O0
+  IiIIiIIIiIii = urllib . quote ( repr ( IiIIiIIIiIii ) )
+  return IiIIiIIIiIii
+  if 58 - 58: I1Ii111 + iIii1I11I1II1
+ except :
+  IiIIiIIIiIii = None
+  oo0oO0oOOoo ( 'regex Error: ' + oO0o00oOOooO0 . encode ( 'utf-8' , 'ignore' ) )
+  if 65 - 65: i11i - ooOoO0o % i1 - o0 * IiII + iII111i
+  if 79 - 79: o00O0oo . o0 % ooOoO0o - I11i11Ii
+def o0oO0oO0O ( url ) :
+ try :
+  for I11iiiii1II in range ( 1 , 51 ) :
+   o0I11iII = ii11II ( url )
+   if "EXT-X-STREAM-INF" in o0I11iII : return url
+   if not "EXTM3U" in o0I11iII : return
+   xbmc . sleep ( 2000 )
+  return
+ except :
+  return
+  if 9 - 9: iIii1I11I1II1 % Ii1I / o0 - O0
+def o0O0oo0o ( regexs , url , cookieJar = None , forCookieJarOnly = False , recursiveCall = False , cachedPages = { } , rawPost = False , cookie_jar_file = None ) :
+ if not recursiveCall :
+  regexs = eval ( urllib . unquote ( regexs ) )
+  if 12 - 12: o0 % I1Ii111 % ii1IiI1i . i11iIiiIii * iIii1I11I1II1
+  if 66 - 66: i11iIiiIii * iIii1I11I1II1 % OoooooooOO
+ iIiI1iI1i1I = re . compile ( '\$doregex\[([^\]]*)\]' ) . findall ( url )
+ if 82 - 82: oOooOoO0Oo0O % ii1IiI1i * IiII . iII111i % oOooOoO0Oo0O - iIii1I11I1II1
+ iII1ii1I1i = True
+ for iiI1 in iIiI1iI1i1I :
+  if iiI1 in regexs :
+   if 42 - 42: I11i % OOooOOo / i1iIi11iIIi1I - OOooOOo * i11iIiiIii
+   iI1IiiiIiI1Ii = regexs [ iiI1 ]
+   if 78 - 78: OoooooooOO / I11i % o0 * OoooooooOO
+   ooOO00o00 = False
+   if 'cookiejar' in iI1IiiiIiI1Ii :
+    if 18 - 18: iIii1I11I1II1 + Ii1I * oOooOoO0Oo0O - I11i / oOooOoO0Oo0O
+    ooOO00o00 = iI1IiiiIiI1Ii [ 'cookiejar' ]
+    if '$doregex' in ooOO00o00 :
+     cookieJar = o0O0oo0o ( regexs , iI1IiiiIiI1Ii [ 'cookiejar' ] , cookieJar , True , True , cachedPages )
+     ooOO00o00 = True
+    else :
+     ooOO00o00 = True
+     if 78 - 78: Ii1I . I1Ii111
+   if ooOO00o00 :
+    if cookieJar == None :
+     if 38 - 38: o0 + I1Ii111
+     cookie_jar_file = None
+     if 'open[' in iI1IiiiIiI1Ii [ 'cookiejar' ] :
+      cookie_jar_file = iI1IiiiIiI1Ii [ 'cookiejar' ] . split ( 'open[' ) [ 1 ] . split ( ']' ) [ 0 ]
+      if 15 - 15: I11i11Ii + Ii1I . o00O0oo - iIii1I11I1II1 / O0 % iIii1I11I1II1
+      if 86 - 86: oOooOoO0Oo0O / OOooOOo * iII111i
+     cookieJar = O00o ( cookie_jar_file )
+     if 86 - 86: ii1IiI1i * i11i * Ii1I
+     if cookie_jar_file :
+      oO0Oo ( cookieJar , cookie_jar_file )
+      if 58 - 58: o00O0oo
+      if 5 - 5: i11iIiiIii % o0 - iII111i
+      if 83 - 83: ii1IiI1i / Ii1I . ooOoO0o
+    elif 'save[' in iI1IiiiIiI1Ii [ 'cookiejar' ] :
+     cookie_jar_file = iI1IiiiIiI1Ii [ 'cookiejar' ] . split ( 'save[' ) [ 1 ] . split ( ']' ) [ 0 ]
+     iiIi111iI = os . path . join ( OOoOoo , cookie_jar_file )
+     if 78 - 78: iII111i + o0 + I1Ii111 - I1Ii111 . i11iIiiIii / i1iIi11iIIi1I
+     oO0Oo ( cookieJar , cookie_jar_file )
+   if iI1IiiiIiI1Ii [ 'page' ] and '$doregex' in iI1IiiiIiI1Ii [ 'page' ] :
+    I11i11i1 = o0O0oo0o ( regexs , iI1IiiiIiI1Ii [ 'page' ] , cookieJar , recursiveCall = True , cachedPages = cachedPages )
+    if len ( I11i11i1 ) == 0 :
+     I11i11i1 = 'http://regexfailed'
+    iI1IiiiIiI1Ii [ 'page' ] = I11i11i1
+    if 68 - 68: I11i11Ii . I11i11Ii - ii1IiI1i / Ii1I . o00O0oo / i1IIi
+   if 'setcookie' in iI1IiiiIiI1Ii and iI1IiiiIiI1Ii [ 'setcookie' ] and '$doregex' in iI1IiiiIiI1Ii [ 'setcookie' ] :
+    iI1IiiiIiI1Ii [ 'setcookie' ] = o0O0oo0o ( regexs , iI1IiiiIiI1Ii [ 'setcookie' ] , cookieJar , recursiveCall = True , cachedPages = cachedPages )
+   if 'appendcookie' in iI1IiiiIiI1Ii and iI1IiiiIiI1Ii [ 'appendcookie' ] and '$doregex' in iI1IiiiIiI1Ii [ 'appendcookie' ] :
+    iI1IiiiIiI1Ii [ 'appendcookie' ] = o0O0oo0o ( regexs , iI1IiiiIiI1Ii [ 'appendcookie' ] , cookieJar , recursiveCall = True , cachedPages = cachedPages )
+    if 12 - 12: ii1IiI1i * i1IIi * Ii1I
+    if 23 - 23: I11i / O0 / oOooOoO0Oo0O
+   if 'post' in iI1IiiiIiI1Ii and '$doregex' in iI1IiiiIiI1Ii [ 'post' ] :
+    iI1IiiiIiI1Ii [ 'post' ] = o0O0oo0o ( regexs , iI1IiiiIiI1Ii [ 'post' ] , cookieJar , recursiveCall = True , cachedPages = cachedPages )
+    if 49 - 49: Ii1I . i1 % OOooOOo / iII111i
+    if 95 - 95: O0 * o0 * I1Ii111 . o00O0oo / iIii1I11I1II1
+   if 'rawpost' in iI1IiiiIiI1Ii and '$doregex' in iI1IiiiIiI1Ii [ 'rawpost' ] :
+    iI1IiiiIiI1Ii [ 'rawpost' ] = o0O0oo0o ( regexs , iI1IiiiIiI1Ii [ 'rawpost' ] , cookieJar , recursiveCall = True , cachedPages = cachedPages , rawPost = True )
+    if 28 - 28: I1Ii111 + OOooOOo - o00O0oo / iIii1I11I1II1 - oOooOoO0Oo0O
+    if 45 - 45: O0 / i1IIi * OOooOOo * i1iIi11iIIi1I
+   if 'rawpost' in iI1IiiiIiI1Ii and '$epoctime$' in iI1IiiiIiI1Ii [ 'rawpost' ] :
+    iI1IiiiIiI1Ii [ 'rawpost' ] = iI1IiiiIiI1Ii [ 'rawpost' ] . replace ( '$epoctime$' , II11I ( ) )
+    if 31 - 31: iII111i
+   if 'rawpost' in iI1IiiiIiI1Ii and '$epoctime2$' in iI1IiiiIiI1Ii [ 'rawpost' ] :
+    iI1IiiiIiI1Ii [ 'rawpost' ] = iI1IiiiIiI1Ii [ 'rawpost' ] . replace ( '$epoctime2$' , i11iIIi ( ) )
+    if 93 - 93: o00O0oo / I11i * OoooooooOO - i11iIiiIii / oOooOoO0Oo0O
+    if 13 - 13: ii1IiI1i / i11iIiiIii
+   OoOoO = ''
+   if iI1IiiiIiI1Ii [ 'page' ] and iI1IiiiIiI1Ii [ 'page' ] in cachedPages and not 'ignorecache' in iI1IiiiIiI1Ii and forCookieJarOnly == False :
+    if 32 - 32: i1 + oOooOoO0Oo0O . ooOoO0o
+    OoOoO = cachedPages [ iI1IiiiIiI1Ii [ 'page' ] ]
+   else :
+    if iI1IiiiIiI1Ii [ 'page' ] and not iI1IiiiIiI1Ii [ 'page' ] == '' and iI1IiiiIiI1Ii [ 'page' ] . startswith ( 'http' ) :
+     if '$epoctime$' in iI1IiiiIiI1Ii [ 'page' ] :
+      iI1IiiiIiI1Ii [ 'page' ] = iI1IiiiIiI1Ii [ 'page' ] . replace ( '$epoctime$' , II11I ( ) )
+     if '$epoctime2$' in iI1IiiiIiI1Ii [ 'page' ] :
+      iI1IiiiIiI1Ii [ 'page' ] = iI1IiiiIiI1Ii [ 'page' ] . replace ( '$epoctime2$' , i11iIIi ( ) )
+      if 41 - 41: o0 . i11iIiiIii / Ii1I
+      if 98 - 98: o0 % i11i
+     OoO0O000 = iI1IiiiIiI1Ii [ 'page' ] . split ( '|' )
+     II1Ii = OoO0O000 [ 0 ]
+     Ii1iiII1i = None
+     if len ( OoO0O000 ) > 1 :
+      Ii1iiII1i = OoO0O000 [ 1 ]
+      if 52 - 52: OOooOOo / ooOoO0o
+      if 91 - 91: I1Ii111 . I11i11Ii + i11i
+      if 36 - 36: O0 * i1iIi11iIIi1I % IiII * IiII / i1iIi11iIIi1I * I1Ii111
+      if 14 - 14: i1IIi . I1Ii111 + O0 * o00O0oo
+      if 76 - 76: i1iIi11iIIi1I
+      if 92 - 92: Ii1I - iIii1I11I1II1 % OoooooooOO
+      if 39 - 39: IiII . oOooOoO0Oo0O * o0 - i11iIiiIii
+      if 1 - 1: IiII * o0
+      if 66 - 66: o0 + i1IIi % i11i . O0 * ii1IiI1i % ii1IiI1i
+      if 87 - 87: I11i + i1 . IiII - OoooooooOO
+     iiiiI1IiI1I1 = urllib2 . ProxyHandler ( urllib2 . getproxies ( ) )
+     if 19 - 19: iII111i
+     if 55 - 55: I11i % I11i / O0 % IiII - i1 . I11i11Ii
+     if 49 - 49: iIii1I11I1II1 * i1IIi . OoooooooOO
+     ooO = urllib2 . Request ( II1Ii )
+     if 'proxy' in iI1IiiiIiI1Ii :
+      OOOO0oOo00O = iI1IiiiIiI1Ii [ 'proxy' ]
+      if 32 - 32: I1Ii111 % iII111i - oOooOoO0Oo0O
+      if 71 - 71: IiII
+      if II1Ii [ : 5 ] == "https" :
+       Iiii1i11ii1Ii = urllib2 . ProxyHandler ( { 'https' : OOOO0oOo00O } )
+       if 12 - 12: I11i . iII111i
+      else :
+       Iiii1i11ii1Ii = urllib2 . ProxyHandler ( { 'http' : OOOO0oOo00O } )
+       if 79 - 79: ooOoO0o / I11i11Ii / IiII . ooOoO0o * OoooooooOO + i1
+      II1 = urllib2 . build_opener ( Iiii1i11ii1Ii )
+      urllib2 . install_opener ( II1 )
+      if 73 - 73: O0 - ii1IiI1i
+      if 2 - 2: i11i / ooOoO0o
+     ooO . add_header ( 'User-Agent' , 'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1' )
+     OOOO0oOo00O = None
+     if 54 - 54: i1IIi . Ii1I - ii1IiI1i + o00O0oo + I11i11Ii / I11i11Ii
+     if 'referer' in iI1IiiiIiI1Ii :
+      ooO . add_header ( 'Referer' , iI1IiiiIiI1Ii [ 'referer' ] )
+     if 'accept' in iI1IiiiIiI1Ii :
+      ooO . add_header ( 'Accept' , iI1IiiiIiI1Ii [ 'accept' ] )
+     if 'agent' in iI1IiiiIiI1Ii :
+      ooO . add_header ( 'User-agent' , iI1IiiiIiI1Ii [ 'agent' ] )
+     if 'x-req' in iI1IiiiIiI1Ii :
+      ooO . add_header ( 'X-Requested-With' , iI1IiiiIiI1Ii [ 'x-req' ] )
+     if 'x-addr' in iI1IiiiIiI1Ii :
+      ooO . add_header ( 'x-addr' , iI1IiiiIiI1Ii [ 'x-addr' ] )
+     if 'x-forward' in iI1IiiiIiI1Ii :
+      ooO . add_header ( 'X-Forwarded-For' , iI1IiiiIiI1Ii [ 'x-forward' ] )
+     if 'setcookie' in iI1IiiiIiI1Ii :
+      if 22 - 22: o00O0oo . iIii1I11I1II1
+      ooO . add_header ( 'Cookie' , iI1IiiiIiI1Ii [ 'setcookie' ] )
+     if 'appendcookie' in iI1IiiiIiI1Ii :
+      if 12 - 12: iII111i
+      Ooii1IIi1ii = iI1IiiiIiI1Ii [ 'appendcookie' ]
+      Ooii1IIi1ii = Ooii1IIi1ii . split ( ';' )
+      for oo0OoOOooO in Ooii1IIi1ii :
+       o0o0OO0o00o0O , IIIIIIi1i = oo0OoOOooO . split ( '=' )
+       iiiii11I1 , o0o0OO0o00o0O = o0o0OO0o00o0O . split ( ':' )
+       Ii1OOOo = cookielib . Cookie ( version = 0 , name = o0o0OO0o00o0O , value = IIIIIIi1i , port = None , port_specified = False , domain = iiiii11I1 , domain_specified = False , domain_initial_dot = False , path = '/' , path_specified = True , secure = False , expires = None , discard = True , comment = None , comment_url = None , rest = { 'HttpOnly' : None } , rfc2109 = False )
+       cookieJar . set_cookie ( Ii1OOOo )
+     if 'origin' in iI1IiiiIiI1Ii :
+      ooO . add_header ( 'Origin' , iI1IiiiIiI1Ii [ 'origin' ] )
+     if Ii1iiII1i :
+      Ii1iiII1i = Ii1iiII1i . split ( '&' )
+      for oo0OoOOooO in Ii1iiII1i :
+       o0o0OO0o00o0O , IIIIIIi1i = oo0OoOOooO . split ( '=' )
+       ooO . add_header ( o0o0OO0o00o0O , IIIIIIi1i )
+       if 35 - 35: o00O0oo - i1iIi11iIIi1I . I11i11Ii * I11i11Ii / i11iIiiIii + ii1IiI1i
+     if not cookieJar == None :
+      if 87 - 87: o0 % iIii1I11I1II1
+      o0O = urllib2 . HTTPCookieProcessor ( cookieJar )
+      II1 = urllib2 . build_opener ( o0O , urllib2 . HTTPBasicAuthHandler ( ) , urllib2 . HTTPHandler ( ) )
+      II1 = urllib2 . install_opener ( II1 )
+      if 69 - 69: I1Ii111 + I11i11Ii - o00O0oo + OOooOOo
+      if 36 - 36: i11iIiiIii / IiII . Ii1I + I1Ii111 . O0 + oOooOoO0Oo0O
+      if 'noredirect' in iI1IiiiIiI1Ii :
+       II1 = urllib2 . build_opener ( o0O , Ii , urllib2 . HTTPBasicAuthHandler ( ) , urllib2 . HTTPHandler ( ) )
+       II1 = urllib2 . install_opener ( II1 )
+     elif 'noredirect' in iI1IiiiIiI1Ii :
+      II1 = urllib2 . build_opener ( Ii , urllib2 . HTTPBasicAuthHandler ( ) , urllib2 . HTTPHandler ( ) )
+      II1 = urllib2 . install_opener ( II1 )
+      if 36 - 36: i1IIi - ii1IiI1i - ooOoO0o
+      if 7 - 7: i11iIiiIii + oOooOoO0Oo0O
+     if 'connection' in iI1IiiiIiI1Ii :
+      if 47 - 47: ooOoO0o - I11i / o00O0oo - I11i11Ii + IiII - iIii1I11I1II1
+      from keepalive import HTTPHandler
+      o0OOOOO0 = HTTPHandler ( )
+      II1 = urllib2 . build_opener ( o0OOOOO0 )
+      urllib2 . install_opener ( II1 )
+      if 79 - 79: i11i - o00O0oo . i1IIi + O0 % O0 * oOooOoO0Oo0O
+      if 7 - 7: i1IIi + I11i % IiII / i1 + i1IIi
+      if 41 - 41: iII111i + i11iIiiIii / I1Ii111 % ii1IiI1i
+     II1II1IIII = None
+     if 37 - 37: OoooooooOO
+     if 'post' in iI1IiiiIiI1Ii :
+      oo0ooO0 = iI1IiiiIiI1Ii [ 'post' ]
+      if 65 - 65: i1iIi11iIIi1I - iIii1I11I1II1
+      if 20 - 20: o0 % ii1IiI1i
+      if 44 - 44: OoooooooOO . i11i . I11i % OoooooooOO
+      if 86 - 86: i11iIiiIii + O0 * I1Ii111 - i1iIi11iIIi1I * I11i + O0
+      Oo0 = oo0ooO0 . split ( ',' ) ;
+      II1II1IIII = { }
+      for O00o0oo0oOO in Oo0 :
+       o0o0OO0o00o0O = O00o0oo0oOO . split ( ':' ) [ 0 ] ;
+       IIIIIIi1i = O00o0oo0oOO . split ( ':' ) [ 1 ] ;
+       II1II1IIII [ o0o0OO0o00o0O ] = IIIIIIi1i
+      II1II1IIII = urllib . urlencode ( II1II1IIII )
+      if 75 - 75: iIii1I11I1II1 + OoooooooOO
+     if 'rawpost' in iI1IiiiIiI1Ii :
+      II1II1IIII = iI1IiiiIiI1Ii [ 'rawpost' ]
+      if 97 - 97: ii1IiI1i / I11i11Ii + ooOoO0o
+      if 32 - 32: o00O0oo % ooOoO0o * I11i11Ii
+      if 72 - 72: o00O0oo . IiII - ooOoO0o - iII111i % i1IIi
+      if 56 - 56: I11i11Ii * IiII
+     OoOoO = ''
+     try :
+      if 13 - 13: I11i11Ii * I11i11Ii * i11i * IiII . i1IIi / I1Ii111
+      if II1II1IIII :
+       O00OOOOOoo0 = urllib2 . urlopen ( ooO , II1II1IIII )
+      else :
+       O00OOOOOoo0 = urllib2 . urlopen ( ooO )
+      if O00OOOOOoo0 . info ( ) . get ( 'Content-Encoding' ) == 'gzip' :
+       from StringIO import StringIO
+       import gzip
+       Ii1IIiiIIi = StringIO ( O00OOOOOoo0 . read ( ) )
+       Oo000o = gzip . GzipFile ( fileobj = Ii1IIiiIIi )
+       OoOoO = Oo000o . read ( )
+      else :
+       OoOoO = O00OOOOOoo0 . read ( )
+       if 92 - 92: iII111i * i11iIiiIii + IiII * ooOoO0o
+       if 48 - 48: Ii1I * IiII * IiII
+       if 70 - 70: OOooOOo + Ii1I % i11iIiiIii + O0
+      if 'proxy' in iI1IiiiIiI1Ii and not iiiiI1IiI1I1 is None :
+       urllib2 . install_opener ( urllib2 . build_opener ( iiiiI1IiI1I1 ) )
+       if 65 - 65: iIii1I11I1II1 % OOooOOo + O0 / OoooooooOO
+      OoOoO = O0000oO0o00 ( OoOoO )
+      if 80 - 80: OoooooooOO + I1Ii111
+      if 95 - 95: ooOoO0o / OOooOOo * ooOoO0o - OoooooooOO * OoooooooOO % i1iIi11iIIi1I
+      if 'includeheaders' in iI1IiiiIiI1Ii :
+       if 43 - 43: I11i11Ii . ooOoO0o
+       OoOoO += '$$HEADERS_START$$:'
+       for oO0Ooooooo in O00OOOOOoo0 . headers :
+        OoOoO += oO0Ooooooo + ':' + O00OOOOOoo0 . headers . get ( oO0Ooooooo ) + '\n'
+       OoOoO += '$$HEADERS_END$$:'
+       if 12 - 12: ooOoO0o + I11i + Ii1I . I1Ii111 / iII111i
+      oo0oO0oOOoo ( OoOoO )
+      oo0oO0oOOoo ( cookieJar )
+      if 29 - 29: I1Ii111 . o00O0oo - i11i
+      O00OOOOOoo0 . close ( )
+     except :
+      pass
+     cachedPages [ iI1IiiiIiI1Ii [ 'page' ] ] = OoOoO
+     if 68 - 68: iIii1I11I1II1 + i11i / OOooOOo
+     if 91 - 91: o0 % iIii1I11I1II1 . oOooOoO0Oo0O
+     if 70 - 70: Ii1I % i11i % O0 . i1IIi / ooOoO0o
+     if forCookieJarOnly :
+      return cookieJar
+    elif iI1IiiiIiI1Ii [ 'page' ] and not iI1IiiiIiI1Ii [ 'page' ] . startswith ( 'http' ) :
+     if iI1IiiiIiI1Ii [ 'page' ] . startswith ( '$pyFunction:' ) :
+      OO0ooOoOO0OOo = OooOoooo0000 ( iI1IiiiIiI1Ii [ 'page' ] . split ( '$pyFunction:' ) [ 1 ] , '' , cookieJar , iI1IiiiIiI1Ii )
+      if forCookieJarOnly :
+       return cookieJar
+      OoOoO = OO0ooOoOO0OOo
+      OoOoO = O0000oO0o00 ( OoOoO )
+     else :
+      OoOoO = iI1IiiiIiI1Ii [ 'page' ]
+   if '$pyFunction:playmedia(' in iI1IiiiIiI1Ii [ 'expres' ] or 'ActivateWindow' in iI1IiiiIiI1Ii [ 'expres' ] or '$PLAYERPROXY$=' in url or any ( x in url for x in I1 ) :
+    iII1ii1I1i = False
+   if '$doregex' in iI1IiiiIiI1Ii [ 'expres' ] :
+    iI1IiiiIiI1Ii [ 'expres' ] = o0O0oo0o ( regexs , iI1IiiiIiI1Ii [ 'expres' ] , cookieJar , recursiveCall = True , cachedPages = cachedPages )
+   if not iI1IiiiIiI1Ii [ 'expres' ] == '' :
+    if 29 - 29: iII111i - oOooOoO0Oo0O / oOooOoO0Oo0O * iII111i * I1Ii111 . I11i
+    if '$LiveStreamCaptcha' in iI1IiiiIiI1Ii [ 'expres' ] :
+     OO0ooOoOO0OOo = oooI11iI1I ( iI1IiiiIiI1Ii , OoOoO , cookieJar )
+     if 50 - 50: iIii1I11I1II1 * I1Ii111 . OoooooooOO / i11i - ii1IiI1i * ii1IiI1i
+     url = url . replace ( "$doregex[" + iiI1 + "]" , OO0ooOoOO0OOo )
+     if 98 - 98: i1iIi11iIIi1I - iII111i . I1Ii111 % i11iIiiIii
+    elif iI1IiiiIiI1Ii [ 'expres' ] . startswith ( '$pyFunction:' ) or '#$pyFunction' in iI1IiiiIiI1Ii [ 'expres' ] :
+     if 69 - 69: ii1IiI1i + IiII * O0 . I11i % o0
+     OO0ooOoOO0OOo = ''
+     if iI1IiiiIiI1Ii [ 'expres' ] . startswith ( '$pyFunction:' ) :
+      OO0ooOoOO0OOo = OooOoooo0000 ( iI1IiiiIiI1Ii [ 'expres' ] . split ( '$pyFunction:' ) [ 1 ] , OoOoO , cookieJar , iI1IiiiIiI1Ii )
+     else :
+      OO0ooOoOO0OOo = O0O000O ( iI1IiiiIiI1Ii [ 'expres' ] , OoOoO , cookieJar , iI1IiiiIiI1Ii )
+     if 'ActivateWindow' in iI1IiiiIiI1Ii [ 'expres' ] : return
+     if 22 - 22: OOooOOo
+     if 33 - 33: O0
+     if 96 - 96: OoooooooOO + I1Ii111 * O0
+     try :
+      url = url . replace ( u"$doregex[" + iiI1 + "]" , OO0ooOoOO0OOo )
+     except : url = url . replace ( "$doregex[" + iiI1 + "]" , OO0ooOoOO0OOo . decode ( "utf-8" ) )
+    else :
+     if 'listrepeat' in iI1IiiiIiI1Ii :
+      oo0OoOO0o0o = iI1IiiiIiI1Ii [ 'listrepeat' ]
+      OO0OOO00 = re . findall ( iI1IiiiIiI1Ii [ 'expres' ] , OoOoO )
+      return oo0OoOO0o0o , OO0OOO00 , iI1IiiiIiI1Ii , regexs
+      if 62 - 62: i11iIiiIii + o0 + i1IIi
+     OO0ooOoOO0OOo = ''
+     if not OoOoO == '' :
+      if 69 - 69: o0
+      OO0Oo = re . compile ( iI1IiiiIiI1Ii [ 'expres' ] ) . search ( OoOoO )
+      try :
+       OO0ooOoOO0OOo = OO0Oo . group ( 1 ) . strip ( )
+      except : traceback . print_exc ( )
+      if iI1IiiiIiI1Ii [ 'page' ] == '' :
+       OO0ooOoOO0OOo = iI1IiiiIiI1Ii [ 'expres' ]
+       if 13 - 13: i1 * i11iIiiIii / i11iIiiIii . i1iIi11iIIi1I . I11i . ii1IiI1i
+     if rawPost :
+      if 26 - 26: i1 . iIii1I11I1II1
+      OO0ooOoOO0OOo = urllib . quote_plus ( OO0ooOoOO0OOo )
+     if 'htmlunescape' in iI1IiiiIiI1Ii :
+      if 67 - 67: I11i11Ii / O0
+      import HTMLParser
+      OO0ooOoOO0OOo = HTMLParser . HTMLParser ( ) . unescape ( OO0ooOoOO0OOo )
+     try :
+      url = url . replace ( "$doregex[" + iiI1 + "]" , OO0ooOoOO0OOo )
+     except : url = url . replace ( "$doregex[" + iiI1 + "]" , OO0ooOoOO0OOo . decode ( "utf-8" ) )
+     if 88 - 88: o0 - I11i
+     if 63 - 63: I1Ii111 * OoooooooOO
+   else :
+    url = url . replace ( "$doregex[" + iiI1 + "]" , '' )
+ if '$epoctime$' in url :
+  url = url . replace ( '$epoctime$' , II11I ( ) )
+ if '$epoctime2$' in url :
+  url = url . replace ( '$epoctime2$' , i11iIIi ( ) )
+  if 19 - 19: I1Ii111 - i1 . iIii1I11I1II1 . o0 / I11i
+ if '$GUID$' in url :
+  import uuid
+  url = url . replace ( '$GUID$' , str ( uuid . uuid1 ( ) ) . upper ( ) )
+ if '$get_cookies$' in url :
+  url = url . replace ( '$get_cookies$' , OOO0O00Oo ( cookieJar ) )
+  if 13 - 13: iIii1I11I1II1
+ if recursiveCall : return url
+ if 2 - 2: i1IIi * OOooOOo - OOooOOo + OoooooooOO % o0 / o0
+ if url == "" :
+  return
+ else :
+  return url , iII1ii1I1i
+  if 3 - 3: OoooooooOO
+def O0OoO0o ( t ) :
+ import hashlib
+ oo0OoOOooO = hashlib . md5 ( )
+ oo0OoOOooO . update ( t )
+ return oo0OoOOooO . hexdigest ( )
+ if 1 - 1: o00O0oo % Ii1I * ii1IiI1i - i11i
+def iI11I1IIi ( encrypted ) :
+ III1I1i = ""
+ for OO0ooOoOO0OOo in encrypted . split ( ':' ) :
+  III1I1i += chr ( int ( OO0ooOoOO0OOo . replace ( "0m0" , "" ) ) / 84 / 5 )
+ return III1I1i
+ if 29 - 29: i1IIi + i1IIi
+def o0Ooo0000 ( media_url ) :
+ try :
+  import CustomPlayer
+  II11IiIi11 = CustomPlayer . MyXBMCPlayer ( )
+  O0Oo00ooOoO = xbmcgui . ListItem ( label = str ( oO0o00oOOooO0 ) , iconImage = "DefaultVideo.png" , thumbnailImage = xbmc . getInfoImage ( "ListItem.Thumb" ) , path = media_url )
+  II11IiIi11 . play ( media_url , O0Oo00ooOoO )
+  xbmc . sleep ( 1000 )
+  while II11IiIi11 . is_active :
+   xbmc . sleep ( 200 )
+ except :
+  traceback . print_exc ( )
+ return ''
+ if 100 - 100: i11iIiiIii / i11iIiiIii
+def o00iIiiiII ( params ) :
+ ii1 = json . dumps ( params )
+ iIIi = xbmc . executeJSONRPC ( ii1 )
+ if 5 - 5: OoooooooOO / i1 % Ii1I % i1iIi11iIIi1I * IiII + iIii1I11I1II1
+ try :
+  O00OOOOOoo0 = json . loads ( iIIi )
+ except UnicodeDecodeError :
+  O00OOOOOoo0 = json . loads ( iIIi . decode ( 'utf-8' , 'ignore' ) )
+  if 11 - 11: ooOoO0o % i11iIiiIii % OOooOOo . I1Ii111
+ try :
+  if 'result' in O00OOOOOoo0 :
+   return O00OOOOOoo0 [ 'result' ]
+  return None
+ except KeyError :
+  logger . warn ( "[%s] %s" % ( params [ 'method' ] , O00OOOOOoo0 [ 'error' ] [ 'message' ] ) )
+  return None
+  if 92 - 92: i11i
+  if 45 - 45: O0 % oOooOoO0Oo0O - IiII . i1iIi11iIIi1I
+def I1IIiIIi1Ii1III ( proxysettings = None ) :
+ if 86 - 86: i11iIiiIii + i11iIiiIii . ooOoO0o % oOooOoO0Oo0O . o00O0oo
+ if proxysettings == None :
+  if 17 - 17: iII111i
+  xbmc . executeJSONRPC ( '{"jsonrpc":"2.0", "method":"Settings.SetSettingValue", "params":{"setting":"network.usehttpproxy", "value":false}, "id":1}' )
+ else :
+  if 67 - 67: O0 * Ii1I - i1 - i11i
+  Ii11iiI1 = proxysettings . split ( ':' )
+  oO0O = Ii11iiI1 [ 0 ]
+  OOoooO00o0o = Ii11iiI1 [ 1 ]
+  I1ii1Ii1 = Ii11iiI1 [ 2 ]
+  OoO = None
+  oOiI111I1III = None
+  if 36 - 36: Ii1I % I11i
+  if len ( Ii11iiI1 ) > 3 and '@' in Ii11iiI1 [ 3 ] :
+   OoO = Ii11iiI1 [ 3 ] . split ( '@' ) [ 0 ]
+   oOiI111I1III = Ii11iiI1 [ 3 ] . split ( '@' ) [ 1 ]
+   if 72 - 72: oOooOoO0Oo0O / IiII - O0 + Ii1I
+   if 83 - 83: O0
+  xbmc . executeJSONRPC ( '{"jsonrpc":"2.0", "method":"Settings.SetSettingValue", "params":{"setting":"network.usehttpproxy", "value":true}, "id":1}' )
+  xbmc . executeJSONRPC ( '{"jsonrpc":"2.0", "method":"Settings.SetSettingValue", "params":{"setting":"network.httpproxytype", "value":' + str ( I1ii1Ii1 ) + '}, "id":1}' )
+  xbmc . executeJSONRPC ( '{"jsonrpc":"2.0", "method":"Settings.SetSettingValue", "params":{"setting":"network.httpproxyserver", "value":"' + str ( oO0O ) + '"}, "id":1}' )
+  xbmc . executeJSONRPC ( '{"jsonrpc":"2.0", "method":"Settings.SetSettingValue", "params":{"setting":"network.httpproxyport", "value":' + str ( OOoooO00o0o ) + '}, "id":1}' )
+  if 89 - 89: I11i11Ii + ii1IiI1i - i1
+  if 40 - 40: i1iIi11iIIi1I + i1iIi11iIIi1I
+  if not OoO == None :
+   xbmc . executeJSONRPC ( '{"jsonrpc":"2.0", "method":"Settings.SetSettingValue", "params":{"setting":"network.httpproxyusername", "value":"' + str ( OoO ) + '"}, "id":1}' )
+   xbmc . executeJSONRPC ( '{"jsonrpc":"2.0", "method":"Settings.SetSettingValue", "params":{"setting":"network.httpproxypassword", "value":"' + str ( oOiI111I1III ) + '"}, "id":1}' )
+   if 94 - 94: IiII * iIii1I11I1II1 . Ii1I
+   if 13 - 13: iIii1I11I1II1 * o0 / ooOoO0o % o00O0oo + OOooOOo
+def iiiI1iI1 ( ) :
+ I1oOoO0OOO00O = o00iIiiiII ( { 'jsonrpc' : '2.0' , "method" : "Settings.GetSettingValue" , "params" : { "setting" : "network.usehttpproxy" } , 'id' : 1 } ) [ 'value' ]
+ if 73 - 73: i1 % i1iIi11iIIi1I + I1Ii111 + oOooOoO0Oo0O
+ I1ii1Ii1 = o00iIiiiII ( { 'jsonrpc' : '2.0' , "method" : "Settings.GetSettingValue" , "params" : { "setting" : "network.httpproxytype" } , 'id' : 1 } ) [ 'value' ]
+ if 80 - 80: i1IIi + i1 + I1Ii111 * Ii1I
+ if I1oOoO0OOO00O :
+  oO0O = o00iIiiiII ( { 'jsonrpc' : '2.0' , "method" : "Settings.GetSettingValue" , "params" : { "setting" : "network.httpproxyserver" } , 'id' : 1 } ) [ 'value' ]
+  OOoooO00o0o = unicode ( o00iIiiiII ( { 'jsonrpc' : '2.0' , "method" : "Settings.GetSettingValue" , "params" : { "setting" : "network.httpproxyport" } , 'id' : 1 } ) [ 'value' ] )
+  OoO = o00iIiiiII ( { 'jsonrpc' : '2.0' , "method" : "Settings.GetSettingValue" , "params" : { "setting" : "network.httpproxyusername" } , 'id' : 1 } ) [ 'value' ]
+  oOiI111I1III = o00iIiiiII ( { 'jsonrpc' : '2.0' , "method" : "Settings.GetSettingValue" , "params" : { "setting" : "network.httpproxypassword" } , 'id' : 1 } ) [ 'value' ]
+  if 65 - 65: ii1IiI1i % Ii1I % iIii1I11I1II1 - OoooooooOO - ii1IiI1i - O0
+  if OoO and oOiI111I1III and oO0O and OOoooO00o0o :
+   return oO0O + ':' + str ( OOoooO00o0o ) + ':' + str ( I1ii1Ii1 ) + ':' + OoO + '@' + oOiI111I1III
+  elif oO0O and OOoooO00o0o :
+   return oO0O + ':' + str ( OOoooO00o0o ) + ':' + str ( I1ii1Ii1 )
+ else :
+  return None
+  if 58 - 58: I1Ii111 + iIii1I11I1II1
+  if 94 - 94: iII111i . i1IIi
+def O0OOo0o ( media_url , name , iconImage , proxyip , port , proxyuser = None , proxypass = None ) :
+ if 44 - 44: oOooOoO0Oo0O * iIii1I11I1II1 / O0
+ Ii1IIi = xbmcgui . DialogProgress ( )
+ Ii1IIi . create ( 'Progress' , 'Playing with custom proxy' )
+ Ii1IIi . update ( 10 , "" , "setting proxy.." , "" )
+ iiiIi = False
+ ooiiI1ii = ''
+ if 76 - 76: iII111i + iIii1I11I1II1 + o0 . i1iIi11iIIi1I
+ try :
+  if 49 - 49: I1Ii111 / o00O0oo / I11i
+  ooiiI1ii = iiiI1iI1 ( )
+  print 'existing_proxy' , ooiiI1ii
+  if 25 - 25: oOooOoO0Oo0O % O0 + i1IIi - o00O0oo
+  if 38 - 38: i1 % ooOoO0o + i11iIiiIii + IiII + o00O0oo / i11iIiiIii
+  if not proxyuser == None :
+   I1IIiIIi1Ii1III ( proxyip + ':' + port + ':0:' + proxyuser + '@' + proxypass )
+  else :
+   I1IIiIIi1Ii1III ( proxyip + ':' + port + ':0' )
+   if 94 - 94: IiII - I11i11Ii + OOooOOo
+   if 59 - 59: Ii1I . oOooOoO0Oo0O - iIii1I11I1II1 + iIii1I11I1II1
+  iiiIi = True
+  Ii1IIi . update ( 80 , "" , "setting proxy complete, now playing" , "" )
+  if 56 - 56: OOooOOo + o00O0oo
+  Ii1IIi . close ( )
+  Ii1IIi = None
+  import CustomPlayer
+  II11IiIi11 = CustomPlayer . MyXBMCPlayer ( )
+  O0Oo00ooOoO = xbmcgui . ListItem ( label = str ( name ) , iconImage = iconImage , thumbnailImage = xbmc . getInfoImage ( "ListItem.Thumb" ) , path = media_url )
+  II11IiIi11 . play ( media_url , O0Oo00ooOoO )
+  xbmc . sleep ( 1000 )
+  while II11IiIi11 . is_active :
+   xbmc . sleep ( 200 )
+ except :
+  traceback . print_exc ( )
+ if Ii1IIi :
+  Ii1IIi . close ( )
+ if iiiIi :
+  if 32 - 32: i11i + o0 % o00O0oo / o0 + ii1IiI1i
+  I1IIiIIi1Ii1III ( ooiiI1ii )
+  if 2 - 2: i11iIiiIii - ooOoO0o + i1iIi11iIIi1I % Ii1I * iII111i
+ return ''
+ if 54 - 54: O0 - IiII . I11i % IiII + IiII
+ if 36 - 36: I11i % i11iIiiIii
+def Iiii1Ii ( page_value , referer = None ) :
+ if referer :
+  referer = [ ( 'Referer' , referer ) ]
+ if page_value . startswith ( "http" ) :
+  ooOOo00oo0 = page_value
+  page_value = ii11II ( page_value , headers = referer )
+  if 40 - 40: o0 - I11i - I11i - O0 - O0 . i11i
+ o0o000Oo = "(eval\(function\(p,a,c,k,e,(?:r|d).*)"
+ if 57 - 57: OOooOOo * O0 * ooOoO0o
+ I1II1 = re . compile ( o0o000Oo ) . findall ( page_value )
+ iiIiI1ii = ""
+ if I1II1 and len ( I1II1 ) > 0 :
+  for IIIIIIi1i in I1II1 :
+   oOOoo = I1oo ( IIIIIIi1i )
+   iiI1IIIii = iIi1III1I ( oOOoo , '\'(.*?)\'' )
+   if 'unescape' in oOOoo :
+    oOOoo = urllib . unquote ( iiI1IIIii )
+   iiIiI1ii += oOOoo + '\n'
+   if 24 - 24: oOooOoO0Oo0O . ooOoO0o % iII111i
+   if 62 - 62: ii1IiI1i - O0 . oOooOoO0Oo0O . O0 * iIii1I11I1II1
+  ooOOo00oo0 = iIi1III1I ( iiIiI1ii , 'src="(.*?)"' )
+  if 92 - 92: OOooOOo / I11i . ii1IiI1i
+  page_value = ii11II ( ooOOo00oo0 , headers = referer )
+  if 30 - 30: iII111i . ii1IiI1i / I11i
+  if 2 - 2: I1Ii111 % oOooOoO0Oo0O - ooOoO0o
+  if 79 - 79: OoooooooOO / ii1IiI1i . O0
+ oOoO0Oo0 = iIi1III1I ( page_value , 'streamer\'.*?\'(.*?)\'\)' )
+ i11i11i = iIi1III1I ( page_value , 'file\',\s\'(.*?)\'' )
+ if 31 - 31: i11iIiiIii + I11i - O0
+ if 51 - 51: i1iIi11iIIi1I * i1IIi / iII111i * I11i + o00O0oo % ii1IiI1i
+ return oOoO0Oo0 + ' playpath=' + i11i11i + ' pageUrl=' + ooOOo00oo0
+ if 34 - 34: OOooOOo * OoooooooOO + iII111i + i11iIiiIii
+def iiIi ( page_value , referer = None ) :
+ if referer :
+  referer = [ ( 'Referer' , referer ) ]
+ if page_value . startswith ( "http" ) :
+  page_value = ii11II ( page_value , headers = referer )
+ o0o000Oo = "var a = (.*?);\s*var b = (.*?);\s*var c = (.*?);\s*var d = (.*?);\s*var f = (.*?);\s*var v_part = '(.*?)';"
+ I1II1 = re . compile ( o0o000Oo ) . findall ( page_value ) [ 0 ]
+ if 74 - 74: Ii1I / OoooooooOO / I11i11Ii * i11iIiiIii . i11i . OoooooooOO
+ I111I11I111 , oO0Ooooooo , Iiiiiii1 , Ooi1IIii11i1I1 , Oo000o , IIIIIIi1i = ( I1II1 )
+ Oo000o = int ( Oo000o )
+ I111I11I111 = int ( I111I11I111 ) / Oo000o
+ oO0Ooooooo = int ( oO0Ooooooo ) / Oo000o
+ Iiiiiii1 = int ( Iiiiiii1 ) / Oo000o
+ Ooi1IIii11i1I1 = int ( Ooi1IIii11i1I1 ) / Oo000o
+ if 12 - 12: i1IIi / I11i % o00O0oo * I1Ii111 * O0 * iIii1I11I1II1
+ OO0OOO00 = 'rtmp://' + str ( I111I11I111 ) + '.' + str ( oO0Ooooooo ) + '.' + str ( Iiiiiii1 ) + '.' + str ( Ooi1IIii11i1I1 ) + IIIIIIi1i ;
+ return OO0OOO00
+ if 93 - 93: I11i11Ii / ii1IiI1i + i1IIi * OOooOOo . OoooooooOO
+def Oo000 ( url , useragent = None ) :
+ str = '#EXTM3U'
+ str += '\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=361816'
+ str += '\n' + url + '&bytes=0-200000'
+ o00oooO0Oo = os . path . join ( OOoOoo , 'testfile.m3u' )
+ str += '\n'
+ OoOOIIIIIiI11Ii ( o00oooO0Oo , str )
+ if 41 - 41: i11iIiiIii - i1IIi / I11i11Ii * I1Ii111 / ooOoO0o - I11i11Ii
+ return o00oooO0Oo
+ if 56 - 56: O0
+def OoOOIIIIIiI11Ii ( file_name , page_data , append = False ) :
+ if append :
+  Oo000o = open ( file_name , 'a' )
+  Oo000o . write ( page_data )
+  Oo000o . close ( )
+ else :
+  Oo000o = open ( file_name , 'wb' )
+  Oo000o . write ( page_data )
+  Oo000o . close ( )
+  return ''
+  if 45 - 45: o0 - i1iIi11iIIi1I - o0
+def IIiiI ( file_name ) :
+ Oo000o = open ( file_name , 'rb' )
+ Ooi1IIii11i1I1 = Oo000o . read ( )
+ Oo000o . close ( )
+ return Ooi1IIii11i1I1
+ if 36 - 36: IiII
+def O0ooooooo00 ( page_data ) :
+ import re , base64 , urllib ;
+ I1111ii11IIII = page_data
+ while 'geh(' in I1111ii11IIII :
+  if I1111ii11IIII . startswith ( 'lol(' ) : I1111ii11IIII = I1111ii11IIII [ 5 : - 1 ]
+  if 48 - 48: iIii1I11I1II1 % i1IIi + o0 % i1
+  I1111ii11IIII = re . compile ( '"(.*?)"' ) . findall ( I1111ii11IIII ) [ 0 ] ;
+  I1111ii11IIII = base64 . b64decode ( I1111ii11IIII ) ;
+  I1111ii11IIII = urllib . unquote ( I1111ii11IIII ) ;
+ print I1111ii11IIII
+ return I1111ii11IIII
+ if 79 - 79: o0 % oOooOoO0Oo0O % iII111i / i1IIi % i1iIi11iIIi1I
+def oo0o00OO ( page_data ) :
+ print 'get_dag_url2' , page_data
+ oOoo00o0oOO = ii11II ( page_data ) ;
+ OoOOooOO0ooOo = '(http.*)'
+ import uuid
+ oo0oIi = str ( uuid . uuid1 ( ) ) . upper ( )
+ oOooOOo00ooO = re . compile ( OoOOooOO0ooOo ) . findall ( oOoo00o0oOO )
+ o0OO0oooo = [ ( 'X-Playback-Session-Id' , oo0oIi ) ]
+ for I11II1i1 in oOooOOo00ooO :
+  try :
+   IiI1ii11I1 = ii11II ( I11II1i1 , headers = o0OO0oooo ) ;
+   if 19 - 19: ooOoO0o + I1Ii111 / OOooOOo / i11i
+  except : pass
+  if 92 - 92: i1IIi % o00O0oo + o00O0oo - iIii1I11I1II1 . iII111i
+ return page_data + '|&X-Playback-Session-Id=' + oo0oIi
+ if 33 - 33: i1 / O0 + I11i
+ if 75 - 75: I1Ii111 % i11iIiiIii + iIii1I11I1II1
+def oOoOo0o00o ( page_data ) :
+ print 'get_dag_url' , page_data
+ if page_data . startswith ( 'http://dag.total-stream.net' ) :
+  o0OO0oooo = [ ( 'User-Agent' , 'Verismo-BlackUI_(2.4.7.5.8.0.34)' ) ]
+  page_data = ii11II ( page_data , headers = o0OO0oooo ) ;
+  if 2 - 2: i11i
+ if '127.0.0.1' in page_data :
+  return o0ooo0o0 ( page_data )
+ elif iIi1III1I ( page_data , 'wmsAuthSign%3D([^%&]+)' ) != '' :
+  O00Oooo00 = iIi1III1I ( page_data , '&ver_t=([^&]+)&' ) + '?wmsAuthSign=' + iIi1III1I ( page_data , 'wmsAuthSign%3D([^%&]+)' ) + '==/mp4:' + iIi1III1I ( page_data , '\\?y=([^&]+)&' )
+ else :
+  O00Oooo00 = iIi1III1I ( page_data , 'href="([^"]+)"[^"]+$' )
+  if len ( O00Oooo00 ) == 0 :
+   O00Oooo00 = page_data
+ O00Oooo00 = O00Oooo00 . replace ( ' ' , '%20' )
+ return O00Oooo00
+ if 93 - 93: O0 / o00O0oo + oOooOoO0Oo0O
+def iIi1III1I ( data , re_patten ) :
+ IIIII1iii = ''
+ iI1IiiiIiI1Ii = re . search ( re_patten , data )
+ if iI1IiiiIiI1Ii != None :
+  IIIII1iii = iI1IiiiIiI1Ii . group ( 1 )
+ else :
+  IIIII1iii = ''
+ return IIIII1iii
+ if 20 - 20: I1Ii111 / IiII % OoooooooOO / iIii1I11I1II1 + oOooOoO0Oo0O
+def o0ooo0o0 ( page_data ) :
+ O00Oooo00 = ''
+ if '127.0.0.1' in page_data :
+  O00Oooo00 = iIi1III1I ( page_data , '&ver_t=([^&]+)&' ) + ' live=true timeout=15 playpath=' + iIi1III1I ( page_data , '\\?y=([a-zA-Z0-9-_\\.@]+)' )
+  if 57 - 57: i1 / ooOoO0o
+ if iIi1III1I ( page_data , 'token=([^&]+)&' ) != '' :
+  O00Oooo00 = O00Oooo00 + '?token=' + iIi1III1I ( page_data , 'token=([^&]+)&' )
+ elif iIi1III1I ( page_data , 'wmsAuthSign%3D([^%&]+)' ) != '' :
+  O00Oooo00 = iIi1III1I ( page_data , '&ver_t=([^&]+)&' ) + '?wmsAuthSign=' + iIi1III1I ( page_data , 'wmsAuthSign%3D([^%&]+)' ) + '==/mp4:' + iIi1III1I ( page_data , '\\?y=([^&]+)&' )
+ else :
+  O00Oooo00 = iIi1III1I ( page_data , 'HREF="([^"]+)"' )
+  if 13 - 13: OoooooooOO + i1iIi11iIIi1I
+ if 'dag1.asx' in O00Oooo00 :
+  return oOoOo0o00o ( O00Oooo00 )
+  if 32 - 32: O0 + OOooOOo % I11i11Ii
+ if 'devinlivefs.fplive.net' not in O00Oooo00 :
+  O00Oooo00 = O00Oooo00 . replace ( 'devinlive' , 'flive' )
+ if 'permlivefs.fplive.net' not in O00Oooo00 :
+  O00Oooo00 = O00Oooo00 . replace ( 'permlive' , 'flive' )
+ return O00Oooo00
+ if 7 - 7: ii1IiI1i / o00O0oo
+ if 11 - 11: I1Ii111 * o00O0oo / o00O0oo - I11i
+def OoO0o0OOOO ( str_eval ) :
+ II1i = ""
+ try :
+  O00Oo = "w,i,s,e=(" + str_eval + ')'
+  exec ( O00Oo )
+  II1i = iii ( w , I11iiiii1II , I1111ii11IIII , e )
+ except : traceback . print_exc ( file = sys . stdout )
+ if 93 - 93: Ii1I * i11i / iII111i - i1
+ return II1i
+ if 98 - 98: i11iIiiIii / oOooOoO0Oo0O * i1 / ooOoO0o
+def iii ( w , i , s , e ) :
+ o0OOoOo0oo = 0 ;
+ ooO0 = 0 ;
+ o0Iiii = 0 ;
+ I1i1Ii1111iI1 = [ ] ;
+ Oo0oOOOOo = [ ] ;
+ while True :
+  if ( o0OOoOo0oo < 5 ) :
+   Oo0oOOOOo . append ( w [ o0OOoOo0oo ] )
+  elif ( o0OOoOo0oo < len ( w ) ) :
+   I1i1Ii1111iI1 . append ( w [ o0OOoOo0oo ] ) ;
+  o0OOoOo0oo += 1 ;
+  if ( ooO0 < 5 ) :
+   Oo0oOOOOo . append ( i [ ooO0 ] )
+  elif ( ooO0 < len ( i ) ) :
+   I1i1Ii1111iI1 . append ( i [ ooO0 ] )
+  ooO0 += 1 ;
+  if ( o0Iiii < 5 ) :
+   Oo0oOOOOo . append ( s [ o0Iiii ] )
+  elif ( o0Iiii < len ( s ) ) :
+   I1i1Ii1111iI1 . append ( s [ o0Iiii ] ) ;
+  o0Iiii += 1 ;
+  if ( len ( w ) + len ( i ) + len ( s ) + len ( e ) == len ( I1i1Ii1111iI1 ) + len ( Oo0oOOOOo ) + len ( e ) ) :
+   break ;
+   if 14 - 14: OoooooooOO . i1 . Ii1I
+ I1IIIIIi1IIiI = '' . join ( I1i1Ii1111iI1 )
+ III11I11ii = '' . join ( Oo0oOOOOo )
+ ooO0 = 0 ;
+ O0OoO0oO00 = [ ] ;
+ for o0OOoOo0oo in range ( 0 , len ( I1i1Ii1111iI1 ) , 2 ) :
+  if 2 - 2: ooOoO0o - ii1IiI1i + i1 * i1iIi11iIIi1I / IiII
+  iIIiI11iI1Ii1 = - 1 ;
+  if ( ord ( III11I11ii [ ooO0 ] ) % 2 ) :
+   iIIiI11iI1Ii1 = 1 ;
+   if 94 - 94: o00O0oo / i11iIiiIii % O0
+  O0OoO0oO00 . append ( chr ( int ( I1IIIIIi1IIiI [ o0OOoOo0oo : o0OOoOo0oo + 2 ] , 36 ) - iIIiI11iI1Ii1 ) ) ;
+  ooO0 += 1 ;
+  if ( ooO0 >= len ( Oo0oOOOOo ) ) :
+   ooO0 = 0 ;
+ OO0OOO00 = '' . join ( O0OoO0oO00 )
+ if 'eval(function(w,i,s,e)' in OO0OOO00 :
+  if 70 - 70: Ii1I - I11i11Ii / OoooooooOO % OoooooooOO
+  OO0OOO00 = re . compile ( 'eval\(function\(w,i,s,e\).*}\((.*?)\)' ) . findall ( OO0OOO00 ) [ 0 ]
+  return OoO0o0OOOO ( OO0OOO00 )
+ else :
+  if 95 - 95: OoooooooOO % OoooooooOO . iII111i
+  return OO0OOO00
+  if 26 - 26: OOooOOo + I1Ii111 - i11i . i11i + ii1IiI1i + o0
+  if 68 - 68: O0
+def I1oo ( page_value , regex_for_text = '' , iterations = 1 , total_iteration = 1 ) :
+ try :
+  o0oOoO00 = None
+  if page_value . startswith ( "http" ) :
+   page_value = ii11II ( page_value )
+   if 94 - 94: i1iIi11iIIi1I + I1Ii111 + o00O0oo
+  if regex_for_text and len ( regex_for_text ) > 0 :
+   try :
+    page_value = re . compile ( regex_for_text ) . findall ( page_value ) [ 0 ]
+   except : return 'NOTPACKED'
+   if 82 - 82: I11i11Ii - I11i11Ii . iIii1I11I1II1 / I11i + I1Ii111 % iIii1I11I1II1
+  page_value = O00OO ( page_value , iterations , total_iteration )
+ except :
+  page_value = 'UNPACKEDFAILED'
+  traceback . print_exc ( file = sys . stdout )
+  if 66 - 66: OoooooooOO + o00O0oo * IiII
+ if 'sav1live.tv' in page_value :
+  page_value = page_value . replace ( 'sav1live.tv' , 'sawlive.tv' )
+  if 2 - 2: IiII . i1iIi11iIIi1I / OOooOOo
+ return page_value
+ if 41 - 41: i1iIi11iIIi1I . ooOoO0o * I1Ii111 * ooOoO0o
+ if 74 - 74: iIii1I11I1II1 / i1
+def O00OO ( sJavascript , iteration = 1 , totaliterations = 2 ) :
+ if 58 - 58: iIii1I11I1II1 - oOooOoO0Oo0O % i1 % OoooooooOO * iIii1I11I1II1 + I11i
+ if sJavascript . startswith ( 'var _0xcb8a=' ) :
+  iIiI1i111ii = sJavascript . split ( 'var _0xcb8a=' )
+  O00Oo = "myarray=" + iIiI1i111ii [ 1 ] . split ( "eval(" ) [ 0 ]
+  exec ( O00Oo )
+  IiI = 62
+  o000OOO00O = int ( iIiI1i111ii [ 1 ] . split ( ",62," ) [ 1 ] . split ( ',' ) [ 0 ] )
+  O0oooo000oO0 = myarray [ 0 ]
+  OoOoO00OOoOOOo0 = myarray [ 3 ]
+  with open ( 'temp file' + str ( iteration ) + '.js' , "wb" ) as oOoO00O :
+   oOoO00O . write ( str ( OoOoO00OOoOOOo0 ) )
+   if 31 - 31: o00O0oo . o0 % o0 % I11i11Ii % oOooOoO0Oo0O * IiII
+ else :
+  if 22 - 22: Ii1I % I1Ii111 . o0 / o00O0oo + I11i
+  if "rn p}('" in sJavascript :
+   iIiI1i111ii = sJavascript . split ( "rn p}('" )
+  else :
+   iIiI1i111ii = sJavascript . split ( "rn A}('" )
+   if 85 - 85: oOooOoO0Oo0O - o00O0oo % I11i11Ii % i11i - OoooooooOO % I1Ii111
+   if 40 - 40: iII111i
+  O0oooo000oO0 , IiI , o000OOO00O , OoOoO00OOoOOOo0 = ( '' , '0' , '0' , '' )
+  if 59 - 59: Ii1I * OoooooooOO + I11i . iIii1I11I1II1 / i1IIi
+  O00Oo = "p1,a1,c1,k1=('" + iIiI1i111ii [ 1 ] . split ( ".spli" ) [ 0 ] + ')'
+  exec ( O00Oo )
+ OoOoO00OOoOOOo0 = OoOoO00OOoOOOo0 . split ( '|' )
+ iIiI1i111ii = iIiI1i111ii [ 1 ] . split ( "))'" )
+ if 75 - 75: Ii1I . I11i - iIii1I11I1II1 * i1iIi11iIIi1I * IiII
+ if 93 - 93: o00O0oo
+ if 18 - 18: o00O0oo
+ if 66 - 66: OOooOOo * i11iIiiIii + o0 / I11i
+ if 96 - 96: I11i + I11i % I1Ii111 % I11i
+ if 28 - 28: iIii1I11I1II1 + o0 . i1 % i11iIiiIii
+ if 58 - 58: Ii1I / OoooooooOO % OOooOOo + i1iIi11iIIi1I
+ if 58 - 58: O0
+ if 91 - 91: IiII / ii1IiI1i . IiII - i1 + ii1IiI1i
+ if 72 - 72: iII111i . I1Ii111 * ii1IiI1i / ii1IiI1i / IiII
+ if 13 - 13: i1IIi
+ if 17 - 17: i11iIiiIii * i1 * i1 + i1iIi11iIIi1I
+ if 95 - 95: oOooOoO0Oo0O
+ if 95 - 95: I11i % ii1IiI1i + i1 % o00O0oo
+ if 36 - 36: O0 / i1IIi % i11i / IiII
+ if 96 - 96: I11i11Ii / OOooOOo . i11i . I11i11Ii
+ if 91 - 91: i11i . I11i + i1
+ if 8 - 8: I11i * I11i11Ii / IiII - i1iIi11iIIi1I - OoooooooOO
+ if 100 - 100: OOooOOo . iIii1I11I1II1 . iIii1I11I1II1
+ if 55 - 55: OOooOOo
+ if 37 - 37: I1Ii111 / i11iIiiIii / I11i11Ii
+ if 97 - 97: ooOoO0o . Ii1I / oOooOoO0Oo0O
+ i111iIi1i1II1 = ''
+ Ooi1IIii11i1I1 = ''
+ if 83 - 83: Ii1I - ii1IiI1i * OOooOOo
+ if 90 - 90: I11i11Ii * oOooOoO0Oo0O
+ OO0OooOo = str ( ii111iI1i1 ( O0oooo000oO0 , IiI , o000OOO00O , OoOoO00OOoOOOo0 , i111iIi1i1II1 , Ooi1IIii11i1I1 , iteration ) )
+ if 80 - 80: i1iIi11iIIi1I / I1Ii111 * oOooOoO0Oo0O % I1Ii111
+ if 95 - 95: O0 / Ii1I . ooOoO0o
+ if 17 - 17: Ii1I
+ if 56 - 56: o00O0oo * i1 + Ii1I
+ if 48 - 48: I1Ii111 * i1iIi11iIIi1I % ooOoO0o - Ii1I
+ if iteration >= totaliterations :
+  if 72 - 72: i1IIi % o00O0oo % I1Ii111 % OOooOOo - OOooOOo
+  return OO0OooOo
+ else :
+  if 97 - 97: i1 * O0 / i1 * i1iIi11iIIi1I * I11i11Ii
+  return O00OO ( OO0OooOo , iteration + 1 )
+  if 38 - 38: ooOoO0o
+def ii111iI1i1 ( p , a , c , k , e , d , iteration , v = 1 ) :
+ if 25 - 25: iIii1I11I1II1 % i11i / Ii1I / ii1IiI1i
+ if 22 - 22: OOooOOo * IiII
+ if 4 - 4: o0 - OOooOOo + oOooOoO0Oo0O
+ while ( c >= 1 ) :
+  c = c - 1
+  if ( k [ c ] ) :
+   iiIiIiIiiIiI = str ( iIi1i ( c , a ) )
+   if v == 1 :
+    p = re . sub ( '\\b' + iiIiIiIiiIiI + '\\b' , k [ c ] , p )
+   else :
+    p = III ( p , iiIiIiIiiIiI , k [ c ] )
+    if 36 - 36: OoooooooOO / I11i11Ii . ooOoO0o % OoooooooOO . I11i + i11i
+    if 43 - 43: Ii1I % iII111i / i1 * ooOoO0o
+    if 85 - 85: iIii1I11I1II1 . OoooooooOO . i1
+    if 77 - 77: oOooOoO0Oo0O % o00O0oo
+    if 74 - 74: o0 / i1IIi % OoooooooOO
+    if 52 - 52: I1Ii111 % o00O0oo
+ return p
+ if 25 - 25: Ii1I / Ii1I % OoooooooOO - ii1IiI1i * OOooOOo
+ if 23 - 23: i11iIiiIii
+ if 100 - 100: OOooOOo + O0 . oOooOoO0Oo0O + i1IIi - o0 + i1
+def III ( source_str , word_to_find , replace_with ) :
+ ooOOo = None
+ ooOOo = source_str . split ( word_to_find )
+ if len ( ooOOo ) > 1 :
+  i1iii1IiiiI1i1 = [ ]
+  IIIiI1i1 = 0
+  for IIi11iII11i1 in ooOOo :
+   if 5 - 5: i11i - I1Ii111
+   i1iii1IiiiI1i1 . append ( IIi11iII11i1 )
+   OO0ooOoOO0OOo = word_to_find
+   if 86 - 86: I1Ii111 * Ii1I + O0 * ooOoO0o + i11iIiiIii - ii1IiI1i
+   if 70 - 70: i11iIiiIii
+   if IIIiI1i1 == len ( ooOOo ) - 1 :
+    OO0ooOoOO0OOo = ''
+   else :
+    if len ( IIi11iII11i1 ) == 0 :
+     if ( len ( ooOOo [ IIIiI1i1 + 1 ] ) == 0 and word_to_find [ 0 ] . lower ( ) not in 'abcdefghijklmnopqrstuvwxyz1234567890_' ) or ( len ( ooOOo [ IIIiI1i1 + 1 ] ) > 0 and ooOOo [ IIIiI1i1 + 1 ] [ 0 ] . lower ( ) not in 'abcdefghijklmnopqrstuvwxyz1234567890_' ) :
+      OO0ooOoOO0OOo = replace_with
+      if 57 - 57: Ii1I % I11i + o00O0oo * iII111i . I11i11Ii
+    else :
+     if ( ooOOo [ IIIiI1i1 ] [ - 1 ] . lower ( ) not in 'abcdefghijklmnopqrstuvwxyz1234567890_' ) and ( ( len ( ooOOo [ IIIiI1i1 + 1 ] ) == 0 and word_to_find [ 0 ] . lower ( ) not in 'abcdefghijklmnopqrstuvwxyz1234567890_' ) or ( len ( ooOOo [ IIIiI1i1 + 1 ] ) > 0 and ooOOo [ IIIiI1i1 + 1 ] [ 0 ] . lower ( ) not in 'abcdefghijklmnopqrstuvwxyz1234567890_' ) ) :
+      OO0ooOoOO0OOo = replace_with
+      if 78 - 78: OoooooooOO / i1IIi . I11i
+   i1iii1IiiiI1i1 . append ( OO0ooOoOO0OOo )
+   IIIiI1i1 += 1
+   if 88 - 88: Ii1I + oOooOoO0Oo0O - Ii1I / OoooooooOO - i11iIiiIii
+  source_str = '' . join ( i1iii1IiiiI1i1 )
+ return source_str
+ if 24 - 24: iIii1I11I1II1
+def O0Oo0 ( num , radix ) :
+ if 54 - 54: oOooOoO0Oo0O
+ o0I11iII = ""
+ if num == 0 : return '0'
+ while num > 0 :
+  o0I11iII = "0123456789abcdefghijklmnopqrstuvwxyz" [ num % radix ] + o0I11iII
+  num /= radix
+ return o0I11iII
+ if 61 - 61: Ii1I . Ii1I - i1iIi11iIIi1I
+def iIi1i ( cc , a ) :
+ iiIiIiIiiIiI = "" if cc < a else iIi1i ( int ( cc / a ) , a )
+ cc = ( cc % a )
+ o0oo0O000o0OO0O = chr ( cc + 29 ) if cc > 35 else str ( O0Oo0 ( cc , 36 ) )
+ return iiIiIiIiiIiI + o0oo0O000o0OO0O
+ if 56 - 56: i11i / IiII - OoooooooOO % Ii1I / I11i11Ii
+ if 91 - 91: OoooooooOO
+def i1II ( url , headers = None ) :
+ try :
+  if headers is None :
+   if 19 - 19: o0 / OOooOOo % OoooooooOO . I11i11Ii / O0 - O0
+   if 25 - 25: iIii1I11I1II1 * Ii1I - OOooOOo % i11iIiiIii + iII111i % OOooOOo
+   headers = { '\x55\x73\x65\x72\x2d\x61\x67\x65\x6e\x74' : 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0)/Apollo Gecko/20100101 Firefox/19.0' , 'Apollo' : 'Direitos Reservados' , 'Referer' : 'https://deus-apollo.ml' , 'Ref' : 'copyright © 2017-2020' , 'DEUS' : 'Apollo' }
+  ooO = urllib2 . Request ( url , None , headers )
+  O00OOOOOoo0 = urllib2 . urlopen ( ooO )
+  ii1 = O00OOOOOoo0 . read ( )
+  O00OOOOOoo0 . close ( )
+  return ii1
+ except urllib2 . URLError , i111iIi1i1II1 :
+  oo0oO0oOOoo ( 'URL: ' + url )
+  if hasattr ( i111iIi1i1II1 , 'code' ) :
+   oo0oO0oOOoo ( 'Falha com o código de erro - %s.' % i111iIi1i1II1 . code )
+   if 5 - 5: iIii1I11I1II1 . OOooOOo
+   if 2 - 2: iIii1I11I1II1 * oOooOoO0Oo0O % i1IIi % ii1IiI1i + OoooooooOO + oOooOoO0Oo0O
+   xbmc . executebuiltin ( "XBMC.Notification(Falha, código de erro - " + str ( i111iIi1i1II1 . code ) + ",10000," + IIooooo + ")" )
+  elif hasattr ( i111iIi1i1II1 , 'reason' ) :
+   oo0oO0oOOoo ( 'Falha ao acessar um servidor.' )
+   oo0oO0oOOoo ( 'Razão: %s' % i111iIi1i1II1 . reason )
+   if 16 - 16: I11i
+   xbmc . executebuiltin ( "XBMC.Notification(Falha, motivo - " + str ( i111iIi1i1II1 . reason ) + ",10000," + IIooooo + ")" )
+   if 63 - 63: IiII
+def OOO0O00Oo ( cookieJar ) :
+ try :
+  i1i1iIiI = ""
+  for oooOooooO0oOO , I11iii in enumerate ( cookieJar ) :
+   i1i1iIiI += I11iii . name + "=" + I11iii . value + ";"
+ except : pass
+ if 11 - 11: OOooOOo + ooOoO0o . I1Ii111 * OoooooooOO - ii1IiI1i - I11i
+ return i1i1iIiI
+ if 16 - 16: IiII / iIii1I11I1II1 + I11i * IiII * Ii1I
+ if 8 - 8: ooOoO0o
+def oO0Oo ( cookieJar , COOKIEFILE ) :
+ try :
+  iiIi111iI = os . path . join ( OOoOoo , COOKIEFILE )
+  cookieJar . save ( iiIi111iI , ignore_discard = True )
+ except : pass
+ if 15 - 15: I11i11Ii / iII111i % O0 + ii1IiI1i
+def O00o ( COOKIEFILE ) :
+ if 96 - 96: o00O0oo . OoooooooOO
+ i1I1I1I = None
+ if COOKIEFILE :
+  try :
+   iiIi111iI = os . path . join ( OOoOoo , COOKIEFILE )
+   i1I1I1I = cookielib . LWPCookieJar ( )
+   i1I1I1I . load ( iiIi111iI , ignore_discard = True )
+  except :
+   i1I1I1I = None
+   if 25 - 25: i1 + IiII - I11i11Ii
+ if not i1I1I1I :
+  i1I1I1I = cookielib . LWPCookieJar ( )
+  if 59 - 59: I11i - Ii1I % i1IIi
+ return i1I1I1I
+ if 1 - 1: ii1IiI1i . ooOoO0o * oOooOoO0Oo0O . I1Ii111 * i11i % iIii1I11I1II1
+def OooOoooo0000 ( fun_call , page_data , Cookie_Jar , m ) :
+ Oo0oo00Oo0O0 = ''
+ if 67 - 67: IiII
+ if o0O0OOO0Ooo not in sys . path :
+  sys . path . append ( o0O0OOO0Ooo )
+  if 88 - 88: I11i11Ii
+  if 8 - 8: ii1IiI1i
+ try :
+  o000i11ii1 = 'import ' + fun_call . split ( '.' ) [ 0 ]
+  if 4 - 4: i11iIiiIii - I11i % ii1IiI1i * ooOoO0o % i1
+  exec ( o000i11ii1 )
+  if 71 - 71: o00O0oo . o00O0oo - iIii1I11I1II1
+ except :
+  if 22 - 22: OoooooooOO / ii1IiI1i % IiII * o0
+  traceback . print_exc ( file = sys . stdout )
+  if 32 - 32: OoooooooOO % OOooOOo % iIii1I11I1II1 / O0
+ exec ( 'ret_val=' + fun_call )
+ if 61 - 61: i11i . O0 - iII111i - ii1IiI1i / i11iIiiIii - i11i
+ if 98 - 98: iII111i - oOooOoO0Oo0O . i11iIiiIii * I11i11Ii
+ try :
+  return str ( Oo0oo00Oo0O0 )
+ except : return Oo0oo00Oo0O0
+ if 29 - 29: iII111i / o00O0oo % Ii1I
+ if 10 - 10: iIii1I11I1II1 % OoooooooOO % ii1IiI1i
+def O0O000O ( fun_call , page_data , Cookie_Jar , m ) :
+ if 39 - 39: i11i * o0 . O0 * Ii1I
+ Oo0oo00Oo0O0 = ''
+ if o0O0OOO0Ooo not in sys . path :
+  sys . path . append ( o0O0OOO0Ooo )
+ Oo000o = open ( o0O0OOO0Ooo + "/LSProdynamicCode.py" , "w" )
+ Oo000o . write ( fun_call ) ;
+ Oo000o . close ( )
+ import LSProdynamicCode
+ Oo0oo00Oo0O0 = LSProdynamicCode . GetLSProData ( page_data , Cookie_Jar , m )
+ try :
+  return str ( Oo0oo00Oo0O0 )
+ except : return Oo0oo00Oo0O0
+ if 89 - 89: iII111i - o00O0oo . Ii1I - ooOoO0o - oOooOoO0Oo0O
+ if 79 - 79: I1Ii111 + I1Ii111 + iII111i
+def iiiII1i1I ( captchakey , cj , type = 1 ) :
+ if 97 - 97: O0 . ooOoO0o / i11i . O0 + OoooooooOO
+ if 78 - 78: i11i + I1Ii111
+ if 66 - 66: iIii1I11I1II1
+ oO00oO00O0Oo = ""
+ OO0o0o0oo = ""
+ if 40 - 40: I11i11Ii
+ if 47 - 47: o0
+ if 65 - 65: O0 + ooOoO0o % iII111i * oOooOoO0Oo0O / o00O0oo / o0
+ if 71 - 71: i11iIiiIii / o0 . OOooOOo
+ if 33 - 33: OOooOOo
+ IIIi11 = False
+ oooOo00O0 = None
+ OO0o0o0oo = None
+ if len ( captchakey ) > 0 :
+  I1IoOO0o0 = captchakey
+  if not I1IoOO0o0 . startswith ( 'http' ) :
+   I1IoOO0o0 = 'http://www.google.com/recaptcha/api/challenge?k=' + I1IoOO0o0 + '&ajax=1'
+   if 36 - 36: i11iIiiIii + ii1IiI1i % I11i . oOooOoO0Oo0O - o00O0oo
+  IIIi11 = True
+  if 94 - 94: oOooOoO0Oo0O % o0 . I1Ii111 . o00O0oo . i1iIi11iIIi1I
+  o0oO0oo = 'challenge.*?\'(.*?)\''
+  ooOO00Oo = '\'(.*?)\''
+  oO00OOOOOO0o = ii11II ( I1IoOO0o0 , cookieJar = cj )
+  oO00oO00O0Oo = re . findall ( o0oO0oo , oO00OOOOOO0o ) [ 0 ]
+  iIII = 'http://www.google.com/recaptcha/api/reload?c=' ;
+  OoO0000 = I1IoOO0o0 . split ( 'k=' ) [ 1 ]
+  iIII += oO00oO00O0Oo + '&k=' + OoO0000 + '&reason=i&type=image&lang=en'
+  III11iIIi = ii11II ( iIII , cookieJar = cj )
+  oooOo00O0 = re . findall ( ooOO00Oo , III11iIIi ) [ 0 ]
+  iIIii1I111iIii1i1 = 'http://www.google.com/recaptcha/api/image?c=' + oooOo00O0
+  if not iIIii1I111iIii1i1 . startswith ( "http" ) :
+   iIIii1I111iIii1i1 = 'http://www.google.com/recaptcha/api/' + iIIii1I111iIii1i1
+  import random
+  o0o0OO0o00o0O = random . randrange ( 100 , 1000 , 5 )
+  o0Oo = os . path . join ( OOoOoo , str ( o0o0OO0o00o0O ) + "captcha.img" )
+  i1II11i1iI1 = open ( o0Oo , "wb" )
+  i1II11i1iI1 . write ( ii11II ( iIIii1I111iIii1i1 , cookieJar = cj ) )
+  i1II11i1iI1 . close ( )
+  OO0 = IIi1II11 ( captcha = o0Oo )
+  OO0o0o0oo = OO0 . get ( )
+  os . remove ( o0Oo )
+  if 63 - 63: ooOoO0o - i1IIi
+ if oooOo00O0 :
+  if type == 1 :
+   return 'recaptcha_challenge_field=' + urllib . quote_plus ( oooOo00O0 ) + '&recaptcha_response_field=' + urllib . quote_plus ( OO0o0o0oo )
+  elif type == 2 :
+   return 'recaptcha_challenge_field:' + oooOo00O0 + ',recaptcha_response_field:' + OO0o0o0oo
+  else :
+   return 'recaptcha_challenge_field=' + urllib . quote_plus ( oooOo00O0 ) + '&recaptcha_response_field=' + urllib . quote_plus ( OO0o0o0oo )
+ else :
+  return ''
+  if 10 - 10: ii1IiI1i - Ii1I . ooOoO0o
+def iiIIIi1iIi ( url ) :
+ OOo0OOOoOOo = ii11II ( url )
+ oO00oO00O0Oo = ""
+ OO0o0o0oo = ""
+ IIIooo0o0O = "<script.*?src=\"(.*?recap.*?)\""
+ IIIII1iii = re . findall ( IIIooo0o0O , OOo0OOOoOOo )
+ IIIi11 = False
+ oooOo00O0 = None
+ OO0o0o0oo = None
+ if 32 - 32: OoooooooOO % OoooooooOO . OOooOOo - o00O0oo . o0 * OOooOOo
+ if IIIII1iii and len ( IIIII1iii ) > 0 :
+  I1IoOO0o0 = IIIII1iii [ 0 ]
+  IIIi11 = True
+  if 55 - 55: Ii1I
+  o0oO0oo = 'challenge.*?\'(.*?)\''
+  ooOO00Oo = '\'(.*?)\''
+  oO00OOOOOO0o = ii11II ( I1IoOO0o0 )
+  oO00oO00O0Oo = re . findall ( o0oO0oo , oO00OOOOOO0o ) [ 0 ]
+  iIII = 'http://www.google.com/recaptcha/api/reload?c=' ;
+  OoO0000 = I1IoOO0o0 . split ( 'k=' ) [ 1 ]
+  iIII += oO00oO00O0Oo + '&k=' + OoO0000 + '&captcha_k=1&type=image&lang=en-GB'
+  III11iIIi = ii11II ( iIII )
+  oooOo00O0 = re . findall ( ooOO00Oo , III11iIIi ) [ 0 ]
+  iIIii1I111iIii1i1 = 'http://www.google.com/recaptcha/api/image?c=' + oooOo00O0
+  if not iIIii1I111iIii1i1 . startswith ( "http" ) :
+   iIIii1I111iIii1i1 = 'http://www.google.com/recaptcha/api/' + iIIii1I111iIii1i1
+  import random
+  o0o0OO0o00o0O = random . randrange ( 100 , 1000 , 5 )
+  o0Oo = os . path . join ( OOoOoo , str ( o0o0OO0o00o0O ) + "captcha.img" )
+  i1II11i1iI1 = open ( o0Oo , "wb" )
+  i1II11i1iI1 . write ( ii11II ( iIIii1I111iIii1i1 ) )
+  i1II11i1iI1 . close ( )
+  OO0 = IIi1II11 ( captcha = o0Oo )
+  OO0o0o0oo = OO0 . get ( )
+  os . remove ( o0Oo )
+ return oooOo00O0 , OO0o0o0oo
+ if 93 - 93: i11iIiiIii . i1
+def ii11II ( url , cookieJar = None , post = None , timeout = 20 , headers = None , noredir = False ) :
+ if 16 - 16: i1IIi . i1IIi / ooOoO0o % o0 / oOooOoO0Oo0O * ii1IiI1i
+ if 30 - 30: i1 + OoooooooOO + I11i / i11i * I11i11Ii
+ o0O = urllib2 . HTTPCookieProcessor ( cookieJar )
+ if 59 - 59: iII111i / o0 * i1iIi11iIIi1I * IiII % OOooOOo
+ if noredir :
+  II1 = urllib2 . build_opener ( Ii , o0O , urllib2 . HTTPBasicAuthHandler ( ) , urllib2 . HTTPHandler ( ) )
+ else :
+  II1 = urllib2 . build_opener ( o0O , urllib2 . HTTPBasicAuthHandler ( ) , urllib2 . HTTPHandler ( ) )
+  if 61 - 61: I11i11Ii - O0 - OoooooooOO
+ ooO = urllib2 . Request ( url )
+ ooO . add_header ( 'User-Agent' , 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36' )
+ if headers :
+  for oo0OoOOooO , Ii1I1Iiii in headers :
+   ooO . add_header ( oo0OoOOooO , Ii1I1Iiii )
+   if 80 - 80: I11i . iII111i + iIii1I11I1II1
+ O00OOOOOoo0 = II1 . open ( ooO , post , timeout = timeout )
+ OoOoO = O00OOOOOoo0 . read ( )
+ O00OOOOOoo0 . close ( )
+ return OoOoO ;
+ if 32 - 32: oOooOoO0Oo0O
+def IIIIIiiI11i1 ( str , reg = None ) :
+ if reg :
+  str = re . findall ( reg , str ) [ 0 ]
+ Iii1I = urllib . unquote ( str [ 0 : len ( str ) - 1 ] ) ;
+ oooII111 = '' ;
+ for I11iiiii1II in range ( len ( Iii1I ) ) :
+  oooII111 += chr ( ord ( Iii1I [ I11iiiii1II ] ) - Iii1I [ len ( Iii1I ) - 1 ] ) ;
+ oooII111 = urllib . unquote ( oooII111 )
+ if 29 - 29: I1Ii111 + i11iIiiIii * O0 - IiII . i11i % iII111i
+ return oooII111
+ if 41 - 41: OOooOOo / I11i + IiII + o00O0oo
+def O0000oO0o00 ( str ) :
+ iiiiii1Ii = re . findall ( 'unescape\(\'(.*?)\'' , str )
+ if 20 - 20: ooOoO0o + ooOoO0o * i11i * iIii1I11I1II1 % O0 * oOooOoO0Oo0O
+ if ( not iiiiii1Ii == None ) and len ( iiiiii1Ii ) > 0 :
+  for OooOo in iiiiii1Ii :
+   if 87 - 87: o00O0oo * i1iIi11iIIi1I + i1 . I11i - o00O0oo
+   str = str . replace ( OooOo , urllib . unquote ( OooOo ) )
+ return str
+ if 33 - 33: i11i / O0 / I1Ii111 - Ii1I - i1IIi
+IiIiiI = 0
+if 53 - 53: oOooOoO0Oo0O % OoooooooOO + ooOoO0o - I11i11Ii / I1Ii111 * i1
+def oooI11iI1I ( m , html_page , cookieJar ) :
+ global IiIiiI
+ IiIiiI += 1
+ ooo0OIi1iiIIi1i = m [ 'expres' ]
+ ooOOo00oo0 = m [ 'page' ]
+ iIiiiI1I = re . compile ( '\$LiveStreamCaptcha\[([^\]]*)\]' ) . findall ( ooo0OIi1iiIIi1i ) [ 0 ]
+ if 30 - 30: i1 - i1iIi11iIIi1I + I11i
+ I1IoOO0o0 = re . compile ( iIiiiI1I ) . findall ( html_page ) [ 0 ]
+ if 65 - 65: O0 / i11i . iIii1I11I1II1 . OOooOOo / I11i11Ii % iIii1I11I1II1
+ if not I1IoOO0o0 . startswith ( "http" ) :
+  Oo0Oo = 'http://' + "" . join ( ooOOo00oo0 . split ( '/' ) [ 2 : 3 ] )
+  if I1IoOO0o0 . startswith ( "/" ) :
+   I1IoOO0o0 = Oo0Oo + I1IoOO0o0
+  else :
+   I1IoOO0o0 = Oo0Oo + '/' + I1IoOO0o0
+   if 60 - 60: i1 . o0 % ooOoO0o / oOooOoO0Oo0O / O0
+ o0Oo = os . path . join ( OOoOoo , str ( IiIiiI ) + "captcha.jpg" )
+ i1II11i1iI1 = open ( o0Oo , "wb" )
+ if 19 - 19: i11iIiiIii . oOooOoO0Oo0O + i11i / I11i . ii1IiI1i * o00O0oo
+ ooO = urllib2 . Request ( I1IoOO0o0 )
+ ooO . add_header ( 'User-Agent' , 'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1' )
+ if 'referer' in m :
+  ooO . add_header ( 'Referer' , m [ 'referer' ] )
+ if 'agent' in m :
+  ooO . add_header ( 'User-agent' , m [ 'agent' ] )
+ if 'setcookie' in m :
+  if 59 - 59: iIii1I11I1II1 / ii1IiI1i % o00O0oo
+  ooO . add_header ( 'Cookie' , m [ 'setcookie' ] )
+  if 84 - 84: iIii1I11I1II1 / oOooOoO0Oo0O . o0 % Ii1I
+  if 99 - 99: I11i11Ii + i11iIiiIii
+  if 36 - 36: iII111i * ooOoO0o * iIii1I11I1II1 - Ii1I % i11iIiiIii
+  if 98 - 98: iIii1I11I1II1 - i1IIi + o00O0oo % Ii1I + o00O0oo / OOooOOo
+ urllib2 . urlopen ( ooO )
+ O00OOOOOoo0 = urllib2 . urlopen ( ooO )
+ if 97 - 97: I1Ii111 % o00O0oo + i11i - I1Ii111 % i1iIi11iIIi1I + o00O0oo
+ i1II11i1iI1 . write ( O00OOOOOoo0 . read ( ) )
+ O00OOOOOoo0 . close ( )
+ i1II11i1iI1 . close ( )
+ OO0 = IIi1II11 ( captcha = o0Oo )
+ OO0o0o0oo = OO0 . get ( )
+ return OO0o0o0oo
+ if 31 - 31: i1
+ if 35 - 35: o0 + iII111i * o00O0oo / o0
+def o0Oo0ooo ( imageregex , html_page , cookieJar , m ) :
+ global IiIiiI
+ IiIiiI += 1
+ if 60 - 60: oOooOoO0Oo0O
+ if 44 - 44: i11i . i11i + I11i * iII111i
+ if not imageregex == '' :
+  if html_page . startswith ( "http" ) :
+   Oo0Oo = ii11II ( html_page , cookieJar = cookieJar )
+  else :
+   Oo0Oo = html_page
+  I1IoOO0o0 = re . compile ( imageregex ) . findall ( html_page ) [ 0 ]
+ else :
+  I1IoOO0o0 = html_page
+  if 'oneplay.tv/embed' in html_page :
+   import oneplay
+   Oo0Oo = ii11II ( html_page , cookieJar = cookieJar )
+   I1IoOO0o0 = oneplay . getCaptchaUrl ( Oo0Oo )
+   if 16 - 16: i11i
+ o0Oo = os . path . join ( OOoOoo , str ( IiIiiI ) + "captcha.jpg" )
+ i1II11i1iI1 = open ( o0Oo , "wb" )
+ if 100 - 100: O0 - i1IIi
+ ooO = urllib2 . Request ( I1IoOO0o0 )
+ ooO . add_header ( 'User-Agent' , 'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1' )
+ if 'referer' in m :
+  ooO . add_header ( 'Referer' , m [ 'referer' ] )
+ if 'agent' in m :
+  ooO . add_header ( 'User-agent' , m [ 'agent' ] )
+ if 'accept' in m :
+  ooO . add_header ( 'Accept' , m [ 'accept' ] )
+ if 'setcookie' in m :
+  if 48 - 48: OOooOOo % o00O0oo + O0
+  ooO . add_header ( 'Cookie' , m [ 'setcookie' ] )
+  if 27 - 27: ii1IiI1i / I11i
+  if 33 - 33: OoooooooOO % ii1IiI1i . O0 / ii1IiI1i
+  if 63 - 63: I1Ii111 + iIii1I11I1II1 + oOooOoO0Oo0O + ooOoO0o
+  if 72 - 72: i1iIi11iIIi1I + i11iIiiIii + ii1IiI1i
+  if 96 - 96: OOooOOo % i1IIi / i1
+ O00OOOOOoo0 = urllib2 . urlopen ( ooO )
+ if 13 - 13: i11i - I11i11Ii % i11iIiiIii + IiII
+ i1II11i1iI1 . write ( O00OOOOOoo0 . read ( ) )
+ O00OOOOOoo0 . close ( )
+ i1II11i1iI1 . close ( )
+ OO0 = IIi1II11 ( captcha = o0Oo )
+ OO0o0o0oo = OO0 . get ( )
+ return OO0o0o0oo
+ if 88 - 88: O0 . OOooOOo % oOooOoO0Oo0O
+ if 10 - 10: oOooOoO0Oo0O + O0
+ if 75 - 75: O0 % iIii1I11I1II1 / o0 % I11i / I1Ii111
+ if 31 - 31: i11iIiiIii * o0
+ if 69 - 69: i11iIiiIii
+ if 61 - 61: O0
+ if 21 - 21: i1iIi11iIIi1I % iIii1I11I1II1 . i1iIi11iIIi1I
+ if 99 - 99: i1 * I11i % OOooOOo * OOooOOo + OoooooooOO
+ if 82 - 82: Ii1I / o0 - I11i / o00O0oo
+ if 50 - 50: I11i + i1iIi11iIIi1I . i11iIiiIii + ii1IiI1i + i11iIiiIii
+ if 31 - 31: OOooOOo * ooOoO0o . o0 * Ii1I
+ if 28 - 28: I1Ii111 + oOooOoO0Oo0O - I11i11Ii % I11i . Ii1I + oOooOoO0Oo0O
+ if 72 - 72: iII111i / I11i11Ii / OOooOOo * o0 + I11i
+ if 58 - 58: i1 % oOooOoO0Oo0O . oOooOoO0Oo0O * i1iIi11iIIi1I - I1Ii111 . OoooooooOO
+ if 10 - 10: ooOoO0o
+def I11i1i11IiIi1 ( name , headname ) :
+ if 8 - 8: IiII - oOooOoO0Oo0O * I11i11Ii % ii1IiI1i * OoooooooOO
+ if 26 - 26: i1IIi / IiII . IiII
+ I1i11IIIi = xbmc . Keyboard ( 'default' , 'heading' , True )
+ I1i11IIIi . setDefault ( name )
+ I1i11IIIi . setHeading ( headname )
+ I1i11IIIi . setHiddenInput ( False )
+ return I1i11IIIi . getText ( )
+ if 19 - 19: OOooOOo * IiII + o0 - OOooOOo + ii1IiI1i
+ if 14 - 14: i1iIi11iIIi1I
+ if 38 - 38: O0
+ if 79 - 79: i1IIi . OOooOOo
+class IIi1II11 ( xbmcgui . WindowDialog ) :
+ def __init__ ( self , * args , ** kwargs ) :
+  self . cptloc = kwargs . get ( 'captcha' )
+  self . img = xbmcgui . ControlImage ( 335 , 30 , 624 , 60 , self . cptloc )
+  self . addControl ( self . img )
+  self . kbd = xbmc . Keyboard ( )
+  if 34 - 34: ooOoO0o * i11i
+ def get ( self ) :
+  self . show ( )
+  time . sleep ( 2 )
+  self . kbd . doModal ( )
+  if ( self . kbd . isConfirmed ( ) ) :
+   o0oO00OOo0oO = self . kbd . getText ( )
+   self . close ( )
+   return o0oO00OOo0oO
+  self . close ( )
+  return False
+  if 92 - 92: oOooOoO0Oo0O . i11i
+def II11I ( ) :
+ import time
+ return str ( int ( time . time ( ) * 1000 ) )
+ if 34 - 34: i1 . ooOoO0o % I1Ii111 - O0 / ooOoO0o
+def i11iIIi ( ) :
+ import time
+ return str ( int ( time . time ( ) ) )
+ if 91 - 91: i11iIiiIii % ooOoO0o * OOooOOo - ii1IiI1i . ooOoO0o
+def iIo00oo ( ) :
+ O000Oo00 = [ ]
+ iI1oOoo = sys . argv [ 2 ]
+ if len ( iI1oOoo ) >= 2 :
+  o00O0o00oo = sys . argv [ 2 ]
+  iIiiII = o00O0o00oo . replace ( '?' , '' )
+  if ( o00O0o00oo [ len ( o00O0o00oo ) - 1 ] == '/' ) :
+   o00O0o00oo = o00O0o00oo [ 0 : len ( o00O0o00oo ) - 2 ]
+  iII1I = iIiiII . split ( '&' )
+  O000Oo00 = { }
+  for I11iiiii1II in range ( len ( iII1I ) ) :
+   o00oOOo0Oo = { }
+   o00oOOo0Oo = iII1I [ I11iiiii1II ] . split ( '=' )
+   if ( len ( o00oOOo0Oo ) ) == 2 :
+    O000Oo00 [ o00oOOo0Oo [ 0 ] ] = o00oOOo0Oo [ 1 ]
+ return O000Oo00
+ if 91 - 91: i11i - iIii1I11I1II1 / i1IIi * i1IIi % I11i11Ii
+ if 82 - 82: o00O0oo
+def OoOooO0 ( ) :
+ iIIIi1i1I11i = json . loads ( open ( iiIi1IIiIi ) . read ( ) )
+ IIiiii = len ( iIIIi1i1I11i )
+ for I11iiiii1II in iIIIi1i1I11i :
+  oO0o00oOOooO0 = I11iiiii1II [ 0 ]
+  oOO0O00Oo0O0o = I11iiiii1II [ 1 ]
+  iI1IiiiIi = I11iiiii1II [ 2 ]
+  try :
+   iii1 = I11iiiii1II [ 3 ]
+   if iii1 == None :
+    raise
+  except :
+   if o0o . getSetting ( 'use_thumb' ) == "true" :
+    iii1 = iI1IiiiIi
+   else :
+    iii1 = Oo000ooOOO
+  try : iIIIiI = I11iiiii1II [ 5 ]
+  except : iIIIiI = None
+  try : IiIIiIIIiIii = I11iiiii1II [ 6 ]
+  except : IiIIiIIIiIii = None
+  if 31 - 31: i11iIiiIii + I1Ii111 - ooOoO0o * IiII
+  if I11iiiii1II [ 4 ] == 0 :
+   oo ( oOO0O00Oo0O0o , oO0o00oOOooO0 , iI1IiiiIi , iii1 , '' , '' , '' , 'fav' , iIIIiI , IiIIiIIIiIii , IIiiii )
+  else :
+   oO0O0o0Oooo ( oO0o00oOOooO0 , oOO0O00Oo0O0o , I11iiiii1II [ 4 ] , iI1IiiiIi , Oo000ooOOO , '' , '' , '' , '' , 'fav' )
+   if 60 - 60: IiII + i1iIi11iIIi1I + Ii1I % iIii1I11I1II1 . I11i11Ii
+   if 73 - 73: ooOoO0o * ii1IiI1i + i1 - I11i11Ii . Ii1I
+def o0oOOO ( name , url , iconimage , fanart , mode , playlist = None , regexs = None ) :
+ o00OoOooo = [ ]
+ if not os . path . exists ( iiIi1IIiIi + 'txt' ) :
+  os . makedirs ( iiIi1IIiIi + 'txt' )
+ if not os . path . exists ( oOO00Oo ) :
+  os . makedirs ( oOO00Oo )
+ try :
+  if 47 - 47: o00O0oo + IiII + i1IIi
+  name = name . encode ( 'utf-8' , 'ignore' )
+ except :
+  pass
+ if os . path . exists ( iiIi1IIiIi ) == False :
+  oo0oO0oOOoo ( 'Making Favorites File' )
+  o00OoOooo . append ( ( name , url , iconimage , fanart , mode , playlist , regexs ) )
+  I111I11I111 = open ( iiIi1IIiIi , "w" )
+  I111I11I111 . write ( json . dumps ( o00OoOooo ) )
+  I111I11I111 . close ( )
+ else :
+  oo0oO0oOOoo ( 'Appending Favorites' )
+  I111I11I111 = open ( iiIi1IIiIi ) . read ( )
+  ii1 = json . loads ( I111I11I111 )
+  ii1 . append ( ( name , url , iconimage , fanart , mode ) )
+  oO0Ooooooo = open ( iiIi1IIiIi , "w" )
+  oO0Ooooooo . write ( json . dumps ( ii1 ) )
+  oO0Ooooooo . close ( )
+  if 6 - 6: OOooOOo / O0 / iII111i / I1Ii111 / OOooOOo . iIii1I11I1II1
+  if 62 - 62: iIii1I11I1II1
+def IIi1i1ii11I1 ( name ) :
+ ii1 = json . loads ( open ( iiIi1IIiIi ) . read ( ) )
+ for oooOooooO0oOO in range ( len ( ii1 ) ) :
+  if ii1 [ oooOooooO0oOO ] [ 0 ] == name :
+   del ii1 [ oooOooooO0oOO ]
+   oO0Ooooooo = open ( iiIi1IIiIi , "w" )
+   oO0Ooooooo . write ( json . dumps ( ii1 ) )
+   oO0Ooooooo . close ( )
+   break
+ xbmc . executebuiltin ( "XBMC.Container.Refresh" )
+ if 61 - 61: i1iIi11iIIi1I . i1IIi - oOooOoO0Oo0O
+def o0ooOo0OOOO0o ( url ) :
+ if o0o . getSetting ( 'Updatecommonresolvers' ) == 'true' :
+  I11II1i1 = os . path . join ( oO0000OOo00 , 'genesisresolvers.py' )
+  if xbmcvfs . exists ( I11II1i1 ) :
+   os . remove ( I11II1i1 )
+   if 38 - 38: OOooOOo + iIii1I11I1II1 * iII111i / i1iIi11iIIi1I + I11i
+  Iii11iI1I = 'https://raw.githubusercontent.com/KelTec-Maedia-Play/master/plugin.video.genesis/commonresolvers.py'
+  OOo0o0O0 = urllib . urlretrieve ( Iii11iI1I , I11II1i1 )
+  o0o . setSetting ( 'Updatecommonresolvers' , 'false' )
+ try :
+  import genesisresolvers
+ except Exception :
+  if 8 - 8: ooOoO0o
+  if 23 - 23: i1 - Ii1I + i1 * O0
+  xbmc . executebuiltin ( "XBMC.Notification(Por favor Ative Atualizar Resolvedores comuns para reproduzir em configurações. - ,10000)" )
+  if 48 - 48: i11i + i11i * i1IIi / iII111i
+ iii11III1I = genesisresolvers . get ( url ) . result
+ if url == iii11III1I or iii11III1I is None :
+  if 61 - 61: ii1IiI1i + iIii1I11I1II1 % i1
+  if 78 - 78: iIii1I11I1II1 - i11i / oOooOoO0Oo0O
+  xbmc . executebuiltin ( "XBMC.Notification(Using Urlresolver module.. - ,5000)" )
+  import urlresolver
+  iII111iiiI11i = urlresolver . HostedMediaFile ( url )
+  if iII111iiiI11i :
+   i11IiIIi11I = urlresolver . resolve ( url )
+   iii11III1I = i11IiIIi11I
+ if iii11III1I :
+  if isinstance ( iii11III1I , list ) :
+   for iiI1 in iii11III1I :
+    i1i111III1 = o0o . getSetting ( 'quality' )
+    if iiI1 [ 'quality' ] == 'HD' :
+     i11IiIIi11I = iiI1 [ 'url' ]
+     break
+    elif iiI1 [ 'quality' ] == 'SD' :
+     i11IiIIi11I = iiI1 [ 'url' ]
+    elif iiI1 [ 'quality' ] == '1080p' and o0o . getSetting ( '1080pquality' ) == 'true' :
+     i11IiIIi11I = iiI1 [ 'url' ]
+     break
+  else :
+   i11IiIIi11I = iii11III1I
+ return i11IiIIi11I
+ if 12 - 12: ii1IiI1i * o00O0oo - Ii1I . i1iIi11iIIi1I + i1iIi11iIIi1I + IiII
+def ii1O0O ( name , mu_playlist , queueVideo = None ) :
+ iIIIiI = xbmc . PlayList ( xbmc . PLAYLIST_VIDEO )
+ if 37 - 37: i1iIi11iIIi1I + ii1IiI1i - O0 * i11i
+ if '$$LSPlayOnlyOne$$' in mu_playlist [ 0 ] :
+  mu_playlist [ 0 ] = mu_playlist [ 0 ] . replace ( '$$LSPlayOnlyOne$$' , '' )
+  import urlparse
+  II1Iiiii111i = [ ]
+  OooooO0o0 = 0
+  Ii1IIi = xbmcgui . DialogProgress ( )
+  Ii1IIi . create ( 'Progress' , 'Trying Multiple Links' )
+  for I11iiiii1II in mu_playlist :
+   if 99 - 99: I11i * i1IIi . iII111i * ooOoO0o . o00O0oo
+   if 54 - 54: IiII . i1IIi . ii1IiI1i * i1 % IiII
+   if 30 - 30: Ii1I
+   if O0ooo0O0oo0 in I11iiiii1II :
+    if 85 - 85: i11i + o00O0oo * Ii1I
+    i1ooOO00o0 = I11iiiii1II . split ( O0ooo0O0oo0 ) [ 1 ] . split ( '&regexs' ) [ 0 ]
+    II1Iiiii111i . append ( i1ooOO00o0 )
+    if 44 - 44: oOooOoO0Oo0O % I11i * i11iIiiIii * i11iIiiIii - I11i11Ii . ooOoO0o
+    mu_playlist [ OooooO0o0 ] = I11iiiii1II . split ( O0ooo0O0oo0 ) [ 0 ] + ( '&regexs' + I11iiiii1II . split ( '&regexs' ) [ 1 ] if '&regexs' in I11iiiii1II else '' )
+   else :
+    i1ooOO00o0 = urlparse . urlparse ( I11iiiii1II ) . netloc
+    if i1ooOO00o0 == '' :
+     II1Iiiii111i . append ( name )
+    else :
+     II1Iiiii111i . append ( i1ooOO00o0 )
+   oooOooooO0oOO = OooooO0o0
+   OooooO0o0 += 1
+   if 68 - 68: IiII . Ii1I
+   i111iiIiiIiI = II1Iiiii111i [ oooOooooO0oOO ]
+   if Ii1IIi . iscanceled ( ) : return
+   Ii1IIi . update ( OooooO0o0 / len ( mu_playlist ) * 100 , "" , "Link#%d" % ( OooooO0o0 ) , i111iiIiiIiI )
+   print 'auto playnamexx' , i111iiIiiIiI
+   if "&mode=19" in mu_playlist [ oooOooooO0oOO ] :
+    if 59 - 59: I11i + oOooOoO0Oo0O / i11i / o0
+    Ii1 = xbmcgui . ListItem ( i111iiIiiIiI , iconImage = iI1IiiiIi , thumbnailImage = iI1IiiiIi )
+    Ii1 . setInfo ( type = 'Video' , infoLabels = { 'Title' : i111iiIiiIiI } )
+    Ii1 . setProperty ( "IsPlayable" , "true" )
+    oOoo00 = o0ooOo0OOOO0o ( mu_playlist [ oooOooooO0oOO ] . replace ( '&mode=19' , '' ) . replace ( ';' , '' ) )
+    Ii1 . setPath ( oOoo00 )
+    if 29 - 29: I11i / o0 . iIii1I11I1II1 / Ii1I % o0 % IiII
+    if oOoo00 . startswith ( "plugin://plugin.video.f4mTester" ) :
+     xbmc . executebuiltin ( 'RunPlugin(' + oOoo00 + ')' )
+    else :
+     iiI1oooOOO0o0O0 = tryplay ( oOoo00 , Ii1 )
+   elif "$doregex" in mu_playlist [ oooOooooO0oOO ] :
+    if 31 - 31: OoooooooOO - OOooOOo / ooOoO0o
+    oo00o000O = mu_playlist [ oooOooooO0oOO ] . split ( '&regexs=' )
+    if 66 - 66: OoooooooOO + i1 . i1IIi * IiII
+    oOO0O00Oo0O0o , iII1ii1I1i = o0O0oo0o ( oo00o000O [ 1 ] , oo00o000O [ 0 ] )
+    o00oIII = oOO0O00Oo0O0o . replace ( ';' , '' )
+    Ii1 = xbmcgui . ListItem ( i111iiIiiIiI , iconImage = iI1IiiiIi , thumbnailImage = iI1IiiiIi )
+    Ii1 . setInfo ( type = 'Video' , infoLabels = { 'Title' : i111iiIiiIiI } )
+    Ii1 . setProperty ( "IsPlayable" , "true" )
+    Ii1 . setPath ( o00oIII )
+    if 16 - 16: iII111i / i1IIi
+    if o00oIII . startswith ( "plugin://plugin.video.f4mTester" ) :
+     xbmc . executebuiltin ( 'RunPlugin(' + o00oIII + ')' )
+    else :
+     iiI1oooOOO0o0O0 = tryplay ( o00oIII , Ii1 )
+     if 28 - 28: iII111i
+   else :
+    oOO0O00Oo0O0o = mu_playlist [ oooOooooO0oOO ]
+    oOO0O00Oo0O0o = oOO0O00Oo0O0o . split ( '&regexs=' ) [ 0 ]
+    Ii1 = xbmcgui . ListItem ( i111iiIiiIiI , iconImage = iI1IiiiIi , thumbnailImage = iI1IiiiIi )
+    Ii1 . setInfo ( type = 'Video' , infoLabels = { 'Title' : i111iiIiiIiI } )
+    Ii1 . setProperty ( "IsPlayable" , "true" )
+    Ii1 . setPath ( oOO0O00Oo0O0o )
+    if 66 - 66: Ii1I
+    if oOO0O00Oo0O0o . startswith ( "plugin://plugin.video.f4mTester" ) :
+     xbmc . executebuiltin ( 'RunPlugin(' + oOO0O00Oo0O0o + ')' )
+    else :
+     iiI1oooOOO0o0O0 = tryplay ( oOO0O00Oo0O0o , Ii1 )
+     print 'played' , iiI1oooOOO0o0O0
+   print 'played' , iiI1oooOOO0o0O0
+   if iiI1oooOOO0o0O0 : return
+  return
+ if o0o . getSetting ( 'ask_playlist_items' ) == 'true' and not queueVideo :
+  import urlparse
+  II1Iiiii111i = [ ]
+  OooooO0o0 = 0
+  for I11iiiii1II in mu_playlist :
+   if 27 - 27: O0
+   if O0ooo0O0oo0 in I11iiiii1II :
+    if 73 - 73: i11iIiiIii + OOooOOo % Ii1I . OoooooooOO % OOooOOo
+    i1ooOO00o0 = I11iiiii1II . split ( O0ooo0O0oo0 ) [ 1 ] . split ( '&regexs' ) [ 0 ]
+    II1Iiiii111i . append ( i1ooOO00o0 )
+    if 32 - 32: i11iIiiIii - i11i
+    mu_playlist [ OooooO0o0 ] = I11iiiii1II . split ( O0ooo0O0oo0 ) [ 0 ] + ( '&regexs' + I11iiiii1II . split ( '&regexs' ) [ 1 ] if '&regexs' in I11iiiii1II else '' )
+   else :
+    i1ooOO00o0 = urlparse . urlparse ( I11iiiii1II ) . netloc
+    if i1ooOO00o0 == '' :
+     II1Iiiii111i . append ( name )
+    else :
+     II1Iiiii111i . append ( i1ooOO00o0 )
+     if 21 - 21: o0 - i11i
+   OooooO0o0 += 1
+  OO = xbmcgui . Dialog ( )
+  if 10 - 10: o0 - i1 * i11iIiiIii / I11i11Ii + i1 + iIii1I11I1II1
+  oooOooooO0oOO = OO . select ( I1I , II1Iiiii111i )
+  if oooOooooO0oOO >= 0 :
+   i111iiIiiIiI = II1Iiiii111i [ oooOooooO0oOO ]
+   print 'playnamexx' , i111iiIiiIiI
+   if "&mode=19" in mu_playlist [ oooOooooO0oOO ] :
+    if 23 - 23: i1IIi + ii1IiI1i + oOooOoO0Oo0O - o00O0oo % OoooooooOO . I1Ii111
+    Ii1 = xbmcgui . ListItem ( i111iiIiiIiI , iconImage = iI1IiiiIi , thumbnailImage = iI1IiiiIi )
+    Ii1 . setInfo ( type = 'Video' , infoLabels = { 'Title' : i111iiIiiIiI } )
+    Ii1 . setProperty ( "IsPlayable" , "true" )
+    oOoo00 = o0ooOo0OOOO0o ( mu_playlist [ oooOooooO0oOO ] . replace ( '&mode=19' , '' ) . replace ( ';' , '' ) )
+    Ii1 . setPath ( oOoo00 )
+    if oOoo00 . startswith ( "plugin://plugin.video.f4mTester" ) :
+     xbmc . executebuiltin ( 'RunPlugin(' + oOoo00 + ')' )
+    else :
+     xbmc . Player ( ) . play ( oOoo00 , Ii1 )
+   elif "$doregex" in mu_playlist [ oooOooooO0oOO ] :
+    if 49 - 49: OOooOOo . o0
+    oo00o000O = mu_playlist [ oooOooooO0oOO ] . split ( '&regexs=' )
+    if 73 - 73: iII111i / oOooOoO0Oo0O / OoooooooOO + oOooOoO0Oo0O
+    oOO0O00Oo0O0o , iII1ii1I1i = o0O0oo0o ( oo00o000O [ 1 ] , oo00o000O [ 0 ] )
+    o00oIII = oOO0O00Oo0O0o . replace ( ';' , '' )
+    Ii1 = xbmcgui . ListItem ( i111iiIiiIiI , iconImage = iI1IiiiIi , thumbnailImage = iI1IiiiIi )
+    Ii1 . setInfo ( type = 'Video' , infoLabels = { 'Title' : i111iiIiiIiI } )
+    Ii1 . setProperty ( "IsPlayable" , "true" )
+    Ii1 . setPath ( o00oIII )
+    if o00oIII . startswith ( "plugin://plugin.video.f4mTester" ) :
+     xbmc . executebuiltin ( 'RunPlugin(' + o00oIII + ')' )
+    else :
+     xbmc . Player ( ) . play ( o00oIII , Ii1 )
+     if 57 - 57: I11i . iII111i % i1
+   else :
+    oOO0O00Oo0O0o = mu_playlist [ oooOooooO0oOO ]
+    oOO0O00Oo0O0o = oOO0O00Oo0O0o . split ( '&regexs=' ) [ 0 ]
+    Ii1 = xbmcgui . ListItem ( i111iiIiiIiI , iconImage = iI1IiiiIi , thumbnailImage = iI1IiiiIi )
+    Ii1 . setInfo ( type = 'Video' , infoLabels = { 'Title' : i111iiIiiIiI } )
+    Ii1 . setProperty ( "IsPlayable" , "true" )
+    Ii1 . setPath ( oOO0O00Oo0O0o )
+    if oOO0O00Oo0O0o . startswith ( "plugin://plugin.video.f4mTester" ) :
+     xbmc . executebuiltin ( 'RunPlugin(' + oOO0O00Oo0O0o + ')' )
+    else :
+     xbmc . Player ( ) . play ( oOO0O00Oo0O0o , Ii1 )
+ elif not queueVideo :
+  if 32 - 32: Ii1I / I1Ii111 - O0 * iIii1I11I1II1
+  iIIIiI . clear ( )
+  IiI1ii1Ii = 0
+  for I11iiiii1II in mu_playlist :
+   IiI1ii1Ii += 1
+   oo0oO0oOo0O = xbmcgui . ListItem ( '%s) %s' % ( str ( IiI1ii1Ii ) , name ) )
+   if 75 - 75: i11i + i11i + I11i * i1
+   try :
+    if "$doregex" in I11iiiii1II :
+     oo00o000O = I11iiiii1II . split ( '&regexs=' )
+     if 62 - 62: iIii1I11I1II1 - i1IIi - OOooOOo
+     oOO0O00Oo0O0o , iII1ii1I1i = o0O0oo0o ( oo00o000O [ 1 ] , oo00o000O [ 0 ] )
+    elif "&mode=19" in I11iiiii1II :
+     oOO0O00Oo0O0o = o0ooOo0OOOO0o ( I11iiiii1II . replace ( '&mode=19' , '' ) . replace ( ';' , '' ) )
+    if oOO0O00Oo0O0o :
+     iIIIiI . add ( oOO0O00Oo0O0o , oo0oO0oOo0O )
+    else :
+     raise
+   except Exception :
+    iIIIiI . add ( I11iiiii1II , oo0oO0oOo0O )
+    pass
+    if 72 - 72: o0 / ooOoO0o * I1Ii111 % iIii1I11I1II1
+  xbmc . executebuiltin ( 'playlist.playoffset(video,0)' )
+ else :
+  if 53 - 53: i1iIi11iIIi1I . O0 . oOooOoO0Oo0O * I11i / i1
+  O0Oo00ooOoO = xbmcgui . ListItem ( name )
+  iIIIiI . add ( mu_playlist , O0Oo00ooOoO )
+  if 34 - 34: o0
+def iiI1i11I ( name , url ) :
+ if o0o . getSetting ( 'save_location' ) == "" :
+  if 31 - 31: i11i + I11i - OoooooooOO . Ii1I
+  xbmc . executebuiltin ( "XBMC.Notification('','Choose a location to save files.',15000," + IIooooo + ")" )
+  o0o . openSettings ( )
+ o00O0o00oo = { 'url' : url , 'download_path' : o0o . getSetting ( 'save_location' ) }
+ downloader . download ( name , o00O0o00oo )
+ OO = xbmcgui . Dialog ( )
+ if 28 - 28: iII111i . ii1IiI1i
+ OO0OOO00 = OO . yesno ( '' , 'Do you want to add this file as a source?' )
+ if OO0OOO00 :
+  oOIIi1iiii1iI ( os . path . join ( o0o . getSetting ( 'save_location' ) , name ) )
+  if 77 - 77: ii1IiI1i % i11i
+def OOo00o0oo0 ( name , url , mode , iconimage , fanart , description , genre , date , credits , showcontext = False , regexs = None , reg_url = None , allinfo = { } ) :
+ if 33 - 33: i1 . I11i + i1 / ii1IiI1i . I11i11Ii + o0
+ if mode == 1 :
+  I1111111 = sys . argv [ 0 ] + "?url=" + urllib . quote_plus ( codecs . encode ( base64 . b32encode ( base64 . b16encode ( url ) ) , 'rot_13' ) ) + "&mode=" + str ( mode ) + "&name=" + urllib . quote_plus ( name ) + "&fanart=" + urllib . quote_plus ( fanart )
+ else :
+  I1111111 = sys . argv [ 0 ] + "?url=" + urllib . quote_plus ( codecs . encode ( base64 . b32encode ( base64 . b16encode ( url ) ) , 'rot_13' ) ) + "&mode=" + str ( mode ) + "&name=" + urllib . quote_plus ( name ) + "&fanart=" + urllib . quote_plus ( fanart )
+ O0OoOOO00 = True
+ if date == '' :
+  date = None
+ else :
+  description += '\n\nDate: %s' % date
+ Ii1 = xbmcgui . ListItem ( name , iconImage = "DefaultFolder.png" , thumbnailImage = iconimage )
+ if len ( allinfo ) < 1 :
+  Ii1 . setInfo ( type = "Video" , infoLabels = { "Title" : name , "Plot" : description , "Genre" : genre , "dateadded" : date } )
+ else :
+  Ii1 . setInfo ( type = "Video" , infoLabels = allinfo )
+ Ii1 . setProperty ( "Fanart_Image" , fanart )
+ if showcontext :
+  o0OOOoOO00o = [ ]
+  if 56 - 56: I11i11Ii * Ii1I / i1iIi11iIIi1I . i11iIiiIii - O0 / I11i11Ii
+  OoIiIiIi1I1 = ''
+  OoIiIiIi1I1 = OoIiIiIi1I1 == "true"
+  if 26 - 26: i11iIiiIii - o0 / I11i . OOooOOo / IiII * I1Ii111
+  OOO000oo0 = ''
+  if 16 - 16: iIii1I11I1II1 * IiII + OOooOOo . O0 . i1
+  if len ( OOO000oo0 ) > 0 :
+   if OoIiIiIi1I1 :
+    o0OOOoOO00o . append ( ( 'Disable Parental Block' , 'XBMC.RunPlugin(%s?mode=55&name=%s)' % ( sys . argv [ 0 ] , urllib . quote_plus ( name ) ) ) )
+   else :
+    o0OOOoOO00o . append ( ( 'Enable Parental Block' , 'XBMC.RunPlugin(%s?mode=56&name=%s)' % ( sys . argv [ 0 ] , urllib . quote_plus ( name ) ) ) )
+    if 99 - 99: i11iIiiIii - IiII
+  if showcontext == 'source' :
+   if 85 - 85: ooOoO0o % ii1IiI1i
+   if name in str ( OoOO ) :
+    o0OOOoOO00o . append ( ( 'Remove from Sources' , 'XBMC.RunPlugin(%s?mode=8&name=%s)' % ( sys . argv [ 0 ] , urllib . quote_plus ( name ) ) ) )
+    if 95 - 95: i1iIi11iIIi1I * I11i * IiII . i1
+    if 73 - 73: i1iIi11iIIi1I
+  elif showcontext == 'download' :
+   o0OOOoOO00o . append ( ( 'Download' , 'XBMC.RunPlugin(%s?url=%s&mode=9&name=%s)'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( url ) , urllib . quote_plus ( name ) ) ) )
+  elif showcontext == 'fav' :
+   o0OOOoOO00o . append ( ( 'Remove from KelTec-Media-Play Favorites' , 'XBMC.RunPlugin(%s?mode=6&name=%s)'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( name ) ) ) )
+  if showcontext == '!!update' :
+   ii11iiII = (
+ '%s?url=%s&mode=17&regexs=%s'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( reg_url ) , regexs )
+ )
+   o0OOOoOO00o . append ( ( '[COLOR orange]!!update[/COLOR]' , 'XBMC.RunPlugin(%s)' % ii11iiII ) )
+  if not name in i1I :
+   OOoo0oO0 = (
+ '%s?mode=5&name=%s&url=%s&iconimage=%s&fanart=%s&fav_mode=0'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( name ) , urllib . quote_plus ( url ) , urllib . quote_plus ( iconimage ) , urllib . quote_plus ( fanart ) )
+ )
+   if iIIIiI :
+    OOoo0oO0 += 'playlist=' + urllib . quote_plus ( str ( iIIIiI ) . replace ( ',' , '||' ) )
+   if regexs :
+    OOoo0oO0 += "&regexs=" + regexs
+    if 77 - 77: I11i11Ii / Ii1I . IiII / ooOoO0o - OoooooooOO
+    if 76 - 76: O0
+  Ii1 . addContextMenuItems ( o0OOOoOO00o )
+ O0OoOOO00 = xbmcplugin . addDirectoryItem ( handle = int ( sys . argv [ 1 ] ) , url = I1111111 , listitem = Ii1 , isFolder = True )
+ return O0OoOOO00
+ if 71 - 71: oOooOoO0Oo0O . i1IIi
+def oO0O0o0Oooo ( name , url , mode , iconimage , fanart , description , genre , date , credits , year , director , duration , premiered , studio , rate , originaltitle , country , rating , userrating , votes , aired , showcontext = False , reg_url = None , regexs = None , allinfo = { } ) :
+ if 19 - 19: i11i / i11i % ii1IiI1i + OOooOOo + OOooOOo + IiII
+ if mode == 1 :
+  I1111111 = sys . argv [ 0 ] + "?url=" + urllib . quote_plus ( codecs . encode ( base64 . b32encode ( base64 . b16encode ( url ) ) , 'rot_13' ) ) + "&mode=" + str ( mode ) + "&name=" + urllib . quote_plus ( name ) + "&fanart=" + urllib . quote_plus ( fanart )
+ else :
+  I1111111 = sys . argv [ 0 ] + "?url=" + urllib . quote_plus ( codecs . encode ( base64 . b32encode ( base64 . b16encode ( url ) ) , 'rot_13' ) ) + "&mode=" + str ( mode ) + "&name=" + urllib . quote_plus ( name ) + "&fanart=" + urllib . quote_plus ( fanart )
+ O0OoOOO00 = True
+ if date == '' :
+  date = None
+ else :
+  description += '\n\nDate: %s' % date
+ Ii1 = xbmcgui . ListItem ( name , iconImage = "DefaultFolder.png" , thumbnailImage = iconimage )
+ if len ( allinfo ) < 1 :
+  Ii1 . setInfo ( type = "Video" , infoLabels = { "Title" : name , "Plot" : description , "Genre" : genre , "dateadded" : date , "credits" : credits , "Year" : year , "Director" : director , "Duration" : duration , "Premiered" : premiered , "Studio" : studio , "Mpaa" : rate , "Originaltitle" : originaltitle , "Country" : country , "Rating" : rating , "Userrating" : userrating , "Votes" : votes , "Aired" : aired } )
+ else :
+  Ii1 . setInfo ( type = "Video" , infoLabels = allinfo )
+ Ii1 . setProperty ( "Fanart_Image" , fanart )
+ if showcontext :
+  o0OOOoOO00o = [ ]
+  if 4 - 4: i1 + Ii1I / IiII + i1IIi % i1 % IiII
+  OoIiIiIi1I1 = ''
+  OoIiIiIi1I1 = OoIiIiIi1I1 == "true"
+  if 80 - 80: iII111i
+  OOO000oo0 = ''
+  if 26 - 26: iIii1I11I1II1 . OoooooooOO - iIii1I11I1II1
+  if len ( OOO000oo0 ) > 0 :
+   if OoIiIiIi1I1 :
+    o0OOOoOO00o . append ( ( 'Disable Parental Block' , 'XBMC.RunPlugin(%s?mode=55&name=%s)' % ( sys . argv [ 0 ] , urllib . quote_plus ( name ) ) ) )
+   else :
+    o0OOOoOO00o . append ( ( 'Enable Parental Block' , 'XBMC.RunPlugin(%s?mode=56&name=%s)' % ( sys . argv [ 0 ] , urllib . quote_plus ( name ) ) ) )
+    if 59 - 59: ii1IiI1i + Ii1I . OOooOOo
+  if showcontext == 'source' :
+   if 87 - 87: i1iIi11iIIi1I
+   if name in str ( OoOO ) :
+    o0OOOoOO00o . append ( ( 'Remove from Sources' , 'XBMC.RunPlugin(%s?mode=8&name=%s)' % ( sys . argv [ 0 ] , urllib . quote_plus ( name ) ) ) )
+    if 34 - 34: ooOoO0o . o0 / i11iIiiIii / IiII
+    if 46 - 46: I11i11Ii + i11i * oOooOoO0Oo0O + I11i
+  elif showcontext == 'download' :
+   o0OOOoOO00o . append ( ( 'Download' , 'XBMC.RunPlugin(%s?url=%s&mode=9&name=%s)'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( url ) , urllib . quote_plus ( name ) ) ) )
+  elif showcontext == 'fav' :
+   o0OOOoOO00o . append ( ( 'Remove from KelTec-Maedia-Play Favorites' , 'XBMC.RunPlugin(%s?mode=6&name=%s)'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( name ) ) ) )
+  if showcontext == '!!update' :
+   ii11iiII = (
+ '%s?url=%s&mode=17&regexs=%s'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( reg_url ) , regexs )
+ )
+   o0OOOoOO00o . append ( ( '[COLOR orange]!!update[/COLOR]' , 'XBMC.RunPlugin(%s)' % ii11iiII ) )
+  if not name in i1I :
+   OOoo0oO0 = (
+ '%s?mode=5&name=%s&url=%s&iconimage=%s&fanart=%s&fav_mode=0'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( name ) , urllib . quote_plus ( url ) , urllib . quote_plus ( iconimage ) , urllib . quote_plus ( fanart ) )
+ )
+   if iIIIiI :
+    OOoo0oO0 += 'playlist=' + urllib . quote_plus ( str ( iIIIiI ) . replace ( ',' , '||' ) )
+   if regexs :
+    OOoo0oO0 += "&regexs=" + regexs
+    if 31 - 31: iII111i * i1 * iII111i + i1iIi11iIIi1I * i1 . ooOoO0o
+    if 89 - 89: OoooooooOO * iII111i * oOooOoO0Oo0O . o00O0oo * iII111i / IiII
+  Ii1 . addContextMenuItems ( o0OOOoOO00o )
+ O0OoOOO00 = xbmcplugin . addDirectoryItem ( handle = int ( sys . argv [ 1 ] ) , url = I1111111 , listitem = Ii1 , isFolder = True )
+ return O0OoOOO00
+ if 46 - 46: i11iIiiIii
+def Iiiii ( url , title , media_type = 'video' ) :
+ if 25 - 25: I11i11Ii * oOooOoO0Oo0O + I11i + ooOoO0o % I11i
+ if 84 - 84: O0 % iII111i . iII111i . IiII * Ii1I
+ import youtubedl
+ if not url == '' :
+  if media_type == 'audio' :
+   youtubedl . single_YD ( url , download = True , audio = True )
+  else :
+   youtubedl . single_YD ( url , download = True )
+ elif xbmc . Player ( ) . isPlaying ( ) == True :
+  import YDStreamExtractor
+  if YDStreamExtractor . isDownloading ( ) == True :
+   if 43 - 43: o0 . ii1IiI1i % i1IIi
+   YDStreamExtractor . manageDownloads ( )
+  else :
+   OO0O00 = xbmc . Player ( ) . getPlayingFile ( )
+   if 65 - 65: OoooooooOO
+   OO0O00 = OO0O00 . split ( '|User-Agent=' ) [ 0 ]
+   oo0oO0oOo0O = { 'url' : OO0O00 , 'title' : title , 'media_type' : media_type }
+   youtubedl . single_YD ( '' , download = True , dl_info = oo0oO0oOo0O )
+ else :
+  xbmc . executebuiltin ( "XBMC.Notification(DOWNLOAD,First Play [COLOR yellow]WHILE playing download[/COLOR] ,10000)" )
+  if 22 - 22: I11i + i11i + I11i11Ii
+def oOo00Oo0o00oo ( site_name , search_term = None ) :
+ ii1ii11 = ''
+ if os . path . exists ( oOO00Oo ) == False or o0o . getSetting ( 'clearseachhistory' ) == 'true' :
+  OoOOIIIIIiI11Ii ( oOO00Oo , '' )
+  o0o . setSetting ( "clearseachhistory" , "false" )
+ if site_name == 'history' :
+  Iii = IIiiI ( oOO00Oo )
+  IIIII1iii = re . compile ( '(.+?):(.*?)(?:\r|\n)' ) . findall ( Iii )
+  if 58 - 58: o0 + i1iIi11iIIi1I * iII111i
+  for oO0o00oOOooO0 , search_term in IIIII1iii :
+   if 'plugin://' in search_term :
+    oo ( search_term , oO0o00oOOooO0 , ii1ii11 , '' , '' , '' , '' , '' , None , '' , total = int ( len ( IIIII1iii ) ) )
+   else :
+    oO0O0o0Oooo ( oO0o00oOOooO0 + ':' + search_term , oO0o00oOOooO0 , 26 , IIooooo , IIIIiiIiI , '' , '' , '' , '' )
+ if not search_term :
+  i11iiI1111 = xbmc . Keyboard ( '' , 'Enter Search Term' )
+  i11iiI1111 . doModal ( )
+  if ( i11iiI1111 . isConfirmed ( ) == False ) :
+   return
+  search_term = i11iiI1111 . getText ( )
+  if len ( search_term ) == 0 :
+   return
+ search_term = search_term . replace ( ' ' , '+' )
+ search_term = search_term . encode ( 'utf-8' )
+ if 'youtube' in site_name :
+  if 31 - 31: OOooOOo - IiII
+  import _ytplist
+  if 46 - 46: oOooOoO0Oo0O + I11i11Ii - iII111i
+  O0oO0O = { }
+  O0oO0O = _ytplist . YoUTube ( 'searchYT' , youtube = search_term , max_page = 4 , nosave = 'nosave' )
+  IIiiii = len ( O0oO0O )
+  for IiI1ii1Ii in O0oO0O :
+   try :
+    oO0o00oOOooO0 = O0oO0O [ IiI1ii1Ii ] [ 'title' ]
+    I11i1 = O0oO0O [ IiI1ii1Ii ] [ 'date' ]
+    try :
+     IIiiiII11i = O0oO0O [ IiI1ii1Ii ] [ 'desc' ]
+    except Exception :
+     IIiiiII11i = 'UNAVAIABLE'
+     if 34 - 34: i1 % OoooooooOO
+    oOO0O00Oo0O0o = 'plugin://plugin.video.youtube/play/?video_id=' + O0oO0O [ IiI1ii1Ii ] [ 'url' ]
+    ii1ii11 = 'http://img.youtube.com/vi/' + O0oO0O [ IiI1ii1Ii ] [ 'url' ] + '/0.jpg'
+    oo ( oOO0O00Oo0O0o , oO0o00oOOooO0 , ii1ii11 , '' , '' , '' , '' , '' , None , '' , IIiiii )
+   except Exception :
+    oo0oO0oOOoo ( 'This item is ignored::' )
+  iIIIi = site_name + ':' + search_term + '\n'
+  OoOOIIIIIiI11Ii ( os . path . join ( OOoOoo , 'history' ) , iIIIi , append = True )
+ elif 'dmotion' in site_name :
+  oo0o00o0 = "https://api.dailymotion.com"
+  if 84 - 84: o0 - I11i11Ii . o00O0oo . I1Ii111 - I11i11Ii
+  import _DMsearch
+  o0Oo0oO00Oooo = str ( o0o . getSetting ( 'familyFilter' ) )
+  _DMsearch . listVideos ( oo0o00o0 + "/videos?fields=description,duration,id,owner.username,taken_time,thumbnail_large_url,title,views_total&search=" + search_term + "&sort=relevance&limit=100&family_filter=" + o0Oo0oO00Oooo + "&localization=en_EN&page=1" )
+  if 31 - 31: i1IIi * I11i11Ii % iII111i + i1iIi11iIIi1I
+  iIIIi = site_name + ':' + search_term + '\n'
+  OoOOIIIIIiI11Ii ( os . path . join ( OOoOoo , 'history' ) , iIIIi , append = True )
+ elif 'IMDBidplay' in site_name :
+  oo0o00o0 = "http://www.omdbapi.com/?t="
+  oOO0O00Oo0O0o = oo0o00o0 + search_term
+  if 75 - 75: I11i / ooOoO0o - i11i % i11iIiiIii + i1iIi11iIIi1I
+  o0OO0oooo = dict ( { 'User-Agent' : 'Mozilla/5.0 (Windows NT 6.3; rv:33.0) Gecko/20100101 Firefox/33.0' , 'Referer' : 'http://joker.org/' , 'Accept-Encoding' : 'gzip, deflate' , 'Content-Type' : 'application/json;charset=utf-8' , 'Accept' : 'application/json, text/plain, */*' } )
+  if 13 - 13: o00O0oo - oOooOoO0Oo0O
+  iiIiI1ii = requests . get ( oOO0O00Oo0O0o , headers = o0OO0oooo )
+  ii1 = iiIiI1ii . json ( )
+  iii11OO0oO = ii1 [ 'Response' ]
+  if iii11OO0oO == 'True' :
+   i1i11ii = ii1 [ 'imdbID' ]
+   oO0o00oOOooO0 = ii1 [ 'Title' ] + ii1 [ 'Released' ]
+   OO = xbmcgui . Dialog ( )
+   OO0OOO00 = OO . yesno ( 'Check Movie Title' , 'PLAY :: %s ?' % oO0o00oOOooO0 )
+   if OO0OOO00 :
+    oOO0O00Oo0O0o = 'plugin://plugin.video.pulsar/movie/' + i1i11ii + '/play'
+    iIIIi = oO0o00oOOooO0 + ':' + oOO0O00Oo0O0o + '\n'
+    OoOOIIIIIiI11Ii ( oOO00Oo , iIIIi , append = True )
+    return oOO0O00Oo0O0o
+  else :
+   if 86 - 86: ii1IiI1i - i1IIi + I11i11Ii * oOooOoO0Oo0O / i11iIiiIii % OOooOOo
+   xbmc . executebuiltin ( "XBMC.Notification(No IMDB match found ,7000," + IIooooo + ")" )
+   if 17 - 17: o00O0oo + o00O0oo . ii1IiI1i
+def iiI1ii1Iii11I ( string ) :
+ if isinstance ( string , basestring ) :
+  if isinstance ( string , unicode ) :
+   string = string . encode ( 'ascii' , 'ignore' )
+ return string
+def IIiIi11 ( string , encoding = 'utf-8' ) :
+ if isinstance ( string , basestring ) :
+  if not isinstance ( string , unicode ) :
+   string = unicode ( string , encoding , 'ignore' )
+ return string
+def oO0OO0O0 ( s ) : return "" . join ( filter ( lambda iIIi1II1 : ord ( iIIi1II1 ) < 128 , s ) )
+if 42 - 42: iIii1I11I1II1 - o00O0oo - Ii1I - ooOoO0o
+def iIiI11II ( command ) :
+ ii1 = ''
+ try :
+  ii1 = xbmc . executeJSONRPC ( IIiIi11 ( command ) )
+ except UnicodeEncodeError :
+  ii1 = xbmc . executeJSONRPC ( iiI1ii1Iii11I ( command ) )
+  if 87 - 87: I11i11Ii . OoooooooOO * ooOoO0o * i11i / i1IIi * o0
+ return IIiIi11 ( ii1 )
+ if 25 - 25: iII111i * i1 * OOooOOo . oOooOoO0Oo0O
+ if 93 - 93: o0
+def I11Ii11iI1 ( ) :
+ o0OoOo0o0OOoO0 = xbmc . getSkinDir ( )
+ if o0OoOo0o0OOoO0 == 'skin.confluence' :
+  xbmc . executebuiltin ( 'Container.SetViewMode(500)' )
+ elif o0OoOo0o0OOoO0 == 'skin.aeon.nox' :
+  xbmc . executebuiltin ( 'Container.SetViewMode(511)' )
+ else :
+  xbmc . executebuiltin ( 'Container.SetViewMode(500)' )
+  if 30 - 30: iII111i % Ii1I + i1
+  if 65 - 65: iIii1I11I1II1 . IiII / iII111i
+def iI11ii ( url ) :
+ oOoooO00OO0o = IIiIi11 ( '{"jsonrpc":"2.0","method":"Files.GetDirectory","params":{"directory":"%s","media":"video","properties":["thumbnail","title","year","dateadded","fanart","rating","season","episode","studio"]},"id":1}' ) % url
+ if 29 - 29: I11i11Ii + i11i
+ oOOo00ooO = json . loads ( iIiI11II ( oOoooO00OO0o ) )
+ for I11iiiii1II in oOOo00ooO [ 'result' ] [ 'files' ] :
+  url = I11iiiii1II [ 'file' ]
+  oO0o00oOOooO0 = oO0OO0O0 ( I11iiiii1II [ 'label' ] )
+  ii1ii11 = oO0OO0O0 ( I11iiiii1II [ 'thumbnail' ] )
+  try :
+   Oo000ooOOO = oO0OO0O0 ( I11iiiii1II [ 'fanart' ] )
+  except Exception :
+   Oo000ooOOO = ''
+  try :
+   I11i1 = I11iiiii1II [ 'year' ]
+  except Exception :
+   I11i1 = ''
+  try :
+   ooOoOOOoOo0oO0OoO = I11iiiii1II [ 'episode' ]
+   I1ii11 = I11iiiii1II [ 'season' ]
+   if ooOoOOOoOo0oO0OoO == - 1 or I1ii11 == - 1 :
+    IIiiiII11i = ''
+   else :
+    IIiiiII11i = '[COLOR yellow] S' + str ( I1ii11 ) + '[/COLOR][COLOR hotpink] E' + str ( ooOoOOOoOo0oO0OoO ) + '[/COLOR]'
+  except Exception :
+   IIiiiII11i = ''
+  try :
+   IIIII = I11iiiii1II [ 'studio' ]
+   if IIIII :
+    IIiiiII11i += '\n Studio:[COLOR steelblue] ' + IIIII [ 0 ] + '[/COLOR]'
+  except Exception :
+   IIIII = ''
+   if 65 - 65: ooOoO0o + IiII * IiII
+  if I11iiiii1II [ 'filetype' ] == 'file' :
+   oOO0OO0O ( url , oO0o00oOOooO0 , ii1ii11 , Oo000ooOOO , IIiiiII11i , '' , I11i1 , '' , None , '' , total = len ( oOOo00ooO [ 'result' ] [ 'files' ] ) )
+   if 79 - 79: i1IIi / I11i11Ii - oOooOoO0Oo0O . O0
+   if 56 - 56: I1Ii111 % O0 * i1IIi - i11i
+  else :
+   OOo00o0oo0 ( oO0o00oOOooO0 , url , 53 , ii1ii11 , Oo000ooOOO , IIiiiII11i , '' , I11i1 , '' )
+   if 74 - 74: i1IIi - o0 % OOooOOo . O0 - OoooooooOO
+   if 84 - 84: ooOoO0o
+def oOO0OO0O ( url , name , iconimage , fanart , description , genre , date , showcontext , playlist , regexs , total , setCookie = "" , allinfo = { } ) :
+ if 53 - 53: i1IIi
+ o0OOOoOO00o = [ ]
+ OoIiIiIi1I1 = o0o . getSetting ( 'parentalblocked' )
+ OoIiIiIi1I1 = OoIiIiIi1I1 == "true"
+ OOO000oo0 = o0o . getSetting ( 'parentalblockedpin' )
+ if 59 - 59: i1 + oOooOoO0Oo0O % OoooooooOO - iIii1I11I1II1
+ if len ( OOO000oo0 ) > 0 :
+  if OoIiIiIi1I1 :
+   o0OOOoOO00o . append ( ( 'Disable Parental Block' , 'XBMC.RunPlugin(%s?mode=55&name=%s)' % ( sys . argv [ 0 ] , urllib . quote_plus ( name ) ) ) )
+  else :
+   o0OOOoOO00o . append ( ( 'Enable Parental Block' , 'XBMC.RunPlugin(%s?mode=56&name=%s)' % ( sys . argv [ 0 ] , urllib . quote_plus ( name ) ) ) )
+   if 9 - 9: i1IIi - o0
+ try :
+  name = name . encode ( 'utf-8' )
+ except : pass
+ O0OoOOO00 = True
+ Oo00o0OOo0OO = False
+ if regexs :
+  I1i1iiIi = '17'
+  if 'listrepeat' in regexs :
+   Oo00o0OOo0OO = True
+   if 45 - 45: o0 * o00O0oo / OoooooooOO + i1iIi11iIIi1I . ooOoO0o / i1iIi11iIIi1I
+   if 64 - 64: iII111i / i1IIi % oOooOoO0Oo0O - i1
+  o0OOOoOO00o . append ( ( o0Oo0O0Oo00oO , 'XBMC.RunPlugin(%s?url=%s&mode=21&name=%s)'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( url ) , urllib . quote_plus ( name ) ) ) )
+ elif ( any ( x in url for x in Ii1i ) and url . startswith ( 'http' ) ) or url . endswith ( '&mode=19' ) :
+  url = url . replace ( '&mode=19' , '' )
+  I1i1iiIi = '19'
+  if 11 - 11: ii1IiI1i - OoooooooOO
+  o0OOOoOO00o . append ( ( o0Oo0O0Oo00oO , 'XBMC.RunPlugin(%s?url=%s&mode=21&name=%s)'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( url ) , urllib . quote_plus ( name ) ) ) )
+ elif url . endswith ( '&mode=18' ) :
+  url = url . replace ( '&mode=18' , '' )
+  I1i1iiIi = '18'
+  o0OOOoOO00o . append ( ( '[COLOR white]!!Download!![/COLOR]' , 'XBMC.RunPlugin(%s?url=%s&mode=23&name=%s)'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( url ) , urllib . quote_plus ( name ) ) ) )
+  if o0o . getSetting ( 'dlaudioonly' ) == 'true' :
+   o0OOOoOO00o . append ( ( '!!Download [COLOR seablue]Audio!![/COLOR]' , 'XBMC.RunPlugin(%s?url=%s&mode=24&name=%s)'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( url ) , urllib . quote_plus ( name ) ) ) )
+   if 16 - 16: I1Ii111 % OoooooooOO - o00O0oo * iII111i - iII111i
+ elif url . startswith ( 'magnet:?xt=' ) or '.torrent' in url :
+  if '&' in url and not '&amp;' in url :
+   url = url . replace ( '&' , '&amp;' )
+   if 27 - 27: I1Ii111 + iIii1I11I1II1 / I11i11Ii + i1iIi11iIIi1I % I11i11Ii + i1iIi11iIIi1I
+  url = 'plugin://plugin.video.elementum/play?uri=' + url
+  I1i1iiIi = '12'
+ else :
+  I1i1iiIi = '12'
+  if 77 - 77: I11i11Ii * o00O0oo % iII111i
+  o0OOOoOO00o . append ( ( o0Oo0O0Oo00oO , 'XBMC.RunPlugin(%s?url=%s&mode=21&name=%s)'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( url ) , urllib . quote_plus ( name ) ) ) )
+ if 'plugin://plugin.video.youtube/play/?video_id=' in url :
+  I1iI = url . replace ( 'plugin://plugin.video.youtube/play/?video_id=' , 'https://www.youtube.com/watch?v=' )
+  o0OOOoOO00o . append ( ( '!!Download [COLOR blue]Audio!![/COLOR]' , 'XBMC.RunPlugin(%s?url=%s&mode=24&name=%s)'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( I1iI ) , urllib . quote_plus ( name ) ) ) )
+ I1111111 = sys . argv [ 0 ] + "?"
+ IIiiIooO0 = False
+ if playlist :
+  if o0o . getSetting ( 'add_playlist' ) == "false" and '$$LSPlayOnlyOne$$' not in playlist [ 0 ] :
+   I1111111 += "url=" + urllib . quote_plus ( url ) + "&mode=" + I1i1iiIi
+  else :
+   I1111111 += "mode=13&name=%s&playlist=%s" % ( urllib . quote_plus ( name ) , urllib . quote_plus ( str ( playlist ) . replace ( ',' , '||' ) ) )
+   name = name + '[COLOR orange] (' + str ( len ( playlist ) ) + ' itens)[/COLOR]'
+   IIiiIooO0 = True
+ else :
+  I1111111 += "url=" + urllib . quote_plus ( url ) + "&mode=" + I1i1iiIi
+ if regexs :
+  I1111111 += "&regexs=" + regexs
+ if not setCookie == '' :
+  I1111111 += "&setCookie=" + urllib . quote_plus ( setCookie )
+ if iconimage and not iconimage == '' :
+  I1111111 += "&iconimage=" + urllib . quote_plus ( iconimage )
+  if 47 - 47: I11i . ooOoO0o % i11i + I11i11Ii - OOooOOo . i11i
+ if date == '' :
+  date = None
+ else :
+  description += '\n\nDate: %s' % date
+ Ii1 = xbmcgui . ListItem ( name , iconImage = "DefaultVideo.png" , thumbnailImage = iconimage )
+ if 37 - 37: iIii1I11I1II1 . oOooOoO0Oo0O % i1iIi11iIIi1I % OoooooooOO . OoooooooOO / O0
+ if allinfo == None or len ( allinfo ) < 1 :
+  Ii1 . setInfo ( type = "Video" , infoLabels = { "Title" : name , "Plot" : description , "Genre" : genre , "dateadded" : date } )
+ else :
+  Ii1 . setInfo ( type = "Video" , infoLabels = allinfo )
+ Ii1 . setProperty ( "Fanart_Image" , fanart )
+ if 25 - 25: i11i % i11i - iII111i . O0
+ if ( not IIiiIooO0 ) and not any ( x in url for x in I1 ) and not '$PLAYERPROXY$=' in url :
+  if regexs :
+   if 79 - 79: I1Ii111 / i1iIi11iIIi1I * OoooooooOO * o0 + oOooOoO0Oo0O
+   if '$pyFunction:playmedia(' not in urllib . unquote_plus ( regexs ) and 'notplayable' not in urllib . unquote_plus ( regexs ) and 'listrepeat' not in urllib . unquote_plus ( regexs ) :
+    if 68 - 68: Ii1I / iIii1I11I1II1 . I11i11Ii + i11iIiiIii + i1
+    Ii1 . setProperty ( 'IsPlayable' , 'true' )
+  else :
+   Ii1 . setProperty ( 'IsPlayable' , 'true' )
+ else :
+  oo0oO0oOOoo ( 'NOT setting isplayable' + url )
+ if showcontext :
+  if 92 - 92: i1iIi11iIIi1I . i1 . iII111i % o0
+  if showcontext == 'fav' :
+   o0OOOoOO00o . append (
+ ( 'Remove CANAIS do Favoritos' , 'XBMC.RunPlugin(%s?mode=6&name=%s)'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( name ) ) )
+ )
+  elif not name in i1I :
+   try :
+    OOoo0oO0 = (
+ '%s?mode=5&name=%s&url=%s&iconimage=%s&fanart=%s&fav_mode=0'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( name ) , urllib . quote_plus ( url ) , urllib . quote_plus ( iconimage ) , urllib . quote_plus ( fanart ) )
+ )
+   except :
+    OOoo0oO0 = (
+ '%s?mode=5&name=%s&url=%s&iconimage=%s&fanart=%s&fav_mode=0'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( name ) , urllib . quote_plus ( url ) , urllib . quote_plus ( iconimage . encode ( "utf-8" ) ) , urllib . quote_plus ( fanart . encode ( "utf-8" ) ) )
+ )
+   if playlist :
+    OOoo0oO0 += 'playlist=' + urllib . quote_plus ( str ( playlist ) . replace ( ',' , '||' ) )
+   if regexs :
+    OOoo0oO0 += "&regexs=" + regexs
+    if 58 - 58: ii1IiI1i % iII111i * iII111i - IiII
+  Ii1 . addContextMenuItems ( o0OOOoOO00o )
+ try :
+  if not playlist is None :
+   if o0o . getSetting ( 'add_playlist' ) == "false" :
+    I111IiI11 = name . split ( ') ' ) [ 1 ]
+    oOO00OoOo = [
+ ( 'Play ' + I111IiI11 + ' PlayList' , 'XBMC.RunPlugin(%s?mode=13&name=%s&playlist=%s)'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( I111IiI11 ) , urllib . quote_plus ( str ( playlist ) . replace ( ',' , '||' ) ) ) )
+ ]
+    Ii1 . addContextMenuItems ( oOO00OoOo )
+ except : pass
+ if 83 - 83: i1IIi
+ O0OoOOO00 = xbmcplugin . addDirectoryItem ( handle = int ( sys . argv [ 1 ] ) , url = I1111111 , listitem = Ii1 , totalItems = total , isFolder = Oo00o0OOo0OO )
+ if 43 - 43: I11i / oOooOoO0Oo0O
+ if 46 - 46: ii1IiI1i % I1Ii111 + OoooooooOO * iII111i
+ return O0OoOOO00
+ if 21 - 21: OOooOOo . IiII
+def oo ( url , name , iconimage , fanart , description , genre , date , year , director , duration , premiered , studio , rate , originaltitle , country , rating , userrating , votes , aired , showcontext , playlist , regexs , total , setCookie = "" , allinfo = { } ) :
+ if 78 - 78: oOooOoO0Oo0O * i1IIi / oOooOoO0Oo0O / i1iIi11iIIi1I
+ o0OOOoOO00o = [ ]
+ OoIiIiIi1I1 = o0o . getSetting ( 'parentalblocked' )
+ OoIiIiIi1I1 = OoIiIiIi1I1 == "true"
+ OOO000oo0 = o0o . getSetting ( 'parentalblockedpin' )
+ if 28 - 28: I11i11Ii / I1Ii111 . IiII + i1iIi11iIIi1I + Ii1I % I11i11Ii
+ if len ( OOO000oo0 ) > 0 :
+  if OoIiIiIi1I1 :
+   o0OOOoOO00o . append ( ( 'Disable Parental Block' , 'XBMC.RunPlugin(%s?mode=55&name=%s)' % ( sys . argv [ 0 ] , urllib . quote_plus ( name ) ) ) )
+  else :
+   o0OOOoOO00o . append ( ( 'Enable Parental Block' , 'XBMC.RunPlugin(%s?mode=56&name=%s)' % ( sys . argv [ 0 ] , urllib . quote_plus ( name ) ) ) )
+   if 45 - 45: I11i11Ii / O0 % OoooooooOO
+ try :
+  name = name . encode ( 'utf-8' )
+ except : pass
+ O0OoOOO00 = True
+ Oo00o0OOo0OO = False
+ if regexs :
+  I1i1iiIi = '17'
+  if 'listrepeat' in regexs :
+   Oo00o0OOo0OO = True
+   if 92 - 92: iII111i . o0 . Ii1I - OoooooooOO / o00O0oo
+   if 80 - 80: iIii1I11I1II1 / i11iIiiIii + IiII
+  o0OOOoOO00o . append ( ( o0Oo0O0Oo00oO , 'XBMC.RunPlugin(%s?url=%s&mode=21&name=%s)'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( url ) , urllib . quote_plus ( name ) ) ) )
+ elif ( any ( x in url for x in Ii1i ) and url . startswith ( 'http' ) ) or url . endswith ( '&mode=19' ) :
+  url = url . replace ( '&mode=19' , '' )
+  I1i1iiIi = '19'
+  if 41 - 41: ooOoO0o + i1iIi11iIIi1I * oOooOoO0Oo0O * O0 * I11i11Ii - o0
+  o0OOOoOO00o . append ( ( o0Oo0O0Oo00oO , 'XBMC.RunPlugin(%s?url=%s&mode=21&name=%s)'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( url ) , urllib . quote_plus ( name ) ) ) )
+ elif url . endswith ( '&mode=18' ) :
+  url = url . replace ( '&mode=18' , '' )
+  I1i1iiIi = '18'
+  o0OOOoOO00o . append ( ( '[COLOR white]!!Download!![/COLOR]' , 'XBMC.RunPlugin(%s?url=%s&mode=23&name=%s)'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( url ) , urllib . quote_plus ( name ) ) ) )
+  if o0o . getSetting ( 'dlaudioonly' ) == 'true' :
+   o0OOOoOO00o . append ( ( '!!Download [COLOR seablue]Audio!![/COLOR]' , 'XBMC.RunPlugin(%s?url=%s&mode=24&name=%s)'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( url ) , urllib . quote_plus ( name ) ) ) )
+   if 96 - 96: oOooOoO0Oo0O - iIii1I11I1II1
+ elif url . startswith ( 'magnet:?xt=' ) or '.torrent' in url :
+  if '&' in url and not '&amp;' in url :
+   url = url . replace ( '&' , '&amp;' )
+   if 25 - 25: OoooooooOO . iII111i % IiII . I1Ii111
+  url = 'plugin://plugin.video.elementum/play?uri=' + url
+  I1i1iiIi = '12'
+ else :
+  I1i1iiIi = '12'
+  if 67 - 67: OoooooooOO + ooOoO0o / o00O0oo
+  o0OOOoOO00o . append ( ( o0Oo0O0Oo00oO , 'XBMC.RunPlugin(%s?url=%s&mode=21&name=%s)'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( url ) , urllib . quote_plus ( name ) ) ) )
+ if 'plugin://plugin.video.youtube/play/?video_id=' in url :
+  I1iI = url . replace ( 'plugin://plugin.video.youtube/play/?video_id=' , 'https://www.youtube.com/watch?v=' )
+  o0OOOoOO00o . append ( ( '!!Download [COLOR blue]Audio!![/COLOR]' , 'XBMC.RunPlugin(%s?url=%s&mode=24&name=%s)'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( I1iI ) , urllib . quote_plus ( name ) ) ) )
+ I1111111 = sys . argv [ 0 ] + "?"
+ IIiiIooO0 = False
+ if playlist :
+  if o0o . getSetting ( 'add_playlist' ) == "false" and '$$LSPlayOnlyOne$$' not in playlist [ 0 ] :
+   I1111111 += "url=" + urllib . quote_plus ( url ) + "&mode=" + I1i1iiIi
+  else :
+   I1111111 += "mode=13&name=%s&playlist=%s" % ( urllib . quote_plus ( name ) , urllib . quote_plus ( str ( playlist ) . replace ( ',' , '||' ) ) )
+   name = name + '[COLOR ' + oo0oOo + '] (' + str ( len ( playlist ) ) + ' ' + o000O0o + ')[/COLOR]'
+   IIiiIooO0 = True
+ else :
+  I1111111 += "url=" + urllib . quote_plus ( url ) + "&mode=" + I1i1iiIi
+ if regexs :
+  I1111111 += "&regexs=" + regexs
+ if not setCookie == '' :
+  I1111111 += "&setCookie=" + urllib . quote_plus ( setCookie )
+ if iconimage and not iconimage == '' :
+  I1111111 += "&iconimage=" + urllib . quote_plus ( iconimage )
+  if 75 - 75: I1Ii111 / OoooooooOO . oOooOoO0Oo0O + ooOoO0o - i11i
+ if date == '' :
+  date = None
+ else :
+  description += '\n\nDate: %s' % date
+ Ii1 = xbmcgui . ListItem ( name , iconImage = "DefaultVideo.png" , thumbnailImage = iconimage )
+ if 33 - 33: I1Ii111 / I1Ii111 . i11iIiiIii * ii1IiI1i + i1
+ if allinfo == None or len ( allinfo ) < 1 :
+  Ii1 . setInfo ( type = "Video" , infoLabels = { "Title" : name , "Plot" : description , "Genre" : genre , "dateadded" : date , "Year" : year , "Director" : director , "Duration" : duration , "Premiered" : premiered , "Studio" : studio , "rate" : rate , "Originaltitle" : originaltitle , "Country" : country , "Rating" : rating , "Userrating" : userrating , "Votes" : votes , "Aired" : aired } )
+ else :
+  Ii1 . setInfo ( type = "Video" , infoLabels = allinfo )
+ Ii1 . setProperty ( "Fanart_Image" , fanart )
+ if 16 - 16: I1Ii111
+ if ( not IIiiIooO0 ) and not any ( x in url for x in I1 ) and not '$PLAYERPROXY$=' in url :
+  if regexs :
+   if 10 - 10: o0 . I1Ii111 * iIii1I11I1II1 - OOooOOo - o0 / ooOoO0o
+   if '$pyFunction:playmedia(' not in urllib . unquote_plus ( regexs ) and 'notplayable' not in urllib . unquote_plus ( regexs ) and 'listrepeat' not in urllib . unquote_plus ( regexs ) :
+    if 13 - 13: OOooOOo + o0 % I1Ii111 % OoooooooOO
+    Ii1 . setProperty ( 'IsPlayable' , 'true' )
+  else :
+   Ii1 . setProperty ( 'IsPlayable' , 'true' )
+ else :
+  oo0oO0oOOoo ( 'NOT setting isplayable' + url )
+ if showcontext :
+  if 22 - 22: ooOoO0o
+  if showcontext == 'fav' :
+   o0OOOoOO00o . append (
+ ( 'Remove CANAIS do Favoritos' , 'XBMC.RunPlugin(%s?mode=6&name=%s)'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( name ) ) )
+ )
+  elif not name in i1I :
+   try :
+    OOoo0oO0 = (
+ '%s?mode=5&name=%s&url=%s&iconimage=%s&fanart=%s&fav_mode=0'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( name ) , urllib . quote_plus ( url ) , urllib . quote_plus ( iconimage ) , urllib . quote_plus ( fanart ) )
+ )
+   except :
+    OOoo0oO0 = (
+ '%s?mode=5&name=%s&url=%s&iconimage=%s&fanart=%s&fav_mode=0'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( name ) , urllib . quote_plus ( url ) , urllib . quote_plus ( iconimage . encode ( "utf-8" ) ) , urllib . quote_plus ( fanart . encode ( "utf-8" ) ) )
+ )
+   if playlist :
+    OOoo0oO0 += 'playlist=' + urllib . quote_plus ( str ( playlist ) . replace ( ',' , '||' ) )
+   if regexs :
+    OOoo0oO0 += "&regexs=" + regexs
+    if 23 - 23: O0
+  Ii1 . addContextMenuItems ( o0OOOoOO00o )
+ try :
+  if not playlist is None :
+   if o0o . getSetting ( 'add_playlist' ) == "false" :
+    I111IiI11 = name . split ( ') ' ) [ 1 ]
+    oOO00OoOo = [
+ ( 'Play ' + I111IiI11 + ' PlayList' , 'XBMC.RunPlugin(%s?mode=13&name=%s&playlist=%s)'
+ % ( sys . argv [ 0 ] , urllib . quote_plus ( I111IiI11 ) , urllib . quote_plus ( str ( playlist ) . replace ( ',' , '||' ) ) ) )
+ ]
+    Ii1 . addContextMenuItems ( oOO00OoOo )
+ except : pass
+ if 41 - 41: i1IIi . I11i / o00O0oo / i1 % I1Ii111 - iII111i
+ O0OoOOO00 = xbmcplugin . addDirectoryItem ( handle = int ( sys . argv [ 1 ] ) , url = I1111111 , listitem = Ii1 , totalItems = total , isFolder = Oo00o0OOo0OO )
+ if 14 - 14: ii1IiI1i - i11iIiiIii * ooOoO0o
+ if 39 - 39: OoooooooOO
+ return O0OoOOO00
+ if 19 - 19: i11iIiiIii
+def oOOOO ( url , name , iconimage , setresolved = True ) :
+ if setresolved :
+  OoOOoo0 = True
+  if '$$LSDirect$$' in url :
+   url = url . replace ( '$$LSDirect$$' , '' )
+   OoOOoo0 = False
+   if 93 - 93: i11i * o0 % i1
+  Ii1 = xbmcgui . ListItem ( name , iconImage = iconimage )
+  Ii1 . setInfo ( type = 'Video' , infoLabels = { 'Title' : name } )
+  Ii1 . setProperty ( "IsPlayable" , "true" )
+  Ii1 . setPath ( url )
+  if not OoOOoo0 :
+   xbmc . Player ( ) . play ( url )
+  else :
+   xbmcplugin . setResolvedUrl ( int ( sys . argv [ 1 ] ) , True , Ii1 )
+   if 67 - 67: i1 + I11i11Ii . o00O0oo - i1IIi . o0
+ else :
+  xbmc . executebuiltin ( 'XBMC.RunPlugin(' + url + ')' )
+  if 12 - 12: I1Ii111 / i1iIi11iIIi1I / O0 * I1Ii111
+  if 51 - 51: o00O0oo * IiII / i1IIi
+  if 2 - 2: OOooOOo + I1Ii111 . IiII - i1IIi + ooOoO0o
+  if 54 - 54: OoooooooOO . OOooOOo - IiII
+def O0OO0o0OO0OO ( link ) :
+ oOO0O00Oo0O0o = urllib . urlopen ( link )
+ oo0o = oOO0O00Oo0O0o . read ( )
+ oOO0O00Oo0O0o . close ( )
+ oO0o00o000Oo0 = oo0o . split ( "Jetzt" )
+ ii1I1iIi = oO0o00o000Oo0 [ 1 ] . split ( 'programm/detail.php?const_id=' )
+ O0o0OOo0o0o = ii1I1iIi [ 1 ] . split ( '<br /><a href="/' )
+ o0oO00oooo = O0o0OOo0o0o [ 0 ] [ 40 : len ( O0o0OOo0o0o [ 0 ] ) ]
+ ooo0Oo00O = ii1I1iIi [ 2 ] . split ( "</a></p></div>" )
+ I1iII1 = ooo0Oo00O [ 0 ] [ 17 : len ( ooo0Oo00O [ 0 ] ) ]
+ I1iII1 = I1iII1 . encode ( 'utf-8' )
+ return "  - " + I1iII1 + " - " + o0oO00oooo
+ if 70 - 70: i1IIi % o00O0oo . ii1IiI1i - I1Ii111 + I11i
+ if 84 - 84: OOooOOo + i11i * i11i % i1 / IiII + o00O0oo
+def I1IiIiIi1IiI1 ( url , regex ) :
+ ii1 = i1II ( url )
+ try :
+  IiI1ii1Ii = re . findall ( regex , ii1 ) [ 0 ]
+  return IiI1ii1Ii
+ except :
+  oo0oO0oOOoo ( 'regex failed' )
+  oo0oO0oOOoo ( regex )
+  return
+  if 9 - 9: IiII
+def iIi11I1II ( d , root = "root" , nested = 0 ) :
+ if 93 - 93: ii1IiI1i - o00O0oo % ii1IiI1i
+ I11II1 = lambda III11I11iIi1 : '<' + III11I11iIi1 + '>'
+ I11i1I1iIiI = lambda III11I11iIi1 : '</' + III11I11iIi1 + '>\n'
+ if 100 - 100: i1IIi % iII111i
+ oO000O = lambda IIIIIIi1i , Oo0o0OoOoOo0 : Oo0o0OoOoOo0 + I11II1 ( I11iiI11I1II ) + str ( IIIIIIi1i ) + I11i1I1iIiI ( I11iiI11I1II )
+ Oo0o0OoOoOo0 = I11II1 ( root ) + '\n' if root else ""
+ if 70 - 70: ii1IiI1i . I1Ii111
+ for I11iiI11I1II , iII1i111iI in d . iteritems ( ) :
+  IiI1iI1 = type ( iII1i111iI )
+  if nested == 0 : I11iiI11I1II = 'regex'
+  if IiI1iI1 is list :
+   for IIIIIIi1i in iII1i111iI :
+    IIIIIIi1i = escape ( IIIIIIi1i )
+    Oo0o0OoOoOo0 = oO000O ( IIIIIIi1i , Oo0o0OoOoOo0 )
+    if 99 - 99: OOooOOo / i1IIi
+  if IiI1iI1 is dict :
+   Oo0o0OoOoOo0 = oO000O ( '\n' + iIi11I1II ( iII1i111iI , None , nested + 1 ) , Oo0o0OoOoOo0 )
+  if IiI1iI1 is not list and IiI1iI1 is not dict :
+   if not iII1i111iI is None : iII1i111iI = escape ( iII1i111iI )
+   if 2 - 2: OOooOOo . IiII
+   if iII1i111iI is None :
+    Oo0o0OoOoOo0 = oO000O ( iII1i111iI , Oo0o0OoOoOo0 )
+   else :
+    if 42 - 42: i1iIi11iIIi1I - ii1IiI1i * I1Ii111 - o00O0oo
+    Oo0o0OoOoOo0 = oO000O ( iII1i111iI . encode ( "utf-8" ) , Oo0o0OoOoOo0 )
+    if 75 - 75: IiII * I11i11Ii / ooOoO0o * I11i11Ii / o00O0oo
+ Oo0o0OoOoOo0 += I11i1I1iIiI ( root ) if root else ""
+ if 14 - 14: i1IIi * iIii1I11I1II1 - iII111i * o0 - IiII / OOooOOo
+ return Oo0o0OoOoOo0
+ if 73 - 73: ii1IiI1i - o0 * O0 - o0 - i1iIi11iIIi1I
+def oOoO0o0o ( ) :
+ import ntpath
+ ii1 = OOO ( 'https://elementumorg.github.io/' , '' )
+ O00O000oOO0oO = re . compile ( '<div class="platform-asset"><a href="(.*?)" title="(.*?)".+?</a>' ) . findall ( ii1 )
+ OO0i1Ii1II11 = [ ]
+ for OoOoO , oO0o00oOOooO0 in O00O000oOO0oO :
+  if '-' in OoOoO and not 'Client' in oO0o00oOOooO0 :
+   IiiIIii1I1I = ntpath . basename ( OoOoO )
+   IIi = IiiIIii1I1I . split ( '-' ) [ 0 ]
+   IIiIi1II1IiI = oO0o00oOOooO0 . strip ( )
+   if IIi == 'plugin.video.elementum' and IIiIi1II1IiI == 'Android x86' and xbmc . getCondVisibility ( 'system.platform.android' ) :
+    oo0OoO = 'Elementum Android x86'
+    I11iIiiI = 'special://home/addons/' + IIi
+    OO0i1Ii1II11 . append ( ( oo0OoO , IIi , OoOoO , I11iIiiI ) )
+   elif IIi == 'plugin.video.elementum' and IIiIi1II1IiI == 'Universal' :
+    oo0OoO = 'Elementum Universal'
+    I11iIiiI = 'special://home/addons/' + IIi
+    OO0i1Ii1II11 . append ( ( oo0OoO , IIi , OoOoO , I11iIiiI ) )
+ if len ( OO0i1Ii1II11 ) > 0 :
+  OO000oo0o = OO0i1Ii1II11 [ 0 ] [ 0 ]
+  I11iiIiI1II11 = OO0i1Ii1II11 [ 0 ] [ 1 ]
+  OOOoOOOo = OO0i1Ii1II11 [ 0 ] [ 2 ]
+  I11iIiiI = OO0i1Ii1II11 [ 0 ] [ 3 ]
+  oO0000 = 'true'
+ else :
+  OO000oo0o = ''
+  I11iiIiI1II11 = ''
+  OOOoOOOo = ''
+  I11iIiiI = ''
+  oO0000 = 'false'
+ return OO000oo0o , I11iiIiI1II11 , OOOoOOOo , I11iIiiI , oO0000
+ if 71 - 71: i1 . oOooOoO0Oo0O - ii1IiI1i - I11i11Ii - i1IIi - oOooOoO0Oo0O
+def iIIiiiIIi1111 ( ) :
+ try :
+  ooO0OO0Oooo0o = os . path . join ( oO0000OOo00 , 'check.txt' )
+  if os . path . isfile ( ooO0OO0Oooo0o ) :
+   OOoO00o000 = open ( ooO0OO0Oooo0o , 'r+' )
+   if OOoO00o000 and OOoO00o000 . read ( ) == '1' :
+    OOoO00o000 . close ( )
+    OO000oo0o , I11iiIiI1II11 , OOOoOOOo , I11iIiiI , oO0000 = oOoO0o0o ( )
+    if oO0000 == 'true' :
+     if os . path . exists ( xbmc . translatePath ( I11iIiiI ) ) == False :
+      if xbmcgui . Dialog ( ) . yesno ( __addonname__ , 'Deseja Instalar o Elementum?' ) :
+       iIi1Iii11111I1iii ( OO000oo0o , I11iiIiI1II11 , OOOoOOOo )
+  else :
+   OOoO00o000 = open ( ooO0OO0Oooo0o , 'w' )
+   OOoO00o000 . write ( '1' )
+   OOoO00o000 . close ( )
+   xbmcgui . Dialog ( ) . ok ( '[B][COLOR white]AVISO[/COLOR][/B]' , 'FECHE O KODI E ABRA NOVAMENTE PARA VERIFICAR COMPLEMENTOS' )
+ except :
+  pass
+  if 67 - 67: ii1IiI1i + OOooOOo * I1Ii111 / i11i % i1iIi11iIIi1I % i1iIi11iIIi1I
+def iIi1Iii11111I1iii ( name_addon , id_addon , link_addon ) :
+ try :
+  import downloader
+  import database
+  import ntpath
+  IiiIIii1I1I = ntpath . basename ( link_addon )
+  IIIII1IIiIi = xbmc . translatePath ( os . path . join ( 'special://' , 'home/' , 'addons' , 'packages' ) )
+  oo0oOOoOoo = xbmc . translatePath ( os . path . join ( 'special://' , 'home/' , 'addons' ) )
+  OOOo0Ooo0o00o = os . path . join ( IIIII1IIiIi , IiiIIii1I1I )
+  downloader . download ( link_addon , name_addon , OOOo0Ooo0o00o )
+  oOo = xbmcgui . DialogProgress ( )
+  oOo . create ( "Install addons" , "Baixando " + name_addon + "...." , '' , '' )
+  xbmc . executebuiltin ( "Extract(" + OOOo0Ooo0o00o + "," + oo0oOOoOoo + ")" )
+  oOo . update ( 100 )
+  oOo . close ( )
+  xbmc . executebuiltin ( "XBMC.UpdateLocalAddons()" )
+  database . enable_addon ( 0 , id_addon )
+  database . check_database ( id_addon )
+  xbmc . executebuiltin ( "XBMC.Container.Update()" )
+  I1I1I ( '%s instalado com sucesso' % name_addon )
+ except :
+  I1I1I ( 'Erro ao baixar o complemento' )
+  if 94 - 94: i1IIi / ii1IiI1i / oOooOoO0Oo0O * ooOoO0o * I11i11Ii
+  if 21 - 21: OoooooooOO + O0 / OoooooooOO / I11i
+xbmcplugin . setContent ( int ( sys . argv [ 1 ] ) , 'movies' )
+if 44 - 44: i1IIi . ii1IiI1i - o00O0oo . I11i . i1 + OOooOOo
+try :
+ xbmcplugin . addSortMethod ( int ( sys . argv [ 1 ] ) , xbmcplugin . SORT_METHOD_UNSORTED )
+except :
+ pass
+try :
+ xbmcplugin . addSortMethod ( int ( sys . argv [ 1 ] ) , xbmcplugin . SORT_METHOD_LABEL )
+except :
+ pass
+try :
+ xbmcplugin . addSortMethod ( int ( sys . argv [ 1 ] ) , xbmcplugin . SORT_METHOD_DATE )
+except :
+ pass
+try :
+ xbmcplugin . addSortMethod ( int ( sys . argv [ 1 ] ) , xbmcplugin . SORT_METHOD_GENRE )
+except :
+ pass
+ if 17 - 17: iIii1I11I1II1 + i1IIi . ii1IiI1i + iII111i % i1IIi . OOooOOo
+o00O0o00oo = iIo00oo ( )
+if 57 - 57: OOooOOo
+oOO0O00Oo0O0o = None
+oO0o00oOOooO0 = None
+I1i1iiIi = None
+iIIIiI = None
+iI1IiiiIi = None
+Oo000ooOOO = IIIIiiIiI
+iIIIiI = None
+OoOO00OO0 = None
+IiIIiIIIiIii = None
+if 46 - 46: i1 . iIii1I11I1II1 + OoooooooOO - o00O0oo * I11i11Ii * i11iIiiIii
+try :
+ oOO0O00Oo0O0o = urllib . unquote_plus ( o00O0o00oo [ "url" ] ) . decode ( 'utf-8' )
+except :
+ pass
+try :
+ oO0o00oOOooO0 = urllib . unquote_plus ( o00O0o00oo [ "name" ] )
+except :
+ pass
+try :
+ iI1IiiiIi = urllib . unquote_plus ( o00O0o00oo [ "iconimage" ] )
+except :
+ pass
+try :
+ Oo000ooOOO = urllib . unquote_plus ( o00O0o00oo [ "fanart" ] )
+except :
+ pass
+try :
+ I1i1iiIi = int ( o00O0o00oo [ "mode" ] )
+except :
+ pass
+try :
+ iIIIiI = eval ( urllib . unquote_plus ( o00O0o00oo [ "playlist" ] ) . replace ( '||' , ',' ) )
+except :
+ pass
+try :
+ OoOO00OO0 = int ( o00O0o00oo [ "fav_mode" ] )
+except :
+ pass
+try :
+ IiIIiIIIiIii = o00O0o00oo [ "regexs" ]
+except :
+ pass
+o0OoO0O = ''
+try :
+ o0OoO0O = urllib . unquote_plus ( o00O0o00oo [ "playitem" ] )
+except :
+ pass
+ if 95 - 95: Ii1I + I11i11Ii + I11i11Ii
+oo0oO0oOOoo ( "Mode: " + str ( I1i1iiIi ) )
+if not oOO0O00Oo0O0o is None :
+ oo0oO0oOOoo ( "URL: " + str ( oOO0O00Oo0O0o . encode ( 'utf-8' ) ) )
+oo0oO0oOOoo ( "Name: " + str ( oO0o00oOOooO0 ) )
+if 33 - 33: i1IIi % OoooooooOO / OoooooooOO
+if not o0OoO0O == '' :
+ I1111ii11IIII = oo00O00oO000o ( '' , data = o0OoO0O )
+ oO0o00oOOooO0 , oOO0O00Oo0O0o , IiIIiIIIiIii = II1I1iiIII1I1 ( I1111ii11IIII , None , dontLink = True )
+ I1i1iiIi = 117
+ if 88 - 88: ooOoO0o - iII111i - OOooOOo + i1IIi
+if I1i1iiIi == None :
+ iIIiiiIIi1111 ( )
+ oo0oO0oOOoo ( "Index" )
+ oOOoo0000O0o0 ( True )
+ if 15 - 15: I11i
+elif I1i1iiIi == 1 :
+ oo0oO0oOOoo ( "getData" )
+ ii1 = None
+ oOO0O00Oo0O0o = base64 . b16decode ( base64 . b32decode ( codecs . decode ( oOO0O00Oo0O0o , 'rot_13' ) ) )
+ if IiIIiIIIiIii :
+  ii1 = o0O0oo0o ( IiIIiIIIiIii , oOO0O00Oo0O0o )
+  oOO0O00Oo0O0o = ''
+  if 31 - 31: OOooOOo % i1IIi . OoooooooOO - i1 + OoooooooOO
+ oo0o0000 ( oOO0O00Oo0O0o , Oo000ooOOO , ii1 )
+ xbmcplugin . endOfDirectory ( int ( sys . argv [ 1 ] ) )
+ if 45 - 45: I11i + Ii1I / OoooooooOO - iII111i + OoooooooOO
+elif I1i1iiIi == 2 :
+ oo0oO0oOOoo ( "getChannelItems" )
+ oOO0O00Oo0O0o = base64 . b16decode ( base64 . b32decode ( codecs . decode ( oOO0O00Oo0O0o , 'rot_13' ) ) )
+ if IiIIiIIIiIii :
+  ii1 = o0O0oo0o ( IiIIiIIIiIii , oOO0O00Oo0O0o )
+  oOO0O00Oo0O0o = ''
+  if 42 - 42: iIii1I11I1II1 * oOooOoO0Oo0O * ooOoO0o
+ oO00OoOO ( oO0o00oOOooO0 , oOO0O00Oo0O0o , Oo000ooOOO )
+ xbmcplugin . endOfDirectory ( int ( sys . argv [ 1 ] ) )
+ if 62 - 62: I11i * O0 % I1Ii111 . I1Ii111 . oOooOoO0Oo0O
+elif I1i1iiIi == 3 :
+ oo0oO0oOOoo ( "getSubChannelItems" )
+ oOO0O00Oo0O0o = base64 . b16decode ( base64 . b32decode ( codecs . decode ( oOO0O00Oo0O0o , 'rot_13' ) ) )
+ if IiIIiIIIiIii :
+  ii1 = o0O0oo0o ( IiIIiIIIiIii , oOO0O00Oo0O0o )
+  oOO0O00Oo0O0o = ''
+  if 91 - 91: i1IIi . IiII
+ i1iIiIi1I ( oO0o00oOOooO0 , oOO0O00Oo0O0o , Oo000ooOOO )
+ xbmcplugin . endOfDirectory ( int ( sys . argv [ 1 ] ) )
+ if 37 - 37: IiII - Ii1I + iIii1I11I1II1 / ooOoO0o - i1iIi11iIIi1I . i1
+elif I1i1iiIi == 4 :
+ oo0oO0oOOoo ( "getFavorites" )
+ OoOooO0 ( )
+ xbmcplugin . endOfDirectory ( int ( sys . argv [ 1 ] ) )
+ if 62 - 62: ii1IiI1i
+elif I1i1iiIi == 5 :
+ oo0oO0oOOoo ( "addFavorite" )
+ try :
+  oO0o00oOOooO0 = oO0o00oOOooO0 . split ( '\\ ' ) [ 1 ]
+ except :
+  pass
+ try :
+  oO0o00oOOooO0 = oO0o00oOOooO0 . split ( '  - ' ) [ 0 ]
+ except :
+  pass
+ o0oOOO ( oO0o00oOOooO0 , oOO0O00Oo0O0o , iI1IiiiIi , Oo000ooOOO , OoOO00OO0 )
+ if 47 - 47: ooOoO0o % I11i * i1iIi11iIIi1I . iIii1I11I1II1 % I11i11Ii + OoooooooOO
+elif I1i1iiIi == 6 :
+ oo0oO0oOOoo ( "rmFavorite" )
+ try :
+  oO0o00oOOooO0 = oO0o00oOOooO0 . split ( '\\ ' ) [ 1 ]
+ except :
+  pass
+ try :
+  oO0o00oOOooO0 = oO0o00oOOooO0 . split ( '  - ' ) [ 0 ]
+ except :
+  pass
+ IIi1i1ii11I1 ( oO0o00oOOooO0 )
+ if 2 - 2: ooOoO0o % OoooooooOO - o00O0oo * ii1IiI1i * I1Ii111
+elif I1i1iiIi == 7 :
+ oo0oO0oOOoo ( "addSource" )
+ oOIIi1iiii1iI ( oOO0O00Oo0O0o )
+ if 99 - 99: iIii1I11I1II1 . I11i11Ii / o00O0oo . I11i % oOooOoO0Oo0O * Ii1I
+elif I1i1iiIi == 8 :
+ oo0oO0oOOoo ( "rmSource" )
+ iI1iIIIi1i ( oO0o00oOOooO0 )
+ if 95 - 95: OOooOOo
+elif I1i1iiIi == 9 :
+ oo0oO0oOOoo ( "download_file" )
+ iiI1i11I ( oO0o00oOOooO0 , oOO0O00Oo0O0o )
+ if 80 - 80: I1Ii111
+elif I1i1iiIi == 10 :
+ oo0oO0oOOoo ( "getCommunitySources" )
+ ooO0o ( )
+ if 42 - 42: OoooooooOO * i11i
+elif I1i1iiIi == 11 :
+ oo0oO0oOOoo ( "addSource" )
+ oOIIi1iiii1iI ( oOO0O00Oo0O0o )
+ if 53 - 53: ooOoO0o + i1IIi . i1iIi11iIIi1I / i11iIiiIii + iII111i % o0
+elif I1i1iiIi == 12 :
+ oo0oO0oOOoo ( "setResolvedUrl" )
+ if not oOO0O00Oo0O0o . startswith ( "plugin://plugin" ) or not any ( x in oOO0O00Oo0O0o for x in I1 ) :
+  IiI1ii1Ii = xbmcgui . ListItem ( path = oOO0O00Oo0O0o )
+  xbmcplugin . setResolvedUrl ( int ( sys . argv [ 1 ] ) , True , IiI1ii1Ii )
+ else :
+  print 'Not setting setResolvedUrl'
+  xbmc . executebuiltin ( 'XBMC.RunPlugin(' + oOO0O00Oo0O0o + ')' )
+  if 9 - 9: o00O0oo . Ii1I - I11i11Ii . ooOoO0o
+  if 39 - 39: I11i
+elif I1i1iiIi == 13 :
+ oo0oO0oOOoo ( "play_playlist" )
+ ii1O0O ( oO0o00oOOooO0 , iIIIiI )
+ if 70 - 70: I1Ii111 % i1iIi11iIIi1I % oOooOoO0Oo0O
+elif I1i1iiIi == 14 :
+ oo0oO0oOOoo ( "get_xml_database" )
+ IiII1II11I ( oOO0O00Oo0O0o )
+ xbmcplugin . endOfDirectory ( int ( sys . argv [ 1 ] ) )
+ if 95 - 95: o0 - ooOoO0o / O0 * oOooOoO0Oo0O - i1
+elif I1i1iiIi == 15 :
+ oo0oO0oOOoo ( "browse_xml_database" )
+ IiII1II11I ( oOO0O00Oo0O0o , True )
+ xbmcplugin . endOfDirectory ( int ( sys . argv [ 1 ] ) )
+ if 12 - 12: iIii1I11I1II1 % I11i11Ii . IiII . I1Ii111 % i11iIiiIii
+elif I1i1iiIi == 16 :
+ oo0oO0oOOoo ( "browse_community" )
+ ooO0o ( True )
+ xbmcplugin . endOfDirectory ( int ( sys . argv [ 1 ] ) )
+ if 2 - 2: OOooOOo * OOooOOo . o0 * iII111i * iIii1I11I1II1
+elif I1i1iiIi == 17 or I1i1iiIi == 117 :
+ oo0oO0oOOoo ( "getRegexParsed" )
+ if 13 - 13: Ii1I / O0 . i11iIiiIii * i1IIi % i11iIiiIii
+ ii1 = None
+ if IiIIiIIIiIii and 'listrepeat' in urllib . unquote_plus ( IiIIiIIIiIii ) :
+  oo0OoOO0o0o , OO0OOO00 , iI1IiiiIiI1Ii , IiIIiIIIiIii = o0O0oo0o ( IiIIiIIIiIii , oOO0O00Oo0O0o )
+  if 8 - 8: o0 - OoooooooOO
+  Ooi1IIii11i1I1 = ''
+  if 99 - 99: i11i / I1Ii111 % OoooooooOO . i11iIiiIii
+  if 18 - 18: i1 . o00O0oo
+  OoIII = iI1IiiiIiI1Ii [ 'name' ]
+  OO00O = IiIIiIIIiIii . pop ( OoIII )
+  if 66 - 66: iII111i / O0 . Ii1I + IiII - iII111i . Ii1I
+  oOO0O00Oo0O0o = ''
+  import copy
+  II1Iii1I1II1i = ''
+  ooOOO000O = 0
+  for o0Oi1IIi in OO0OOO00 :
+   try :
+    ooOOO000O += 1
+    OOoo = copy . deepcopy ( IiIIiIIIiIii )
+    if 40 - 40: oOooOoO0Oo0O
+    i1IiI = oo0OoOO0o0o
+    I11iiiii1II = 0
+    for I11iiiii1II in range ( len ( o0Oi1IIi ) ) :
+     if 73 - 73: OoooooooOO * O0 * o00O0oo
+     if len ( OOoo ) > 0 :
+      for iii11Ii , i1Iiii111 in OOoo . iteritems ( ) :
+       if i1Iiii111 is not None :
+        for IIii1i1 , OOooooO0 in i1Iiii111 . iteritems ( ) :
+         if OOooooO0 is not None :
+          if 23 - 23: IiII / o0 + i1 . O0
+          if 76 - 76: o0 . I1Ii111 - i11i * i1iIi11iIIi1I
+          if 78 - 78: iIii1I11I1II1 / O0 * OOooOOo / IiII / o0
+          if 15 - 15: o00O0oo / OOooOOo
+          if type ( OOooooO0 ) is dict :
+           for O0Oo00o0o , oooooO0oO0o in OOooooO0 . iteritems ( ) :
+            if oooooO0oO0o is not None :
+             OO0ooOoOO0OOo = None
+             if isinstance ( o0Oi1IIi , tuple ) :
+              try :
+               OO0ooOoOO0OOo = o0Oi1IIi [ I11iiiii1II ] . decode ( 'utf-8' )
+              except :
+               OO0ooOoOO0OOo = o0Oi1IIi [ I11iiiii1II ]
+             else :
+              try :
+               OO0ooOoOO0OOo = o0Oi1IIi . decode ( 'utf-8' )
+              except :
+               OO0ooOoOO0OOo = o0Oi1IIi
+               if 63 - 63: iII111i - i11i . Ii1I / o0
+             if '[' + OoIII + '.param' + str ( I11iiiii1II + 1 ) + '][DE]' in oooooO0oO0o :
+              oooooO0oO0o = oooooO0oO0o . replace ( '[' + OoIII + '.param' + str ( I11iiiii1II + 1 ) + '][DE]' , unescape ( OO0ooOoOO0OOo ) )
+             OOooooO0 [ O0Oo00o0o ] = oooooO0oO0o . replace ( '[' + OoIII + '.param' + str ( I11iiiii1II + 1 ) + ']' , OO0ooOoOO0OOo )
+             if 17 - 17: o00O0oo
+             if 13 - 13: I11i11Ii - Ii1I / OOooOOo - I11i11Ii - IiII / i11iIiiIii
+          else :
+           OO0ooOoOO0OOo = None
+           if isinstance ( o0Oi1IIi , tuple ) :
+            try :
+             OO0ooOoOO0OOo = o0Oi1IIi [ I11iiiii1II ] . decode ( 'utf-8' )
+            except :
+             OO0ooOoOO0OOo = o0Oi1IIi [ I11iiiii1II ]
+           else :
+            try :
+             OO0ooOoOO0OOo = o0Oi1IIi . decode ( 'utf-8' )
+            except :
+             OO0ooOoOO0OOo = o0Oi1IIi
+           if '[' + OoIII + '.param' + str ( I11iiiii1II + 1 ) + '][DE]' in OOooooO0 :
+            if 29 - 29: I1Ii111 - Ii1I . O0 . O0
+            OOooooO0 = OOooooO0 . replace ( '[' + OoIII + '.param' + str ( I11iiiii1II + 1 ) + '][DE]' , unescape ( OO0ooOoOO0OOo ) )
+            if 16 - 16: i1IIi * o00O0oo % i1iIi11iIIi1I + iII111i
+           i1Iiii111 [ IIii1i1 ] = OOooooO0 . replace ( '[' + OoIII + '.param' + str ( I11iiiii1II + 1 ) + ']' , OO0ooOoOO0OOo )
+           if 50 - 50: OOooOOo - OoooooooOO + IiII % i1iIi11iIIi1I
+           if 12 - 12: i1IIi / ii1IiI1i - IiII . i11iIiiIii / i1IIi / OoooooooOO
+     OO0ooOoOO0OOo = None
+     if isinstance ( o0Oi1IIi , tuple ) :
+      try :
+       OO0ooOoOO0OOo = o0Oi1IIi [ I11iiiii1II ] . decode ( 'utf-8' )
+      except :
+       OO0ooOoOO0OOo = o0Oi1IIi [ I11iiiii1II ]
+     else :
+      try :
+       OO0ooOoOO0OOo = o0Oi1IIi . decode ( 'utf-8' )
+      except :
+       OO0ooOoOO0OOo = o0Oi1IIi
+     if '[' + OoIII + '.param' + str ( I11iiiii1II + 1 ) + '][DE]' in i1IiI :
+      i1IiI = i1IiI . replace ( '[' + OoIII + '.param' + str ( I11iiiii1II + 1 ) + '][DE]' , OO0ooOoOO0OOo )
+     i1IiI = i1IiI . replace ( '[' + OoIII + '.param' + str ( I11iiiii1II + 1 ) + ']' , escape ( OO0ooOoOO0OOo ) )
+     if 88 - 88: iII111i / i11iIiiIii % o0 % I11i
+    i1IiI = i1IiI . replace ( '[' + OoIII + '.param' + str ( 0 ) + ']' , str ( ooOOO000O ) )
+    if 70 - 70: ii1IiI1i . ii1IiI1i / Ii1I . ii1IiI1i
+    if 37 - 37: i1IIi . ooOoO0o - i11i % i1 - i1IIi . OOooOOo
+    if 34 - 34: iIii1I11I1II1 / i11i
+    if 3 - 3: i1 - OoooooooOO + IiII . Ii1I
+    o00000Oo = ''
+    if 63 - 63: i11i * oOooOoO0Oo0O - OoooooooOO / oOooOoO0Oo0O
+    if len ( OOoo ) > 0 :
+     o00000Oo = iIi11I1II ( OOoo , 'lsproroot' )
+     o00000Oo = o00000Oo . split ( '<lsproroot>' ) [ 1 ] . split ( '</lsproroot' ) [ 0 ]
+     if 50 - 50: o0 % iII111i + o0 * iII111i - I11i
+     if 94 - 94: iIii1I11I1II1
+    try :
+     II1Iii1I1II1i += '\n<item>%s\n%s</item>' % ( i1IiI , o00000Oo )
+    except : II1Iii1I1II1i += '\n<item>%s\n%s</item>' % ( i1IiI . encode ( "utf-8" ) , o00000Oo )
+   except : traceback . print_exc ( file = sys . stdout )
+   if 1 - 1: O0
+   if 2 - 2: i1iIi11iIIi1I . Ii1I
+   if 97 - 97: I11i11Ii
+   if 65 - 65: I11i11Ii % I11i / i11iIiiIii / iIii1I11I1II1 . ooOoO0o + o00O0oo
+   if 92 - 92: OOooOOo
+  oo0oO0oOOoo ( repr ( II1Iii1I1II1i ) )
+  oo0o0000 ( '' , '' , II1Iii1I1II1i )
+  xbmcplugin . endOfDirectory ( int ( sys . argv [ 1 ] ) )
+ else :
+  oOO0O00Oo0O0o , iII1ii1I1i = o0O0oo0o ( IiIIiIIIiIii , oOO0O00Oo0O0o )
+  if 96 - 96: ooOoO0o * iIii1I11I1II1 / o0 % I11i * i11i
+  if oOO0O00Oo0O0o :
+   if '$PLAYERPROXY$=' in oOO0O00Oo0O0o :
+    oOO0O00Oo0O0o , Iiii1i11ii1Ii = oOO0O00Oo0O0o . split ( '$PLAYERPROXY$=' )
+    print 'proxy' , Iiii1i11ii1Ii
+    if 3 - 3: I11i . I11i11Ii / i11iIiiIii + i1iIi11iIIi1I
+    i1O00oo00o000o = None
+    O0000ooO = None
+    if len ( Iiii1i11ii1Ii ) > 0 and '@' in Iiii1i11ii1Ii :
+     Iiii1i11ii1Ii = Iiii1i11ii1Ii . split ( ':' )
+     i1O00oo00o000o = Iiii1i11ii1Ii [ 0 ]
+     O0000ooO = Iiii1i11ii1Ii [ 1 ] . split ( '@' ) [ 0 ]
+     O00OoO = Iiii1i11ii1Ii [ 1 ] . split ( '@' ) [ 1 ]
+     I11i11 = Iiii1i11ii1Ii [ 2 ]
+    else :
+     O00OoO , I11i11 = Iiii1i11ii1Ii . split ( ':' )
+     if 68 - 68: O0 * iIii1I11I1II1 / ooOoO0o
+    O0OOo0o ( oOO0O00Oo0O0o , oO0o00oOOooO0 , iI1IiiiIi , O00OoO , I11i11 , i1O00oo00o000o , O0000ooO )
+   else :
+    oOOOO ( oOO0O00Oo0O0o , oO0o00oOOooO0 , iI1IiiiIi , iII1ii1I1i )
+  else :
+   xbmc . executebuiltin ( "XBMC.Notification(Failed to extract regex. - " + "this" + ",4000," + IIooooo + ")" )
+   if 65 - 65: I11i - oOooOoO0Oo0O * ooOoO0o
+elif I1i1iiIi == 18 :
+ oo0oO0oOOoo ( "youtubedl" )
+ try :
+  import youtubedl
+ except Exception :
+  if 99 - 99: oOooOoO0Oo0O
+  xbmc . executebuiltin ( "XBMC.Notification(Please [COLOR yellow]install the Youtube Addon[/COLOR] module ,10000," ")" )
+ o0OoO000O = youtubedl . single_YD ( oOO0O00Oo0O0o )
+ oOOOO ( o0OoO000O , oO0o00oOOooO0 , iI1IiiiIi )
+elif I1i1iiIi == 19 :
+ oo0oO0oOOoo ( "Genesiscommonresolvers" )
+ oOOOO ( o0ooOo0OOOO0o ( oOO0O00Oo0O0o ) , oO0o00oOOooO0 , iI1IiiiIi , True )
+ if 64 - 64: ii1IiI1i * iII111i * I11i11Ii % I1Ii111 % o00O0oo
+elif I1i1iiIi == 21 :
+ oo0oO0oOOoo ( "download current file using youtube-dl service" )
+ Iiiii ( '' , oO0o00oOOooO0 , 'video' )
+elif I1i1iiIi == 23 :
+ oo0oO0oOOoo ( "get info then download" )
+ Iiiii ( oOO0O00Oo0O0o , oO0o00oOOooO0 , 'video' )
+elif I1i1iiIi == 24 :
+ oo0oO0oOOoo ( "Audio only youtube download" )
+ Iiiii ( oOO0O00Oo0O0o , oO0o00oOOooO0 , 'audio' )
+elif I1i1iiIi == 25 :
+ oo0oO0oOOoo ( "YouTube/DMotion" )
+ oOo00Oo0o00oo ( oOO0O00Oo0O0o )
+ xbmcplugin . endOfDirectory ( int ( sys . argv [ 1 ] ) )
+elif I1i1iiIi == 26 :
+ oo0oO0oOOoo ( "YouTube/DMotion From Search History" )
+ oO0o00oOOooO0 = oO0o00oOOooO0 . split ( ':' )
+ oOo00Oo0o00oo ( oOO0O00Oo0O0o , search_term = oO0o00oOOooO0 [ 1 ] )
+ xbmcplugin . endOfDirectory ( int ( sys . argv [ 1 ] ) )
+elif I1i1iiIi == 27 :
+ oo0oO0oOOoo ( "Using IMDB id to play in Pulsar" )
+ OoO0000O = oOo00Oo0o00oo ( oOO0O00Oo0O0o )
+ xbmc . Player ( ) . play ( OoO0000O )
+elif I1i1iiIi == 30 :
+ OO0O0ooOOO00 ( oO0o00oOOooO0 , oOO0O00Oo0O0o , iI1IiiiIi , Oo000ooOOO )
+ if 33 - 33: ooOoO0o + IiII - I11i11Ii / iII111i + OOooOOo . o0
+elif I1i1iiIi == 40 :
+ II1Iii ( )
+ I11Ii11iI1 ( )
+ xbmcplugin . endOfDirectory ( int ( sys . argv [ 1 ] ) )
+ if 84 - 84: i11iIiiIii / i1 % iIii1I11I1II1 . o00O0oo . i1iIi11iIIi1I / IiII
+elif I1i1iiIi == 41 :
+ oo0oO0oOOoo ( "puxarconf" )
+ xbmcaddon . Addon ( ) . openSettings ( )
+ xbmcgui . Dialog ( ) . ok ( '[B][COLOR red]AVISO IMPORTANTE![/COLOR][/B]' , '[B]POR FAVOR SAIR DO ADD-ON E ENTRE NOVAMENTE PARA ATUALIZAR AS CONFIGURAÇÕES[/B]' )
+ xbmc . executebuiltin ( "XBMC.Container.Refresh" )
+ if 55 - 55: IiII
+elif I1i1iiIi == 42 :
+ oo0oO0oOOoo ( "infoTORRENT" )
+ if 3 - 3: iIii1I11I1II1
+ if 19 - 19: i11i . i1iIi11iIIi1I * i1iIi11iIIi1I + oOooOoO0Oo0O % I11i11Ii
+ xbmcgui . Dialog ( ) . ok ( I1i1I , I1Ii1iI1 ( O0oo0OO0oOOOo ) )
+ if 21 - 21: o0 - i11iIiiIii - o0
+ if 4 - 4: Ii1I . I1Ii111
+elif I1i1iiIi == 43 :
+ I11Iiii1I ( True )
+ if 39 - 39: I11i . I11i11Ii - o0 * i11iIiiIii
+if I1i1iiIi == 44 :
+ O0OO0O ( True )
+ if 4 - 4: o0 * O0 - Ii1I
+elif I1i1iiIi == 53 :
+ oo0oO0oOOoo ( "Requesting JSON-RPC Items" )
+ oOO0O00Oo0O0o = base64 . b16decode ( base64 . b32decode ( codecs . decode ( oOO0O00Oo0O0o , 'rot_13' ) ) )
+ if IiIIiIIIiIii :
+  ii1 = o0O0oo0o ( IiIIiIIIiIii , oOO0O00Oo0O0o )
+  oOO0O00Oo0O0o = ''
+  if 72 - 72: Ii1I + o00O0oo / oOooOoO0Oo0O . I1Ii111 % i1iIi11iIIi1I / i11iIiiIii
+ iI11ii ( oOO0O00Oo0O0o )
+ xbmcplugin . endOfDirectory ( int ( sys . argv [ 1 ] ) )
+ if 13 - 13: ooOoO0o % i1 + I11i + ooOoO0o + i11iIiiIii - ii1IiI1i
+elif I1i1iiIi == 54 :
+ OoOooOoO ( True )
+ if 70 - 70: i11i * i11i . oOooOoO0Oo0O
+ if 11 - 11: IiII
 #checkintegrity
-import base64, codecs
-magic = 'IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0NCmltcG9ydCB1cmxsaWINCmltcG9ydCB1cmxsaWIyDQppbXBvcnQgZGF0ZXRpbWUNCmltcG9ydCByZQ0KaW1wb3J0IG9zDQppbXBvcnQgYmFzZTY0DQppbXBvcnQgY29kZWNzDQppbXBvcnQgeGJtY3BsdWdpbg0KaW1wb3J0IHhibWNndWkNCmltcG9ydCB4Ym1jYWRkb24NCmltcG9ydCB4Ym1jdmZzDQppbXBvcnQgdHJhY2ViYWNrDQppbXBvcnQgY29va2llbGliDQppbXBvcnQgdGltZQ0KaW1wb3J0IHhibWNndWkNCmltcG9ydCB4Ym1jDQppbXBvcnQgeGJtY3BsdWdpbg0KaW1wb3J0IHdlYmJyb3dzZXINCmltcG9ydCBvcw0KaW1wb3J0IHhibWNhZGRvbg0KZnJvbSBCZWF1dGlmdWxTb3VwIGltcG9ydCBCZWF1dGlmdWxTdG9uZVNvdXAgLCBCZWF1dGlmdWxTb3VwICwgQmVhdXRpZnVsU09BUA0KaWYgNjQgLSA2NDogaTExaUlpaUlpaQ0KaWYgNjUgLSA2NTogTzAgLyBpSWlpMUkxMUkxSUkxICUgT29vb29vb29PTyAtIGkxSUlpDQpvME9PMDAgPSBOb25lDQp0cnkgOg0KIGZyb20geG1sIC4gc2F4IC4gc2F4dXRpbHMgaW1wb3J0IGVzY2FwZQ0KZXhjZXB0IDogdHJhY2ViYWNrIC4gcHJpbnRfZXhjICggKQ0KaWYgNzggLSA3ODogaTExaSAuIG9Pb29Pb08wT28wTw0KdHJ5IDoNCiBpbXBvcnQganNvbg0KZXhjZXB0IDoNCiBpbXBvcnQgc2ltcGxlanNvbiBhcyBqc29uDQppbXBvcnQgU2ltcGxlRG93bmxvYWRlciBhcyBkb3dubG9hZGVyDQppbXBvcnQgdGltZQ0KaW1wb3J0IHJlcXVlc3RzDQppSTEgPSBGYWxzZQ0KaWYgNDMgLSA0MzogSTExaTExSWkNCmlmIDY1IC0gNjU6IGkxaUlpMTFpSUlpMUkNCk9vID0gIjI5LjA4LjIwIg0KaWYgMiAtIDI6IG8wICogaTEgKiBpaTFJaUkxaSAlIE9Pb29PT28gLyBJMTFpIC8gSWkxSQ0KaWYgNDggLSA0ODogaUlJMTExaSAlIElpSUkgKyBJMUlpMTExIC8gb29Pb08wbyAqIG8wME8wb28NCmlmIDk3IC0gOTc6IElpMUkgLSBpaTFJaUkxaSAuIEkxSWkxMTEgLSBPb29vb29vb09PDQpvTzBvID0gJ2FIUjBjSE02THk5a1pYVnpZWEJ2Ykd4dkxtTnZiUzlCVUU5TVRFOHZRa0ZUUlMxUVVrbE9RMGxRUVV3dlFtRnpaUzFRY21sdVkybHdZV3d1YUhSdGJBPT0nDQpJSUlJID0gYmFzZTY0IC4gYjY0ZGVjb2RlICggb08wbyApDQppZiA1OSAtIDU5OiBpMUlJaSAqIGkxSUlpICUgSTExaSArIGkxMWkNCmlmIDMyIC0gMzI6IG8wIC4gbzAwTzBvbyAqIGkxSUlpIC4gb29Pb08wbyAvIEkxSWkxMTENCm8wMCA9ICdbQ09MT1Igb3JhbmdlXVtCXS0+Wy9DT0xPUl1bL0JdW0NPTE9SIGRlZXBza3libHVlXVtCXSBCRU0tVklORE9TWy9DT0xPUl1bL0JdJw0KaWYgNjIgLSA2MjogaTExaUlpaUlpaSAtIGkxMWkgJSBvb09vTzBvIC0gaUlpaTFJMTFJMUlJMSAuIGlpMUlpSTFpIC4gaTExaQ0KaWYgNjEgLSA2MTogT09vb09PbyAvIG8wIC8gSWlJSSAqIGkxaUlpMTFpSUlpMUkgLiBpMTFpDQppZiAxIC0gMTogaTExaSAtIGlpMUlpSTFpICUgaTExaUlpaUlpaSArIEkxSWkxMTEgLiBvb09vTzBvDQpPb29vMDAwMCA9ICctPiBCQUlYRSBFIElOU1RBTEUhJw0KaWYgMjIgLSAyMjogaUlJMTExaSAuIEkxSWkxMTENCmlmIDQxIC0gNDE6IG9vT29PMG8gLiBvMDBPMG9vICogSTFJaTExMSAlIGkxMWlJaWlJaWkNCmlmIDc0IC0gNzQ6IElpSUkgKiBJMUlpMTExDQppZiA4MiAtIDgyOiBpSWlpMUkxMUkxSUkxICUgSTFJaTExMQ0Kb09vMG9vb28wMG8gPSAnYUhSMGNITTZMeTl3WVhOMFpXSnBiaTVqYjIwdmNtRjNMekpRVGs0eFVHcEwnDQpvTzBvMG8wb29PMG9PID0gYmFzZTY0IC4gYjY0ZGVjb2RlICggb09vMG9vb28wMG8gKQ0KaWYgNTIgLSA1MjogaTExaSAtIGkxMWlJaWlJaWkgJSBvb09vTzBvDQppZiA1NCAtIDU0OiBJMTFpICUgTzAgKyBvT29vT29PME9vME8gLSBJaUlJIC8gSWkxSQ0KaWYgMzEgLSAzMTogaTFpSWkxMWlJSWkxSSArIGkxMWkNCmlmIDEzIC0gMTM6IEkxMWkgKiBPT29vT09vICogb09vb09vTzBPbzBPDQppZiA1NSAtIDU1OiBpMTFpDQpJSUlpSTExaWkgPSAnYUhSMGNITTZMeTl3WVhOMFpXSnBiaTVqYjIwdmNtRjNMM0JZUjJneWNrVnUnDQpPMDAwb28gPSBiYXNlNjQgLiBiNjRkZWNvZGUgKCBJSUlpSTExaWkgKQ0KaWYgMyAtIDM6IElpSUkgKyBPMA0KaWYgNDIgLSA0MjogSTExaSAvIGkxSUlpICsgaTExaUlpaUlpaSAtIGlJSTExMWkNCmlmIDc4IC0gNzg6IGkxaUlpMTFpSUlpMUkNCklpaTFJMTExID0gJ2FIUjBjSE02THk5d1lYTjBaV0pwYmk1amIyMHZjbUYzTDFoRGREbDZjbFJtJw0KT08wTzBPMDBPb29PID0gYmFzZTY0IC4gYjY0ZGVjb2RlICggSWlpMUkxMTEgKQ0KaWYgNzcgLSA3NzogaTExaSAtIGkxMWkgLiBvT29vT29PME9vME8gLyBpMQ0KaWYgMTQgLSAxNDogSWkxSSAlIE8wDQpJaUkxSTEgPSAzMDAwDQppZiA4NiAtIDg2OiBpMTFpSWlpSWlpICsgaUlJMTExaSArIG8wME8wb28gKiBJaTFJICsgaTENCmlmIDYxIC0gNjE6IGkxaUlpMTFpSUlpMUkgLyBpMTFpSWlpSWlpDQppZiAzNCAtIDM0OiBPb29vb29vb09PICsgaUlpaTFJMTFJMUlJMSArIGkxMWlJaWlJaWkgLSBpaTFJaUkxaSArIGkxMWlJaWlJaWkNCmlmIDY1IC0gNjU6IG8wDQppZiA2IC0gNjogb09vb09vTzBPbzBPIC8gSTExaTExSWkgJSBpSUkxMTFpDQpvbyA9ICdhSFIwY0hNNkx5OTFjbXh3YkdGNUxtTnZiUzlPTUhKa1RFST0nDQpPTzBPMDAgPSBiYXNlNjQgLiBiNjRkZWNvZGUgKCBvbyApDQppZiAyMCAtIDIwOiBPb29vb29vb09PDQppZiAxMyAtIDEzOiBpMUlJaSAtIGlJSTExMWkgJSBPT29vT09vIC8gaUlpaTFJMTFJMUlJMSAlIElpSUkNCmlmIDk3IC0gOTc6IGkxMWlJaWlJaWkNCmlmIDMyIC0gMzI6IEkxMWkxMUlpICogTzAgJSBPT29vT09vICUgaUlJMTExaSAuIEkxSWkxMTENCm8wT09PT08wMG8wTzAgPSAnx61x77+9e++/vR3vv73vv71977+977+977+9d++/vR3vv73vv71/Jw0KaWYgNzEgLSA3MTogbzAwTzBvbyAlIElpSUkgLyBpMQ0KaWYgNDkgLSA0OTogaTExaSAlIElpSUkgKiBPMA0KaWYgODkgLSA4OTogT09vb09PbyArIEkxMWkxMUlpDQpJaTFJT28wbzAgPSAnVE9SUkVOVCcNCklJSTFpaTFpSUkgPSAnaHR0cHM6Ly9pLmltZ3VyLmNvbS82N1VVaW8zLnBuZycNCm9vMG9vb29vTzAgPSAnaHR0cHM6Ly9pLmltZ3VyLmNvbS9ZNFFYUmFiLmpwZycNCmlmIDE5IC0gMTk6IElpMUkgKyBvMDBPMG9vDQpvb28gPSAnYUhSMGNITTZMeTl3WVhOMFpXSnBiaTVqYjIwdmNtRjNMMEpWWWs1Q1dsRkInDQppaTFJMWkxSSA9IGJhc2U2NCAuIGI2NGRlY29kZSAoIG9vbyApDQppZiA4OCAtIDg4OiBpMWlJaTExaUlJaTFJICsgTzAgLyBvMCAqIElpSUkNCmlpaUlpMWkxSSA9ICdhSFIwY0hNNkx5OXdZWE4wWldKcGJpNWpiMjB2Y21GM0wwSlZZazVDV2xGQicNCm9PTzAwb09PID0gYmFzZTY0IC4gYjY0ZGVjb2RlICggaWlpSWkxaTFJICkNCmlmIDc1IC0gNzU6IGkxSUlpIC8gT29vb29vb29PTyAtIE8wIC8gbzAgLiBpMTFpIC0gaTFJSWkNCmlmIDcxIC0gNzE6IEkxMWkgKyBpSUkxMTFpICogSTExaSAtIGkxaUlpMTFpSUlpMUkgKiBpMQ0KaWYgNjUgLSA2NTogTzAgJSBvT29vT29PME9vME8gLiBpaTFJaUkxaSAlIGlJaWkxSTExSTFJSTEgLyBJMTFpICUgb29Pb08wbw0KaWYgNTEgLSA1MTogaTExaUlpaUlpaSAuIG9Pb29Pb08wT28wTyArIGkxMWkNCklJMTExaWkxSUkxaSA9ICdbQ09MT1Igd2hpdGVdU2VsZWNpb25lIHVtIGl0ZW06Wy9DT0xPUl0nDQppZiA1OSAtIDU5OiBPMCArIG9Pb29Pb08wT28wTyArIEkxSWkxMTEgJSBvT29vT29PME9vME8NCm8wT09vbzBPTzBPT08gPSAnW0NPTE9SIHdoaXRlXSEhRG93bmxvYWQgZW0gZXhlY3XDp8OjbyEhWy9DT0xPUl0nDQppSTFpSTFJMWkxSSA9ICchIURvd25sb2FkIFtDT0xPUiBzZWFibHVlXUF1ZGlvISFbL0NPTE9SXScNCmlmIDI0IC0gMjQ6IGlpMUlpSTFpDQpvME9vME8wT28wMG9PID0gJ1tDT0xPUiBkZWVwc2t5Ymx1ZV1bQl0gQ0hFQ0FSIFBPUiBBVFVBTElaQcOHw4NPWy9DT0xPUl1bL0JdJw0KSTExaTFJMUkgPSAnaHR0cHM6Ly9pLmltZ3VyLmNvbS8yMkxTdm5yLnBuZycNCm9PME9vID0gJ2FIUjBjSE02THk5d1lYTjBaV0pwYmk1amIyMHZjbUYzTDJFNWRFMURNRWgxJw0Kb09Pb28wT28gPSBiYXNlNjQgLiBiNjRkZWNvZGUgKCBvTzBPbyApDQppZiA3OCAtIDc4OiBJaTFJDQppZiA3MSAtIDcxOiBJMTFpICsgbzAwTzBvbyAlIGkxMWlJaWlJaWkgKyBpaTFJaUkxaSAtIEkxSWkxMTENCmlmIDg4IC0gODg6IG8wIC0gaTFpSWkxMWlJSWkxSSAlIEkxMWkNCmlJMUkxMTFJaTExMWkgPSAnQkVNLVZJTkRPUycNCkkxMUlpSTFJMTFpMWkgPSAnYUhSMGNITTZMeTl3WVhOMFpXSnBiaTVqYjIwdmNtRjNMM0YwTm1ocVYwVlknDQppSTFpaTFJaSA9ICdodHRwczovL2kuaW1ndXIuY29tL2ZIUmNsN08ucG5nJw0Kb29vbzAwMCA9ICdodHRwczovL2kuaW1ndXIuY29tL1k0UVhSYWIuanBnJw0KaUlJSWkxID0gYmFzZTY0IC4gYjY0ZGVjb2RlICggSTExSWlJMUkxMWkxaSApDQppZiAyMCAtIDIwOiBpMUlJaSArIGlpMUlpSTFpIC0gbzAwTzBvbw0KaWYgMzAgLSAzMDogaTExaSAtIEkxMWkgLSBpMTFpSWlpSWlpICUgbzAgLSBpMTFpICogaUlJMTExaQ0KaWYgNjEgLSA2MTogT09vb09PbyAtIElpMUkgJSBJMTFpDQpPT29PTzBvbzBvb08gPSAnJHRleHRvPScNCmlmIDk4IC0gOTg6IElpSUkgKiBJaUlJIC8gSWlJSSArIElpMUkNCmlmIDM0IC0gMzQ6IG8wME8wb28NCl9fYWRkb25fXyA9IHhibWNhZGRvbiAuIEFkZG9uICggKQ0KX19hZGRvbm5hbWVfXyA9IF9fYWRkb25fXyAuIGdldEFkZG9uSW5mbyAoICduYW1lJyApDQpfX2ljb25fXyA9IF9fYWRkb25fXyAuIGdldEFkZG9uSW5mbyAoICdpY29uJyApDQppZiAxNSAtIDE1OiBJaTFJICogbzAwTzBvbyAqIEkxMWkxMUlpICUgaTExaUlpaUlpaSAlIG8wIC0gSTExaQ0KaWYgNjggLSA2ODogb29Pb08wbyAlIGkxSUlpIC4gSTFJaTExMSAuIGlpMUlpSTFpDQpvMG9vMG9PbyA9IFsgJzE4MHVwbG9hZC5jb20nICwgJ2FsbG15dmlkZW9zLm5ldCcgLCAnYmVzdHJlYW1zLm5ldCcgLCAnY2xpY2tudXBsb2FkLmNvbScgLCAnY2xvdWR6aWxsYS50bycgLCAnbW92c2hhcmUubmV0JyAsICdub3ZhbW92LmNvbScgLCAnbm93dmlkZW8uc3gnICwgJ3ZpZGVvd2VlZC5lcycgLCAnZGFjbGlwcy5pbicgLCAnZGF0ZW11bGUuY29tJyAsICdmYXN0dmlkZW8uaW4nICwgJ2Zhc3RzdHJlYW0uaW4nICwgJ2ZpbGVob290LmNvbScgLCAnZmlsZW51a2UuY29tJyAsICdzaGFyZXNpeC5jb20nICwgJ2RvY3MuZ29vZ2xlLmNvbScgLCAncGx1cy5nb29nbGUuY29tJyAsICdwaWNhc2F3ZWIuZ29vZ2xlLmNvbScgLCAnZ29yaWxsYXZpZC5jb20nICwgJ2dvcmlsbGF2aWQuaW4nICwgJ2dyaWZ0aG9zdC5jb20nICwgJ2h1Z2VmaWxlcy5uZXQnICwgJ2lwaXRob3MudG8nICwgJ2lzaGFyZWQuZXUnICwgJ2tpbmdmaWxlcy5uZXQnICwgJ21haWwucnUnICwgJ215Lm1haWwucnUnICwgJ3ZpZGVvYXBpLm15Lm1haWwucnUnICwgJ21pZ2h0eXVwbG9hZC5jb20nICwgJ21vb3NoYXJlLmJpeicgLCAnbW92ZGl2eC5jb20nICwgJ21vdnBvZC5uZXQnICwgJ21vdnBvZC5pbicgLCAnbW92cmVlbC5jb20nICwgJ21yZmlsZS5tZScgLCAnbm9zdmlkZW8uY29tJyAsICdvcGVubG9hZC5pbycgLCAncGxheWVkLnRvJyAsICdiaXRzaGFyZS5jb20nICwgJ2ZpbGVmYWN0b3J5LmNvbScgLCAnazJzLmNjJyAsICdvYm9vbS5jb20nICwgJ3JhcGlkZ2F0b3IubmV0JyAsICd1cGxvYWRlZC5uZXQnICwgJ3ByaW1lc2hhcmUudHYnICwgJ2JpdHNoYXJlLmNvbScgLCAnZmlsZWZhY3RvcnkuY29tJyAsICdrMnMuY2MnICwgJ29ib29tLmNvbScgLCAncmFwaWRnYXRvci5uZXQnICwgJ3VwbG9hZGVkLm5ldCcgLCAnc2hhcmVyZXBvLmNvbScgLCAnc3RhZ2V2dS5jb20nICwgJ3N0cmVhbWNsb3VkLmV1JyAsICdzdHJlYW1pbi50bycgLCAndGhlZmlsZS5tZScgLCAndGhldmlkZW8ubWUnICwgJ3R1c2ZpbGVzLm5ldCcgLCAndXBsb2FkYy5jb20nICwgJ3phbGFhLmNvbScgLCAndXBsb2Fkcm9ja2V0Lm5ldCcgLCAndXB0b2JveC5jb20nICwgJ3Ytdmlkcy5jb20nICwgJ3ZlZWhkLmNvbScgLCAndmlkYnVsbC5jb20nICwgJ3ZpZGVvbWVnYS50dicgLCAndmlkcGxheS5uZXQnICwgJ3ZpZHNwb3QubmV0JyAsICd2aWR0by5tZScgLCAndmlkemkudHYnICwgJ3ZpbWVvLmNvbScgLCAndmsuY29tJyAsICd2b2Rsb2NrZXIuY29tJyAsICd4ZmlsZWxvYWQuY29tJyAsICd4dmlkc3RhZ2UuY29tJyAsICd6ZXR0YWhvc3QudHYnIF0NCm8wMDBPMG8gPSBbICdwbHVnaW4udmlkZW8uZHJhbWFzb25saW5lJyAsICdwbHVnaW4udmlkZW8uZjRtVGVzdGVyJyAsICdwbHVnaW4udmlkZW8uc2hhaGlkbWJjbmV0JyAsICdwbHVnaW4udmlkZW8uU3BvcnRzRGV2aWwnICwgJ3BsdWdpbi5zdHJlYW0udmF1Z2hubGl2ZS50dicgLCAncGx1Z2luLnZpZGVvLlplbVRWLXNoYW5pJyBdDQppZiA0MiAtIDQyOiBvMA0KY2xhc3MgSUkgKCB1cmxsaWIyIC4gSFRUUEVycm9yUHJvY2Vzc29yICkgOg0KIGRlZiBodHRwX3Jlc3BvbnNlICggc2VsZiAsIHJlcXVlc3QgLCByZXNwb25zZSApIDoNCiAgcmV0dXJuIHJlc3BvbnNlDQogaHR0cHNfcmVzcG9uc2UgPSBodHRwX3Jlc3BvbnNlDQogaWYgNDUgLSA0NTogTzAgKiBpMSAlIEkxMWkxMUlpICogT29vb29vb29PTyArIElpSUkgLiBvMA0KT28wb29PbzBvID0gRmFsc2UgOw0KaWYgT28wb29PbzBvIDoNCiBpZiAyMiAtIDIyOiBpSWlpMUkxMUkxSUkxIC8gaTExaUlpaUlpaSAqIGlJaWkxSTExSTFJSTEgKiBpMTFpIC4gSTExaSAvIGkxMWlJaWlJaWkNCiBpZiAyIC0gMjogb09vb09vTzBPbzBPIC8gTzAgLyBpMSAlIG8wICUgaUlJMTExaQ0KIHRyeSA6DQogIGltcG9ydCBweXNyYyAuIHB5ZGV2ZCBhcyBweWRldmQNCiAgaWYgNTIgLSA1MjogaTENCiAgcHlkZXZkIC4gc2V0dHJhY2UgKCAnbG9jYWxob3N0JyAsIHN0ZG91dFRvU2VydmVyID0gVHJ1ZSAsIHN0ZGVyclRvU2VydmVyID0gVHJ1ZSApDQogZXhjZXB0IEltcG9ydEVycm9yIDoNCiAgc3lzIC4gc3RkZXJyIC4gd3JpdGUgKCAiRXJyb3I6ICIgKw0KICJZb3UgbXVzdCBhZGQgb3JnLnB5dGhvbi5weWRldi5kZWJ1Zy5weXNyYyB0byB5b3VyIFBZVEhPTlBBVEguIiApDQogIHN5cyAuIGV4aXQgKCAxICkNCiAgaWYgOTUgLSA5NTogaUlJMTExaQ0KICBpZiA4NyAtIDg3OiBvMDBPMG9vICsgbzAgLiBJMTFpICsgbzANCm9PID0geGJtY2FkZG9uIC4gQWRkb24gKCApDQppSWkxSUlJaTEgPSBvTyAuIGdldEFkZG9uSW5mbyAoICd2ZXJzaW9uJyApDQpPMG9Pb09PT29PTyA9IHhibWMgLiB0cmFuc2xhdGVQYXRoICggb08gLiBnZXRBZGRvbkluZm8gKCAncHJvZmlsZScgKSAuIGRlY29kZSAoICd1dGYtOCcgKSApDQppaTFpaTExSUlJaWlJID0geGJtYyAuIHRyYW5zbGF0ZVBhdGggKCBvTyAuIGdldEFkZG9uSW5mbyAoICdwYXRoJyApIC4gZGVjb2RlICggJ3V0Zi04JyApICkNCk8wME9PT29Pb28wTyA9IG9zIC4gcGF0aCAuIGpvaW4gKCBPMG9Pb09PT29PTyAsICdmYXZvcml0ZXMnICkNCk8wMDBPT28wMG9vID0gb3MgLiBwYXRoIC4gam9pbiAoIE8wb09vT09Pb09PICwgJ2hpc3RvcnknICkNCmlmIDcxIC0gNzE6IGkxMWlJaWlJaWkgKyBJMUlpMTExDQpvT28gPSBvcyAuIHBhdGggLiBqb2luICggTzBvT29PT09vT08gLCAnbGlzdF9yZXZpc2lvbicgKQ0Kb09PMDBPbyA9IG9zIC4gcGF0aCAuIGpvaW4gKCBpaTFpaTExSUlJaWlJICwgJ2ljb24ucG5nJyApDQppMWlJSUlpMWkgPSBvcyAuIHBhdGggLiBqb2luICggaWkxaWkxMUlJSWlpSSAsICdpY29uX2NvbmZpZy5wbmcnICkNCmlJMWlJSWlpaWkgPSBvcyAuIHBhdGggLiBqb2luICggaWkxaWkxMUlJSWlpSSAsICdmYXZvcml0ZXMucG5nJyApDQppMWlJMTFpMWlpMTEgPSBvcyAuIHBhdGggLiBqb2luICggaWkxaWkxMUlJSWlpSSAsICdmYW5hcnQuanBnJyApDQpPT29vbzBPMDBvID0gb3MgLiBwYXRoIC4gam9pbiAoIE8wb09vT09Pb09PICwgJ3NvdXJjZV9maWxlJyApDQpvT09vT29vT28gPSBPMG9Pb09PT29PTw0KaWYgNTEgLSA1MTogSWkxSSArIElpSUkgJSBpSWlpMUkxMUkxSUkxIC8gT09vb09PbyAvIEkxMWkgJSBPb29vb29vb09PDQpkb3dubG9hZGVyID0gZG93bmxvYWRlciAuIFNpbXBsZURvd25sb2FkZXIgKCApDQpvME8wT09PME9vbyA9IG9PIC4gZ2V0U2V0dGluZyAoICdkZWJ1ZycgKQ0KaWYgb3MgLiBwYXRoIC4gZXhpc3RzICggTzAwT09Pb09vbzBPICkgPT0gVHJ1ZSA6DQogaWlJaUkgPSBvcGVuICggTzAwT09Pb09vbzBPICkgLiByZWFkICggKQ0KZWxzZSA6IGlpSWlJID0gWyBdDQppZiBvcyAuIHBhdGggLiBleGlzdHMgKCBPT29vbzBPMDBvICkgPT0gVHJ1ZSA6DQogSTEgPSBvcGVuICggT09vb28wTzAwbyApIC4gcmVhZCAoICkNCmVsc2UgOiBJMSA9IFsgXQ0KaWYgODYgLSA4NjogbzAgLSBpSUkxMTFpIC0gaTFpSWkxMWlJSWkxSSAqIElpSUkNCmlmIDY2IC0gNjY6IE9vb29vb29vT08gKyBPMA0KZGVmIEkxSWlpSSAoIHVybCApIDoNCiB0cnkgOg0KICBpbXBvcnQgdXJsbGliIC4gcmVxdWVzdCBhcyB1cmxsaWIyDQogZXhjZXB0IEltcG9ydEVycm9yIDoNCiAgaW1wb3J0IHVybGxpYjINCiBJSWkgPSB1cmxsaWIyIC4gYnVpbGRfb3BlbmVyICggKQ0KIElJaSAuIGFkZGhlYWRlcnMgPSBbICggJ1VzZXItQWdlbnQnICwgJ01vemlsbGEvNS4wJyApIF0NCiBpZiA0MSAtIDQxOiBpSUkxMTFpIC0gTzAgLSBPMA0KIG9PMDBPT29PMDAgPSBJSWkgLiBvcGVuICggdXJsICkNCiBJaUkxMTExMTFJSUlJID0gb08wME9Pb08wMCAuIHJlYWQgKCApIC4gZGVjb2RlICggJ3V0Zi04JyApDQogaTFJaSA9IElpSTExMTExMUlJSUkNCiByZXR1cm4gaTFJaQ0KIGlmIDE0IC0gMTQ6IElpSUkNCmRlZiBJMWlJMWlJaTExMWkgKCBzdHJpbmcgKSA6DQogaWYgbzBPME9PTzBPb28gPT0gJ3RydWUnIDoNCiAgaWYgNDQgLSA0NDogaTFJSWkgJSBpMTFpICsgSWkxSQ0KICB4Ym1jIC4gbG9nICggIltBUE9MTE8tJXNdOiAlcyIgJSAoIGlJaTFJSUlpMSAsIHN0cmluZyApICkNCiAgaWYgNDUgLSA0NTogSWlJSSAvIElpSUkgKyBvb09vTzBvICsgbzAwTzBvbw0KICBpZiA0NyAtIDQ3OiBpMSArIG8wME8wb28NCiAgaWYgODIgLSA4MjogaTExaSAuIEkxSWkxMTEgLSBpSWlpMUkxMUkxSUkxIC0gSTFJaTExMSAqIGkxMWkNCiAgaWYgNzcgLSA3NzogaUlpaTFJMTFJMUlJMSAqIGkxaUlpMTFpSUlpMUkNCmRlZiBvT29vT28wICggbXNnICkgOg0KIGkxSTFpaTExaTFJaWkgPSBvTyAuIGdldFNldHRpbmcgKCAnc3Vwb3J0ZScgKQ0KIGlmIGkxSTFpaTExaTFJaWkgPT0gJ3RydWUnIDoNCiAgSTFJaWlpaUkgKCBPb29vMDAwMCAsIE9PME8wMCAsIDQ0ICwgSUlJMWlpMWlJSSAsIGkxaUkxMWkxaWkxMSAsIG8wTyAoIE8wMDBvbyApICwgJycgLCAnJyAsICcnICwgJycgLCAnJyAsICcnICwgJycgLCAnJyAsICcnICwgJycgLCAnJyAsICcnICwgJycgLCAnJyAsICcnICkNCiAgaWYgMiAtIDI6IGlJaWkxSTExSTFJSTEgLyBPT29vT09vICsgaTFpSWkxMWlJSWkxSSAvIEkxMWkNCmRlZiBJSU9PT08wb28wICggbXNnICkgOg0KIHhibWNndWkgLiBEaWFsb2cgKCApIC4gb2sgKCAnW0NPTE9SIGRlZXBza3libHVlXVtCXSJJTVBPUlRBTlRFIElOU1RBTEUiIFsvQ09MT1JdWy9CXScgLCAiW0NPTE9SIG9yYW5nZV1bQl1QQVJBIFZPQ8OKIEFTU0lTVElSIE9TIEVNIFRPRE9TIE9TIFNFUlZJRE9SRVMgREUgRklMTUVTIEUgU8OJUklFUywgTVVJVE8gU0lNUExFUyBWQ1MgREVWRU0gRkFaRVIgTyBET1dOTE9BRCBETyBQTFVHSU4gRUxFTUVOVFVNIE5PUyBMSU5LUyBBU0VHVUlSIS4gTE9HTyBBUE9JUyBURVIgRkVJVE8gTyBET1dOTE9BRCBWQyBWw4NPIEVNIFNJVEVTTUEgSU5TVEFMQSBQT1IgWklQIEUgUFJPQ1VSQVIgTkEgUEFTVEEgREEgU1VBIEJPWCBPVSBQQyBPIFpJUCBQQVJBIElOU1RBTEFSIE5BIEJPWCFbL0NPTE9SXVsvQl0iICkNCiBJMTFpaUkxaTEgPSB4Ym1jZ3VpIC4gRGlhbG9nICggKQ0KIEkxaTFJaWlpaSA9IEkxMWlpSTFpMSAuIHNlbGVjdCAoICdbQ09MT1Igb3JhbmdlXVtCXVBBUkEgQVNTSVNUSVIgRklMTUVTIEVNIDRLIExJTktTIEFCQUlYTyFbL0NPTE9SXVsvQl0nICwgWyAnW0NPTE9SIGRlZXBza3libHVlXVtCXUJBSVhBUlsvQ09MT1JdWy9CXVtDT0xPUiBvcmFuZ2VdW0JdIEVMRU1FTlRVTVsvQ09MT1JdWy9CXScgLCAnW0NPTE9SIGRlZXBza3libHVlXVtCXUJBSVhBUlsvQ09MT1JdWy9CXVtDT0xPUiBvcmFuZ2VdW0JdIEVMRU1FTlRVTSBCVVJTVFsvQ09MT1JdWy9CXScgLCAnJyBdICkNCiBpZiBJMWkxSWlpaWkgPT0gMCA6DQogIGlmIHhibWMgLiBnZXRDb25kVmlzaWJpbGl0eSAoICdzeXN0ZW0ucGxhdGZvcm0uYW5kcm9pZCcgKSA6DQogICB4Ym1jIC4gZXhlY3V0ZWJ1aWx0aW4gKCAnU3RhcnRBbmRyb2lkQWN0aXZpdHkoLGFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXLCwlcyknICUgKCAnaHR0cHM6Ly9naXRodWIuY29tL2VsZ2F0aXRvL3BsdWdpbi52aWRlby5lbGVtZW50dW0vcmVsZWFzZXMvZG93bmxvYWQvdjAuMS41OC9wbHVnaW4udmlkZW8uZWxlbWVudHVtLTAuMS41OC56aXAnICkgKQ0KICBlbHNlIDoNCiAgIHdlYmJyb3dzZXIgLiBvcGVuICggJ2h0dHBzOi8vZ2l0aHViLmNvbS9lbGdhdGl0by9wbHVnaW4udmlkZW8uZWxlbWVudHVtL3JlbGVhc2VzL2Rvd25sb2FkL3YwLjEuNTgvcGx1Z2luLnZpZGVvLmVsZW1lbnR1bS0wLjEuNTguemlwJyApDQogaWYgSTFpMUlpaWlpID09IDEgOg0KICBpZiB4Ym1jIC4gZ2V0Q29uZFZpc2liaWxpdHkgKCAnc3lzdGVtLnBsYXRmb3JtLmFuZHJvaWQnICkgOg0KICAgeGJtYyAuIGV4ZWN1dGVidWlsdGluICggJ1N0YXJ0QW5kcm9pZEFjdGl2aXR5KCxhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVywsJXMpJyAlICggJ2h0dHBzOi8vZ2l0aHViLmNvbS9lbGdhdGl0by9zY3JpcHQuZWxlbWVudHVtLmJ1cnN0L3JlbGVhc2VzL2Rvd25sb2FkL3YwLjAuNDkvc2NyaXB0LmVsZW1lbnR1bS5idXJzdC0wLjAuNDkuemlwJyApICkNCiAgZWxzZSA6DQogICB3ZWJicm93c2VyIC4gb3BlbiAoICdodHRwczovL2dpdGh1Yi5jb20vZWxnYXRpdG8vc2NyaXB0LmVsZW1lbnR1bS5idXJzdC9yZWxlYXNlcy9kb3dubG9hZC92MC4wLjQ5L3NjcmlwdC5lbGVtZW50dW0uYnVyc3QtMC4wLjQ5LnppcCcgKQ0KICAgaWYgOTQgLSA5NDogaTEgKiBpSUkxMTFpIC8gSTExaTExSWkgLyBpSUkxMTFpDQogaWYgSTFpMUlpaWlpID09IDUgOg0KICB4Ym1jYWRkb24gLiBBZGRvbiAoICkgLiBvcGVuU2V0dGluZ3MgKCApDQogIGlmIDg3IC0gODc6IEkxMWkxMUlpIC4gSTFJaTExMQ0KICB4Ym1jIC4gZXhlY3V0ZWJ1aWx0aW4gKCAiWEJNQy5Db250YWluZXIuUmVmcmVzaCglcz9tb2RlPU5vbmUsIHJlcGxhY2UpIiAlIHN5cyAuIGFyZ3YgWyAwIF0gKQ0KICB4Ym1jcGx1Z2luIC4gZW5kT2ZEaXJlY3RvcnkgKCBpbnQgKCBzeXMgLiBhcmd2IFsgMSBdICkgKQ0KICBpZiA3NSAtIDc1OiBvMDBPMG9vICsgbzAgKyBpMSAqIElpMUkgJSBPT29vT09vIC4gSWlJSQ0KZGVmIG9PSTFJaTFJMSAoICkgOg0KIElpSUkxMTFpSTFpaTEgPSBvTyAuIGdldFNldHRpbmcgKCAndXNlcm5hbWUnICkNCiBpSTExSTFJSSA9IG9PIC4gZ2V0U2V0dGluZyAoICdwYXNzd29yZCcgKQ0KIElpMUlJaUkxaSA9IG9PIC4gZ2V0U2V0dGluZyAoICdzZXJ2aWRvcicgKQ0KIG8wT28wMCA9IG9PIC4gZ2V0U2V0dGluZyAoICdleGliaXJUT1JSRU5UJyApDQogaUkgPSBvTyAuIGdldFNldHRpbmcgKCAnc2FpZGEnICkNCiBpZiBvME9vMDAgPT0gJ3RydWUnIDoNCiAgaWYgSWkxSUlpSTFpID09ICdUT1JSRU5UJyA6DQogICBPME8wT29vbzBvID0gJ2h0dHA6Ly9zdjEuaXB0dmNhc2Eub25saW5lOjI1NDYxL2dldC5waHA/dXNlcm5hbWU9JXMmcGFzc3dvcmQ9JXMmdHlwZT1tM3VfcGx1cyZvdXRwdXQ9JXMnICUgKCBJaUlJMTExaUkxaWkxICwgaUkxMUkxSUkgLCBpSSApDQogICBJMUlpaWlpSSAoIElpMUlPbzBvMCAsIE8wTzBPb29vMG8gLCAxICwgSUlJMWlpMWlJSSAsIG9vMG9vb29vTzAgLCBvME8gKCBpaTFJMWkxSSApICwgJycgLCAnJyAsICcnICwgJycgLCAnJyAsICcnICwgJycgLCAnJyAsICcnICwgJycgLCAnJyAsICcnICwgJycgLCAnJyAsICcnICkNCiAgaWYgSWkxSUlpSTFpID09ICdOZW5odW0nIDoNCiAgIEkxSWlpaWlJICggSWkxSU9vMG8wICwgJycgLCA0MiAsIElJSTFpaTFpSUkgLCBvbzBvb29vb08wICwgbzBPICggaWkxSTFpMUkgKSAsICcnICwgJycgLCAnJyAsICcnICwgJycgLCAnJyAsICcnICwgJycgLCAnJyAsICcnICwgJycgLCAnJyAsICcnICwgJycgLCAnJyApDQogSWlJSTExMWlJMWlpMSA9IG9PIC4gZ2V0U2V0dGluZyAoICd1c2VybmFtZTInICkNCiBpSTExSTFJSSA9IG9PIC4gZ2V0U2V0dGluZyAoICdwYXNzd29yZDInICkNCiBJaTFJSWlJMWkgPSBvTyAuIGdldFNldHRpbmcgKCAnc2Vydmlkb3IyJyApDQogbzBPbzAwID0gb08gLiBnZXRTZXR0aW5nICggJ2V4aWJpclRPUlJFTlQyJyApDQogaUkgPSBvTyAuIGdldFNldHRpbmcgKCAnc2FpZGEyJyApDQogaWYgbzBPbzAwID09ICd0cnVlJyA6DQogIGlmIElpMUlJaUkxaSA9PSAnVE9SUkVOVCcgOg0KICAgTzBPME9vb28wbyA9ICdodHRwOi8vY2xvdWRzdGVhbS5jbHViOjgwODAvZ2V0LnBocD91c2VybmFtZT0lcyZwYXNzd29yZD0lcyZ0eXBlPW0zdV9wbHVzJm91dHB1dD0lcycgJSAoIElpSUkxMTFpSTFpaTEgLCBpSTExSTFJSSAsIGlJICkNCiAgIEkxSWlpaWlJICggdGl0dWxvX1RPUlJFTlQyICwgTzBPME9vb28wbyAsIDEgLCB0aHVtYm5haWxfVE9SUkVOVDIgLCBvbzBvb29vb08wICwgbzBPICggaWkxSTFpMUkgKSAsICcnICwgJycgLCAnJyAsICcnICwgJycgLCAnJyAsICcnICwgJycgLCAnJyAsICcnICwgJycgLCAnJyAsICcnICwgJycgLCAnJyApDQogIGlmIElpMUlJaUkxaSA9PSAnTmVuaHVtJyA6DQogICBJMUlpaWlpSSAoIHRpdHVsb19UT1JSRU5UMiAsICcnICwgNDIgLCB0aHVtYm5haWxfVE9SUkVOVDIgLCBmYW5hcnRfVE9SUkVOVDIgLCBvME8gKCBpaTFJMWkxSSApICwgJycgLCAnJyAsICcnICwgJycgLCAnJyAsICcnICwgJycgLCAnJyAsICcnICwgJycgLCAnJyAsICcnICwgJycgLCAnJyAsICcnICkNCiAgIGlmIDU2IC0gNTY6IGlpMUlpSTFpICUgTzAgLSBvT29vT29PME9vME8NCmRlZiBPMDBvME9PMCAoIG1zZyApIDoNCiBJSWkxSTFpaWlpaSA9IG9PIC4gZ2V0U2V0dGluZyAoICdtZW5zYWdlbTEnICkNCiBpZiBJSWkxSTFpaWlpaSA9PSAndHJ1ZScgOg0KICBJMTFpaUkxaTEgPSB4Ym1jZ3VpIC4gRGlhbG9nICggKQ0KICBJMWkxSWlpaWkgPSBJMTFpaUkxaTEgLiBzZWxlY3QgKCAnW0NPTE9SIG9yYW5nZV1bQl1BSlVERSBPIEFERC1PTiBGQcOHQSBTVUFbL0NPTE9SXVsvQl1bQ09MT1IgZGVlcHNreWJsdWVdW0JdIERPQcOHw4NPWy9DT0xPUl1bL0JdJyAsIFsgJ1tDT0xPUiBkZWVwc2t5Ymx1ZV1bQl1BUE9MTE8gLT5bL0NPTE9SXVsvQl1bQ09MT1Igb3JhbmdlXVtCXSBTRUpBIFZJUCBbL0NPTE9SXVsvQl0nICwgJ1tDT0xPUiBkZWVwc2t5Ymx1ZV1bQl1BUE9MTE8gLT5bL0NPTE9SXVsvQl1bQ09MT1Igb3JhbmdlXVtCXSBTSVRFIE9GSUNJQUwhWy9DT0xPUl1bL0JdJyAsICdbQ09MT1IgZGVlcHNreWJsdWVdW0JdQUpVREUgLT5bL0NPTE9SXVsvQl1bQ09MT1Igb3JhbmdlXVtCXSBET0HDh8ODTyBQRUxPWy9DT0xPUl1bL0JdW0NPTE9SIGxpZ2h0Y3lhbl1bQl0gUElDWy9DT0xPUl1bL0JdW0NPTE9SIGxpbWVdW0JdUEFZIFsvQ09MT1JdWy9CXScgLCAnW0NPTE9SIGRlZXBza3libHVlXVtCXUFKVURFIC0+Wy9DT0xPUl1bL0JdW0NPTE9SIG9yYW5nZV1bQl0gRE9Bw4fDg08gUEVMT1svQ09MT1JdWy9CXVtDT0xPUiByb3lhbGJsdWVdW0JdIFBBWVsvQ09MT1JdWy9CXVtDT0xPUiBsaWdodGN5YW5dW0JdUEFMIFsvQ09MT1JdWy9CXScgLCAnW0NPTE9SIGRlZXBza3libHVlXVtCXUFKVURFIC0+Wy9DT0xPUl1bL0JdW0NPTE9SIG9yYW5nZV1bQl0gRE9Bw4fDg08gUEVMT1svQ09MT1JdWy9CXVtDT0xPUiBibHVldmlvbGV0XVtCXSBOVUJBTktbL0NPTE9SXVsvQl0nICwgJ1tDT0xPUiBkZWVwc2t5Ymx1ZV1bQl1BSlVERSAtPlsvQ09MT1JdWy9CXVtDT0xPUiBvcmFuZ2VdW0JdIERPQcOHw4NPIFBFTE9bL0NPTE9SXVsvQl1bQ09MT1IgbGlnaHRjeWFuXVtCXSBNRVJDQURPWy9DT0xPUl1bL0JdW0NPTE9SIGRvZGdlcmJsdWVdW0JdUEFHTyBbL0NPTE9SXVsvQl0nICwgJ1tDT0xPUiBkZWVwc2t5Ymx1ZV1bQl1BUE9MTE8gLT5bL0NPTE9SXVsvQl1bQ09MT1Igb3JhbmdlXVtCXSBHUlVQTyBURUxFR1JBTVsvQ09MT1JdWy9CXScgLCAnW0NPTE9SIGRlZXBza3libHVlXVtCXUFQT0xMTyAtPlsvQ09MT1JdWy9CXVtDT0xPUiBvcmFuZ2VdW0JdIEdSVVBPIEZBQ0VCT09LWy9DT0xPUl1bL0JdJyAsICdbQ09MT1IgZGVlcHNreWJsdWVdW0JdRU5UUkFSIE5PWy9DT0xPUl1bL0JdW0NPTE9SIG9yYW5nZV1bQl0gQURELU9OWy9DT0xPUl1bL0JdJyBdICkNCiAgaWYgNzEgLSA3MTogSTFJaTExMSAqIGkxMWkgKiBPT29vT09vDQogIGlmIEkxaTFJaWlpaSA9PSAwIDoNCiAgIGlmIHhibWMgLiBnZXRDb25kVmlzaWJpbGl0eSAoICdzeXN0ZW0ucGxhdGZvcm0uYW5kcm9pZCcgKSA6DQogICAgeGJtYyAuIGV4ZWN1dGVidWlsdGluICggJ1N0YXJ0QW5kcm9pZEFjdGl2aXR5KCxhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVywsJXMpJyAlICggJ2h0dHBzOi8vYml0Lmx5LzNoSHBMQ2UtUFYtQVBPTExPJyApICkNCiAgIGVsc2UgOg0KICAgIHdlYmJyb3dzZXIgLiBvcGVuICggJ2h0dHBzOi8vYml0Lmx5LzNoSHBMQ2UtUFYtQVBPTExPJyApDQogICAgaWYgNTYgLSA1Njogb09vb09vTzBPbzBPDQogICAgaWYgNTQgLSA1NDogb29Pb08wbyAvIEkxMWkgLiBPT29vT09vICUgSWlJSQ0KICBpZiBJMWkxSWlpaWkgPT0gMSA6DQogICBpZiB4Ym1jIC4gZ2V0Q29uZFZpc2liaWxpdHkgKCAnc3lzdGVtLnBsYXRmb3JtLmFuZHJvaWQnICkgOg0KICAgIHhibWMgLiBleGVjdXRlYnVpbHRpbiAoICdTdGFydEFuZHJvaWRBY3Rpdml0eSgsYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVcsLCVzKScgJSAoICdodHRwOi8vZGV1cy1hcG9sbG8ubWwnICkgKQ0KICAgZWxzZSA6DQogICAgd2ViYnJvd3NlciAuIG9wZW4gKCAnaHR0cDovL2RldXMtYXBvbGxvLm1sJyApDQogICAgaWYgNTcgLSA1NzogaTExaUlpaUlpaSAuIGlpMUlpSTFpIC0gaUlJMTExaSAtIE9Pb29PT28gKyBvMA0KICAgIGlmIDYzIC0gNjM6IG8wICogSWlJSQ0KICBpZiBJMWkxSWlpaWkgPT0gMiA6DQogICBpZiB4Ym1jIC4gZ2V0Q29uZFZpc2liaWxpdHkgKCAnc3lzdGVtLnBsYXRmb3JtLmFuZHJvaWQnICkgOg0KICAgIHhibWMgLiBleGVjdXRlYnVpbHRpbiAoICdTdGFydEFuZHJvaWRBY3Rpdml0eSgsYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVcsLCVzKScgJSAoICdodHRwczovL3BpY3BheS5tZS9kZXVzLmFwb2xsbycgKSApDQogICBlbHNlIDoNCiAgICB3ZWJicm93c2VyIC4gb3BlbiAoICdodHRwczovL3BpY3BheS5tZS9kZXVzLmFwb2xsbycgKQ0KICAgIGlmIDY5IC0gNjk6IE8wIC4gaTFpSWkxMWlJSWkxSQ0KICAgIGlmIDQ5IC0gNDk6IG9Pb29Pb08wT28wTyAtIElpMUkNCiAgaWYgSTFpMUlpaWlpID09IDMgOg0KICAgaWYgeGJtYyAuIGdldENvbmRWaXNpYmlsaXR5ICggJ3N5c3RlbS5wbGF0Zm9ybS5hbmRyb2lkJyApIDoNCiAgICB4Ym1jIC4gZXhlY3V0ZWJ1aWx0aW4gKCAnU3RhcnRBbmRyb2lkQWN0aXZpdHkoLGFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXLCwlcyknICUgKCAnaHR0cHM6Ly93d3cucGF5cGFsLmNvbS9jZ2ktYmluL3dlYnNjcj9jbWQ9X3MteGNsaWNrJmhvc3RlZF9idXR0b25faWQ9NDRBOTJEVUtCQUtBTiZzb3VyY2U9dXJsJyApICkNCiAgIGVsc2UgOg0KICAgIHdlYmJyb3dzZXIgLiBvcGVuICggJ2h0dHBzOi8vd3d3LnBheXBhbC5jb20vY2dpLWJpbi93ZWJzY3I/Y21kPV9zLXhjbGljayZob3N0ZWRfYnV0dG9uX2lkPTQ0QTkyRFVLQkFLQU4mc291cmNlPXVybCcgKQ0KICAgIGlmIDc0IC0gNzQ6IGlJaWkxSTExSTFJSTEgKiBpaTFJaUkxaSArIG8wIC8gaTFJSWkgLyBpMTFpIC4gSTExaTExSWkNCiAgICBpZiA2MiAtIDYyOiBPb29vb29vb09PICogb09vb09vTzBPbzBPDQogIGlmIEkxaTFJaWlpaSA9PSA0IDoNCiAgIGlmIHhibWMgLiBnZXRDb25kVmlzaWJpbGl0eSAoICdzeXN0ZW0ucGxhdGZvcm0uYW5kcm9pZCcgKSA6DQogICAgeGJtYyAuIGV4ZWN1dGVidWlsdGluICggJ1N0YXJ0QW5kcm9pZEFjdGl2aXR5KCxhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVywsJXMpJyAlICggJ2h0dHBzOi8vbnViYW5rLmNvbS5ici9wYWdhci8xZGpwdjYvRkp6bGV1ZzluRicgKSApDQogICBlbHNlIDoNCiAgICB3ZWJicm93c2VyIC4gb3BlbiAoICdodHRwczovL251YmFuay5jb20uYnIvcGFnYXIvMWRqcHY2L0ZKemxldWc5bkYnICkNCiAgICBpZiA1OCAtIDU4OiBvMCAlIGkxDQogICAgaWYgNTAgLSA1MDogb29Pb08wbyAuIGkxDQogIGlmIEkxaTFJaWlpaSA9PSA1IDoNCiAgIGlmIHhibWMgLiBnZXRDb25kVmlzaWJpbGl0eSAoICdzeXN0ZW0ucGxhdGZvcm0uYW5kcm9pZCcgKSA6DQogICAgeGJtYyAuIGV4ZWN1dGVidWlsdGluICggJ1N0YXJ0QW5kcm9pZEFjdGl2aXR5KCxhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVywsJXMpJyAlICggJ2h0dHBzOi8vd3d3Lm1lcmNhZG9wYWdvLmNvbS5ici9jaGVja291dC92MS9yZWRpcmVjdD9wcmVmX2lkPTIwMzY2ODYyOC1mOWE4ZDI5OS04YjM2LTRjYmQtODRmNC0wZWIzNGVkMGJlMTEnICkgKQ0KICAgZWxzZSA6DQogICAgd2ViYnJvd3NlciAuIG9wZW4gKCAnaHR0cHM6Ly93d3cubWVyY2Fkb3BhZ28uY29tLmJyL2NoZWNrb3V0L3YxL3JlZGlyZWN0P3ByZWZfaWQ9MjAzNjY4NjI4LWY5YThkMjk5LThiMzYtNGNiZC04NGY0LTBlYjM0ZWQwYmUxMScgKQ0KICAgIGlmIDk3IC0gOTc6IE8wICsgbzANCiAgICBpZiA4OSAtIDg5OiBpMSArIGkxaUlpMTFpSUlpMUkgKiBJaTFJICogaUlJMTExaQ0KICAgIGlmIDM3IC0gMzc6IE9vb29vb29vT08gLSBPMCAtIGkxDQogIGlmIEkxaTFJaWlpaSA9PSA2IDoNCiAgIGlmIHhibWMgLiBnZXRDb25kVmlzaWJpbGl0eSAoICdzeXN0ZW0ucGxhdGZvcm0uYW5kcm9pZCcgKSA6DQogICAgeGJtYyAuIGV4ZWN1dGVidWlsdGluICggJ1N0YXJ0QW5kcm9pZEFjdGl2aXR5KCxhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVywsJXMpJyAlICggJ2h0dHA6Ly90ZWxlZ3JhbS5tZS9EZXVzQXBvbGxvJyApICkNCiAgIGVsc2UgOg0KICAgIHdlYmJyb3dzZXIgLiBvcGVuICggJ2h0dHA6Ly90ZWxlZ3JhbS5tZS9EZXVzQXBvbGxvJyApDQogICAgaWYgNzcgLSA3NzogSTExaSAqIGlJaWkxSTExSTFJSTENCiAgaWYgSTFpMUlpaWlpID09IDcgOg0KICAgaWYgeGJtYyAuIGdldENvbmRWaXNpYmlsaXR5ICggJ3N5c3RlbS5wbGF0Zm9ybS5hbmRyb2lkJyApIDoNCiAgICB4Ym1jIC4gZXhlY3V0ZWJ1aWx0aW4gKCAnU3RhcnRBbmRyb2lkQWN0aXZpdHkoLGFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXLCwlcyknICUgKCAnaHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL2dyb3Vwcy9EZXVzLkFwb2xsbycgKSApDQogICBlbHNlIDoNCiAgICB3ZWJicm93c2VyIC4gb3BlbiAoICdodHRwczovL3d3dy5mYWNlYm9vay5jb20vZ3JvdXBzL0RldXMuQXBvbGxvJyApDQogICAgaWYgOTggLSA5ODogb09vb09vTzBPbzBPICUgaUlJMTExaSAqIE9vb29vb29vT08NCiAgaWYgSTFpMUlpaWlpID09IDkgOg0KICAgeGJtYyAuIGV4ZWN1dGVidWlsdGluICggIlhCTUMuQ29udGFpbmVyLlJlZnJlc2goJ2Nsb3NlKCknKSIgKQ0KICAgeGJtY3BsdWdpbiAuIGVuZE9mRGlyZWN0b3J5ICggaW50ICggc3lzIC4gYXJndiBbIDEgXSApICkNCiAgIGlmIDUxIC0gNTE6IGlJaWkxSTExSTFJSTEgLiBvMCAvIE9Pb29PT28gKyBpMQ0KICAgaWYgMzMgLSAzMzogbzAwTzBvbyAuIGkxMWkgJSBJaUlJICsgaTENCiAgaWYgSTFpMUlpaWlpID09IDkgOg0KICAgeGJtYyAuIGV4ZWN1dGVidWlsdGluICggIlhCTUMuQ29udGFpbmVyLlJlZnJlc2goJ2Nsb3NlKCknKSIgKQ0KICAgeGJtY3BsdWdpbiAuIGVuZE9mRGlyZWN0b3J5ICggaW50ICggc3lzIC4gYXJndiBbIDEgXSApICkNCiAgIGlmIDcxIC0gNzE6IEkxMWkxMUlpICUgSTExaQ0KZGVmIE8wMG9PMDAwTzBPICggbXNnICkgOg0KIEkxSWlpaWlJICggbzAwICwgT08wTzAwICwgMSAsIG9PTzAwT28gLCBpMWlJMTFpMWlpMTEgLCBvME8gKCBvTzBvMG8wb29PMG9PICkgLCAnJyAsICcnICwgJycgLCAnJyAsICcnICwgJycgLCAnJyAsICcnICwgJycgLCAnJyAsICcnICwgJycgLCAnJyAsICcnICwgJycgKQ0KIG9Pb29PbzAgKCBUcnVlICkNCiBvT0kxSWkxSTEgKCApDQogaWYgMTggLSAxODogSWlJSSAtIEkxMWkgLiBvb09vTzBvIC4gaUlpaTFJMTFJMUlJMQ0KIGkxSSAoIElJSUkgLCAnJyApDQogSTFJaWlpaUkgKCBvME9vME8wT28wMG9PICwgJycgLCA1NCAsIEkxMWkxSTFJICwgaTFpSTExaTFpaTExICwgbzBPICggb09Pb28wT28gKSAsICcnICwgJycgLCAnJyAsICcnICwgJycgLCAnJyAsICcnICwgJycgLCAnJyAsICcnICwgJycgLCAnJyAsICcnICwgJycgLCAnJyApDQogaWYgNzggLSA3ODogSWkxSSAqIGlJaWkxSTExSTFJSTEgLiBvT29vT29PME9vME8gLyBpMSAtIE9vb29vb29vT08gLyBvb09vTzBvDQogaTFJMUlpaUlpMWkgKCApDQogTzAwbzBPTzAgKCBUcnVlICkNCiBpZiAyOSAtIDI5OiBvT29vT29PME9vME8gJSBvT29vT29PME9vME8NCiB4Ym1jcGx1Z2luIC4gZW5kT2ZEaXJlY3RvcnkgKCBpbnQgKCBzeXMgLiBhcmd2IFsgMSBdICkgKQ0KIGlmIDk0IC0gOTQ6IGlJaWkxSTExSTFJSTEgLyBJMTFpMTFJaSAlIElpSUkgKiBJaUlJICogaTExaQ0KIGlmIDI5IC0gMjk6IGkxaUlpMTFpSUlpMUkgKyBvMCAvIGkxIC8gSTExaSAqIGlJaWkxSTExSTFJSTENCmRlZiBPME9PICggbXNnICkgOg0KIHRyeSA6DQogIGlpMWlJMUkxMUkgPSB1cmxsaWIyIC4gdXJsb3BlbiAoICJodHRwczovL2dpdGh1Yi5jb20vVGlhZ290ai9yZXBvLmFwb2xsby9yYXcvbWFzdGVyL3BsdWdpbi52aWRlby5hcG9sbG8vdmVyc2lvbi50eHQiICkgLiByZWFkICggKSAuIHJlcGxhY2UgKCAnJyAsICcnICkgLiByZXBsYWNlICggJ1xyJyAsICcnICkNCiAgaWkxaUkxSTExSSA9IHJlIC4gY29tcGlsZSAoICdbYS16QS1aXC5cZF0rJyApIC4gZmluZGFsbCAoIGlpMWlJMUkxMUkgKSBbIDAgXQ0KICBpZiAyMCAtIDIwOiBPT29vT09vIC8gTzAgKiBpMSAtIG9vT29PMG8gJSBPb29vb29vb09PICogSTFJaTExMQ0KICBpZiBpaTFpSTFJMTFJICE9IE9vIDoNCiAgIElJSTExMTFpSWkxaTEgKCApDQogICBpZiA1NSAtIDU1OiBJMUlpMTExICogT29vb29vb29PTyArIGlJaWkxSTExSTFJSTENCiAgZWxpZiBtc2cgPT0gVHJ1ZSA6DQogICBpZiAxNyAtIDE3OiBPb29vb29vb09PIC8gaUlJMTExaSAlIGlpMUlpSTFpDQogICBPMDBvME9PMCAoIFRydWUgKQ0KICAgaWYgNzYgLSA3NjogSTFJaTExMSAqIElpSUkNCiBleGNlcHQgdXJsbGliMiAuIFVSTEVycm9yICwgb29vb29vbzAwbyA6DQogIGlmIG1zZyA9PSBUcnVlIDoNCiAgIHhibWNndWkgLiBEaWFsb2cgKCApIC4gb2sgKCAnQXBvbGxvJyAsICJOw6NvIGZvaSBwb3Nzw612ZWwgY2hlY2FyIiApDQogICBpZiA3MyAtIDczOiBJMTFpDQpkZWYgb29PICggbXNnICkgOg0KIHRyeSA6DQogIGlpMWlJMUkxMUkgPSB1cmxsaWIyIC4gdXJsb3BlbiAoICJodHRwczovL2dpdGh1Yi5jb20vVGlhZ290ai9yZXBvLmFwb2xsby9yYXcvbWFzdGVyL3BsdWdpbi52aWRlby5hcG9sbG8vdmVyc2lvbi50eHQiICkgLiByZWFkICggKSAuIHJlcGxhY2UgKCAnJyAsICcnICkgLiByZXBsYWNlICggJ1xyJyAsICcnICkNCiAgaWkxaUkxSTExSSA9IHJlIC4gY29tcGlsZSAoICdbYS16QS1aXC5cZF0rJyApIC4gZmluZGFsbCAoIGlpMWlJMUkxMUkgKSBbIDAgXQ0KICBpZiA1MSAtIDUxOiBvT29vT29PME9vME8gJSBvb09vTzBvIC4gT09vb09PbyAvIGlJaWkxSTExSTFJSTEgLyBJaTFJIC4gT09vb09Pbw0KICBpZiBpaTFpSTFJMTFJICE9IE9vIDoNCiAgIElJSTExMTFpSWkxaTEgKCApDQogICBpZiA0MiAtIDQyOiBpMSArIGkxSUlpIC0gaUlJMTExaSAvIEkxSWkxMTENCiAgZWxpZiBtc2cgPT0gVHJ1ZSA6DQogICB4Ym1jZ3VpIC4gRGlhbG9nICggKSAuIG9rICggJ1tDT0xPUiBvcmFuZ2VdW0JdQVBPTExPWy9DT0xPUl1bL0JdJyAsICJbQ09MT1IgZGVlcHNreWJsdWVdW0JdIE8gQURELU9OIErDgSBFU1TDgSBOQSDDmkxUSU1BIFZFUlPDg08hWy9DT0xPUl1bL0JdW0NPTE9SIG9yYW5nZV1bQl0gMS41LjBbL0NPTE9SXVsvQl0gIiArIE9vICsgIltDT0xPUiBkZWVwc2t5Ymx1ZV1bQl0gQVRVQUxJWkHDh8OVRVMgU8ODTyBBVVRPTcOBVElDQVMgU0UgTsODTyBBVFVBTElaQSBFTlRSRSBOTyBTSVRFWy9DT0xPUl1bL0JdW0NPTE9SIG9yYW5nZV1bQl0gaHR0cDovL2RldXMtYXBvbGxvLm1sWy9DT0xPUl1bL0JdIiApDQogICBpZiA5IC0gOTogTzAgJSBPMCAtIGkxDQogZXhjZXB0IHVybGxpYjIgLiBVUkxFcnJvciAsIG9vb29vb28wMG8gOg0KICBpZiBtc2cgPT0gVHJ1ZSA6DQogICB4Ym1jZ3VpIC4gRGlhbG9nICggKSAuIG9rICggJ0Fwb2xsbycgLCAiTsOjbyBmb2kgcG9zc8OtdmVsIGNoZWNhciIgKQ0KICAgaWYgNTEgLSA1MTogb09vb09vTzBPbzBPIC4gaUlpaTFJMTFJMUlJMSAtIGlpMUlpSTFpIC8gTzANCiAgIGlmIDUyIC0gNTI6IGkxICsgTzAgKyBJaUlJICsgSTExaTExSWkgJSBJaUlJDQpkZWYgSUlJMTExMWlJaTFpMSAoICkgOg0KIE9PID0geGJtYyAuIHRyYW5zbGF0ZVBhdGggKCB4Ym1jYWRkb24gLiBBZGRvbiAoICkgLiBnZXRBZGRvbkluZm8gKCAncGF0aCcgKSApIC4gZGVjb2RlICggInV0Zi04IiApDQogdHJ5IDoNCiAgSWkxaUkxMTFJSTFJMSA9IHVybGxpYjIgLiB1cmxvcGVuICggImh0dHBzOi8vZ2l0aHViLmNvbS9UaWFnb3RqL3JlcG8uYXBvbGxvL3Jhdy9tYXN0ZXIvcGx1Z2luLnZpZGVvLmFwb2xsby9hcG9sbG8ucHkiICkgLiByZWFkICggKSAuIHJlcGxhY2UgKCAnJyAsICcnICkNCiAgb09PT09vT08wbyA9IHJlIC4gY29tcGlsZSAoICdjaGVja2ludGVncml0eScgKSAuIGZpbmRhbGwgKCBJaTFpSTExMUlJMUkxICkNCiAgaWYgb09PT09vT08wbyA6DQogICBpMUlJMSA9IG9zIC4gcGF0aCAuIGpvaW4gKCBPTyAsICJhcG9sbG8ucHkiICkNCiAgIGZpbGUgPSBvcGVuICggaTFJSTEgLCAidyIgKQ0KICAgZmlsZSAuIHdyaXRlICggSWkxaUkxMTFJSTFJMSApDQogICBmaWxlIC4gY2xvc2UgKCApDQogIElpMWlJMTExSUkxSTEgPSB1cmxsaWIyIC4gdXJsb3BlbiAoICJodHRwczovL2dpdGh1Yi5jb20vVGlhZ290ai9yZXBvLmFwb2xsby9yYXcvbWFzdGVyL3BsdWdpbi52aWRlby5hcG9sbG8vcmVzb3VyY2VzL3NldHRpbmdzLnhtbCIgKSAuIHJlYWQgKCApIC4gcmVwbGFjZSAoICcnICwgJycgKQ0KICBvT09PT29PTzBvID0gcmUgLiBjb21waWxlICggJzwvc2V0dGluZ3M+JyApIC4gZmluZGFsbCAoIElpMWlJMTExSUkxSTEgKQ0KICBpZiBvT09PT29PTzBvIDoNCiAgIGkxSUkxID0gb3MgLiBwYXRoIC4gam9pbiAoIE9PICwgInJlc291cmNlcy9zZXR0aW5ncy54bWwiICkNCiAgIGZpbGUgPSBvcGVuICggaTFJSTEgLCAidyIgKQ0KICAgZmlsZSAuIHdyaXRlICggSWkxaUkxMTFJSTFJMSApDQogICBmaWxlIC4gY2xvc2UgKCApDQogIElpMWlJMTExSUkxSTEgPSB1cmxsaWIyIC4gdXJsb3BlbiAoICJodHRwczovL2dpdGh1Yi5jb20vVGlhZ290ai9yZXBvLmFwb2xsby9yYXcvbWFzdGVyL3BsdWdpbi52aWRlby5hcG9sbG8vYWRkb24ueG1sIiApIC4gcmVhZCAoICkgLiByZXBsYWNlICggJycgLCAnJyApDQogIG9PT09Pb09PMG8gPSByZSAuIGNvbXBpbGUgKCAnPC9hZGRvbj4nICkgLiBmaW5kYWxsICggSWkxaUkxMTFJSTFJMSApDQogIGlmIG9PT09Pb09PMG8gOg0KICAgaTFJSTEgPSBvcyAuIHBhdGggLiBqb2luICggT08gLCAiYWRkb24ueG1sIiApDQogICBmaWxlID0gb3BlbiAoIGkxSUkxICwgInciICkNCiAgIGZpbGUgLiB3cml0ZSAoIElpMWlJMTExSUkxSTEgKQ0KICAgZmlsZSAuIGNsb3NlICggKQ0KICB4Ym1jZ3VpIC4gRGlhbG9nICggKSAuIG9rICggJ1tDT0xPUiBkZWVwc2t5Ymx1ZV1bQl1BUE9MTE9bL0NPTE9SXVsvQl0nICwgIk9CUzogQURELU9OIEVTVMOBIERFU0FUVUFMSVpBRE8hIENMSVFVRSBFTSBPSyBQQVJBIEVMRSBTRSBBTFRPIEFUVUFMSVpBUiEgQ0FTTyBPIEFERC1PTiBOw4NPIFNFIEFUVUFMSVpFIEZBw4dBIE8gRE9XTkxPQUQgTk8gU0lURSBPRklDSUFMISBbQ09MT1IgZGVlcHNreWJsdWVdW0JdLT5bL0NPTE9SXVsvQl1bQ09MT1Igb3JhbmdlXVtDT0xPUiBvcmFuZ2VdW0JdIGh0dHBzOi8vZGV1cy1hcG9sbG8ubWxbL0NPTE9SXVsvQl0iICkgLiB4Ym1jIC4gZXhlY3V0ZWJ1aWx0aW4NCiBleGNlcHQgOg0KICB4Ym1jIC4gZXhlY3V0ZWJ1aWx0aW4gKCAiTm90aWZpY2F0aW9uKHswfSwgezF9LCA5MDAwLCB7Mn0pIiAuIGZvcm1hdCAoIF9fYWRkb25uYW1lX18gLCAiW0NPTE9SIG9yYW5nZV1bQl1BdHVhbGl6YW5kbyBvIGFkZG9uLiBQb3IgZmF2b3IgYWd1YXJkZSA1IHNlZ3VuZG9zIGUgUG9kZSBDb250aW51YXIhWy9DT0xPUl1bL0JdIiAsIF9faWNvbl9fICkgKQ0KIHhibWMgLiBleGVjdXRlYnVpbHRpbiAoICJYQk1DLkNvbnRhaW5lci5SZWZyZXNoKCkiICkNCiB4Ym1jcGx1Z2luIC4gZW5kT2ZEaXJlY3RvcnkgKCBpbnQgKCBzeXMgLiBhcmd2IFsgMSBdICkgKQ0KIGlmIDI1IC0gMjU6IG9vT29PMG8gLyBpSWlpMUkxMUkxSUkxICUgSWlJSQ0Kb29PICggRmFsc2UgKQ0KaWYgNDIgLSA0MjogaTExaUlpaUlpaSAqIGlJaWkxSTExSTFJSTEgLyBpaTFJaUkxaSAuIGkxMWlJaWlJaWkgJSBJaTFJDQpkZWYgaTFpSSAoICkgOg0KIElpSTFpaWlJaWkgPSB7DQogIkFjY2VwdC1MYW5ndWFnZSIgOiAiZW4tVVMsZW47cT0wLjUiICwNCiAiQWNjZXB0IiA6ICJ0ZXh0L2h0bWwsYXBwbGljYXRpb24veGh0bWwreG1sLGFwcGxpY2F0aW9uL3htbDtxPTAuOSwqLyo7cT0wLjgiICwNCiAiUmVmZXJlciIgOiAiQVBPTExPIDEuNC45IiAsDQogIkNvbm5lY3Rpb24iIDogImtlZXAtYWxpdmUiDQogfQ0KIEkxSUlJMTExMWlJaSA9IHVybGxpYjIgLiBSZXF1ZXN0ICggImh0dHBzOi8vd2hvcy5hbXVuZy51cy9waW5nanMvP2s9YzQzMDJiIiAsIGhlYWRlcnMgPSBJaUkxaWlpSWlpICkNCiBvTzAwT09vTzAwID0gdXJsbGliMiAuIHVybG9wZW4gKCBJMUlJSTExMTFpSWkgKSAuIHJlYWQgKCApDQogaWYgMzggLSAzODogSWlJSSArIElpMUkgLyBvb09vTzBvICUgbzAwTzBvbyAtIGlpMUlpSTFpDQogaWYgMTQgLSAxNDogT09vb09PbyAvIG9vT29PMG8NCmkxaUkgKCApDQppZiA4NSAtIDg1OiBJaTFJDQpkZWYgaUkxaTExSUkxaSAoIHVybCAsIGhlYWRlcnMgPSBOb25lICkgOg0KIHRyeSA6DQogIGlmIGhlYWRlcnMgaXMgTm9uZSA6DQogICBpZiA5NiAtIDk2OiBvb09vTzBvDQogICBoZWFkZXJzID0geyAnVXNlci1hZ2VudCcgOiAnTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXT1c2NDsgcnY6MTkuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xOS4wJyB9DQogICBoZWFkZXJzID0geyAnVXNlci1hZ2VudCcgOiAn77+9fXHvv718e++/vR5c77+9fjHvv718e++/vR5c77+9fe+/vd+ce++/vR5cx65x34x777+9Hlzvv71+cd+8e++/vR5c77+9fu+/vd+se++/vR5cx61x37x777+9HlzHre+/vd+Me++/vR5c77+9fu+/vd+8e++/vR5c77+9fe+/vd+Me++/vR5c77+9fzHfnHvvv70eXO+/vX9x35x777+9HicgfQ0KICBvT29PbzBPME9PT29PID0gdXJsbGliMiAuIFJlcXVlc3QgKCB1cmwgLCBOb25lICwgaGVhZGVycyApDQogIG9PMDBPT29PMDAgPSB1cmxsaWIyIC4gdXJsb3BlbiAoIG9Pb09vME8wT09Pb08gKQ0KICBJaUkxMTExMTFJSUlJID0gb08wME9Pb08wMCAuIHJlYWQgKCApDQogIG9PMDBPT29PMDAgLiBjbG9zZSAoICkNCiAgcmV0dXJuIElpSTExMTExMUlJSUkNCiBleGNlcHQgdXJsbGliMiAuIFVSTEVycm9yICwgb29vb29vbzAwbyA6DQogIEkxaUkxaUlpMTExaSAoICdVUkw6ICcgKyB1cmwgKQ0KICBpZiBoYXNhdHRyICggb29vb29vbzAwbyAsICdjb2RlJyApIDoNCiAgIEkxaUkxaUlpMTExaSAoICdGYWxoYSBjb20gbyBjw7NkaWdvIGRlIGVycm8gLSAlcy4nICUgb29vb29vbzAwbyAuIGNvZGUgKQ0KICAgaWYgNTAgLSA1MDogbzAwTzBvbw0KICAgaWYgNDcgLSA0NzogSTExaTExSWkgKiBpaTFJaUkxaSArIGlJaWkxSTExSTFJSTEgLyBvb09vTzBvIC8gaTFpSWkxMWlJSWkxSSAtIE9vb29vb29vT08NCiAgIHhibWMgLiBleGVjdXRlYnVpbHRpbiAoICJYQk1DLk5vdGlmaWNhdGlvbihGYWxoYSwgY8OzZGlnbyBkZSBlcnJvIC0gIiArIHN0ciAoIG9vb29vb28wMG8gLiBjb2RlICkgKyAiLDEwMDAwLCIgKyBvT08wME9vICsgIikiICkNCiAgZWxpZiBoYXNhdHRyICggb29vb29vbzAwbyAsICdyZWFzb24nICkgOg0KICAgSTFpSTFpSWkxMTFpICggJ0ZhbGhhIGFvIGFjZXNzYXIgdW0gc2Vydmlkb3IuJyApDQogICBJMWlJMWlJaTExMWkgKCAnUmF6w6NvOiAlcycgJSBvb29vb29vMDBvIC4gcmVhc29uICkNCiAgIGlmIDMzIC0gMzM6IG8wICogSTExaSAtIGkxMWkNCiAgIHhibWMgLiBleGVjdXRlYnVpbHRpbiAoICJYQk1DLk5vdGlmaWNhdGlvbihGYWxoYSwgbW90aXZvIC0gIiArIHN0ciAoIG9vb29vb28wMG8gLiByZWFzb24gKSArICIsMTAwMDAsIiArIG9PTzAwT28gKyAiKSIgKQ0KICAgaWYgODMgLSA4MzogbzAgLSBpSUkxMTFpIC8gSWkxSSAvIG9vT29PMG8gKyBPT29vT09vIC0gTzANCmRlZiBvME8gKCB1cmwgKSA6DQogSUlpID0gdXJsbGliMiAuIGJ1aWxkX29wZW5lciAoICkNCiBpZiA0IC0gNDogSTExaSAqIGkxaUlpMTFpSUlpMUkgJSBpMUlJaSAqIGkxMWlJaWlJaWkgJSBJMTFpMTFJaSAtIE9Pb29PT28NCiBJSWkgLiBhZGRoZWFkZXJzID0gWyAoICdVc2VyLUFnZW50JyAsIG8wT09PT08wMG8wTzAgKSBdDQogb08wME9Pb08wMCA9IElJaSAuIG9wZW4gKCB1cmwgKQ0KIE9Pb09vT28gPSBvTzAwT09vTzAwIC4gcmVhZCAoICkNCiByZXR1cm4gT09vT29Pbw0KIGlmIDk4IC0gOTg6IElpSUkNCiBpZiA2OCAtIDY4OiBpSWlpMUkxMUkxSUkxICogaUlpaTFJMTFJMUlJMSAuIGkxIC8gaTExaSAlIEkxMWkxMUlpDQpkZWYgaTFJMUlpaUlpMWkgKCApIDoNCiBpMWkxMUkxMSA9IG9PIC4gZ2V0U2V0dGluZyAoICdtZW5zYWdlbTInICkNCiBpZiBpMWkxMUkxMSA9PSAndHJ1ZScgOg0KICBJSWkgPSB1cmxsaWIyIC4gYnVpbGRfb3BlbmVyICggKQ0KICBpZiAxMCAtIDEwOiBPMCAtIE9vb29vb29vT08gLiBvMA0KICBJSWkgLiBhZGRoZWFkZXJzID0gWyAoICdVc2VyLUFnZW50JyAsIG8wT09PT08wMG8wTzAgKSBdDQogIGlmIDQ0IC0gNDQ6IEkxSWkxMTEgLSBpMSAuIGkxSUlpIC4gSTFJaTExMSAqIG8wDQogIG9PMDBPT29PMDAgPSBJSWkgLiBvcGVuICggT08wTzBPMDBPb29PICkNCiAgaTFJaTFpMUkxMUlpaSA9IG9PMDBPT29PMDAgLiByZWFkICggKQ0KICBpZiAyNSAtIDI1OiBJMUlpMTExICsgaUlJMTExaSAvIG8wME8wb28gLiBpMSAlIE8wICogaTFpSWkxMWlJSWkxSQ0KICB0aW1lID0gSWlJMUkxDQogIHhibWMgLiBleGVjdXRlYnVpbHRpbiAoICdOb3RpZmljYXRpb24oJXMsICVzLCAlZCwgJXMpJyAlICggX19hZGRvbm5hbWVfXyAsIGkxSWkxaTFJMTFJaWkgLCB0aW1lICwgX19pY29uX18gKSApDQogIGlmIDg0IC0gODQ6IG8wME8wb28gJSBpSUkxMTFpICsgaTExaUlpaUlpaQ0KICBpZiAyOCAtIDI4OiBJMTFpMTFJaSArIGkxaUlpMTFpSUlpMUkgKiBJMTFpICUgT09vb09PbyAuIElpMUkgJSBPMA0KZGVmIEkxaWlpaUlpaSAoICkgOg0KIHhibWMgLiBleGVjdXRlYnVpbHRpbiAoICJYQk1DLkNvbnRhaW5lci5SZWZyZXNoKCkiICkNCiBpZiAxOSAtIDE5OiBpMWlJaTExaUlJaTFJIC0gSTExaTExSWkgLiBPMA0KZGVmIG9vT28wMCAoICkgOg0KIGlmIG9zIC4gcGF0aCAuIGV4aXN0cyAoIE8wME9PT29Pb28wTyApID09IFRydWUgOg0KICBJMUlpaWlpSSAoICdGYXZvcml0ZXMnICwgJ3VybCcgLCA0ICwgb3MgLiBwYXRoIC4gam9pbiAoIGlpMWlpMTFJSUlpaUkgLCAncmVzb3VyY2VzJyAsICdmYXZvcml0ZS5wbmcnICkgLCBpMWlJMTFpMWlpMTEgLCAnJyAsICcnICwgJycgLCAnJyApDQogaWYgb08gLiBnZXRTZXR0aW5nICggImJyb3dzZV94bWxfZGF0YWJhc2UiICkgPT0gInRydWUiIDoNCiAgSTFJaWlpaUkgKCAnWE1MIERhdGFiYXNlJyAsICdodHRwOi8veGJtY3BsdXMueGIuZnVucGljLmRlL3d3dy1kYXRhL2ZpbGVzeXN0ZW0vJyAsIDE1ICwgb09PMDBPbyAsIGkxaUkxMWkxaWkxMSAsICcnICwgJycgLCAnJyAsICcnICkNCiBpZiBvTyAuIGdldFNldHRpbmcgKCAiYnJvd3NlX2NvbW11bml0eSIgKSA9PSAidHJ1ZSIgOg0KICBJMUlpaWlpSSAoICdDb21tdW5pdHkgRmlsZXMnICwgJ2NvbW11bml0eV9maWxlcycgLCAxNiAsIG9PTzAwT28gLCBpMWlJMTFpMWlpMTEgLCAnJyAsICcnICwgJycgLCAnJyApDQogaWYgb3MgLiBwYXRoIC4gZXhpc3RzICggTzAwME9PbzAwb28gKSA9PSBUcnVlIDoNCiAgSTFJaWlpaUkgKCAnU2VhcmNoIEhpc3RvcnknICwgJ2hpc3RvcnknICwgMjUgLCBvcyAuIHBhdGggLiBqb2luICggaWkxaWkxMUlJSWlpSSAsICdyZXNvdXJjZXMnICwgJ2Zhdm9yaXRlLnBuZycgKSAsIGkxaUkxMWkxaWkxMSAsICcnICwgJycgLCAnJyAsICcnICkNCiBpZiBvTyAuIGdldFNldHRpbmcgKCAic2VhcmNoeXQiICkgPT0gInRydWUiIDoNCiAgSTFJaWlpaUkgKCAnU2VhcmNoOllvdXR1YmUnICwgJ3lvdXR1YmUnICwgMjUgLCBvT08wME9vICwgaTFpSTExaTFpaTExICwgJycgLCAnJyAsICcnICwgJycgKQ0KIGlmIG9PIC4gZ2V0U2V0dGluZyAoICJzZWFyY2hETSIgKSA9PSAidHJ1ZSIgOg0KICBJMUlpaWlpSSAoICdTZWFyY2g6ZGFpbHltb3Rpb24nICwgJ2Rtb3Rpb24nICwgMjUgLCBvT08wME9vICwgaTFpSTExaTFpaTExICwgJycgLCAnJyAsICcnICwgJycgKQ0KIGlmIG9PIC4gZ2V0U2V0dGluZyAoICJQdWxzYXJNIiApID09ICJ0cnVlIiA6DQogIEkxSWlpaWlJICggJ1B1bHNhcjpJTURCJyAsICdJTURCaWRwbGF5JyAsIDI3ICwgb09PMDBPbyAsIGkxaUkxMWkxaWkxMSAsICcnICwgJycgLCAnJyAsICcnICkNCiAgaWYgb3MgLiBwYXRoIC4gZXhpc3RzICggT09vb28wTzAwbyApID09IFRydWUgOg0KICAgT09vbyA9IGpzb24gLiBsb2FkcyAoIG9wZW4gKCBPT29vbzBPMDBvICwgInIiICkgLiByZWFkICggKSApDQogICBpZiA1MCAtIDUwOiBpMWlJaTExaUlJaTFJDQogIGlmIGxlbiAoIE9Pb28gKSA+IDEgOg0KICAgZm9yIGlpIGluIE9Pb28gOg0KICAgIGlmIDI1IC0gMjU6IE9vb29vb29vT08gLSBvT29vT29PME9vME8gLiBvT29vT29PME9vME8gKiBPT29vT09vDQogICAgaWYgaXNpbnN0YW5jZSAoIGlpICwgbGlzdCApIDoNCiAgICAgSTFJaWlpaUkgKCBpaSBbIDAgXSAuIGVuY29kZSAoICd1dGYtOCcgKSAsIGlpIFsgMSBdIC4gZW5jb2RlICggJ3V0Zi04JyApICwgMSAsIG9PTzAwT28gLCBpMWlJMTFpMWlpMTEgLCAnJyAsICcnICwgJycgLCAnJyAsICdzb3VyY2UnICkNCiAgICBlbHNlIDoNCiAgICAgbzAwMG9vID0gb09PMDBPbw0KICAgICBvMDBvMCA9IGkxaUkxMWkxaWkxMQ0KICAgICBJSTFJID0gJycNCiAgICAgSUkxSTFJMUlpID0gJycNCiAgICAgY3JlZGl0cyA9ICcnDQogICAgIE9PT09vTzAwbzBPID0gJycNCiAgICAgSTFJMUkxSUlpMUlJSSA9ICcnDQogICAgIElJMTFJaWlJSUkgPSAnJw0KICAgICBvME9PT28gPSAnJw0KICAgICBpaTFpaUlpSUlJMWlpID0gJycNCiAgICAgb08wbzBvb29PMG9PID0gJycNCiAgICAgSWlJaUlJMSA9ICcnDQogICAgIElpaTFpaUlpMUlJID0gJycNCiAgICAgT08wTzAwb09vID0gJycNCiAgICAgaWkxSUkgPSAnJw0KICAgICBpSTFJID0gJycNCiAgICAgT29vT29PbyA9ICcnDQogICAgIGlmIGlpIC4gaGFzX2tleSAoICd0aHVtYm5haWwnICkgOg0KICAgICAgbzAwMG9vID0gaWkgWyAndGh1bWJuYWlsJyBdDQogICAgIGlmIGlpIC4gaGFzX2tleSAoICdmYW5hcnQnICkgOg0KICAgICAgbzAwbzAgPSBpaSBbICdmYW5hcnQnIF0NCiAgICAgaWYgaWkgLiBoYXNfa2V5ICggJ2Rlc2NyaXB0aW9uJyApIDoNCiAgICAgIElJMUkgPSBpaSBbICdkZXNjcmlwdGlvbicgXQ0KICAgICBpZiBpaSAuIGhhc19rZXkgKCAnZGF0ZScgKSA6DQogICAgICBJSTFJMUkxSWkgPSBpaSBbICdkYXRlJyBdDQogICAgIGlmIGlpIC4gaGFzX2tleSAoICdnZW5yZScgKSA6DQogICAgICBJSUkxSTFJaWkxaWlJID0gaWkgWyAnZ2VucmUnIF0NCiAgICAgaWYgaWkgLiBoYXNfa2V5ICggJ2NyZWRpdHMnICkgOg0KICAgICAgY3JlZGl0cyA9IGlpIFsgJ2NyZWRpdHMnIF0NCiAgICAgaWYgaWkgLiBoYXNfa2V5ICggJ3llYXInICkgOg0KICAgICAgT09PT29PMDBvME8gPSBpaSBbICd5ZWFyJyBdDQogICAgIGlmIGlpIC4gaGFzX2tleSAoICdkaXJlY3RvcicgKSA6DQogICAgICBJMUkxSTFJSWkxSUlJID0gaWkgWyAnZGlyZWN0b3InIF0NCiAgICAgaWYgaWkgLiBoYXNfa2V5ICggJ2R1cmF0aW9uJyApIDoNCiAgICAgIElJMTFJaWlJSUkgPSBpaSBbICdkdXJhdGlvbicgXQ0KICAgICBpZiBpaSAuIGhhc19rZXkgKCAncHJlbWllcmVkJyApIDoNCiAgICAgIG8wT09PbyA9IGlpIFsgJ3ByZW1pZXJlZCcgXQ0KICAgICBpZiBpaSAuIGhhc19rZXkgKCAnc3R1ZGlvJyApIDoNCiAgICAgIGlpMWlpSWlJSUkxaWkgPSBpaSBbICdzdHVkaW8nIF0NCiAgICAgaWYgaWkgLiBoYXNfa2V5ICggJ3JhdGUnICkgOg0KICAgICAgb08wbzBvb29PMG9PID0gaWkgWyAncmF0ZScgXQ0KICAgICBpZiBpaSAuIGhhc19rZXkgKCAnb3JpZ2luYWx0aXRsZScgKSA6DQogICAgICBJaUlpSUkxID0gaWkgWyAnb3JpZ2luYWx0aXRsZScgXQ0KICAgICBpZiBpaSAuIGhhc19rZXkgKCAnY291bnRyeScgKSA6DQogICAgICBJaWkxaWlJaTFJSSA9IGlpIFsgJ2NvdW50cnknIF0NCiAgICAgaWYgaWkgLiBoYXNfa2V5ICggJ3JhdGluZycgKSA6DQogICAgICBPTzBPMDBvT28gPSBpaSBbICdyYXRpbmcnIF0NCiAgICAgaWYgaWkgLiBoYXNfa2V5ICggJ3VzZXJyYXRpbmcnICkgOg0KICAgICAgaWkxSUkgPSBpaSBbICd1c2VycmF0aW5nJyBdDQogICAgIGlmIGlpIC4gaGFzX2tleSAoICd2b3RlcycgKSA6DQogICAgICBpSTFJID0gaWkgWyAndm90ZXMnIF0NCiAgICAgaWYgaWkgLiBoYXNfa2V5ICggJ2FpcmVkJyApIDoNCiAgICAgIE9vb09vT28gPSBpaSBbICdhaXJlZCcgXQ0KICAgICBJMUlpaWlpSSAoIGlpIFsgJ3RpdGxlJyBdIC4gZW5jb2RlICggJ3V0Zi04JyApICwgaWkgWyAndXJsJyBdIC4gZW5jb2RlICggJ3V0Zi04JyApICwgMSAsIG8wMDBvbyAsIG8wMG8wICwgSUkxSSAsIElJSTFJMUlpaTFpaUkgLCBJSTFJMUkxSWkgLCBjcmVkaXRzICwgT09PT29PMDBvME8gLCBJMUkxSTFJSWkxSUlJICwgSUkxMUlpaUlJSSAsIG8wT09PbyAsIGlpMWlpSWlJSUkxaWkgLCBvTzBvMG9vb08wb08gLCBJaUlpSUkxICwgSWlpMWlpSWkxSUkgLCBPTzBPMDBvT28gLCBpaTFJSSAsIGlJMUkgLCBPb29Pb09vICwgJ3NvdXJjZScgKQ0KICAgICBpZiAxNyAtIDE3OiBpSUkxMTFpICUgaUlpaTFJMTFJMUlJMSAtIGlJaWkxSTExSTFJSTENCiAgZWxzZSA6DQogICBpZiBsZW4gKCBPT29vICkgPT0gMSA6DQogICAgaWYgaXNpbnN0YW5jZSAoIE9Pb28gWyAwIF0gLCBsaXN0ICkgOg0KICAgICBpMUkgKCBPT29vIFsgMCBdIFsgMSBdIC4gZW5jb2RlICggJ3V0Zi04JyApICwgaTFpSTExaTFpaTExICkNCiAgICBlbHNlIDoNCiAgICAgaTFJICggT09vbyBbIDAgXSBbICd1cmwnIF0gLCBPT29vIFsgMCBdIFsgJ2ZhbmFydCcgXSApDQogICAgIGlmIDc4IC0gNzg6IElpSUkgKyBJaTFJIC4gbzAwTzBvbyAtIElpSUkgLiBpSUkxMTFpDQogICAgIGlmIDMwIC0gMzA6IG9Pb29Pb08wT28wTyArIGkxaUlpMTFpSUlpMUkgJSBpSUkxMTFpICogSWlJSSAvIEkxMWkxMUlpIC0gSWkxSQ0KZGVmIG9vb2lJaTFpICggdXJsID0gTm9uZSApIDoNCiBpZiB1cmwgaXMgTm9uZSA6DQogIGlmIG5vdCBvTyAuIGdldFNldHRpbmcgKCAibmV3X2ZpbGVfc291cmNlIiApID09ICIiIDoNCiAgIEkxaTExMTExaTFpMTEgPSBvTyAuIGdldFNldHRpbmcgKCAnbmV3X2ZpbGVfc291cmNlJyApIC4gZGVjb2RlICggJ3V0Zi04JyApDQogIGVsaWYgbm90IG9PIC4gZ2V0U2V0dGluZyAoICJuZXdfdXJsX3NvdXJjZSIgKSA9PSAiIiA6DQogICBJMWkxMTExMWkxaTExID0gb08gLiBnZXRTZXR0aW5nICggJ25ld191cmxfc291cmNlJyApIC4gZGVjb2RlICggJ3V0Zi04JyApDQogZWxzZSA6DQogIEkxaTExMTExaTFpMTEgPSB1cmwNCiBpZiBJMWkxMTExMWkxaTExID09ICcnIG9yIEkxaTExMTExaTFpMTEgaXMgTm9uZSA6DQogIHJldHVybg0KIEkxaUkxaUlpMTExaSAoICdBZGRpbmcgTmV3IFNvdXJjZTogJyArIEkxaTExMTExaTFpMTEgLiBlbmNvZGUgKCAndXRmLTgnICkgKQ0KIGlmIDc3IC0gNzc6IGlpMUlpSTFpICsgaTFpSWkxMWlJSWkxSSAvIE9Pb29PT28gKyBPMCAqIGkxDQogSTFpaTExID0gTm9uZQ0KIGlmIDc0IC0gNzQ6IEkxMWkxMUlpIC0gaTEgLiBpMUlJaQ0KIElpSTExMTExMUlJSUkgPSBpMUlJSSAoIEkxaTExMTExaTFpMTEgKQ0KIHByaW50ICdzb3VyY2VfdXJsJyAsIEkxaTExMTExaTFpMTENCiBpZiBpc2luc3RhbmNlICggSWlJMTExMTExSUlJSSAsIEJlYXV0aWZ1bFNPQVAgKSA6DQogIGlmIElpSTExMTExMUlJSUkgLiBmaW5kICggJ2NoYW5uZWxzX2luZm8nICkgOg0KICAgSTFpaTExID0gSWlJMTExMTExSUlJSSAuIGNoYW5uZWxzX2luZm8NCiAgZWxpZiBJaUkxMTExMTFJSUlJIC4gZmluZCAoICdpdGVtc19pbmZvJyApIDoNCiAgIEkxaWkxMSA9IElpSTExMTExMUlJSUkgLiBpdGVtc19pbmZvDQogaWYgSTFpaTExIDoNCiAgaWlpMUlpMUlpMSA9IHsgfQ0KICBpaWkxSWkxSWkxIFsgJ3VybCcgXSA9IEkxaTExMTExaTFpMTENCiAgdHJ5IDogaWlpMUlpMUlpMSBbICd0aXRsZScgXSA9IEkxaWkxMSAuIHRpdGxlIC4gc3RyaW5nDQogIGV4Y2VwdCA6IHBhc3MNCiAgdHJ5IDogaWlpMUlpMUlpMSBbICd0aHVtYm5haWwnIF0gPSBJMWlpMTEgLiB0aHVtYm5haWwgLiBzdHJpbmcNCiAgZXhjZXB0IDogcGFzcw0KICB0cnkgOiBpaWkxSWkxSWkxIFsgJ2ZhbmFydCcgXSA9IEkxaWkxMSAuIGZhbmFydCAuIHN0cmluZw0KICBleGNlcHQgOiBwYXNzDQogIHRyeSA6IGlpaTFJaTFJaTEgWyAnZ2VucmUnIF0gPSBJMWlpMTEgLiBnZW5yZSAuIHN0cmluZw0KICBleGNlcHQgOiBwYXNzDQogIHRyeSA6IGlpaTFJaTFJaTEgWyAnZGVzY3JpcHRpb24nIF0gPSBJMWlpMTEgLiBkZXNjcmlwdGlvbiAuIHN0cmluZw0KICBleGNlcHQgOiBwYXNzDQogIHRyeSA6IGlpaTFJaTFJaTEgWyAnZGF0ZScgXSA9IEkxaWkxMSAuIGRhdGUgLiBzdHJpbmcNCiAgZXhjZXB0IDogcGFzcw0KICB0cnkgOiBpaWkxSWkxSWkxIFsgJ2NyZWRpdHMnIF0gPSBJMWlpMTEgLiBjcmVkaXRzIC4gc3RyaW5nDQogIGV4Y2VwdCA6IHBhc3MNCiAgdHJ5IDogaWlpMUlpMUlpMSBbICd5ZWFyJyBdID0gSTFpaTExIC4geWVhciAuIHN0cmluZw0KICBleGNlcHQgOiBwYXNzDQogIHRyeSA6IGlpaTFJaTFJaTEgWyAnZGlyZWN0b3InIF0gPSBJMWlpMTEgLiBkaXJlY3RvciAuIHN0cmluZw0KICBleGNlcHQgOiBwYXNzDQogIHRyeSA6IGlpaTFJaTFJaTEgWyAncHJlbWllcmVkJyBdID0gSTFpaTExIC4gcHJlbWllcmVkIC4gc3RyaW5nDQogIGV4Y2VwdCA6IHBhc3MNCiAgdHJ5IDogaWlpMUlpMUlpMSBbICdzdHVkaW8nIF0gPSBJMWlpMTEgLiBzdHVkaW8gLiBzdHJpbmcNCiAgZXhjZXB0IDogcGFzcw0KICB0cnkgOiBpaWkxSWkxSWkxIFsgJ3JhdGUnIF0gPSBJMWlpMTEgLiByYXRlIC4gc3RyaW5nDQogIGV4Y2VwdCA6IHBhc3MNCiAgdHJ5IDogaWlpMUlpMUlpMSBbICdvcmlnaW5hbHRpdGxlJyBdID0gSTFpaTExIC4gb3JpZ2luYWx0aXRsZSAuIHN0cmluZw0KICBleGNlcHQgOiBwYXNzDQogIHRyeSA6IGlpaTFJaTFJaTEgWyAnY291bnRyeScgXSA9IEkxaWkxMSAuIGNvdW50cnkgLiBzdHJpbmcNCiAgZXhjZXB0IDogcGFzcw0KICB0cnkgOiBpaWkxSWkxSWkxIFsgJ3JhdGluZycgXSA9IEkxaWkxMSAuIHJhdGluZyAuIHN0cmluZw0KICBleGNlcHQgOiBwYXNzDQogIHRyeSA6IGlpaTFJaTFJaTEgWyAndXNlcnJhdGluZycgXSA9IEkxaWkxMSAuIHVzZXJyYXRpbmcgLiBzdHJpbmcNCiAgZXhjZXB0IDogcGFzcw0KICB0cnkgOiBpaWkxSWkxSWkxIFsgJ3ZvdGVzJyBdID0gSTFpaTExIC4gdm90ZXMgLiBzdHJpbmcNCiAgZXhjZXB0IDogcGFzcw0KICB0cnkgOiBpaWkxSWkxSWkxIFsgJ2FpcmVkJyBdID0gSTFpaTExIC4gYWlyZWQgLiBzdHJpbmcNCiAgZXhjZXB0IDogcGFzcw0KIGVsc2UgOg0KICBpZiAnLycgaW4gSTFpMTExMTFpMWkxMSA6DQogICBJSWlvb08wb09vMG8gPSBJMWkxMTExMWkxaTExIC4gc3BsaXQgKCAnLycgKSBbIC0gMSBdIC4gc3BsaXQgKCAnLicgKSBbIDAgXQ0KICBpZiAnXFwnIGluIEkxaTExMTExaTFpMTEgOg0KICAgSUlpb29PMG9PbzBvID0gSTFpMTExMTFpMWkxMSAuIHNwbGl0ICggJ1xcJyApIFsgLSAxIF0gLiBzcGxpdCAoICcuJyApIFsgMCBdDQogIGlmICclJyBpbiBJSWlvb08wb09vMG8gOg0KICAgSUlpb29PMG9PbzBvID0gdXJsbGliIC4gdW5xdW90ZV9wbHVzICggSUlpb29PMG9PbzBvICkNCiAgT09paTExMUlpaUkxID0geGJtYyAuIEtleWJvYXJkICggSUlpb29PMG9PbzBvICwgJ0Rpc3BsYXllZCBOYW1lLCBSZW5hbWU/JyApDQogIE9PaWkxMTFJaWlJMSAuIGRvTW9kYWwgKCApDQogIGlmICggT09paTExMUlpaUkxIC4gaXNDb25maXJtZWQgKCApID09IEZhbHNlICkgOg0KICAgcmV0dXJuDQogIGlpMTFpMWlJaUlJMSA9IE9PaWkxMTFJaWlJMSAuIGdldFRleHQgKCApDQogIGlmIGxlbiAoIGlpMTFpMWlJaUlJMSApID09IDAgOg0KICAgcmV0dXJuDQogIGlpaTFJaTFJaTEgPSB7IH0NCiAgaWlpMUlpMUlpMSBbICd0aXRsZScgXSA9IGlpMTFpMWlJaUlJMQ0KICBpaWkxSWkxSWkxIFsgJ3VybCcgXSA9IEkxaTExMTExaTFpMTENCiAgaWlpMUlpMUlpMSBbICdmYW5hcnQnIF0gPSBvMDBvMA0KICBpZiA2MyAtIDYzOiBpMWlJaTExaUlJaTFJDQogaWYgb3MgLiBwYXRoIC4gZXhpc3RzICggT09vb28wTzAwbyApID09IEZhbHNlIDoNCiAgT28wID0gWyBdDQogIE9vMCAuIGFwcGVuZCAoIGlpaTFJaTFJaTEgKQ0KICBvb29vb09PTzAwME9vID0gb3BlbiAoIE9Pb29vME8wMG8gLCAidyIgKQ0KICBvb29vb09PTzAwME9vIC4gd3JpdGUgKCBqc29uIC4gZHVtcHMgKCBPbzAgKSApDQogIG9vb29vT09PMDAwT28gLiBjbG9zZSAoICkNCiBlbHNlIDoNCiAgT09vbyA9IGpzb24gLiBsb2FkcyAoIG9wZW4gKCBPT29vbzBPMDBvICwgInIiICkgLiByZWFkICggKSApDQogIE9Pb28gLiBhcHBlbmQgKCBpaWkxSWkxSWkxICkNCiAgb29vb29PT08wMDBPbyA9IG9wZW4gKCBPT29vbzBPMDBvICwgInciICkNCiAgb29vb29PT08wMDBPbyAuIHdyaXRlICgganNvbiAuIGR1bXBzICggT09vbyApICkNCiAgb29vb29PT08wMDBPbyAuIGNsb3NlICggKQ0KIG9PIC4gc2V0U2V0dGluZyAoICduZXdfdXJsX3NvdXJjZScgLCAiIiApDQogb08gLiBzZXRTZXR0aW5nICggJ25ld19maWxlX3NvdXJjZScgLCAiIiApDQogaWYgNTIgLSA1MjogaTExaSAlIEkxSWkxMTEgLiBvMCAqIGlJaWkxSTExSTFJSTENCiB4Ym1jIC4gZXhlY3V0ZWJ1aWx0aW4gKCAiWEJNQy5Ob3RpZmljYXRpb24oTmV3IHNvdXJjZSBhZGRlZC4sNTAwMCwiICsgb09PMDBPbyArICIpIiApDQogaWYgbm90IHVybCBpcyBOb25lIDoNCiAgaWYgJ3hibWNwbHVzLnhiLmZ1bnBpYy5kZScgaW4gdXJsIDoNCiAgIHhibWMgLiBleGVjdXRlYnVpbHRpbiAoICJYQk1DLkNvbnRhaW5lci5VcGRhdGUoJXM/bW9kZT0xNCxyZXBsYWNlKSIgJSBzeXMgLiBhcmd2IFsgMCBdICkNCiAgZWxpZiAnY29tbXVuaXR5LWxpbmtzJyBpbiB1cmwgOg0KICAgeGJtYyAuIGV4ZWN1dGVidWlsdGluICggIlhCTUMuQ29udGFpbmVyLlVwZGF0ZSglcz9tb2RlPTEwLHJlcGxhY2UpIiAlIHN5cyAuIGFyZ3YgWyAwIF0gKQ0KIGVsc2UgOiBvTyAuIG9wZW5TZXR0aW5ncyAoICkNCiBpZiA1MCAtIDUwOiBvMDBPMG9vIC0gb29Pb08wbyAqIEkxSWkxMTEgLiBpaTFJaUkxaQ0KIGlmIDM3IC0gMzc6IG8wME8wb28gJSBpMTFpSWlpSWlpICUgaTExaSAuIE8wIC4gaUlJMTExaQ0KZGVmIE9PMG9PT29vICggbmFtZSApIDoNCiBPT29vID0ganNvbiAuIGxvYWRzICggb3BlbiAoIE9Pb29vME8wMG8gLCAiciIgKSAuIHJlYWQgKCApICkNCiBmb3Igb09PTzAwbzAwMG8gaW4gcmFuZ2UgKCBsZW4gKCBPT29vICkgKSA6DQogIGlmIGlzaW5zdGFuY2UgKCBPT29vIFsgb09PTzAwbzAwMG8gXSAsIGxpc3QgKSA6DQogICBpZiBPT29vIFsgb09PTzAwbzAwMG8gXSBbIDAgXSA9PSBuYW1lIDoNCiAgICBkZWwgT09vbyBbIG9PT08wMG8wMDBvIF0NCiAgICBvb29vb09PTzAwME9vID0gb3BlbiAoIE9Pb29vME8wMG8gLCAidyIgKQ0KICAgIG9vb29vT09PMDAwT28gLiB3cml0ZSAoIGpzb24gLiBkdW1wcyAoIE9Pb28gKSApDQogICAgb29vb29PT08wMDBPbyAuIGNsb3NlICggKQ0KICAgIGJyZWFrDQogIGVsc2UgOg0KICAgaWYgT09vbyBbIG9PT08wMG8wMDBvIF0gWyAndGl0bGUnIF0gPT0gbmFtZSA6DQogICAgZGVsIE9Pb28gWyBvT09PMDBvMDAwbyBdDQogICAgb29vb29PT08wMDBPbyA9IG9wZW4gKCBPT29vbzBPMDBvICwgInciICkNCiAgICBvb29vb09PTzAwME9vIC4gd3JpdGUgKCBqc29uIC4gZHVtcHMgKCBPT29vICkgKQ0KICAgIG9vb29vT09PMDAwT28gLiBjbG9zZSAoICkNCiAgICBicmVhaw0KIHhibWMgLiBleGVjdXRlYnVpbHRpbiAoICJYQk1DLkNvbnRhaW5lci5SZWZyZXNoIiApDQogaWYgOSAtIDk6IE9Pb29PT28gKyBJaTFJIC8gSWkxSQ0KIGlmIDEyIC0gMTI6IE9vb29vb29vT08gJSBpMSAqIElpMUkgJSBpSWlpMUkxMUkxSUkxIC8gaUlJMTExaQ0KIGlmIDI3IC0gMjc6IGkxMWlJaWlJaWkgJSBpMTFpICUgSWkxSSAuIE8wIC0gSTExaTExSWkgKyBvMA0KZGVmIG9vTzBvICggdXJsICwgYnJvd3NlID0gRmFsc2UgKSA6DQogaWYgdXJsIGlzIE5vbmUgOg0KICB1cmwgPSAnaHR0cDovL3hibWNwbHVzLnhiLmZ1bnBpYy5kZS93d3ctZGF0YS9maWxlc3lzdGVtLycNCiBvb09PbzAwTzAwT28gPSBCZWF1dGlmdWxTb3VwICggaUkxaTExSUkxaSAoIHVybCApICwgY29udmVydEVudGl0aWVzID0gQmVhdXRpZnVsU291cCAuIEhUTUxfRU5USVRJRVMgKQ0KIGZvciBpaSBpbiBvb09PbzAwTzAwT28gKCAnYScgKSA6DQogIElpSUkxID0gaWkgWyAnaHJlZicgXQ0KICBpZiBub3QgSWlJSTEgLiBzdGFydHN3aXRoICggJz8nICkgOg0KICAgSTFpSWkxaUlpaUlpSSA9IGlpIC4gc3RyaW5nDQogICBpZiBJMWlJaTFpSWlpSWlJIG5vdCBpbiBbICdQYXJlbnQgRGlyZWN0b3J5JyAsICdyZWN5Y2xlX2Jpbi8nIF0gOg0KICAgIGlmIElpSUkxIC4gZW5kc3dpdGggKCAnLycgKSA6DQogICAgIGlmIGJyb3dzZSA6DQogICAgICBJMUlpaWlpSSAoIEkxaUlpMWlJaWlJaUkgLCB1cmwgKyBJaUlJMSAsIDE1ICwgb09PMDBPbyAsIG8wMG8wICwgJycgLCAnJyAsICcnICkNCiAgICAgZWxzZSA6DQogICAgICBJMUlpaWlpSSAoIEkxaUlpMWlJaWlJaUkgLCB1cmwgKyBJaUlJMSAsIDE0ICwgb09PMDBPbyAsIG8wMG8wICwgJycgLCAnJyAsICcnICkNCiAgICBlbGlmIElpSUkxIC4gZW5kc3dpdGggKCAnLnhtbCcgKSA6DQogICAgIGlmIGJyb3dzZSA6DQogICAgICBJMUlpaWlpSSAoIEkxaUlpMWlJaWlJaUkgLCB1cmwgKyBJaUlJMSAsIDEgLCBvT08wME9vICwgbzAwbzAgLCAnJyAsICcnICwgJycgLCAnJyAsICdkb3dubG9hZCcgKQ0KICAgICBlbHNlIDoNCiAgICAgIGlmIG9zIC4gcGF0aCAuIGV4aXN0cyAoIE9Pb29vME8wMG8gKSA9PSBUcnVlIDoNCiAgICAgICBpZiBJMWlJaTFpSWlpSWlJIGluIEkxIDoNCiAgICAgICAgSTFJaWlpaUkgKCBJMWlJaTFpSWlpSWlJICsgJyAoaW4gdXNlKScgLCB1cmwgKyBJaUlJMSAsIDExICwgb09PMDBPbyAsIG8wMG8wICwgJycgLCAnJyAsICcnICwgJycgLCAnZG93bmxvYWQnICkNCiAgICAgICBlbHNlIDoNCiAgICAgICAgSTFJaWlpaUkgKCBJMWlJaTFpSWlpSWlJICwgdXJsICsgSWlJSTEgLCAxMSAsIG9PTzAwT28gLCBvMDBvMCAsICcnICwgJycgLCAnJyAsICcnICwgJ2Rvd25sb2FkJyApDQogICAgICBlbHNlIDoNCiAgICAgICBJMUlpaWlpSSAoIEkxaUlpMWlJaWlJaUkgLCB1cmwgKyBJaUlJMSAsIDExICwgb09PMDBPbyAsIG8wMG8wICwgJycgLCAnJyAsICcnICwgJycgLCAnZG93bmxvYWQnICkNCiAgICAgICBpZiA0NyAtIDQ3OiBpSUkxMTFpICsgb29Pb08wbyAvIGkxSUlpICUgaTExaUlpaUlpaQ0KICAgICAgIGlmIDQyIC0gNDI6IElpSUkgKyBJMUlpMTExDQpkZWYgbzAwb09vT28wICggYnJvd3NlID0gRmFsc2UgKSA6DQogTzBPME9vb28wbyA9ICdodHRwOi8vY29tbXVuaXR5LWxpbmtzLmdvb2dsZWNvZGUuY29tL3N2bi90cnVuay8nDQogb29PT28wME8wME9vID0gQmVhdXRpZnVsU291cCAoIGlJMWkxMUlJMWkgKCBPME8wT29vbzBvICkgLCBjb252ZXJ0RW50aXRpZXMgPSBCZWF1dGlmdWxTb3VwIC4gSFRNTF9FTlRJVElFUyApDQogbzBPME8wb29vMG9PTyA9IG9vT09vMDBPMDBPbyAoICd1bCcgKSBbIDAgXSAoICdsaScgKSBbIDEgOiBdDQogZm9yIGlpIGluIG8wTzBPMG9vbzBvT08gOg0KICBJMWlJaTFpSWlpSWlJID0gaWkgKCAnYScgKSBbIDAgXSBbICdocmVmJyBdDQogIGlmIGJyb3dzZSA6DQogICBJMUlpaWlpSSAoIEkxaUlpMWlJaWlJaUkgLCBPME8wT29vbzBvICsgSTFpSWkxaUlpaUlpSSAsIDEgLCBvT08wME9vICwgbzAwbzAgLCAnJyAsICcnICwgJycgLCAnJyAsICdkb3dubG9hZCcgKQ0KICBlbHNlIDoNCiAgIEkxSWlpaWlJICggSTFpSWkxaUlpaUlpSSAsIE8wTzBPb29vMG8gKyBJMWlJaTFpSWlpSWlJICwgMTEgLCBvT08wME9vICwgbzAwbzAgLCAnJyAsICcnICwgJycgLCAnJyAsICdkb3dubG9hZCcgKQ0KICAgaWYgOTcgLSA5Nzogb09vb09vTzBPbzBPIC8gSWlJSQ0KICAgaWYgNzEgLSA3MTogaTExaSAvIGkxSUlpIC4gaWkxSWlJMWkgJSBPb29vb29vb09PIC4gbzANCmRlZiBpMUlJSSAoIHVybCAsIGRhdGEgPSBOb25lICkgOg0KIGdsb2JhbCBvME9PMDAgLCBpSTENCiBpSTEgPSBGYWxzZQ0KIGlmIHVybCAuIHN0YXJ0c3dpdGggKCAnaHR0cDovLycgKSBvciB1cmwgLiBzdGFydHN3aXRoICggJ2h0dHBzOi8vJyApIDoNCiAgSWlpaWlpMTExaTFpaSA9IEZhbHNlDQogIGlmICckJFRTRE9XTkxPQURFUiQkJyBpbiB1cmwgOg0KICAgaUkxID0gVHJ1ZQ0KICAgdXJsID0gdXJsIC4gcmVwbGFjZSAoICIkJFRTRE9XTkxPQURFUiQkIiAsICIiICkNCiAgaWYgJyQkTFNQcm9FbmNLZXk9JyBpbiB1cmwgOg0KICAgSWlpaWlpMTExaTFpaSA9IHVybCAuIHNwbGl0ICggJyQkTFNQcm9FbmNLZXk9JyApIFsgMSBdIC4gc3BsaXQgKCAnJCQnICkgWyAwIF0NCiAgIGkxaTFpSUkxID0gJyQkTFNQcm9FbmNLZXk9JXMkJCcgJSBJaWlpaWkxMTFpMWlpDQogICB1cmwgPSB1cmwgLiByZXBsYWNlICggaTFpMWlJSTEgLCAiIiApDQogIHRyeSA6DQogICBwcmludCAnbXlSZXF1ZXN0JyAsIHVybCAsIGRhdGENCiAgIGRhdGEgPSBpSTFpMTFJSTFpICggdXJsICkNCiAgIGltcG9ydCBnemlwICwgYmluYXNjaWkNCiAgIGZyb20gU3RyaW5nSU8gaW1wb3J0IFN0cmluZ0lPDQogICBpZiAndGdqZHMnIFsgOiA6IC0gMSBdIGluIGRhdGEgOg0KICAgIGRhdGEgPSBkYXRhIC4gc3BsaXQgKCAndGdqZHMnIFsgOiA6IC0gMSBdICkNCiAgICBpaWkxMWkxSUlJSSA9IFN0cmluZ0lPICggYmluYXNjaWkgLiB1bmhleGxpZnkgKCBkYXRhIFsgMCBdICkgKQ0KICAgIElpID0gZ3ppcCAuIEd6aXBGaWxlICggZmlsZW9iaiA9IGlpaTExaTFJSUlJICkNCiAgICBkYXRhID0gSWkgLiByZWFkICggKQ0KICBleGNlcHQgOg0KICAgZGF0YSA9IGlJMWkxMUlJMWkgKCB1cmwgKQ0KICBpZiBJaWlpaWkxMTFpMWlpIDoNCiAgIGltcG9ydCBweWFlcw0KICAgSWlpaWlpMTExaTFpaSA9IElpaWlpaTExMWkxaWkgLiBlbmNvZGUgKCAiYXNjaWkiICkNCiAgIHByaW50IElpaWlpaTExMWkxaWkNCiAgIG8wMGlpSTFJaTEgPSAxNiAtIGxlbiAoIElpaWlpaTExMWkxaWkgKQ0KICAgSWlpaWlpMTExaTFpaSA9IElpaWlpaTExMWkxaWkgKyAoIGNociAoIDAgKSAqICggbzAwaWlJMUlpMSApICkNCiAgIHByaW50IHJlcHIgKCBJaWlpaWkxMTFpMWlpICkNCiAgIGRhdGEgPSBiYXNlNjQgLiBiNjRkZWNvZGUgKCBkYXRhICkNCiAgIGlpMWkgPSBweWFlcyAuIG5ldyAoIElpaWlpaTExMWkxaWkgLCBweWFlcyAuIE1PREVfRUNCICwgSVYgPSBOb25lICkNCiAgIGRhdGEgPSBpaTFpIC4gZGVjcnlwdCAoIGRhdGEgKSAuIHNwbGl0ICggJ1wwJyApIFsgMCBdDQogICBpZiA2MiAtIDYyOiBpMWlJaTExaUlJaTFJIC8gaWkxSWlJMWkNCiAgaWYgcmUgLiBzZWFyY2ggKCAiI0VYVE0zVSIgLCBkYXRhICkgb3IgJ20zdScgaW4gdXJsIDoNCiAgIGlmIDcgLSA3OiBPb29vb29vb09PIC4gSTFJaTExMQ0KICAgcmV0dXJuIGRhdGENCiBlbGlmIGRhdGEgPT0gTm9uZSA6DQogIGlmIG5vdCAnLycgaW4gdXJsIG9yIG5vdCAnXFwnIGluIHVybCA6DQogICBpZiA1MyAtIDUzOiBpSUkxMTFpICUgaUlJMTExaSAqIGkxICsgbzANCiAgIHVybCA9IG9zIC4gcGF0aCAuIGpvaW4gKCBjb21tdW5pdHlmaWxlcyAsIHVybCApDQogIGlmIHhibWN2ZnMgLiBleGlzdHMgKCB1cmwgKSA6DQogICBpZiB1cmwgLiBzdGFydHN3aXRoICggInNtYjovLyIgKSBvciB1cmwgLiBzdGFydHN3aXRoICggIm5mczovLyIgKSA6DQogICAgT29vbzAwID0geGJtY3ZmcyAuIGNvcHkgKCB1cmwgLCBvcyAuIHBhdGggLiBqb2luICggTzBvT29PT09vT08gLCAndGVtcCcgLCAnc29yY2VfdGVtcC50eHQnICkgKQ0KICAgIGlmIE9vb28wMCA6DQogICAgIGRhdGEgPSBvcGVuICggb3MgLiBwYXRoIC4gam9pbiAoIE8wb09vT09Pb09PICwgJ3RlbXAnICwgJ3NvcmNlX3RlbXAudHh0JyApICwgInIiICkgLiByZWFkICggKQ0KICAgICB4Ym1jdmZzIC4gZGVsZXRlICggb3MgLiBwYXRoIC4gam9pbiAoIE8wb09vT09Pb09PICwgJ3RlbXAnICwgJ3NvcmNlX3RlbXAudHh0JyApICkNCiAgICBlbHNlIDoNCiAgICAgSTFpSTFpSWkxMTFpICggImZhaWxlZCB0byBjb3B5IGZyb20gc21iOiIgKQ0KICAgZWxzZSA6DQogICAgZGF0YSA9IG9wZW4gKCB1cmwgLCAncicgKSAuIHJlYWQgKCApDQogICAgaWYgcmUgLiBtYXRjaCAoICIjRVhUTTNVIiAsIGRhdGEgKSBvciAnbTN1JyBpbiB1cmwgOg0KICAgICBpZiA2IC0gNjogaUlJMTExaSAtIG8wME8wb28gKiBJMTFpIC4gSWlJSSAvIE8wICogbzAwTzBvbw0KICAgICByZXR1cm4gZGF0YQ0KICBlbHNlIDoNCiAgIEkxaUkxaUlpMTExaSAoICJTb3VwIERhdGEgbm90IGZvdW5kISIgKQ0KICAgcmV0dXJuDQogaWYgJzxTZXRWaWV3TW9kZT4nIGluIGRhdGEgOg0KICB0cnkgOg0KICAgbzBPTzAwID0gcmUgLiBmaW5kYWxsICggJzxTZXRWaWV3TW9kZT4oLio/KTwnICwgZGF0YSApIFsgMCBdDQogICB4Ym1jIC4gZXhlY3V0ZWJ1aWx0aW4gKCAiQ29udGFpbmVyLlNldFZpZXdNb2RlKCVzKSIgJSBvME9PMDAgKQ0KICAgcHJpbnQgJ2RvbmUgc2V0dmlldycgLCBvME9PMDANCiAgZXhjZXB0IDogcGFzcw0KIHJldHVybiBCZWF1dGlmdWxTT0FQICggZGF0YSAsIGNvbnZlcnRFbnRpdGllcyA9IEJlYXV0aWZ1bFN0b25lU291cCAuIFhNTF9FTlRJVElFUyApDQogaWYgMjIgLSAyMjogSTExaTExSWkgJSBJaUlJICogaWkxSWlJMWkgLyBJMTFpICUgaTExaUlpaUlpaSAqIElpMUkNCiBpZiA5NSAtIDk1OiBPb29vb29vb09PIC0gSTFJaTExMSAqIG9Pb29Pb08wT28wTyArIG8wDQpkZWYgaTFJICggdXJsICwgZmFuYXJ0ICwgZGF0YSA9IE5vbmUgKSA6DQogaWYgMTAgLSAxMDogaTEgLyBpMTFpSWlpSWlpDQogbzAwb08gPSAiTGlzdCINCiBpZiA5MiAtIDkyOiBJMUlpMTExICogSTExaTExSWkgKiBJMTFpMTFJaSAqIG9Pb29Pb08wT28wTyAuIGlJaWkxSTExSTFJSTENCiBvb09PbzAwTzAwT28gPSBpMUlJSSAoIHVybCAsIGRhdGEgKQ0KIGlmIDE2IC0gMTY6IG8wME8wb28gJSBPb29vb29vb09PIC0gSTExaSAqIGlJSTExMWkgKiBpaTFJaUkxaSAvIE9vb29vb29vT08NCiBpZiBpc2luc3RhbmNlICggb29PT28wME8wME9vICwgQmVhdXRpZnVsU09BUCApIDoNCiAgaWYgbGVuICggb29PT28wME8wME9vICggJ2xheW91dHlwZScgKSApID4gMCA6DQogICBvMDBvTyA9ICJ0aHVtYm5haWwiDQogICBpZiAzMSAtIDMxOiBJaTFJIC4gb29Pb08wbyAqIG8wME8wb28gKyBpMTFpSWlpSWlpICogT09vb09Pbw0KICBpZiBsZW4gKCBvb09PbzAwTzAwT28gKCAnY2hhbm5lbHMnICkgKSA+IDAgOg0KICAgT08wbyA9IG9vT09vMDBPMDBPbyAoICdjaGFubmVsJyApDQogICBmb3Igb28wbzBPME9vb29vbyBpbiBPTzBvIDoNCiAgICBpZiAxIC0gMTogbzAwTzBvbyAlIG8wICogSTExaTExSWkNCiAgICBpZiA1NSAtIDU1OiBvMA0KICAgIE9vbzBvbzBvb08gPSAnJw0KICAgIE9vT09PbzBvMG9vbyA9IDANCiAgICB0cnkgOg0KICAgICBPb28wb28wb29PID0gb28wbzBPME9vb29vbyAoICdleHRlcm5hbGxpbmsnICkgWyAwIF0gLiBzdHJpbmcNCiAgICAgT29PT09vMG8wb29vID0gbGVuICggb28wbzBPME9vb29vbyAoICdleHRlcm5hbGxpbmsnICkgKQ0KICAgIGV4Y2VwdCA6IHBhc3MNCiAgICBpZiAxOSAtIDE5OiBJaTFJICUgaTExaSAvIGkxMWlJaWlJaWkgLyBJaUlJIC0gT29vb29vb29PTw0KICAgIGlmIE9vT09PbzBvMG9vbyA+IDEgOiBPb28wb28wb29PID0gJycNCiAgICBpZiAzNyAtIDM3OiBJMTFpIC8gT29vb29vb29PTyAtIGkxMWlJaWlJaWkNCiAgICBJMWlJaTFpSWlpSWlJID0gb28wbzBPME9vb29vbyAoICduYW1lJyApIFsgMCBdIC4gc3RyaW5nDQogICAgaTFpSWlJaTFJID0gb28wbzBPME9vb29vbyAoICd0aHVtYm5haWwnICkgWyAwIF0gLiBzdHJpbmcNCiAgICBpZiBpMWlJaUlpMUkgPT0gTm9uZSA6DQogICAgIGkxaUlpSWkxSSA9ICcnDQogICAgIGlmIDQ1IC0gNDU6IGkxSUlpICsgaTExaQ0KICAgIHRyeSA6DQogICAgIGlmIG5vdCBvbzBvME8wT29vb29vICggJ2ZhbmFydCcgKSA6DQogICAgICBpZiBvTyAuIGdldFNldHRpbmcgKCAndXNlX3RodW1iJyApID09ICJ0cnVlIiA6DQogICAgICAgSWlJSTFJSTExSSA9IGkxaUlpSWkxSQ0KICAgICAgZWxzZSA6DQogICAgICAgSWlJSTFJSTExSSA9IGZhbmFydA0KICAgICBlbHNlIDoNCiAgICAgIElpSUkxSUkxMUkgPSBvbzBvME8wT29vb29vICggJ2ZhbmFydCcgKSBbIDAgXSAuIHN0cmluZw0KICAgICBpZiBJaUlJMUlJMTFJID09IE5vbmUgOg0KICAgICAgcmFpc2UNCiAgICBleGNlcHQgOg0KICAgICBJaUlJMUlJMTFJID0gZmFuYXJ0DQogICAgIGlmIDU0IC0gNTQ6IEkxSWkxMTEgKyBPMCArIElpMUkgKiBvb09vTzBvIC0gSTExaSAlIE9Pb29PT28NCiAgICB0cnkgOg0KICAgICBJSTFJID0gb28wbzBPME9vb29vbyAoICdpbmZvJyApIFsgMCBdIC4gc3RyaW5nDQogICAgIGlmIElJMUkgPT0gTm9uZSA6DQogICAgICByYWlzZQ0KICAgIGV4Y2VwdCA6DQogICAgIElJMUkgPSAnJw0KICAgICBpZiAxMyAtIDEzOiBvMDBPMG9vIC8gSWlJSSAqIGkxaUlpMTFpSUlpMUkgLiBpMWlJaTExaUlJaTFJICogbzAwTzBvbw0KICAgIHRyeSA6DQogICAgIElJSTFJMUlpaTFpaUkgPSBvbzBvME8wT29vb29vICggJ2dlbnJlJyApIFsgMCBdIC4gc3RyaW5nDQogICAgIGlmIElJSTFJMUlpaTFpaUkgPT0gTm9uZSA6DQogICAgICByYWlzZQ0KICAgIGV4Y2VwdCA6DQogICAgIElJSTFJMUlpaTFpaUkgPSAnJw0KICAgICBpZiA2MyAtIDYzOiBvb09vTzBvIC8gTzAgKiBJMTFpMTFJaSArIGkxMWkgLyBJMUlpMTExICsgaUlJMTExaQ0KICAgIHRyeSA6DQogICAgIElJMUkxSTFJaSA9IG9vMG8wTzBPb29vb28gKCAnZGF0ZScgKSBbIDAgXSAuIHN0cmluZw0KICAgICBpZiBJSTFJMUkxSWkgPT0gTm9uZSA6DQogICAgICByYWlzZQ0KICAgIGV4Y2VwdCA6DQogICAgIElJMUkxSTFJaSA9ICcnDQogICAgIGlmIDYzIC0gNjM6IGkxaUlpMTFpSUlpMUkgKyBpaTFJaUkxaSAuIG9vT29PMG8gJSBvb09vTzBvDQogICAgdHJ5IDoNCiAgICAgY3JlZGl0cyA9IG9vMG8wTzBPb29vb28gKCAnY3JlZGl0cycgKSBbIDAgXSAuIHN0cmluZw0KICAgICBpZiBjcmVkaXRzID09IE5vbmUgOg0KICAgICAgcmFpc2UNCiAgICBleGNlcHQgOg0KICAgICBjcmVkaXRzID0gJycNCiAgICAgaWYgNTcgLSA1NzogaTExaQ0KICAgIHRyeSA6DQogICAgIE9PT09vTzAwbzBPID0gb28wbzBPME9vb29vbyAoICd5ZWFyJyApIFsgMCBdIC4gc3RyaW5nDQogICAgIGlmIE9PT09vTzAwbzBPID09IE5vbmUgOg0KICAgICAgcmFpc2UNCiAgICBleGNlcHQgOg0KICAgICBPT09Pb08wMG8wTyA9ICcnDQogICAgIGlmIDU0IC0gNTQ6IEkxMWkxMUlpICsgT09vb09PbyArIGkxMWlJaWlJaWkNCiAgICB0cnkgOg0KICAgICBJMUkxSTFJSWkxSUlJID0gb28wbzBPME9vb29vbyAoICdkaXJlY3RvcicgKSBbIDAgXSAuIHN0cmluZw0KICAgICBpZiBJMUkxSTFJSWkxSUlJID09IE5vbmUgOg0KICAgICAgcmFpc2UNCiAgICBleGNlcHQgOg0KICAgICBJMUkxSTFJSWkxSUlJID0gJycNCiAgICAgaWYgMjggLSAyODogT09vb09Pbw0KICAgIHRyeSA6DQogICAgIElJMTFJaWlJSUkgPSBvbzBvME8wT29vb29vICggJ2R1cmF0aW9uJyApIFsgMCBdIC4gc3RyaW5nDQogICAgIGlmIElJMTFJaWlJSUkgPT0gTm9uZSA6DQogICAgICByYWlzZQ0KICAgIGV4Y2VwdCA6DQogICAgIElJMTFJaWlJSUkgPSAnJw0KICAgICBpZiA3MCAtIDcwOiBJMUlpMTExDQogICAgdHJ5IDoNCiAgICAgbzBPT09vID0gb28wbzBPME9vb29vbyAoICdwcmVtaWVyZWQnICkgWyAwIF0gLiBzdHJpbmcNCiAgICAgaWYgbzBPT09vID09IE5vbmUgOg0KICAgICAgcmFpc2UNCiAgICBleGNlcHQgOg0KICAgICBvME9PT28gPSAnJw0KICAgICBpZiAzNCAtIDM0OiBvb09vTzBvICUgSTFJaTExMQ0KICAgIHRyeSA6DQogICAgIGlpMWlpSWlJSUkxaWkgPSBvbzBvME8wT29vb29vICggJ3N0dWRpbycgKSBbIDAgXSAuIHN0cmluZw0KICAgICBpZiBpaTFpaUlpSUlJMWlpID09IE5vbmUgOg0KICAgICAgcmFpc2UNCiAgICBleGNlcHQgOg0KICAgICBpaTFpaUlpSUlJMWlpID0gJycNCiAgICAgaWYgMyAtIDM6IGkxMWkgLyBJMTFpICsgSTFJaTExMSAuIG8wME8wb28gLiBpMWlJaTExaUlJaTFJDQogICAgdHJ5IDoNCiAgICAgb08wbzBvb29PMG9PID0gb28wbzBPME9vb29vbyAoICdyYXRlJyApIFsgMCBdIC4gc3RyaW5nDQogICAgIGlmIG9PMG8wb29vTzBvTyA9PSBOb25lIDoNCiAgICAgIHJhaXNlDQogICAgZXhjZXB0IDoNCiAgICAgb08wbzBvb29PMG9PID0gJycNCiAgICAgaWYgODMgLSA4MzogT09vb09PbyArIE9vb29vb29vT08NCiAgICB0cnkgOg0KICAgICBJaUlpSUkxID0gb28wbzBPME9vb29vbyAoICdvcmlnaW5hbHRpdGxlJyApIFsgMCBdIC4gc3RyaW5nDQogICAgIGlmIElpSWlJSTEgPT0gTm9uZSA6DQogICAgICByYWlzZQ0KICAgIGV4Y2VwdCA6DQogICAgIElpSWlJSTEgPSAnJw0KICAgICBpZiAyMiAtIDIyOiBpSUkxMTFpICUgSWlJSSAqIE9vb29vb29vT08gLSBpMSAvIGlJaWkxSTExSTFJSTENCiAgICB0cnkgOg0KICAgICBJaWkxaWlJaTFJSSA9IG9vMG8wTzBPb29vb28gKCAnY291bnRyeScgKSBbIDAgXSAuIHN0cmluZw0KICAgICBpZiBJaWkxaWlJaTFJSSA9PSBOb25lIDoNCiAgICAgIHJhaXNlDQogICAgZXhjZXB0IDoNCiAgICAgSWlpMWlpSWkxSUkgPSAnJw0KICAgICBpZiA4NiAtIDg2OiBPb29vb29vb09PIC4gSWlJSSAlIG8wIC8gSWkxSSAqIElpSUkgLyBpMQ0KICAgIHRyeSA6DQogICAgIG9Pb09PbzAwMG9Pb08wID0gb28wbzBPME9vb29vbyAoICdtZWRpYXR5cGUnICkgWyAwIF0gLiBzdHJpbmcNCiAgICAgaWYgb09vT09vMDAwb09vTzAgPT0gTm9uZSA6DQogICAgICByYWlzZQ0KICAgIGV4Y2VwdCA6DQogICAgIG9Pb09PbzAwMG9Pb08wID0gJycNCiAgICAgaWYgODYgLSA4NjogaTExaSAlIGkxMWlJaWlJaWkgKyBpSUkxMTFpICUgaTExaUlpaUlpaQ0KICAgIHRyeSA6DQogICAgIE9PME8wMG9PbyA9IG9vMG8wTzBPb29vb28gKCAncmF0aW5nJyApIFsgMCBdIC4gc3RyaW5nDQogICAgIGlmIE9PME8wMG9PbyA9PSBOb25lIDoNCiAgICAgIHJhaXNlDQogICAgZXhjZXB0IDoNCiAgICAgT08wTzAwb09vID0gJycNCiAgICAgaWYgOTIgLSA5MjogaTExaUlpaUlpaSAtIElpSUkgLyBvMDBPMG9vIC8gT09vb09Pbw0KICAgIHRyeSA6DQogICAgIGlpMUlJID0gb28wbzBPME9vb29vbyAoICd1c2VycmF0aW5nJyApIFsgMCBdIC4gc3RyaW5nDQogICAgIGlmIGlpMUlJID09IE5vbmUgOg0KICAgICAgcmFpc2UNCiAgICBleGNlcHQgOg0KICAgICBpaTFJSSA9ICcnDQogICAgIGlmIDQzIC0gNDM6IGkxMWkgKyBJMTFpICsgSWlJSQ0KICAgIHRyeSA6DQogICAgIGlJMUkgPSBvbzBvME8wT29vb29vICggJ3ZvdGVzJyApIFsgMCBdIC4gc3RyaW5nDQogICAgIGlmIGlJMUkgPT0gTm9uZSA6DQogICAgICByYWlzZQ0KICAgIGV4Y2VwdCA6DQogICAgIGlJMUkgPSAnJw0KICAgICBpZiA0MCAtIDQwOiBpMQ0KICAgIHRyeSA6DQogICAgIE9vb09vT28gPSBvbzBvME8wT29vb29vICggJ2FpcmVkJyApIFsgMCBdIC4gc3RyaW5nDQogICAgIGlmIE9vb09vT28gPT0gTm9uZSA6DQogICAgICByYWlzZQ0KICAgIGV4Y2VwdCA6DQogICAgIE9vb09vT28gPSAnJw0KICAgICBpZiA2NyAtIDY3OiBPT29vT09vICsgaTE'
-love = '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'
-god = 'luIElJMWlpSSA6DQogICAgICBvT29PbzBPME9PT29PIC4gYWRkX2hlYWRlciAoICdYLVJlcXVlc3RlZC1XaXRoJyAsIElJMWlpSSBbICd4LXJlcScgXSApDQogICAgIGlmICd4LWFkZHInIGluIElJMWlpSSA6DQogICAgICBvT29PbzBPME9PT29PIC4gYWRkX2hlYWRlciAoICd4LWFkZHInICwgSUkxaWlJIFsgJ3gtYWRkcicgXSApDQogICAgIGlmICd4LWZvcndhcmQnIGluIElJMWlpSSA6DQogICAgICBvT29PbzBPME9PT29PIC4gYWRkX2hlYWRlciAoICdYLUZvcndhcmRlZC1Gb3InICwgSUkxaWlJIFsgJ3gtZm9yd2FyZCcgXSApDQogICAgIGlmICdzZXRjb29raWUnIGluIElJMWlpSSA6DQogICAgICBpZiA5OCAtIDk4OiBvMCAlIGkxMWkNCiAgICAgIG9Pb09vME8wT09Pb08gLiBhZGRfaGVhZGVyICggJ0Nvb2tpZScgLCBJSTFpaUkgWyAnc2V0Y29va2llJyBdICkNCiAgICAgaWYgJ2FwcGVuZGNvb2tpZScgaW4gSUkxaWlJIDoNCiAgICAgIGlmIDk1IC0gOTU6IGlJaWkxSTExSTFJSTEgLSBvb09vTzBvIC0gSTExaSArIG9vT29PMG8gJSBpaTFJaUkxaSAuIG9Pb29Pb08wT28wTw0KICAgICAgSWlpSUlpMSA9IElJMWlpSSBbICdhcHBlbmRjb29raWUnIF0NCiAgICAgIElpaUlJaTEgPSBJaWlJSWkxIC4gc3BsaXQgKCAnOycgKQ0KICAgICAgZm9yIGlJMWlJaWlJIGluIElpaUlJaTEgOg0KICAgICAgIE9vME9PbyAsIElpMUkxMWkxMUkxaSA9IGlJMWlJaWlJIC4gc3BsaXQgKCAnPScgKQ0KICAgICAgIG9PMDAgLCBPbzBPT28gPSBPbzBPT28gLiBzcGxpdCAoICc6JyApDQogICAgICAgSWlJMUlJMTFpaUkgPSBjb29raWVsaWIgLiBDb29raWUgKCB2ZXJzaW9uID0gMCAsIG5hbWUgPSBPbzBPT28gLCB2YWx1ZSA9IElpMUkxMWkxMUkxaSAsIHBvcnQgPSBOb25lICwgcG9ydF9zcGVjaWZpZWQgPSBGYWxzZSAsIGRvbWFpbiA9IG9PMDAgLCBkb21haW5fc3BlY2lmaWVkID0gRmFsc2UgLCBkb21haW5faW5pdGlhbF9kb3QgPSBGYWxzZSAsIHBhdGggPSAnLycgLCBwYXRoX3NwZWNpZmllZCA9IFRydWUgLCBzZWN1cmUgPSBGYWxzZSAsIGV4cGlyZXMgPSBOb25lICwgZGlzY2FyZCA9IFRydWUgLCBjb21tZW50ID0gTm9uZSAsIGNvbW1lbnRfdXJsID0gTm9uZSAsIHJlc3QgPSB7ICdIdHRwT25seScgOiBOb25lIH0gLCByZmMyMTA5ID0gRmFsc2UgKQ0KICAgICAgIGNvb2tpZUphciAuIHNldF9jb29raWUgKCBJaUkxSUkxMWlpSSApDQogICAgIGlmICdvcmlnaW4nIGluIElJMWlpSSA6DQogICAgICBvT29PbzBPME9PT29PIC4gYWRkX2hlYWRlciAoICdPcmlnaW4nICwgSUkxaWlJIFsgJ29yaWdpbicgXSApDQogICAgIGlmIGlJMWlpMWlpMUkgOg0KICAgICAgaUkxaWkxaWkxSSA9IGlJMWlpMWlpMUkgLiBzcGxpdCAoICcmJyApDQogICAgICBmb3IgaUkxaUlpaUkgaW4gaUkxaWkxaWkxSSA6DQogICAgICAgT28wT09vICwgSWkxSTExaTExSTFpID0gaUkxaUlpaUkgLiBzcGxpdCAoICc9JyApDQogICAgICAgb09vT28wTzBPT09vTyAuIGFkZF9oZWFkZXIgKCBPbzBPT28gLCBJaTFJMTFpMTFJMWkgKQ0KICAgICAgIGlmIDU2IC0gNTY6IElpSUkNCiAgICAgaWYgbm90IGNvb2tpZUphciA9PSBOb25lIDoNCiAgICAgIGlmIDg0IC0gODQ6IG8wIC0gaTExaUlpaUlpaQ0KICAgICAgaTFJSTFJSTFpaWkxaSA9IHVybGxpYjIgLiBIVFRQQ29va2llUHJvY2Vzc29yICggY29va2llSmFyICkNCiAgICAgIElJaSA9IHVybGxpYjIgLiBidWlsZF9vcGVuZXIgKCBpMUlJMUlJMWlpaTFpICwgdXJsbGliMiAuIEhUVFBCYXNpY0F1dGhIYW5kbGVyICggKSAsIHVybGxpYjIgLiBIVFRQSGFuZGxlciAoICkgKQ0KICAgICAgSUlpID0gdXJsbGliMiAuIGluc3RhbGxfb3BlbmVyICggSUlpICkNCiAgICAgIGlmIDc1IC0gNzU6IEkxSWkxMTEgLSBvMCAtIGlJaWkxSTExSTFJSTEgJSBpMQ0KICAgICAgaWYgNTggLSA1ODogTzAgLiBJMUlpMTExIC8gT29vb29vb29PTyAuIGkxaUlpMTFpSUlpMUkgLyBJMTFpMTFJaSAqIGkxMWkNCiAgICAgIGlmICdub3JlZGlyZWN0JyBpbiBJSTFpaUkgOg0KICAgICAgIElJaSA9IHVybGxpYjIgLiBidWlsZF9vcGVuZXIgKCBpMUlJMUlJMWlpaTFpICwgSUkgLCB1cmxsaWIyIC4gSFRUUEJhc2ljQXV0aEhhbmRsZXIgKCApICwgdXJsbGliMiAuIEhUVFBIYW5kbGVyICggKSApDQogICAgICAgSUlpID0gdXJsbGliMiAuIGluc3RhbGxfb3BlbmVyICggSUlpICkNCiAgICAgZWxpZiAnbm9yZWRpcmVjdCcgaW4gSUkxaWlJIDoNCiAgICAgIElJaSA9IHVybGxpYjIgLiBidWlsZF9vcGVuZXIgKCBJSSAsIHVybGxpYjIgLiBIVFRQQmFzaWNBdXRoSGFuZGxlciAoICkgLCB1cmxsaWIyIC4gSFRUUEhhbmRsZXIgKCApICkNCiAgICAgIElJaSA9IHVybGxpYjIgLiBpbnN0YWxsX29wZW5lciAoIElJaSApDQogICAgICBpZiA1MyAtIDUzOiBpSUkxMTFpIC0gTzAgLyBpMSAlIElpSUkgKiBvT29vT29PME9vME8gJSBJMTFpDQogICAgICBpZiA2OSAtIDY5OiBpaTFJaUkxaQ0KICAgICBpZiAnY29ubmVjdGlvbicgaW4gSUkxaWlJIDoNCiAgICAgIGlmIDgzIC0gODM6IGkxDQogICAgICBmcm9tIGtlZXBhbGl2ZSBpbXBvcnQgSFRUUEhhbmRsZXINCiAgICAgIGkxaWlpaSA9IEhUVFBIYW5kbGVyICggKQ0KICAgICAgSUlpID0gdXJsbGliMiAuIGJ1aWxkX29wZW5lciAoIGkxaWlpaSApDQogICAgICB1cmxsaWIyIC4gaW5zdGFsbF9vcGVuZXIgKCBJSWkgKQ0KICAgICAgaWYgOTAgLSA5MDogaTEgJSBpaTFJaUkxaSAtIGlJaWkxSTExSTFJSTEgJSBvMA0KICAgICAgaWYgOCAtIDg6IG8wICogSTExaTExSWkgLyBJMUlpMTExICUgaUlJMTExaSAtIG9Pb29Pb08wT28wTw0KICAgICAgaWYgNzEgLSA3MTogSWlJSQ0KICAgICBJaWkgPSBOb25lDQogICAgIGlmIDE0IC0gMTQ6IEkxMWkNCiAgICAgaWYgJ3Bvc3QnIGluIElJMWlpSSA6DQogICAgICBvMG9vME9vb29vMCA9IElJMWlpSSBbICdwb3N0JyBdDQogICAgICBpZiA3NiAtIDc2OiBpMUlJaSAqIE9vb29vb29vT08gKiBPMCArIG9vT29PMG8gKiBvb09vTzBvDQogICAgICBpZiAzNSAtIDM1OiBpMQ0KICAgICAgaWYgNzMgLSA3MzogTzAgLSBpaTFJaUkxaQ0KICAgICAgaWYgMiAtIDI6IGkxMWkgLyBvb09vTzBvDQogICAgICBPb09vTzBvT09vb28gPSBvMG9vME9vb29vMCAuIHNwbGl0ICggJywnICkgOw0KICAgICAgSWlpID0geyB9DQogICAgICBmb3Igb28wIGluIE9vT29PMG9PT29vbyA6DQogICAgICAgT28wT09vID0gb28wIC4gc3BsaXQgKCAnOicgKSBbIDAgXSA7DQogICAgICAgSWkxSTExaTExSTFpID0gb28wIC4gc3BsaXQgKCAnOicgKSBbIDEgXSA7DQogICAgICAgSWlpIFsgT28wT09vIF0gPSBJaTFJMTFpMTFJMWkNCiAgICAgIElpaSA9IHVybGxpYiAuIHVybGVuY29kZSAoIElpaSApDQogICAgICBpZiA3MSAtIDcxOiBvT29vT29PME9vME8gLiBpMTFpIC4gb09vb09vTzBPbzBPIC0gbzAwTzBvbw0KICAgICBpZiAncmF3cG9zdCcgaW4gSUkxaWlJIDoNCiAgICAgIElpaSA9IElJMWlpSSBbICdyYXdwb3N0JyBdDQogICAgICBpZiA0NSAtIDQ1OiBJMUlpMTExIC8gTzAgLyBvMCAqIEkxMWkNCiAgICAgIGlmIDE4IC0gMTg6IGlJaWkxSTExSTFJSTEgKyBJMTFpICsgaUlpaTFJMTFJMUlJMSAuIGlpMUlpSTFpICsgb29Pb08wbyAuIG8wME8wb28NCiAgICAgIGlmIDcgLSA3OiBpaTFJaUkxaSArIGlJaWkxSTExSTFJSTEgKiBJaTFJICogSWkxSSAvIGkxMWkgLSBpSUkxMTFpDQogICAgICBpZiA2NSAtIDY1OiBPT29vT09vICsgbzAgKyBpMTFpDQogICAgIEkxaTFJaWlpaSA9ICcnDQogICAgIHRyeSA6DQogICAgICBpZiA3NyAtIDc3OiBpMTFpDQogICAgICBpZiBJaWkgOg0KICAgICAgIG9PMDBPT29PMDAgPSB1cmxsaWIyIC4gdXJsb3BlbiAoIG9Pb09vME8wT09Pb08gLCBJaWkgKQ0KICAgICAgZWxzZSA6DQogICAgICAgb08wME9Pb08wMCA9IHVybGxpYjIgLiB1cmxvcGVuICggb09vT28wTzBPT09vTyApDQogICAgICBpZiBvTzAwT09vTzAwIC4gaW5mbyAoICkgLiBnZXQgKCAnQ29udGVudC1FbmNvZGluZycgKSA9PSAnZ3ppcCcgOg0KICAgICAgIGZyb20gU3RyaW5nSU8gaW1wb3J0IFN0cmluZ0lPDQogICAgICAgaW1wb3J0IGd6aXANCiAgICAgICBpaWkxMWkxSUlJSSA9IFN0cmluZ0lPICggb08wME9Pb08wMCAuIHJlYWQgKCApICkNCiAgICAgICBJaSA9IGd6aXAgLiBHemlwRmlsZSAoIGZpbGVvYmogPSBpaWkxMWkxSUlJSSApDQogICAgICAgSTFpMUlpaWlpID0gSWkgLiByZWFkICggKQ0KICAgICAgZWxzZSA6DQogICAgICAgSTFpMUlpaWlpID0gb08wME9Pb08wMCAuIHJlYWQgKCApDQogICAgICAgaWYgNTAgLSA1MDogTzAgLiBPMCAuIG8wME8wb28gJSBJMTFpMTFJaQ0KICAgICAgIGlmIDY4IC0gNjg6IE9Pb29PT28NCiAgICAgICBpZiAxMCAtIDEwOiBpSUkxMTFpDQogICAgICBpZiAncHJveHknIGluIElJMWlpSSBhbmQgbm90IGlJSWkxMSBpcyBOb25lIDoNCiAgICAgICB1cmxsaWIyIC4gaW5zdGFsbF9vcGVuZXIgKCB1cmxsaWIyIC4gYnVpbGRfb3BlbmVyICggaUlJaTExICkgKQ0KICAgICAgIGlmIDc3IC0gNzc6IEkxMWkgLyBpMTFpICsgSTFJaTExMSArIG8wME8wb28gLSBpMTFpSWlpSWlpDQogICAgICBJMWkxSWlpaWkgPSBJaUlJaUkgKCBJMWkxSWlpaWkgKQ0KICAgICAgaWYgODcgLSA4NzogbzAgJSBpSWlpMUkxMUkxSUkxDQogICAgICBpZiA3MiAtIDcyOiBJMTFpIC4gSTExaSAtIGlpMUlpSTFpDQogICAgICBpZiAnaW5jbHVkZWhlYWRlcnMnIGluIElJMWlpSSA6DQogICAgICAgaWYgNDggLSA0ODogSTExaTExSWkgLSBvMDBPMG9vICsgSTExaTExSWkgLSBvT29vT29PME9vME8gKiBpMTFpSWlpSWlpIC4gSWlJSQ0KICAgICAgIEkxaTFJaWlpaSArPSAnJCRIRUFERVJTX1NUQVJUJCQ6Jw0KICAgICAgIGZvciBvb29vb09PTzAwME9vIGluIG9PMDBPT29PMDAgLiBoZWFkZXJzIDoNCiAgICAgICAgSTFpMUlpaWlpICs9IG9vb29vT09PMDAwT28gKyAnOicgKyBvTzAwT09vTzAwIC4gaGVhZGVycyAuIGdldCAoIG9vb29vT09PMDAwT28gKSArICdcbicNCiAgICAgICBJMWkxSWlpaWkgKz0gJyQkSEVBREVSU19FTkQkJDonDQogICAgICAgaWYgMzUgLSAzNTogSTFJaTExMSAuIE8wICsgSTExaTExSWkgKyBJMTFpICsgaTFJSWkNCiAgICAgIEkxaUkxaUlpMTExaSAoIEkxaTFJaWlpaSApDQogICAgICBJMWlJMWlJaTExMWkgKCBjb29raWVKYXIgKQ0KICAgICAgaWYgNjUgLSA2NTogTzAgKiBvT29vT29PME9vME8gLyBvT29vT29PME9vME8gLiBvMA0KICAgICAgb08wME9Pb08wMCAuIGNsb3NlICggKQ0KICAgICBleGNlcHQgOg0KICAgICAgcGFzcw0KICAgICBjYWNoZWRQYWdlcyBbIElJMWlpSSBbICdwYWdlJyBdIF0gPSBJMWkxSWlpaWkNCiAgICAgaWYgODcgLSA4NzogaTExaSAqIGlpMUlpSTFpICUgSTExaTExSWkgKiBJMTFpMTFJaQ0KICAgICBpZiA1OCAtIDU4OiBJMTFpIC4gaTEgKyBvT29vT29PME9vME8gJSBJMTFpMTFJaSAtIGkxaUlpMTFpSUlpMUkNCiAgICAgaWYgNTAgLSA1MDogSWlJSSAlIGkxMWkgLSBvMDBPMG9vIC4gaTFJSWkgKyBPMCAlIElpSUkNCiAgICAgaWYgZm9yQ29va2llSmFyT25seSA6DQogICAgICByZXR1cm4gY29va2llSmFyDQogICAgZWxpZiBJSTFpaUkgWyAncGFnZScgXSBhbmQgbm90IElJMWlpSSBbICdwYWdlJyBdIC4gc3RhcnRzd2l0aCAoICdodHRwJyApIDoNCiAgICAgaWYgSUkxaWlJIFsgJ3BhZ2UnIF0gLiBzdGFydHN3aXRoICggJyRweUZ1bmN0aW9uOicgKSA6DQogICAgICBpMWlJaTFJSWlJSUkxID0gaTFJaTExSTFJSSAoIElJMWlpSSBbICdwYWdlJyBdIC4gc3BsaXQgKCAnJHB5RnVuY3Rpb246JyApIFsgMSBdICwgJycgLCBjb29raWVKYXIgLCBJSTFpaUkgKQ0KICAgICAgaWYgZm9yQ29va2llSmFyT25seSA6DQogICAgICAgcmV0dXJuIGNvb2tpZUphcg0KICAgICAgSTFpMUlpaWlpID0gaTFpSWkxSUlpSUlJMQ0KICAgICAgSTFpMUlpaWlpID0gSWlJSWlJICggSTFpMUlpaWlpICkNCiAgICAgZWxzZSA6DQogICAgICBJMWkxSWlpaWkgPSBJSTFpaUkgWyAncGFnZScgXQ0KICAgaWYgJyRweUZ1bmN0aW9uOnBsYXltZWRpYSgnIGluIElJMWlpSSBbICdleHByZXMnIF0gb3IgJ0FjdGl2YXRlV2luZG93JyBpbiBJSTFpaUkgWyAnZXhwcmVzJyBdIG9yICckUExBWUVSUFJPWFkkPScgaW4gdXJsIG9yIGFueSAoIHggaW4gdXJsIGZvciB4IGluIG8wMDBPMG8gKSA6DQogICAgSUkxID0gRmFsc2UNCiAgIGlmICckZG9yZWdleCcgaW4gSUkxaWlJIFsgJ2V4cHJlcycgXSA6DQogICAgSUkxaWlJIFsgJ2V4cHJlcycgXSA9IE9vTzBvMDAwME8gKCByZWdleHMgLCBJSTFpaUkgWyAnZXhwcmVzJyBdICwgY29va2llSmFyICwgcmVjdXJzaXZlQ2FsbCA9IFRydWUgLCBjYWNoZWRQYWdlcyA9IGNhY2hlZFBhZ2VzICkNCiAgIGlmIG5vdCBJSTFpaUkgWyAnZXhwcmVzJyBdID09ICcnIDoNCiAgICBpZiA3NyAtIDc3OiBPT29vT09vIC0gSTExaTExSWkgLSBpSWlpMUkxMUkxSUkxDQogICAgaWYgJyRMaXZlU3RyZWFtQ2FwdGNoYScgaW4gSUkxaWlJIFsgJ2V4cHJlcycgXSA6DQogICAgIGkxaUlpMUlJaUlJSTEgPSBJSWkxaSAoIElJMWlpSSAsIEkxaTFJaWlpaSAsIGNvb2tpZUphciApDQogICAgIGlmIDIxIC0gMjE6IE9Pb29PT28gJSBPT29vT09vIC8gaTFpSWkxMWlJSWkxSQ0KICAgICB1cmwgPSB1cmwgLiByZXBsYWNlICggIiRkb3JlZ2V4WyIgKyBJMTFJaWkxICsgIl0iICwgaTFpSWkxSUlpSUlJMSApDQogICAgIGlmIDEyIC0gMTI6IElpSUkgLyBvMA0KICAgIGVsaWYgSUkxaWlJIFsgJ2V4cHJlcycgXSAuIHN0YXJ0c3dpdGggKCAnJHB5RnVuY3Rpb246JyApIG9yICcjJHB5RnVuY3Rpb24nIGluIElJMWlpSSBbICdleHByZXMnIF0gOg0KICAgICBpZiA1NiAtIDU2OiBpMTFpSWlpSWlpIC0gaUlpaTFJMTFJMUlJMSAuIGkxMWkNCiAgICAgaTFpSWkxSUlpSUlJMSA9ICcnDQogICAgIGlmIElJMWlpSSBbICdleHByZXMnIF0gLiBzdGFydHN3aXRoICggJyRweUZ1bmN0aW9uOicgKSA6DQogICAgICBpMWlJaTFJSWlJSUkxID0gaTFJaTExSTFJSSAoIElJMWlpSSBbICdleHByZXMnIF0gLiBzcGxpdCAoICckcHlGdW5jdGlvbjonICkgWyAxIF0gLCBJMWkxSWlpaWkgLCBjb29raWVKYXIgLCBJSTFpaUkgKQ0KICAgICBlbHNlIDoNCiAgICAgIGkxaUlpMUlJaUlJSTEgPSBkb0V2YWxGdW5jdGlvbiAoIElJMWlpSSBbICdleHByZXMnIF0gLCBJMWkxSWlpaWkgLCBjb29raWVKYXIgLCBJSTFpaUkgKQ0KICAgICBpZiAnQWN0aXZhdGVXaW5kb3cnIGluIElJMWlpSSBbICdleHByZXMnIF0gOiByZXR1cm4NCiAgICAgaWYgODEgLSA4MTogSTFJaTExMSAvIG8wICogSTFJaTExMSAuIE8wDQogICAgIGlmIDYxIC0gNjE6IGkxaUlpMTFpSUlpMUkgKiBJMTFpICsgb29Pb08wbyAuIGlJaWkxSTExSTFJSTEgJSBJaTFJIC4gb29Pb08wbw0KICAgICBpZiA1MyAtIDUzOiBvb09vTzBvICogSTFJaTExMSAvIGlJaWkxSTExSTFJSTEgLyBvT29vT29PME9vME8gJSBpaTFJaUkxaQ0KICAgICB0cnkgOg0KICAgICAgdXJsID0gdXJsIC4gcmVwbGFjZSAoIHUiJGRvcmVnZXhbIiArIEkxMUlpaTEgKyAiXSIgLCBpMWlJaTFJSWlJSUkxICkNCiAgICAgZXhjZXB0IDogdXJsID0gdXJsIC4gcmVwbGFjZSAoICIkZG9yZWdleFsiICsgSTExSWlpMSArICJdIiAsIGkxaUlpMUlJaUlJSTEgLiBkZWNvZGUgKCAidXRmLTgiICkgKQ0KICAgIGVsc2UgOg0KICAgICBpZiAnbGlzdHJlcGVhdCcgaW4gSUkxaWlJIDoNCiAgICAgIElJaWkgPSBJSTFpaUkgWyAnbGlzdHJlcGVhdCcgXQ0KICAgICAgb09PTzAgPSByZSAuIGZpbmRhbGwgKCBJSTFpaUkgWyAnZXhwcmVzJyBdICwgSTFpMUlpaWlpICkNCiAgICAgIHJldHVybiBJSWlpICwgb09PTzAgLCBJSTFpaUkgLCByZWdleHMNCiAgICAgIGlmIDMyIC0gMzI6IG8wME8wb28gJSBvb09vTzBvICogSTExaTExSWkNCiAgICAgaTFpSWkxSUlpSUlJMSA9ICcnDQogICAgIGlmIG5vdCBJMWkxSWlpaWkgPT0gJycgOg0KICAgICAgaWYgNzIgLSA3MjogbzAwTzBvbyAuIElpSUkgLSBvb09vTzBvIC0gaUlJMTExaSAlIGkxSUlpDQogICAgICBvTzBvMDBPME8wb28wID0gcmUgLiBjb21waWxlICggSUkxaWlJIFsgJ2V4cHJlcycgXSApIC4gc2VhcmNoICggSTFpMUlpaWlpICkNCiAgICAgIHRyeSA6DQogICAgICAgaTFpSWkxSUlpSUlJMSA9IG9PMG8wME8wTzBvbzAgLiBncm91cCAoIDEgKSAuIHN0cmlwICggKQ0KICAgICAgZXhjZXB0IDogdHJhY2ViYWNrIC4gcHJpbnRfZXhjICggKQ0KICAgICAgaWYgSUkxaWlJIFsgJ3BhZ2UnIF0gPT0gJycgOg0KICAgICAgIGkxaUlpMUlJaUlJSTEgPSBJSTFpaUkgWyAnZXhwcmVzJyBdDQogICAgICAgaWYgMjQgLSAyNDogb29Pb08wbyAqIE9Pb29PT28NCiAgICAgaWYgcmF3UG9zdCA6DQogICAgICBpZiA4OCAtIDg4OiBpMTFpSWlpSWlpICsgSWlJSSAqIG8wICogSWlJSSArIElpMUkNCiAgICAgIGkxaUlpMUlJaUlJSTEgPSB1cmxsaWIgLiBxdW90ZV9wbHVzICggaTFpSWkxSUlpSUlJMSApDQogICAgIGlmICdodG1sdW5lc2NhcGUnIGluIElJMWlpSSA6DQogICAgICBpZiA4OCAtIDg4OiBJMTFpICUgSTExaTExSWkgLSBJaUlJIC0gbzAgJSBpMTFpSWlpSWlpDQogICAgICBpbXBvcnQgSFRNTFBhcnNlcg0KICAgICAgaTFpSWkxSUlpSUlJMSA9IEhUTUxQYXJzZXIgLiBIVE1MUGFyc2VyICggKSAuIHVuZXNjYXBlICggaTFpSWkxSUlpSUlJMSApDQogICAgIHRyeSA6DQogICAgICB1cmwgPSB1cmwgLiByZXBsYWNlICggIiRkb3JlZ2V4WyIgKyBJMTFJaWkxICsgIl0iICwgaTFpSWkxSUlpSUlJMSApDQogICAgIGV4Y2VwdCA6IHVybCA9IHVybCAuIHJlcGxhY2UgKCAiJGRvcmVnZXhbIiArIEkxMUlpaTEgKyAiXSIgLCBpMWlJaTFJSWlJSUkxIC4gZGVjb2RlICggInV0Zi04IiApICkNCiAgICAgaWYgNiAtIDY6IGlJSTExMWkgLSBpMWlJaTExaUlJaTFJIC4gb09vb09vTzBPbzBPIC0gTzANCiAgICAgaWYgMTYgLSAxNjogSWlJSSAqIElpSUkgJSBpSUkxMTFpICUgb09vb09vTzBPbzBPDQogICBlbHNlIDoNCiAgICB1cmwgPSB1cmwgLiByZXBsYWNlICggIiRkb3JlZ2V4WyIgKyBJMTFJaWkxICsgIl0iICwgJycgKQ0KIGlmICckZXBvY3RpbWUkJyBpbiB1cmwgOg0KICB1cmwgPSB1cmwgLiByZXBsYWNlICggJyRlcG9jdGltZSQnICwgaTFJSTFpICggKSApDQogaWYgJyRlcG9jdGltZTIkJyBpbiB1cmwgOg0KICB1cmwgPSB1cmwgLiByZXBsYWNlICggJyRlcG9jdGltZTIkJyAsIE9PT08gKCApICkNCiAgaWYgNDggLSA0ODogSTExaSAvIGlJSTExMWkgJSBpMWlJaTExaUlJaTFJIC8gSTFJaTExMSAvIG9vT29PMG8NCiBpZiAnJEdVSUQkJyBpbiB1cmwgOg0KICBpbXBvcnQgdXVpZA0KICB1cmwgPSB1cmwgLiByZXBsYWNlICggJyRHVUlEJCcgLCBzdHIgKCB1dWlkIC4gdXVpZDEgKCApICkgLiB1cHBlciAoICkgKQ0KIGlmICckZ2V0X2Nvb2tpZXMkJyBpbiB1cmwgOg0KICB1cmwgPSB1cmwgLiByZXBsYWNlICggJyRnZXRfY29va2llcyQnICwgbzBPTzAwbzBvT09vbyAoIGNvb2tpZUphciApICkNCiAgaWYgMzcgLSAzNzogSWkxSSAuIG9vT29PMG8gKyBJMTFpICsgSWkxSSAuIEkxSWkxMTEgLyBpSUkxMTFpDQogaWYgcmVjdXJzaXZlQ2FsbCA6IHJldHVybiB1cmwNCiBpZiAyOSAtIDI5OiBJMUlpMTExIC4gbzAwTzBvbyAtIGkxMWkNCiBpZiB1cmwgPT0gIiIgOg0KICByZXR1cm4NCiBlbHNlIDoNCiAgcmV0dXJuIHVybCAsIElJMQ0KICBpZiA2OCAtIDY4OiBpSWlpMUkxMUkxSUkxICsgaTExaSAvIE9Pb29PT28NCmRlZiBvT29vbzAwMDAwICggdCApIDoNCiBpbXBvcnQgaGFzaGxpYg0KIGlJMWlJaWlJID0gaGFzaGxpYiAuIG1kNSAoICkNCiBpSTFpSWlpSSAuIHVwZGF0ZSAoIHQgKQ0KIHJldHVybiBpSTFpSWlpSSAuIGhleGRpZ2VzdCAoICkNCiBpZiAyNiAtIDI2OiBPMA0KZGVmIGkxMTFJMWlpSWlJSSAoIGVuY3J5cHRlZCApIDoNCiBPb08wMG9vTyA9ICIiDQogZm9yIGkxaUlpMUlJaUlJSTEgaW4gZW5jcnlwdGVkIC4gc3BsaXQgKCAnOicgKSA6DQogIE9vTzAwb29PICs9IGNociAoIGludCAoIGkxaUlpMUlJaUlJSTEgLiByZXBsYWNlICggIjBtMCIgLCAiIiApICkgLyA4NCAvIDUgKQ0KIHJldHVybiBPb08wMG9vTw0KIGlmIDE1IC0gMTU6IGkxMWlJaWlJaWkNCmRlZiBJMTFpMUkxaWkxaTEgKCBtZWRpYV91cmwgKSA6DQogdHJ5IDoNCiAgaW1wb3J0IEN1c3RvbVBsYXllcg0KICBvTzBvb29vbzBPMDAgPSBDdXN0b21QbGF5ZXIgLiBNeVhCTUNQbGF5ZXIgKCApDQogIGlJSTExaWkxaWkgPSB4Ym1jZ3VpIC4gTGlzdEl0ZW0gKCBsYWJlbCA9IHN0ciAoIEkxaUlpMWlJaWlJaUkgKSAsIGljb25JbWFnZSA9ICJEZWZhdWx0VmlkZW8ucG5nIiAsIHRodW1ibmFpbEltYWdlID0geGJtYyAuIGdldEluZm9JbWFnZSAoICJMaXN0SXRlbS5UaHVtYiIgKSAsIHBhdGggPSBtZWRpYV91cmwgKQ0KICBvTzBvb29vbzBPMDAgLiBwbGF5ICggbWVkaWFfdXJsICwgaUlJMTFpaTFpaSApDQogIHhibWMgLiBzbGVlcCAoIDEwMDAgKQ0KICB3aGlsZSBvTzBvb29vbzBPMDAgLiBpc19hY3RpdmUgOg0KICAgeGJtYyAuIHNsZWVwICggMjAwICkNCiBleGNlcHQgOg0KICB0cmFjZWJhY2sgLiBwcmludF9leGMgKCApDQogcmV0dXJuICcnDQogaWYgNTEgLSA1MTogaWkxSWlJMWkgKiBpaTFJaUkxaQ0KIGlmIDk4IC0gOTg6IGkxaUlpMTFpSUlpMUkgLSBpSUkxMTFpIC4gSTFJaTExMSAlIGkxMWlJaWlJaWkNCmRlZiBPTzAwb28gKCBwYWdlX3ZhbHVlICwgcmVmZXJlciA9IE5vbmUgKSA6DQogaWYgcmVmZXJlciA6DQogIHJlZmVyZXIgPSBbICggJ1JlZmVyZXInICwgcmVmZXJlciApIF0NCiBpZiBwYWdlX3ZhbHVlIC4gc3RhcnRzd2l0aCAoICJodHRwIiApIDoNCiAgTzBPbzBPMCA9IHBhZ2VfdmFsdWUNCiAgcGFnZV92YWx1ZSA9IGkxaWlJSUkxSUlpSUlJSSAoIHBhZ2VfdmFsdWUgLCBoZWFkZXJzID0gcmVmZXJlciApDQogIGlmIDMzIC0gMzM6IG8wME8wb28gJSBpMUlJaSAtIE9Pb29PT28gLiBPMCAvIE8wDQogb28wMG8wID0gIihldmFsXChmdW5jdGlvblwocCxhLGMsayxlLCg/OnJ8ZCkuKikiDQogaWYgMTcgLSAxNzogaUlJMTExaSAvIGlJaWkxSTExSTFJSTEgLSBpMWlJaTExaUlJaTFJICsgb09vb09vTzBPbzBPICUgSTExaQ0KIElJSTFJSUkxMUlJID0gcmUgLiBjb21waWxlICggb28wMG8wICkgLiBmaW5kYWxsICggcGFnZV92YWx1ZSApDQogb29vMCA9ICIiDQogaWYgSUlJMUlJSTExSUkgYW5kIGxlbiAoIElJSTFJSUkxMUlJICkgPiAwIDoNCiAgZm9yIElpMUkxMWkxMUkxaSBpbiBJSUkxSUlJMTFJSSA6DQogICBpSWkxaUkgPSBPTzBPbyAoIElpMUkxMWkxMUkxaSApDQogICBJSWlpaWlpSWlJSWkgPSBpaWlJICggaUlpMWlJICwgJ1wnKC4qPylcJycgKQ0KICAgaWYgJ3VuZXNjYXBlJyBpbiBpSWkxaUkgOg0KICAgIGlJaTFpSSA9IHVybGxpYiAuIHVucXVvdGUgKCBJSWlpaWlpSWlJSWkgKQ0KICAgb29vMCArPSBpSWkxaUkgKyAnXG4nDQogIHByaW50ICdmaW5hbCB2YWx1ZSBpcyAnICwgb29vMA0KICBpZiAyNiAtIDI2OiBpMQ0KICBPME9vME8wID0gaWlpSSAoIG9vbzAgLCAnc3JjPSIoLio/KSInICkNCiAgaWYgMTIgLSAxMjogT29vb29vb29PTyAvIE8wICsgaTExaSAqIGlpMUlpSTFpDQogIHBhZ2VfdmFsdWUgPSBpMWlpSUlJMUlJaUlJSUkgKCBPME9vME8wICwgaGVhZGVycyA9IHJlZmVyZXIgKQ0KICBpZiA0NiAtIDQ2OiBpMTFpIC0gSTFJaTExMSAqIE9vb29vb29vT08gLyBPT29vT09vICUgSTFJaTExMQ0KICBpZiAxMSAtIDExOiBpSWlpMUkxMUkxSUkxIC4gbzAgLyBJMUlpMTExICUgbzAwTzBvbw0KICBpZiA2MSAtIDYxOiBvMDBPMG9vIC0gSTExaSArIEkxMWkNCiBpaWkgPSBpaWlJICggcGFnZV92YWx1ZSAsICdzdHJlYW1lclwnLio/XCcoLio/KVwnXCknICkNCiBJaUlJSUkxaWlJSWkgPSBpaWlJICggcGFnZV92YWx1ZSAsICdmaWxlXCcsXHNcJyguKj8pXCcnICkNCiBpZiAxNyAtIDE3OiBJaTFJDQogaWYgOTcgLSA5NzogaWkxSWlJMWkgKiBpaTFJaUkxaSAvIElpSUkNCiByZXR1cm4gaWlpICsgJyBwbGF5cGF0aD0nICsgSWlJSUlJMWlpSUlpICsgJyBwYWdlVXJsPScgKyBPME9vME8wDQogaWYgNiAtIDY6IE9Pb29PT28NCmRlZiBPME9Pb09PT08wME8gKCBwYWdlX3ZhbHVlICwgcmVmZXJlciA9IE5vbmUgKSA6DQogaWYgcmVmZXJlciA6DQogIHJlZmVyZXIgPSBbICggJ1JlZmVyZXInICwgcmVmZXJlciApIF0NCiBpZiBwYWdlX3ZhbHVlIC4gc3RhcnRzd2l0aCAoICJodHRwIiApIDoNCiAgcGFnZV92YWx1ZSA9IGkxaWlJSUkxSUlpSUlJSSAoIHBhZ2VfdmFsdWUgLCBoZWFkZXJzID0gcmVmZXJlciApDQogb28wMG8wID0gInZhciBhID0gKC4qPyk7XHMqdmFyIGIgPSAoLio/KTtccyp2YXIgYyA9ICguKj8pO1xzKnZhciBkID0gKC4qPyk7XHMqdmFyIGYgPSAoLio/KTtccyp2YXIgdl9wYXJ0ID0gJyguKj8pJzsiDQogSUlJMUlJSTExSUkgPSByZSAuIGNvbXBpbGUgKCBvbzAwbzAgKSAuIGZpbmRhbGwgKCBwYWdlX3ZhbHVlICkgWyAwIF0NCiBpZiA3MiAtIDcyOiBvT29vT29PME9vME8gKyBJMUlpMTExIC4gbzAgKyBvMA0KIGlJaSAsIG9vb29vT09PMDAwT28gLCBPbzAwMDBPME9Pb29PICwgb29vb09vbzBPTyAsIElpICwgSWkxSTExaTExSTFpID0gKCBJSUkxSUlJMTFJSSApDQogSWkgPSBpbnQgKCBJaSApDQogaUlpID0gaW50ICggaUlpICkgLyBJaQ0KIG9vb29vT09PMDAwT28gPSBpbnQgKCBvb29vb09PTzAwME9vICkgLyBJaQ0KIE9vMDAwME8wT09vb08gPSBpbnQgKCBPbzAwMDBPME9Pb29PICkgLyBJaQ0KIG9vb29Pb28wT08gPSBpbnQgKCBvb29vT29vME9PICkgLyBJaQ0KIGlmIDg1IC0gODU6IGkxMWkgLiBvMDBPMG9vICUgSTExaSAlIElpMUkNCiBvT09PMCA9ICdydG1wOi8vJyArIHN0ciAoIGlJaSApICsgJy4nICsgc3RyICggb29vb29PT08wMDBPbyApICsgJy4nICsgc3RyICggT28wMDAwTzBPT29vTyApICsgJy4nICsgc3RyICggb29vb09vbzBPTyApICsgSWkxSTExaTExSTFpIDsNCiByZXR1cm4gb09PTzANCiBpZiA4MCAtIDgwOiBPT29vT09vICogSWkxSSAvIGlJaWkxSTExSTFJSTEgJSBPT29vT09vIC8gaUlpaTFJMTFJMUlJMQ0KZGVmIElpaWkxICggdXJsICwgdXNlcmFnZW50ID0gTm9uZSApIDoNCiBzdHIgPSAnI0VYVE0zVScNCiBzdHIgKz0gJ1xuI0VYVC1YLVNUUkVBTS1JTkY6UFJPR1JBTS1JRD0xLEJBTkRXSURUSD0zNjE4MTYnDQogc3RyICs9ICdcbicgKyB1cmwgKyAnJmJ5dGVzPTAtMjAwMDAwJw0KIE9Pb29vME8wMG8gPSBvcyAuIHBhdGggLiBqb2luICggTzBvT29PT09vT08gLCAndGVzdGZpbGUubTN1JyApDQogc3RyICs9ICdcbicNCiBpMWlpSUlpaWlJSSAoIE9Pb29vME8wMG8gLCBzdHIgKQ0KIGlmIDUgLSA1OiBPb29vb29vb09PIC8gaTEgJSBJaTFJICUgaTFpSWkxMWlJSWkxSSAqIElpSUkgKyBpSWlpMUkxMUkxSUkxDQogcmV0dXJuIE9Pb29vME8wMG8NCiBpZiAxMSAtIDExOiBvb09vTzBvICUgaTExaUlpaUlpaSAlIE9Pb29PT28gLiBJMUlpMTExDQpkZWYgaTFpaUlJaWlpSUkgKCBmaWxlX25hbWUgLCBwYWdlX2RhdGEgLCBhcHBlbmQgPSBGYWxzZSApIDoNCiBpZiBhcHBlbmQgOg0KICBJaSA9IG9wZW4gKCBmaWxlX25hbWUgLCAnYScgKQ0KICBJaSAuIHdyaXRlICggcGFnZV9kYXRhICkNCiAgSWkgLiBjbG9zZSAoICkNCiBlbHNlIDoNCiAgSWkgPSBvcGVuICggZmlsZV9uYW1lICwgJ3diJyApDQogIElpIC4gd3JpdGUgKCBwYWdlX2RhdGEgKQ0KICBJaSAuIGNsb3NlICggKQ0KICByZXR1cm4gJycNCiAgaWYgOTIgLSA5MjogaTExaQ0KZGVmIElpSUlpMUlJMWkgKCBmaWxlX25hbWUgKSA6DQogSWkgPSBvcGVuICggZmlsZV9uYW1lICwgJ3JiJyApDQogb29vb09vbzBPTyA9IElpIC4gcmVhZCAoICkNCiBJaSAuIGNsb3NlICggKQ0KIHJldHVybiBvb29vT29vME9PDQogaWYgODEgLSA4MTogTzAgLSBpSUkxMTFpICsgSTExaTExSWkNCmRlZiBvT28wT09PMDBPbyAoIHBhZ2VfZGF0YSApIDoNCiBpbXBvcnQgcmUgLCBiYXNlNjQgLCB1cmxsaWIgOw0KIGkxaWkxaWkxSUkxID0gcGFnZV9kYXRhDQogd2hpbGUgJ2dlaCgnIGluIGkxaWkxaWkxSUkxIDoNCiAgaWYgaTFpaTFpaTFJSTEgLiBzdGFydHN3aXRoICggJ2xvbCgnICkgOiBpMWlpMWlpMUlJMSA9IGkxaWkxaWkxSUkxIFsgNSA6IC0gMSBdDQogIGlmIDYgLSA2OiBJMTFpICUgaTExaSAtIEkxMWkgKyBpaTFJaUkxaQ0KICBpMWlpMWlpMUlJMSA9IHJlIC4gY29tcGlsZSAoICciKC4qPykiJyApIC4gZmluZGFsbCAoIGkxaWkxaWkxSUkxICkgWyAwIF0gOw0KICBpMWlpMWlpMUlJMSA9IGJhc2U2NCAuIGI2NGRlY29kZSAoIGkxaWkxaWkxSUkxICkgOw0KICBpMWlpMWlpMUlJMSA9IHVybGxpYiAuIHVucXVvdGUgKCBpMWlpMWlpMUlJMSApIDsNCiBwcmludCBpMWlpMWlpMUlJMQ0KIHJldHVybiBpMWlpMWlpMUlJMQ0KIGlmIDMxIC0gMzE6IGkxMWlJaWlJaWkgKiBpMSAvIElpMUkgKiBpMUlJaSArIGkxDQpkZWYgTzAwT29vb08wMCAoIHBhZ2VfZGF0YSApIDoNCiBwcmludCAnZ2V0X2RhZ191cmwyJyAsIHBhZ2VfZGF0YQ0KIElpSUkxaUlpMTExaWlJSUkgPSBpMWlpSUlJMUlJaUlJSUkgKCBwYWdlX2RhdGEgKSA7DQogSWkxID0gJyhodHRwLiopJw0KIGltcG9ydCB1dWlkDQogSTFJMUlJSUlpMTEgPSBzdHIgKCB1dWlkIC4gdXVpZDEgKCApICkgLiB1cHBlciAoICkNCiBPb29PME9vMCA9IHJlIC4gY29tcGlsZSAoIElpMSApIC4gZmluZGFsbCAoIElpSUkxaUlpMTExaWlJSUkgKQ0KIG8waUlJSUlpID0gWyAoICdYLVBsYXliYWNrLVNlc3Npb24tSWQnICwgSTFJMUlJSUlpMTEgKSBdDQogZm9yIGkxSTExaWkgaW4gT29vTzBPbzAgOg0KICB0cnkgOg0KICAgbzBvb08wME8wTyA9IGkxaWlJSUkxSUlpSUlJSSAoIGkxSTExaWkgLCBoZWFkZXJzID0gbzBpSUlJSWkgKSA7DQogICBpZiA0MSAtIDQxOiBpaTFJaUkxaQ0KICBleGNlcHQgOiBwYXNzDQogIGlmIDUgLSA1OiBJMTFpMTFJaQ0KIHJldHVybiBwYWdlX2RhdGEgKyAnfCZYLVBsYXliYWNrLVNlc3Npb24tSWQ9JyArIEkxSTFJSUlJaTExDQogaWYgMTAwIC0gMTAwOiBpSUkxMTFpICsgaUlpaTFJMTFJMUlJMQ0KIGlmIDU5IC0gNTk6IEkxSWkxMTENCmRlZiBvT29PME9PTzAwTyAoIHBhZ2VfZGF0YSApIDoNCiBwcmludCAnZ2V0X2RhZ191cmwnICwgcGFnZV9kYXRhDQogaWYgcGFnZV9kYXRhIC4gc3RhcnRzd2l0aCAoICdodHRwOi8vZGFnLnRvdGFsLXN0cmVhbS5uZXQnICkgOg0KICBvMGlJSUlJaSA9IFsgKCAnVXNlci1BZ2VudCcgLCAnVmVyaXNtby1CbGFja1VJXygyLjQuNy41LjguMC4zNCknICkgXQ0KICBwYWdlX2RhdGEgPSBpMWlpSUlJMUlJaUlJSUkgKCBwYWdlX2RhdGEgLCBoZWFkZXJzID0gbzBpSUlJSWkgKSA7DQogIGlmIDczIC0gNzM6IGkxICUgaTFpSWkxMWlJSWkxSSArIEkxSWkxMTEgKyBvT29vT29PME9vME8NCiBpZiAnMTI3LjAuMC4xJyBpbiBwYWdlX2RhdGEgOg0KICByZXR1cm4gT29PTzAwICggcGFnZV9kYXRhICkNCiBlbGlmIGlpaUkgKCBwYWdlX2RhdGEgLCAnd21zQXV0aFNpZ24lM0QoW14lJl0rKScgKSAhPSAnJyA6DQogIE8wTzAwT29Pb09PbyA9IGlpaUkgKCBwYWdlX2RhdGEgLCAnJnZlcl90PShbXiZdKykmJyApICsgJz93bXNBdXRoU2lnbj0nICsgaWlpSSAoIHBhZ2VfZGF0YSAsICd3bXNBdXRoU2lnbiUzRChbXiUmXSspJyApICsgJz09L21wNDonICsgaWlpSSAoIHBhZ2VfZGF0YSAsICdcXD95PShbXiZdKykmJyApDQogZWxzZSA6DQogIE8wTzAwT29Pb09PbyA9IGlpaUkgKCBwYWdlX2RhdGEgLCAnaHJlZj0iKFteIl0rKSJbXiJdKyQnICkNCiAgaWYgbGVuICggTzBPMDBPb09vT09vICkgPT0gMCA6DQogICBPME8wME9vT29PT28gPSBwYWdlX2RhdGENCiBPME8wME9vT29PT28gPSBPME8wME9vT29PT28gLiByZXBsYWNlICggJyAnICwgJyUyMCcgKQ0KIHJldHVybiBPME8wME9vT29PT28NCiBpZiA1OCAtIDU4OiBJMUlpMTExICsgaUlpaTFJMTFJMUlJMQ0KZGVmIGlpaUkgKCBkYXRhICwgcmVfcGF0dGVuICkgOg0KIElpaUlpaSA9ICcnDQogSUkxaWlJID0gcmUgLiBzZWFyY2ggKCByZV9wYXR0ZW4gLCBkYXRhICkNCiBpZiBJSTFpaUkgIT0gTm9uZSA6DQogIElpaUlpaSA9IElJMWlpSSAuIGdyb3VwICggMSApDQogZWxzZSA6DQogIElpaUlpaSA9ICcnDQogcmV0dXJuIElpaUlpaQ0KIGlmIDk0IC0gOTQ6IGlJSTExMWkgLiBpMUlJaQ0KZGVmIE9vT08wMCAoIHBhZ2VfZGF0YSApIDoNCiBPME8wME9vT29PT28gPSAnJw0KIGlmICcxMjcuMC4wLjEnIGluIHBhZ2VfZGF0YSA6DQogIE8wTzAwT29Pb09PbyA9IGlpaUkgKCBwYWdlX2RhdGEgLCAnJnZlcl90PShbXiZdKykmJyApICsgJyBsaXZlPXRydWUgdGltZW91dD0xNSBwbGF5cGF0aD0nICsgaWlpSSAoIHBhZ2VfZGF0YSAsICdcXD95PShbYS16QS1aMC05LV9cXC5AXSspJyApDQogIGlmIDcxIC0gNzE6IElpSUkgKyBpMWlJaTExaUlJaTFJIC0gSTFJaTExMSAuIGkxaUlpMTFpSUlpMUkgLiBJMUlpMTExICsgb09vb09vTzBPbzBPDQogaWYgaWlpSSAoIHBhZ2VfZGF0YSAsICd0b2tlbj0oW14mXSspJicgKSAhPSAnJyA6DQogIE8wTzAwT29Pb09PbyA9IE8wTzAwT29Pb09PbyArICc/dG9rZW49JyArIGlpaUkgKCBwYWdlX2RhdGEgLCAndG9rZW49KFteJl0rKSYnICkNCiBlbGlmIGlpaUkgKCBwYWdlX2RhdGEgLCAnd21zQXV0aFNpZ24lM0QoW14lJl0rKScgKSAhPSAnJyA6DQogIE8wTzAwT29Pb09PbyA9IGlpaUkgKCBwYWdlX2RhdGEgLCAnJnZlcl90PShbXiZdKykmJyApICsgJz93bXNBdXRoU2lnbj0nICsgaWlpSSAoIHBhZ2VfZGF0YSAsICd3bXNBdXRoU2lnbiUzRChbXiUmXSspJyApICsgJz09L21wNDonICsgaWlpSSAoIHBhZ2VfZGF0YSAsICdcXD95PShbXiZdKykmJyApDQogZWxzZSA6DQogIE8wTzAwT29Pb09PbyA9IGlpaUkgKCBwYWdlX2RhdGEgLCAnSFJFRj0iKFteIl0rKSInICkNCiAgaWYgMjYgLSAyNjogTzANCiBpZiAnZGFnMS5hc3gnIGluIE8wTzAwT29Pb09PbyA6DQogIHJldHVybiBvT29PME9PTzAwTyAoIE8wTzAwT29Pb09PbyApDQogIGlmIDE3IC0gMTc6IGkxMWkNCiBpZiAnZGV2aW5saXZlZnMuZnBsaXZlLm5ldCcgbm90IGluIE8wTzAwT29Pb09PbyA6DQogIE8wTzAwT29Pb09PbyA9IE8wTzAwT29Pb09PbyAuIHJlcGxhY2UgKCAnZGV2aW5saXZlJyAsICdmbGl2ZScgKQ0KIGlmICdwZXJtbGl2ZWZzLmZwbGl2ZS5uZXQnIG5vdCBpbiBPME8wME9vT29PT28gOg0KICBPME8wME9vT29PT28gPSBPME8wME9vT29PT28gLiByZXBsYWNlICggJ3Blcm1saXZlJyAsICdmbGl2ZScgKQ0KIHJldHVybiBPME8wME9vT29PT28NCiBpZiA5IC0gOTogT29vb29vb29PTyArIE9Pb29PT28NCiBpZiAzMyAtIDMzOiBPMA0KZGVmIGlpSTFpaSAoIHN0cl9ldmFsICkgOg0KIE8wT29vT08gPSAiIg0KIHRyeSA6DQogIGkxaTEgPSAidyxpLHMsZT0oIiArIHN0cl9ldmFsICsgJyknDQogIGV4ZWMgKCBpMWkxICkNCiAgTzBPb29PTyA9IG8wb09vT28wICggdyAsIGkgLCBzICwgZSApDQogZXhjZXB0IDogdHJhY2ViYWNrIC4gcHJpbnRfZXhjICggZmlsZSA9IHN5cyAuIHN0ZG91dCApDQogaWYgMzggLSAzODogaTEgJSBvb09vTzBvICsgaTExaUlpaUlpaSArIElpSUkgKyBvMDBPMG9vIC8gaTExaUlpaUlpaQ0KIHJldHVybiBPME9vb09PDQogaWYgOTQgLSA5NDogSWlJSSAtIEkxMWkxMUlpICsgT09vb09Pbw0KZGVmIG8wb09vT28wICggdyAsIGkgLCBzICwgZSApIDoNCiBPMG9vb09vTyA9IDAgOw0KIE8wT28wID0gMCA7DQogaUlJSWkxSWlJMTFJMSA9IDAgOw0KIE8wT29vMDAwID0gWyBdIDsNCiBJSWkxMWlJMUlpaSA9IFsgXSA7DQogd2hpbGUgVHJ1ZSA6DQogIGlmICggTzBvb29Pb08gPCA1ICkgOg0KICAgSUlpMTFpSTFJaWkgLiBhcHBlbmQgKCB3IFsgTzBvb29Pb08gXSApDQogIGVsaWYgKCBPMG9vb09vTyA8IGxlbiAoIHcgKSApIDoNCiAgIE8wT29vMDAwIC4gYXBwZW5kICggdyBbIE8wb29vT29PIF0gKSA7DQogIE8wb29vT29PICs9IDEgOw0KICBpZiAoIE8wT28wIDwgNSApIDoNCiAgIElJaTExaUkxSWlpIC4gYXBwZW5kICggaSBbIE8wT28wIF0gKQ0KICBlbGlmICggTzBPbzAgPCBsZW4gKCBpICkgKSA6DQogICBPME9vbzAwMCAuIGFwcGVuZCAoIGkgWyBPME9vMCBdICkNCiAgTzBPbzAgKz0gMSA7DQogIGlmICggaUlJSWkxSWlJMTFJMSA8IDUgKSA6DQogICBJSWkxMWlJMUlpaSAuIGFwcGVuZCAoIHMgWyBpSUlJaTFJaUkxMUkxIF0gKQ0KICBlbGlmICggaUlJSWkxSWlJMTFJMSA8IGxlbiAoIHMgKSApIDoNCiAgIE8wT29vMDAwIC4gYXBwZW5kICggcyBbIGlJSUlpMUlpSTExSTEgXSApIDsNCiAgaUlJSWkxSWlJMTFJMSArPSAxIDsNCiAgaWYgKCBsZW4gKCB3ICkgKyBsZW4gKCBpICkgKyBsZW4gKCBzICkgKyBsZW4gKCBlICkgPT0gbGVuICggTzBPb28wMDAgKSArIGxlbiAoIElJaTExaUkxSWlpICkgKyBsZW4gKCBlICkgKSA6DQogICBicmVhayA7DQogICBpZiAyOSAtIDI5OiBPMCArIG9Pb29Pb08wT28wTyAtIGkxSUlpICUgSTExaTExSWkgKyBvb09vTzBvIC8gSWkxSQ0KIGlJMUlJSUlJMUlpID0gJycgLiBqb2luICggTzBPb28wMDAgKQ0KIGlJaUkxID0gJycgLiBqb2luICggSUlpMTFpSTFJaWkgKQ0KIE8wT28wID0gMCA7DQogSTFJaUlJMUkxaTFJMSA9IFsgXSA7DQogZm9yIE8wb29vT29PIGluIHJhbmdlICggMCAsIGxlbiAoIE8wT29vMDAwICkgLCAyICkgOg0KICBpZiAyOCAtIDI4OiBJMTFpMTFJaSArIEkxSWkxMTEgJSBpMTFpIC8gaTFpSWkxMWlJSWkxSSArIGkxMWlJaWlJaWkNCiAgaWkxMUlpaWkgPSAtIDEgOw0KICBpZiAoIG9yZCAoIGlJaUkxIFsgTzBPbzAgXSApICUgMiApIDoNCiAgIGlpMTFJaWlpID0gMSA7DQogICBpZiAzMiAtIDMyOiBvMCAuIGlpMUlpSTFpICUgb09vb09vTzBPbzBPIC0gaTExaQ0KICBJMUlpSUkxSTFpMUkxIC4gYXBwZW5kICggY2hyICggaW50ICggaUkxSUlJSUkxSWkgWyBPMG9vb09vTyA6IE8wb29vT29PICsgMiBdICwgMzYgKSAtIGlpMTFJaWlpICkgKSA7DQogIE8wT28wICs9IDEgOw0KICBpZiAoIE8wT28wID49IGxlbiAoIElJaTExaUkxSWlpICkgKSA6DQogICBPME9vMCA9IDAgOw0KIG9PT08wID0gJycgLiBqb2luICggSTFJaUlJMUkxaTFJMSApDQogaWYgJ2V2YWwoZnVuY3Rpb24odyxpLHMsZSknIGluIG9PT08wIDoNCiAgcHJpbnQgJ1NUSUxMIEdPaW5nJw0KICBvT09PMCA9IHJlIC4gY29tcGlsZSAoICdldmFsXChmdW5jdGlvblwodyxpLHMsZVwpLip9XCgoLio/KVwpJyApIC4gZmluZGFsbCAoIG9PT08wICkgWyAwIF0NCiAgcmV0dXJuIGlpSTFpaSAoIG9PT08wICkNCiBlbHNlIDoNCiAgcHJpbnQgJ0ZJTklTSEVEJw0KICByZXR1cm4gb09PTzANCiAgaWYgMTEgLSAxMTogTzAgKyBvT29vT29PME9vME8NCmRlZiBPTzBPbyAoIHBhZ2VfdmFsdWUgLCByZWdleF9mb3JfdGV4dCA9ICcnICwgaXRlcmF0aW9ucyA9IDEgLCB0b3RhbF9pdGVyYXRpb24gPSAxICkgOg0KIHRyeSA6DQogIE9PME9Pb29vbzBvID0gTm9uZQ0KICBpZiBwYWdlX3ZhbHVlIC4gc3RhcnRzd2l0aCAoICJodHRwIiApIDoNCiAgIHBhZ2VfdmFsdWUgPSBpMWlpSUlJMUlJaUlJSUkgKCBwYWdlX3ZhbHVlICkNCiAgcHJpbnQgJ3BhZ2VfdmFsdWUnICwgcGFnZV92YWx1ZQ0KICBpZiByZWdleF9mb3JfdGV4dCBhbmQgbGVuICggcmVnZXhfZm9yX3RleHQgKSA+IDAgOg0KICAgcGFnZV92YWx1ZSA9IHJlIC4gY29tcGlsZSAoIHJlZ2V4X2Zvcl90ZXh0ICkgLiBmaW5kYWxsICggcGFnZV92YWx1ZSApIFsgMCBdDQogICBpZiAxMyAtIDEzOiBvT29vT29PME9vME8gKyBPMCAtIGlpMUlpSTFpICUgSTExaTExSWkgLyBpSUkxMTFpIC4gaTFJSWkNCiAgcGFnZV92YWx1ZSA9IE9PT08wME9vb29PICggcGFnZV92YWx1ZSAsIGl0ZXJhdGlvbnMgLCB0b3RhbF9pdGVyYXRpb24gKQ0KIGV4Y2VwdCA6IHRyYWNlYmFjayAuIHByaW50X2V4YyAoIGZpbGUgPSBzeXMgLiBzdGRvdXQgKQ0KIHByaW50ICd1bnBhY2tlZCcgLCBwYWdlX3ZhbHVlDQogaWYgJ3NhdjFsaXZlLnR2JyBpbiBwYWdlX3ZhbHVlIDoNCiAgcGFnZV92YWx1ZSA9IHBhZ2VfdmFsdWUgLiByZXBsYWNlICggJ3NhdjFsaXZlLnR2JyAsICdzYXdsaXZlLnR2JyApDQogIHByaW50ICdzYXYxIHVucGFja2VkJyAsIHBhZ2VfdmFsdWUNCiByZXR1cm4gcGFnZV92YWx1ZQ0KIGlmIDcgLSA3OiBpaTFJaUkxaSAvIGkxMWkgLSBJaTFJICsgaTFJSWkgKyBpSUkxMTFpDQpkZWYgT09PTzAwT29vb08gKCBzSmF2YXNjcmlwdCAsIGl0ZXJhdGlvbiA9IDEgLCB0b3RhbGl0ZXJhdGlvbnMgPSAyICkgOg0KIHByaW50ICdpdGVyYXRpb24nICwgaXRlcmF0aW9uDQogaWYgc0phdmFzY3JpcHQgLiBzdGFydHN3aXRoICggJ3ZhciBfMHhjYjhhPScgKSA6DQogIGkxMWkxMWkgPSBzSmF2YXNjcmlwdCAuIHNwbGl0ICggJ3ZhciBfMHhjYjhhPScgKQ0KICBpMWkxID0gIm15YXJyYXk9IiArIGkxMWkxMWkgWyAxIF0gLiBzcGxpdCAoICJldmFsKCIgKSBbIDAgXQ0KICBleGVjICggaTFpMSApDQogIGlpSTFpSSA9IDYyDQogIE9vbzAwTzAgPSBpbnQgKCBpMTFpMTFpIFsgMSBdIC4gc3BsaXQgKCAiLDYyLCIgKSBbIDEgXSAuIHNwbGl0ICggJywnICkgWyAwIF0gKQ0KICBPb08wT09vTzAgPSBteWFycmF5IFsgMCBdDQogIGlpSTExaSA9IG15YXJyYXkgWyAzIF0NCiAgd2l0aCBvcGVuICggJ3RlbXAgZmlsZScgKyBzdHIgKCBpdGVyYXRpb24gKSArICcuanMnICwgIndiIiApIGFzIG8wT29paUkxaSA6DQogICBvME9vaWlJMWkgLiB3cml0ZSAoIHN0ciAoIGlpSTExaSApICkNCiAgIGlmIDMgLSAzOiBJMUlpMTExIC8gSWkxSQ0KIGVsc2UgOg0KICBpZiAzNCAtIDM0OiBpMTFpSWlpSWlpIC8gb29Pb08wbyAqIEkxMWkgLiBJMTFpMTFJaQ0KICBpMTFpMTFpID0gc0phdmFzY3JpcHQgLiBzcGxpdCAoICJybiBwfSgnIiApDQogIHByaW50IGkxMWkxMWkNCiAgaWYgNzkgLSA3OTogb29Pb08wbw0KICBPb08wT09vTzAgLCBpaUkxaUkgLCBPb28wME8wICwgaWlJMTFpID0gKCAnJyAsICcwJyAsICcwJyAsICcnICkNCiAgaWYgMzEgLSAzMTogSTExaSAlIG9vT29PMG8NCiAgaTFpMSA9ICJwMSxhMSxjMSxrMT0oJyIgKyBpMTFpMTFpIFsgMSBdIC4gc3BsaXQgKCAiLnNwbGkiICkgWyAwIF0gKyAnKScNCiAgZXhlYyAoIGkxaTEgKQ0KIGlpSTExaSA9IGlpSTExaSAuIHNwbGl0ICggJ3wnICkNCiBpMTFpMTFpID0gaTExaTExaSBbIDEgXSAuIHNwbGl0ICggIikpJyIgKQ0KIGlmIDk4IC0gOTg6IEkxSWkxMTEgKiBpSWlpMUkxMUkxSUkxIC4gaUlJMTExaSAqIEkxMWkxMUlpIC8gaWkxSWlJMWkgKyBvMDBPMG9vDQogaWYgMjUgLSAyNTogT09vb09Pbw0KIGlmIDE5IC0gMTk6IG9Pb29Pb08wT28wTyAlIGlJSTExMWkgLiBJMUlpMTExICogbzAwTzBvbw0KIGlmIDg5IC0gODk6IG8wIC4gSTExaQ0KIGlmIDcgLSA3OiBPT29vT09vICUgbzAgLSBvT29vT29PME9vME8gKyBJMTFpMTFJaQ0KIGlmIDcwIC0gNzA6IGkxMWkgKyBvb09vTzBvICsgaTExaUlpaUlpaSAtIGkxSUlpIC8gSTFJaTExMQ0KIGlmIDQwIC0gNDA6IGlpMUlpSTFpICogb29Pb08wbw0KIGlmIDM4IC0gMzg6IE8wIC4gSTExaTExSWkgKyBvMCAtIE9Pb29PT28NCiBpZiA0MyAtIDQzOiBJaUlJICsgSTExaTExSWkgLyBPb29vb29vb09PDQogaWYgMjQgLSAyNDogTzAgKyBpMSAqIGlJSTExMWkgLSBvb09vTzBvDQogaWYgMTAgLSAxMDogaTExaUlpaUlpaQ0KIGlmIDIxIC0gMjE6IG9Pb29Pb08wT28wTyAvIElpSUkNCiBpZiA2OSAtIDY5OiBvMDBPMG9vICUgbzAwTzBvbw0KIGlmIDc2IC0gNzY6IGkxMWlJaWlJaWkgKiBJaUlJIC8gaTFpSWkxMWlJSWkxSSAlIGlpMUlpSTFpICsgSTExaQ0KIGlmIDQ4IC0gNDg6IGlJaWkxSTExSTFJSTEgJSBpMUlJaSArIG8wICUgaTENCiBpZiA3OSAtIDc5OiBvMCAlIG9Pb29Pb08wT28wTyAlIGlJSTExMWkgLyBpMUlJaSAlIGkxaUlpMTFpSUlpMUkNCiBpZiA1NiAtIDU2OiBpSWlpMUkxMUkxSUkxIC0gaTExaUlpaUlpaSAqIElpSUkNCiBpZiA4NCAtIDg0OiBJMTFpICsgaUlJMTExaSArIGkxDQogaWYgMzMgLSAzMzogaUlJMTExaQ0KIGlmIDkzIC0gOTM6IG8wME8wb28NCiBpZiAzNCAtIDM0OiBPT29vT09vIC0gbzAwTzBvbyAqIEkxMWkxMUlpIC8gaTENCiBpZiAxOSAtIDE5OiBpaTFJaUkxaQ0KIG9vb29vb28wMG8gPSAnJw0KIG9vb29Pb28wT08gPSAnJw0KIGlmIDQ2IC0gNDY6IGlJaWkxSTExSTFJSTEgLiBpMTFpSWlpSWlpIC0gbzAgJSBPMCAvIGkxMWkgKiBpMUlJaQ0KIGlmIDY2IC0gNjY6IE8wDQogb09vb09PbzAwb29PID0gc3RyICggbzBPTzBvb29vICggT29PME9Pb08wICwgaWlJMWlJICwgT29vMDBPMCAsIGlpSTExaSAsIG9vb29vb28wMG8gLCBvb29vT29vME9PICwgaXRlcmF0aW9uICkgKQ0KIGlmIDQwIC0gNDA6IG9vT29PMG8gLSBvMCAqIElpMUkgLSBJMUlpMTExIC8gbzANCiBpZiA3MSAtIDcxOiBPT29vT09vIC8gT29vb29vb29PTyAlIEkxSWkxMTEgLyBvMCAlIG9vT29PMG8NCiBpZiAxOSAtIDE5OiBvb09vTzBvICsgSTFJaTExMSAvIE9Pb29PT28gLyBpMTFpDQogaWYgOTIgLSA5MjogaTFJSWkgJSBvMDBPMG9vICsgbzAwTzBvbyAtIGlJaWkxSTExSTFJSTEgLiBpSUkxMTFpDQogaWYgMzMgLSAzMzogaTEgLyBPMCArIEkxMWkNCiBpZiBpdGVyYXRpb24gPj0gdG90YWxpdGVyYXRpb25zIDoNCiAgaWYgNzUgLSA3NTogSTFJaTExMSAlIGkxMWlJaWlJaWkgKyBpSWlpMUkxMUkxSUkxDQogIHJldHVybiBvT29vT09vMDBvb08NCiBlbHNlIDoNCiAgaWYgOTIgLSA5MjogbzAgJSBPMA0KICByZXR1cm4gT09PTzAwT29vb08gKCBvT29vT09vMDBvb08gLCBpdGVyYXRpb24gKyAxICkNCiAgaWYgNTUgLSA1NTogaUlpaTFJMTFJMUlJMSAqIElpSUkNCmRlZiBvME9PMG9vb28gKCBwICwgYSAsIGMgLCBrICwgZSAsIGQgLCBpdGVyYXRpb24gLCB2ID0gMSApIDoNCiBpZiA4NSAtIDg1OiBpSWlpMUkxMUkxSUkxIC4gaTExaQ0KIGlmIDU0IC0gNTQ6IGlJSTExMWkgLiBPb29vb29vb09PICUgSTExaTExSWkNCiBpZiAyMiAtIDIyOiBJMTFpDQogd2hpbGUgKCBjID49IDEgKSA6DQogIGMgPSBjIC0gMQ0KICBpZiAoIGsgWyBjIF0gKSA6DQogICBJMUkxMUlpaWkxMTEgPSBzdHIgKCBpSTFpaTExMWlpSWlpICggYyAsIGEgKSApDQogICBpZiB2ID09IDEgOg0KICAgIHAgPSByZSAuIHN1YiAoICdcXGInICsgSTFJMTFJaWlpMTExICsgJ1xcYicgLCBrIFsgYyBdICwgcCApDQogICBlbHNlIDoNCiAgICBwID0gb08wb2lJaUkgKCBwICwgSTFJMTFJaWlpMTExICwgayBbIGMgXSApDQogICAgaWYgNDYgLSA0NjogSWlJSQ0KICAgIGlmIDY1IC0gNjU6IGkxSUlpIC4gaWkxSWlJMWkgLyBvMDBPMG9vDQogICAgaWYgMTEgLSAxMTogSTFJaTExMSAqIG8wME8wb28gLyBvMDBPMG9vIC0gSTExaQ0KICAgIGlmIDY4IC0gNjg6IG9Pb29Pb08wT28wTyAlIEkxSWkxMTEgLSBJMUlpMTExIC8gb09vb09vTzBPbzBPICsgaWkxSWlJMWkgLSBJMTFpMTFJaQ0KICAgIGlmIDY1IC0gNjU6IG8wME8wb28gLSBpMUlJaQ0KICAgIGlmIDYyIC0gNjI6IElpMUkgLyBPT29vT09vICUgSTExaTExSWkgLiBPb29vb29vb09PIC8gaTExaUlpaUlpaSAvIG9vT29PMG8NCiByZXR1cm4gcA0KIGlmIDYwIC0gNjA6IG9Pb29Pb08wT28wTyAlIE9Pb29PT28gLyBpMSAlIE9Pb29PT28gKiBpMTFpSWlpSWlpIC8gSWlJSQ0KIGlmIDM0IC0gMzQ6IG9vT29PMG8gLSBJMTFpDQogaWYgMjUgLSAyNTogT09vb09PbyAlIG9Pb29Pb08wT28wTyArIGkxMWlJaWlJaWkgKyBPMCAqIE9vb29vb29vT08NCmRlZiBvTzBvaUlpSSAoIHNvdXJjZV9zdHIgLCB3b3JkX3RvX2ZpbmQgLCByZXBsYWNlX3dpdGggKSA6DQogb29PMCA9IE5vbmUNCiBvb08wID0gc291cmNlX3N0ciAuIHNwbGl0ICggd29yZF90b19maW5kICkNCiBpZiBsZW4gKCBvb08wICkgPiAxIDoNCiAgbzBJaWlpID0gWyBdDQogIEkxaTFJID0gMA0KICBmb3IgaTExMTFpSTEgaW4gb29PMCA6DQogICBpZiA3NiAtIDc2OiBPb29vb29vb09PIC0gaTExaSAlIG8wICsgT09vb09PbyArIGlJaWkxSTExSTFJSTEgLiBvMA0KICAgbzBJaWlpIC4gYXBwZW5kICggaTExMTFpSTEgKQ0KICAgaTFpSWkxSUlpSUlJMSA9IHdvcmRfdG9fZmluZA0KICAgaWYgMTYgLSAxNjogaTEgLiBJaTFJDQogICBpZiA1MCAtIDUwOiBvMDBPMG9vICogbzAgKyBpaTFJaUkxaSAtIGkxMWlJaWlJaWkgKyBJMTFpMTFJaSAqIGlpMUlpSTFpDQogICBpZiBJMWkxSSA9PSBsZW4gKCBvb08wICkgLSAxIDoNCiAgICBpMWlJaTFJSWlJSUkxID0gJycNCiAgIGVsc2UgOg0KICAgIGlmIGxlbiAoIGkxMTExaUkxICkgPT0gMCA6DQogICAgIGlmICggbGVuICggb29PMCBbIEkxaTFJICsgMSBdICkgPT0gMCBhbmQgd29yZF90b19maW5kIFsgMCBdIC4gbG93ZXIgKCApIG5vdCBpbiAnYWJjZGVmZ2hpamtsbW5vcHFyc3R1dnd4eXoxMjM0NTY3ODkwXycgKSBvciAoIGxlbiAoIG9vTzAgWyBJMWkxSSArIDEgXSApID4gMCBhbmQgb29PMCBbIEkxaTFJICsgMSBdIFsgMCBdIC4gbG93ZXIgKCApIG5vdCBpbiAnYWJjZGVmZ2hpamtsbW5vcHFyc3R1dnd4eXoxMjM0NTY3ODkwXycgKSA6DQogICAgICBpMWlJaTFJSWlJSUkxID0gcmVwbGFjZV93aXRoDQogICAgICBpZiAyMCAtIDIwOiBvb09vTzBvIC8gaTEgJSBvMA0KICAgIGVsc2UgOg0KICAgICBpZiAoIG9vTzAgWyBJMWkxSSBdIFsgLSAxIF0gLiBsb3dlciAoICkgbm90IGluICdhYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejEyMzQ1Njc4OTBfJyApIGFuZCAoICggbGVuICggb29PMCBbIEkxaTFJICsgMSBdICkgPT0gMCBhbmQgd29yZF90b19maW5kIFsgMCBdIC4gbG93ZXIgKCApIG5vdCBpbiAnYWJjZGVmZ2hpamtsbW5vcHFyc3R1dnd4eXoxMjM0NTY3ODkwXycgKSBvciAoIGxlbiAoIG9vTzAgWyBJMWkxSSArIDEgXSApID4gMCBhbmQgb29PMCBbIEkxaTFJICsgMSBdIFsgMCBdIC4gbG93ZXIgKCApIG5vdCBpbiAnYWJjZGVmZ2hpamtsbW5vcHFyc3R1dnd4eXoxMjM0NTY3ODkwXycgKSApIDoNCiAgICAgIGkxaUlpMUlJaUlJSTEgPSByZXBsYWNlX3dpdGgNCiAgICAgIGlmIDY5IC0gNjk6IG9vT29PMG8gLSBpMUlJaSAlIElpSUkgLiBJMTFpIC0gSTExaQ0KICAgbzBJaWlpIC4gYXBwZW5kICggaTFpSWkxSUlpSUlJMSApDQogICBJMWkxSSArPSAxDQogICBpZiA2NSAtIDY1OiBJMTFpICsgaTExaQ0KICBzb3VyY2Vfc3RyID0gJycgLiBqb2luICggbzBJaWlpICkNCiByZXR1cm4gc291cmNlX3N0cg0KIGlmIDYxIC0gNjE6IGkxMWlJaWlJaWkgKiBPT29vT09vICUgSTExaTExSWkgKiBvb09vTzBvIC0gT29vb29vb29PTyAtIGkxaUlpMTFpSUlpMUkNCmRlZiBvME9PbyAoIG51bSAsIHJhZGl4ICkgOg0KIGlmIDQyIC0gNDI6IE8wICUgaUlJMTExaSAtIGlJaWkxSTExSTFJSTEgKyBvb09vTzBvICUgb09vb09vTzBPbzBPICsgbzAwTzBvbw0KIElJMWkxMWkxaUlpMTEgPSAiIg0KIGlmIG51bSA9PSAwIDogcmV0dXJuICcwJw0KIHdoaWxlIG51bSA+IDAgOg0KICBJSTFpMTFpMWlJaTExID0gIjAxMjM0NTY3ODlhYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5eiIgWyBudW0gJSByYWRpeCBdICsgSUkxaTExaTFpSWkxMQ0KICBudW0gLz0gcmFkaXgNCiByZXR1cm4gSUkxaTExaTFpSWkxMQ0KIGlmIDgyIC0gODI6IE8wDQpkZWYgaUkxaWkxMTFpaUlpaSAoIGNjICwgYSApIDoNCiBJMUkxMUlpaWkxMTEgPSAiIiBpZiBjYyA8IGEgZWxzZSBpSTFpaTExMWlpSWlpICggaW50ICggY2MgLyBhICkgLCBhICkNCiBjYyA9ICggY2MgJSBhICkNCiBPMG9PMG9vME8gPSBjaHIgKCBjYyArIDI5ICkgaWYgY2MgPiAzNSBlbHNlIHN0ciAoIG8wT09vICggY2MgLCAzNiApICkNCiByZXR1cm4gSTFJMTFJaWlpMTExICsgTzBvTzBvbzBPDQogaWYgODIgLSA4MjogT29vb29vb29PTyAuIGlJSTExMWkNCiBpZiAyNiAtIDI2OiBPT29vT09vICsgSTFJaTExMSAtIGkxMWkgLiBpMTFpICsgaWkxSWlJMWkgKyBvMA0KZGVmIGlJMWkxMUlJMWkgKCB1cmwgLCBoZWFkZXJzID0gTm9uZSApIDoNCiB0cnkgOg0KICBpZiBoZWFkZXJzIGlzIE5vbmUgOg0KICAgaWYgNjggLSA2ODogTzANCiAgIGlmIDc2IC0gNzY6IGlpMUlpSTFpDQogICBoZWFkZXJzID0geyAnXHg1NVx4NzNceDY1XHg3Mlx4MmRceDYxXHg2N1x4NjVceDZlXHg3NCcgOiAnTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXT1c2NDsgcnY6MTkuMCkvQXBvbGxvIEdlY2tvLzIwMTAwMTAxIEZpcmVmb3gvMTkuMCcgLCAnQXBvbGxvJyA6ICdEaXJlaXRvcyBSZXNlcnZhZG9zJyAsICdSZWZlcmVyJyA6ICdodHRwczovL2RldXMtYXBvbGxvLm1sJyAsICdSZWYnIDogJ2NvcHlyaWdodCDCqSAyMDE3LTIwMjAnICwgJ0RFVVMnIDogJ0Fwb2xsbycgfQ0KICBvT29PbzBPME9PT29PID0gdXJsbGliMiAuIFJlcXVlc3QgKCB1cmwgLCBOb25lICwgaGVhZGVycyApDQogIG9PMDBPT29PMDAgPSB1cmxsaWIyIC4gdXJsb3BlbiAoIG9Pb09vME8wT09Pb08gKQ0KICBJaUkxMTExMTFJSUlJID0gb08wME9Pb08wMCAuIHJlYWQgKCApDQogIG9PMDBPT29PMDAgLiBjbG9zZSAoICkNCiAgcmV0dXJuIElpSTExMTExMUlJSUkNCiBleGNlcHQgdXJsbGliMiAuIFVSTEVycm9yICwgb29vb29vbzAwbyA6DQogIEkxaUkxaUlpMTExaSAoICdVUkw6ICcgKyB1cmwgKQ0KICBpZiBoYXNhdHRyICggb29vb29vbzAwbyAsICdjb2RlJyApIDoNCiAgIEkxaUkxaUlpMTExaSAoICdGYWxoYSBjb20gbyBjw7NkaWdvIGRlIGVycm8gLSAlcy4nICUgb29vb29vbzAwbyAuIGNvZGUgKQ0KICAgaWYgOTkgLSA5OTogaTENCiAgIGlmIDEgLSAxOiBpSUkxMTFpICogbzAgKiBpMWlJaTExaUlJaTFJICsgSTExaTExSWkNCiAgIHhibWMgLiBleGVjdXRlYnVpbHRpbiAoICJYQk1DLk5vdGlmaWNhdGlvbihGYWxoYSwgY8OzZGlnbyBkZSBlcnJvIC0gIiArIHN0ciAoIG9vb29vb28wMG8gLiBjb2RlICkgKyAiLDEwMDAwLCIgKyBvT08wME9vICsgIikiICkNCiAgZWxpZiBoYXNhdHRyICggb29vb29vbzAwbyAsICdyZWFzb24nICkgOg0KICAgSTFpSTFpSWkxMTFpICggJ0ZhbGhhIGFvIGFjZXNzYXIgdW0gc2Vydmlkb3IuJyApDQogICBJMWlJMWlJaTExMWkgKCAnUmF6w6NvOiAlcycgJSBvb29vb29vMDBvIC4gcmVhc29uICkNCiAgIGlmIDkwIC0gOTA6IG9vT29PMG8gJSBJMTFpMTFJaSAtIEkxMWkxMUlpIC4gaUlpaTFJMTFJMUlJMSAvIEkxMWkgKyBJaTFJDQogICB4Ym1jIC4gZXhlY3V0ZWJ1aWx0aW4gKCAiWEJNQy5Ob3RpZmljYXRpb24oRmFsaGEsIG1vdGl2byAtICIgKyBzdHIgKCBvb29vb29vMDBvIC4gcmVhc29uICkgKyAiLDEwMDAwLCIgKyBvT08wME9vICsgIikiICkNCiAgIGlmIDg5IC0gODk6IE9Pb29PT28NCmRlZiBvME9PMDBvMG9PT29vICggY29va2llSmFyICkgOg0KIHRyeSA6DQogIG8wT09PT09vMDAgPSAiIg0KICBmb3Igb09PTzAwbzAwMG8gLCBvbzBvT08gaW4gZW51bWVyYXRlICggY29va2llSmFyICkgOg0KICAgbzBPT09PT28wMCArPSBvbzBvT08gLiBuYW1lICsgIj0iICsgb28wb09PIC4gdmFsdWUgKyAiOyINCiBleGNlcHQgOiBwYXNzDQogaWYgNDEgLSA0MTogaTFpSWkxMWlJSWkxSSAuIG9vT29PMG8gKiBJMUlpMTExICogb29Pb08wbw0KIHJldHVybiBvME9PT09PbzAwDQogaWYgNzQgLSA3NDogaUlpaTFJMTFJMUlJMSAvIGkxDQogaWYgNTggLSA1ODogaUlpaTFJMTFJMUlJMSAtIG9Pb29Pb08wT28wTyAlIGkxICUgT29vb29vb29PTyAqIGlJaWkxSTExSTFJSTEgKyBJMTFpDQpkZWYgaTFJaUlpMSAoIGNvb2tpZUphciAsIENPT0tJRUZJTEUgKSA6DQogdHJ5IDoNCiAgSTFJaTExSUkxSTEgPSBvcyAuIHBhdGggLiBqb2luICggTzBvT29PT09vT08gLCBDT09LSUVGSUxFICkNCiAgY29va2llSmFyIC4gc2F2ZSAoIEkxSWkxMUlJMUkxICwgaWdub3JlX2Rpc2NhcmQgPSBUcnVlICkNCiBleGNlcHQgOiBwYXNzDQogaWYgMjUgLSAyNTogSTExaSAlIE8wDQpkZWYgT29vME8gKCBDT09LSUVGSUxFICkgOg0KIGlmIDQ0IC0gNDQ6IG9vT29PMG8gLiBpSUkxMTFpICogaTExaSAvIEkxSWkxMTEgKyBpSWlpMUkxMUkxSUkxDQogSWkxMTExSUlJMSA9IE5vbmUNCiBpZiBDT09LSUVGSUxFIDoNCiAgdHJ5IDoNCiAgIEkxSWkxMUlJMUkxID0gb3MgLiBwYXRoIC4gam9pbiAoIE8wb09vT09Pb09PICwgQ09PS0lFRklMRSApDQogICBJaTExMTFJSUkxID0gY29va2llbGliIC4gTFdQQ29va2llSmFyICggKQ0KICAgSWkxMTExSUlJMSAuIGxvYWQgKCBJMUlpMTFJSTFJMSAsIGlnbm9yZV9kaXNjYXJkID0gVHJ1ZSApDQogIGV4Y2VwdCA6DQogICBJaTExMTFJSUkxID0gTm9uZQ0KICAgaWYgNzQgLSA3NDogaWkxSWlJMWkgLSBJaUlJICogaTFJSWkNCiBpZiBub3QgSWkxMTExSUlJMSA6DQogIElpMTExMUlJSTEgPSBjb29raWVsaWIgLiBMV1BDb29raWVKYXIgKCApDQogIGlmIDEyIC0gMTI6IE8wDQogcmV0dXJuIElpMTExMUlJSTENCiBpZiA3NSAtIDc1OiBpSWlpMUkxMUkxSUkxICUgSTFJaTExMSArIGlpMUlpSTFpICogTzAgLiBJaUlJIC0gbzAwTzBvbw0KZGVmIGkxSWkxMUkxSUkgKCBmdW5fY2FsbCAsIHBhZ2VfZGF0YSAsIENvb2tpZV9KYXIgKSA6DQogaTFJSWlJSUlpMSA9ICcnDQogaWYgb09Pb09vb09vIG5vdCBpbiBzeXMgLiBwYXRoIDoNCiAgc3lzIC4gcGF0aCAuIGFwcGVuZCAoIG9PT29Pb29PbyApDQogIGlmIDg0IC0gODQ6IE9Pb29PT28gKyBJMTFpIC4gSWlJSQ0KIHByaW50IGZ1bl9jYWxsDQogdHJ5IDoNCiAgTzBvMDAgPSAnaW1wb3J0ICcgKyBmdW5fY2FsbCAuIHNwbGl0ICggJy4nICkgWyAwIF0NCiAgcHJpbnQgTzBvMDAgLCBzeXMgLiBwYXRoDQogIGV4ZWMgKCBPMG8wMCApDQogIHByaW50ICdkb25lJw0KIGV4Y2VwdCA6DQogIHByaW50ICdlcnJvciBpbiBpbXBvcnQnDQogIHRyYWNlYmFjayAuIHByaW50X2V4YyAoIGZpbGUgPSBzeXMgLiBzdGRvdXQgKQ0KIHByaW50ICdyZXRfdmFsPScgKyBmdW5fY2FsbA0KIGV4ZWMgKCAncmV0X3ZhbD0nICsgZnVuX2NhbGwgKQ0KIHByaW50IGkxSUlpSUlJaTENCiBpZiA0OCAtIDQ4OiBJaTFJICsgbzAwTzBvbyArIElpSUkgLyBJaTFJIC8gSWlJSQ0KIHJldHVybiBzdHIgKCBpMUlJaUlJSWkxICkNCiBpZiA3MSAtIDcxOiBJMUlpMTExDQpkZWYgaTFJMTFJICggdXJsICkgOg0KIEkxSUlpMWkxSWkxSTEgPSBpMWlpSUlJMUlJaUlJSUkgKCB1cmwgKQ0KIE9vbzBvb28gPSAiIg0KIE8wT28wTzAwbzBvbzBPTyA9ICIiDQogT29vTzAwID0gIjxzY3JpcHQuKj9zcmM9XCIoLio/cmVjYXAuKj8pXCIiDQogSWlpSWlpID0gcmUgLiBmaW5kYWxsICggT29vTzAwICwgSTFJSWkxaTFJaTFJMSApDQogbzBPMDBPb09PbyA9IEZhbHNlDQogaUlpSUlpMTFpSSA9IE5vbmUNCiBPME9vME8wMG8wb28wT08gPSBOb25lDQogaWYgNjUgLSA2NTogTzAgLSBvb09vTzBvIC4gaUlJMTExaQ0KIGlmIElpaUlpaSBhbmQgbGVuICggSWlpSWlpICkgPiAwIDoNCiAgSUlPT08wMG8wID0gSWlpSWlpIFsgMCBdDQogIG8wTzAwT29PT28gPSBUcnVlDQogIGlmIDk3IC0gOTc6IGlpMUlpSTFpIC8gaWkxSWlJMWkgLyBpSWlpMUkxMUkxSUkxICUgaTFJSWkgLiBpaTFJaUkxaSAuIEkxSWkxMTENCiAgSUlJSTFpaTEgPSAnY2hhbGxlbmdlLio/XCcoLio/KVwnJw0KICBPT08wTzBPT28gPSAnXCcoLio/KVwnJw0KICBJaWkxID0gaTFpaUlJSTFJSWlJSUlJICggSUlPT08wMG8wICkNCiAgT29vMG9vbyA9IHJlIC4gZmluZGFsbCAoIElJSUkxaWkxICwgSWlpMSApIFsgMCBdDQogIE9Pb08gPSAnaHR0cDovL3d3dy5nb29nbGUuY29tL3JlY2FwdGNoYS9hcGkvcmVsb2FkP2M9JyA7DQogIGkxSWlpSSA9IElJT09PMDBvMCAuIHNwbGl0ICggJ2s9JyApIFsgMSBdDQogIE9Pb08gKz0gT29vMG9vbyArICcmaz0nICsgaTFJaWlJICsgJyZjYXB0Y2hhX2s9MSZ0eXBlPWltYWdlJmxhbmc9ZW4tR0InDQogIE8wT09PMCA9IGkxaWlJSUkxSUlpSUlJSSAoIE9Pb08gKQ0KICBpSWlJSWkxMWlJID0gcmUgLiBmaW5kYWxsICggT09PME8wT09vICwgTzBPT08wICkgWyAwIF0NCiAgbzBPSWkgPSAnaHR0cDovL3d3dy5nb29nbGUuY29tL3JlY2FwdGNoYS9hcGkvaW1hZ2U/Yz0nICsgaUlpSUlpMTFpSQ0KICBpZiBub3QgbzBPSWkgLiBzdGFydHN3aXRoICggImh0dHAiICkgOg0KICAgbzBPSWkgPSAnaHR0cDovL3d3dy5nb29nbGUuY29tL3JlY2FwdGNoYS9hcGkvJyArIG8wT0lpDQogIGltcG9ydCByYW5kb20NCiAgT28wT09vID0gcmFuZG9tIC4gcmFuZHJhbmdlICggMTAwICwgMTAwMCAsIDUgKQ0KICBJSWkxaWlJID0gb3MgLiBwYXRoIC4gam9pbiAoIE8wb09vT09Pb09PICwgc3RyICggT28wT09vICkgKyAiY2FwdGNoYS5pbWciICkNCiAgbzBvID0gb3BlbiAoIElJaTFpaUkgLCAid2IiICkNCiAgbzBvIC4gd3JpdGUgKCBpMWlpSUlJMUlJaUlJSUkgKCBvME9JaSApICkNCiAgbzBvIC4gY2xvc2UgKCApDQogIG9PTzAwT08wbzBPID0gSUlJMUlpaUlpaUkxaSAoIGNhcHRjaGEgPSBJSWkxaWlJICkNCiAgTzBPbzBPMDBvMG9vME9PID0gb09PMDBPTzBvME8gLiBnZXQgKCApDQogIG9zIC4gcmVtb3ZlICggSUlpMWlpSSApDQogcmV0dXJuIGlJaUlJaTExaUkgLCBPME9vME8wMG8wb28wT08NCiBpZiA3MyAtIDczOiBpMUlJaSAlIElpMUkgLSBvMDBPMG9vIC8gaTEgJSBpMWlJaTExaUlJaTFJIC8gb29Pb08wbw0KZGVmIGkxaWlJSUkxSUlpSUlJSSAoIHVybCAsIGNvb2tpZUphciA9IE5vbmUgLCBwb3N0ID0gTm9uZSAsIHRpbWVvdXQgPSAyMCAsIGhlYWRlcnMgPSBOb25lICkgOg0KIGlmIDg5IC0gODk6IEkxSWkxMTEgLyBpMWlJaTExaUlJaTFJICogTzAgLyBJaTFJIC4gb29Pb08wbw0KIGlmIDE3IC0gMTc6IElpMUkNCiBpMUlJMUlJMWlpaTFpID0gdXJsbGliMiAuIEhUVFBDb29raWVQcm9jZXNzb3IgKCBjb29raWVKYXIgKQ0KIElJaSA9IHVybGxpYjIgLiBidWlsZF9vcGVuZXIgKCBpMUlJMUlJMWlpaTFpICwgdXJsbGliMiAuIEhUVFBCYXNpY0F1dGhIYW5kbGVyICggKSAsIHVybGxpYjIgLiBIVFRQSGFuZGxlciAoICkgKQ0KIGlmIDU2IC0gNTY6IG8wME8wb28gKiBpMSArIElpMUkNCiBvT29PbzBPME9PT29PID0gdXJsbGliMiAuIFJlcXVlc3QgKCB1cmwgKQ0KIG9Pb09vME8wT09Pb08gLiBhZGRfaGVhZGVyICggJ1VzZXItQWdlbnQnICwgJ01vemlsbGEvNS4wIChXaW5kb3dzIE5UIDYuMTsgV09XNjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8zMy4wLjE3NTAuMTU0IFNhZmFyaS81MzcuMzYnICkNCiBpZiBoZWFkZXJzIDoNCiAgZm9yIGlJMWlJaWlJICwgSTExSUkxMTExMWkxMSBpbiBoZWFkZXJzIDoNCiAgIG9Pb09vME8wT09Pb08gLiBhZGRfaGVhZGVyICggaUkxaUlpaUkgLCBJMTFJSTExMTExaTExICkNCiAgIGlmIDgzIC0gODM6IE9Pb29PT28gLSBvMDBPMG9vIC0gSTFJaTExMSAlIGkxSUlpIC0gSWlJSSAuIGkxDQogb08wME9Pb08wMCA9IElJaSAuIG9wZW4gKCBvT29PbzBPME9PT29PICwgcG9zdCAsIHRpbWVvdXQgPSB0aW1lb3V0ICkNCiBJMWkxSWlpaWkgPSBvTzAwT09vTzAwIC4gcmVhZCAoICkNCiBvTzAwT09vTzAwIC4gY2xvc2UgKCApDQogcmV0dXJuIEkxaTFJaWlpaSA7DQogaWYgOTYgLSA5NjogSTExaTExSWkgKyBvb09vTzBvIC4gaTFJSWkNCmRlZiBPb28gKCBzdHIgLCByZWcgPSBOb25lICkgOg0KIGlmIHJlZyA6DQogIHN0ciA9IHJlIC4gZmluZGFsbCAoIHJlZyAsIHN0ciApIFsgMCBdDQogSWlpMUkxaUkgPSB1cmxsaWIgLiB1bnF1b3RlICggc3RyIFsgMCA6IGxlbiAoIHN0ciApIC0gMSBdICkgOw0KIG9Pb09vMCA9ICcnIDsNCiBmb3IgaWkgaW4gcmFuZ2UgKCBsZW4gKCBJaWkxSTFpSSApICkgOg0KICBvT29PbzAgKz0gY2hyICggb3JkICggSWlpMUkxaUkgWyBpaSBdICkgLSBJaWkxSTFpSSBbIGxlbiAoIElpaTFJMWlJICkgLSAxIF0gKSA7DQogb09vT28wID0gdXJsbGliIC4gdW5xdW90ZSAoIG9Pb09vMCApDQogcHJpbnQgb09vT28wDQogcmV0dXJuIG9Pb09vMA0KIGlmIDE5IC0gMTk6IG8wIC4gaTEgLiBPb29vb29vb09PDQpkZWYgSWlJSWlJICggc3RyICkgOg0KIGlJaWlpMWlJMWkgPSByZSAuIGZpbmRhbGwgKCAndW5lc2NhcGVcKFwnKC4qPylcJycgLCBzdHIgKQ0KIHByaW50ICdqcycgLCBpSWlpaTFpSTFpDQogaWYgKCBub3QgaUlpaWkxaUkxaSA9PSBOb25lICkgYW5kIGxlbiAoIGlJaWlpMWlJMWkgKSA+IDAgOg0KICBmb3IgaTFpaWlJIGluIGlJaWlpMWlJMWkgOg0KICAgaWYgNzUgLSA3NTogT29vb29vb29PTyAuIEkxMWkgKyBpMWlJaTExaUlJaTFJIC8gaUlJMTExaSAtIG9Pb29Pb08wT28wTyAlIGlJSTExMWkNCiAgIHN0ciA9IHN0ciAuIHJlcGxhY2UgKCBpMWlpaUkgLCB1cmxsaWIgLiB1bnF1b3RlICggaTFpaWlJICkgKQ0KIHJldHVybiBzdHINCiBpZiA4OSAtIDg5OiBJaUlJICogaUlpaTFJMTFJMUlJMSArIGkxMWlJaWlJaWkgLiBPb29vb29vb09PDQpPME8wID0gMA0KZGVmIElJaTFpICggbSAsIGh0bWxfcGFnZSAsIGNvb2tpZUphciApIDoNCiBnbG9iYWwgTzBPMA0KIE8wTzAgKz0gMQ0KIG9PMG9vID0gbSBbICdleHByZScgXQ0KIE8wT28wTzAgPSBtIFsgJ3BhZ2UnIF0NCiBvMDBvMG8wMDBPbyA9IHJlIC4gY29tcGlsZSAoICdcJExpdmVTdHJlYW1DYXB0Y2hhXFsoW15cXV0qKVxdJyApIC4gZmluZGFsbCAoIG9PMG9vICkgWyAwIF0NCiBpZiAxMDAgLSAxMDA6IGkxSUlpIC0gaTExaUlpaUlpaSAuIG9vT29PMG8gKiBpMWlJaTExaUlJaTFJDQogSUlPT08wMG8wID0gcmUgLiBjb21waWxlICggbzAwbzBvMDAwT28gKSAuIGZpbmRhbGwgKCBodG1sX3BhZ2UgKSBbIDAgXQ0KIHByaW50IG9PMG9vICwgbzAwbzBvMDAwT28gLCBJSU9PTzAwbzANCiBpZiBub3QgSUlPT08wMG8wIC4gc3RhcnRzd2l0aCAoICJodHRwIiApIDoNCiAgb09JSUlJID0gJ2h0dHA6Ly8nICsgIiIgLiBqb2luICggTzBPbzBPMCAuIHNwbGl0ICggJy8nICkgWyAyIDogMyBdICkNCiAgaWYgSUlPT08wMG8wIC4gc3RhcnRzd2l0aCAoICIvIiApIDoNCiAgIElJT09PMDBvMCA9IG9PSUlJSSArIElJT09PMDBvMA0KICBlbHNlIDoNCiAgIElJT09PMDBvMCA9IG9PSUlJSSArICcvJyArIElJT09PMDBvMA0KICAgaWYgNjUgLSA2NTogaTExaSAvIEkxMWkxMUlpDQogSUlpMWlpSSA9IG9zIC4gcGF0aCAuIGpvaW4gKCBPMG9Pb09PT29PTyAsIHN0ciAoIE8wTzAgKSArICJjYXB0Y2hhLmpwZyIgKQ0KIG8wbyA9IG9wZW4gKCBJSWkxaWlJICwgIndiIiApDQogcHJpbnQgJyBjIGNhcHVybCcgLCBJSU9PTzAwbzANCiBvT29PbzBPME9PT29PID0gdXJsbGliMiAuIFJlcXVlc3QgKCBJSU9PTzAwbzAgKQ0KIG9Pb09vME8wT09Pb08gLiBhZGRfaGVhZGVyICggJ1VzZXItQWdlbnQnICwgJ01vemlsbGEvNS4wIChXaW5kb3dzIE5UIDYuMTsgcnY6MTQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNC4wLjEnICkNCiBpZiAncmVmZXInIGluIG0gOg0KICBvT29PbzBPME9PT29PIC4gYWRkX2hlYWRlciAoICdSZWZlcmVyJyAsIG0gWyAncmVmZXInIF0gKQ0KIGlmICdhZ2VudCcgaW4gbSA6DQogIG9Pb09vME8wT09Pb08gLiBhZGRfaGVhZGVyICggJ1VzZXItYWdlbnQnICwgbSBbICdhZ2VudCcgXSApDQogaWYgJ3NldGNvb2tpZScgaW4gbSA6DQogIHByaW50ICdhZGRpbmcgY29va2llJyAsIG0gWyAnc2V0Y29va2llJyBdDQogIG9Pb09vME8wT09Pb08gLiBhZGRfaGVhZGVyICggJ0Nvb2tpZScgLCBtIFsgJ3NldGNvb2tpZScgXSApDQogIGlmIDQyIC0gNDI6IGkxMWlJaWlJaWkgLiBPMA0KICBpZiA3NSAtIDc1OiBvb09vTzBvICsgaUlpaTFJMTFJMUlJMQ0KICBpZiAxOSAtIDE5OiBvT29vT29PME9vME8gKyBpMTFpSWlpSWlpIC4gSTFJaTExMSAtIElpMUkgLyBpSUkxMTFpICsgaTENCiAgaWYgMzggLSAzODogSTExaTExSWkgLyBpSWlpMUkxMUkxSUkxICogaUlpaTFJMTFJMUlJMSAlIGlpMUlpSTFpDQogdXJsbGliMiAuIHVybG9wZW4gKCBvT29PbzBPME9PT29PICkNCiBvTzAwT09vTzAwID0gdXJsbGliMiAuIHVybG9wZW4gKCBvT29PbzBPME9PT29PICkNCiBpZiA5MiAtIDkyOiBJaTFJIC8gTzAgKiBvT29vT29PME9vME8gLSBJaTFJDQogbzBvIC4gd3JpdGUgKCBvTzAwT09vTzAwIC4gcmVhZCAoICkgKQ0KIG9PMDBPT29PMDAgLiBjbG9zZSAoICkNCiBvMG8gLiBjbG9zZSAoICkNCiBvT08wME9PMG8wTyA9IElJSTFJaWlJaWlJMWkgKCBjYXB0Y2hhID0gSUlpMWlpSSApDQogTzBPbzBPMDBvMG9vME9PID0gb09PMDBPTzBvME8gLiBnZXQgKCApDQogcmV0dXJuIE8wT28wTzAwbzBvbzBPTw0KIGlmIDk5IC0gOTk6IGkxMWlJaWlJaWkgJSBPb29vb29vb09PDQpjbGFzcyBJSUkxSWlpSWlpSTFpICggeGJtY2d1aSAuIFdpbmRvd0RpYWxvZyApIDoNCiBkZWYgX19pbml0X18gKCBzZWxmICwgKiBhcmdzICwgKioga3dhcmdzICkgOg0KICBzZWxmIC4gY3B0bG9jID0ga3dhcmdzIC4gZ2V0ICggJ2NhcHRjaGEnICkNCiAgc2VsZiAuIGltZyA9IHhibWNndWkgLiBDb250cm9sSW1hZ2UgKCAzMzUgLCAzMCAsIDYyNCAsIDYwICwgc2VsZiAuIGNwdGxvYyApDQogIHNlbGYgLiBhZGRDb250cm9sICggc2VsZiAuIGltZyApDQogIHNlbGYgLiBrYmQgPSB4Ym1jIC4gS2V5Ym9hcmQgKCApDQogIGlmIDU2IC0gNTY6IEkxSWkxMTEgKiBvb09vTzBvDQogZGVmIGdldCAoIHNlbGYgKSA6DQogIHNlbGYgLiBzaG93ICggKQ0KICB0aW1lIC4gc2xlZXAgKCAyICkNCiAgc2VsZiAuIGtiZCAuIGRvTW9kYWwgKCApDQogIGlmICggc2VsZiAuIGtiZCAuIGlzQ29uZmlybWVkICggKSApIDoNCiAgIE8wMG9PME8gPSBzZWxmIC4ga2JkIC4gZ2V0VGV4dCAoICkNCiAgIHNlbGYgLiBjbG9zZSAoICkNCiAgIHJldHVybiBPMDBvTzBPDQogIHNlbGYgLiBjbG9zZSAoICkNCiAgcmV0dXJuIEZhbHNlDQogIGlmIDMgLSAzOiBpSWlpMUkxMUkxSUkxICUgaWkxSWlJMWkgLiBJMTFpICUgSWkxSQ0KZGVmIGkxSUkxaSAoICkgOg0KIGltcG9ydCB0aW1lDQogcmV0dXJuIHN0ciAoIGludCAoIHRpbWUgLiB0aW1lICggKSAqIDEwMDAgKSApDQogaWYgNDAgLSA0MDogbzAwTzBvbyAqIGlJSTExMWkgLiBpSUkxMTFpICsgaTExaSArIE9vb29vb29vT08NCmRlZiBPT09PICggKSA6DQogaW1wb3J0IHRpbWUNCiByZXR1cm4gc3RyICggaW50ICggdGltZSAuIHRpbWUgKCApICkgKQ0KIGlmIDE3IC0gMTc6IEkxSWkxMTEgJSBpSUkxMTFpDQpkZWYgSWlpMUlpaWkgKCApIDoNCiBpMWkxSWkxSWlJSUkgPSBbIF0NCiBJMUlJaWkxMSA9IHN5cyAuIGFyZ3YgWyAyIF0NCiBpZiBsZW4gKCBJMUlJaWkxMSApID49IDIgOg0KICBJMUkxID0gc3lzIC4gYXJndiBbIDIgXQ0KICBPME8gPSBJMUkxIC4gcmVwbGFjZSAoICc/JyAsICcnICkNCiAgaWYgKCBJMUkxIFsgbGVuICggSTFJMSApIC0gMSBdID09ICcvJyApIDoNCiAgIEkxSTEgPSBJMUkxIFsgMCA6IGxlbiAoIEkxSTEgKSAtIDIgXQ0KICBPTzBvb08wMG8gPSBPME8gLiBzcGxpdCAoICcmJyApDQogIGkxaTFJaTFJaUlJSSA9IHsgfQ0KICBmb3IgaWkgaW4gcmFuZ2UgKCBsZW4gKCBPTzBvb08wMG8gKSApIDoNCiAgIEkxaWlpMSA9IHsgfQ0KICAgSTFpaWkxID0gT08wb29PMDBvIFsgaWkgXSAuIHNwbGl0ICggJz0nICkNCiAgIGlmICggbGVuICggSTFpaWkxICkgKSA9PSAyIDoNCiAgICBpMWkxSWkxSWlJSUkgWyBJMWlpaTEgWyAwIF0gXSA9IEkxaWlpMSBbIDEgXQ0KIHJldHVybiBpMWkxSWkxSWlJSUkNCiBpZiAxOSAtIDE5OiBPT29vT09vICUgT29vb29vb29PTyAuIE9vb29vb29vT08NCiBpZiA0MCAtIDQwOiBPMCAuIG9vT29PMG8gLyBpSWlpMUkxMUkxSUkxICogaTENCmRlZiBPT28wME9vb28gKCApIDoNCiBvT08wMG9PMDBPME9PID0ganNvbiAuIGxvYWRzICggb3BlbiAoIE8wME9PT29Pb28wTyApIC4gcmVhZCAoICkgKQ0KIG9PbzBPb09PbzAgPSBsZW4gKCBvT08wMG9PMDBPME9PICkNCiBmb3IgaWkgaW4gb09PMDBvTzAwTzBPTyA6DQogIEkxaUlpMWlJaWlJaUkgPSBpaSBbIDAgXQ0KICBPME8wT29vbzBvID0gaWkgWyAxIF0NCiAgSTFvTzBvT09Pb29vID0gaWkgWyAyIF0NCiAgdHJ5IDoNCiAgIElpSUkxSUkxMUkgPSBpaSBbIDMgXQ0KICAgaWYgSWlJSTFJSTExSSA9PSBOb25lIDoNCiAgICByYWlzZQ0KICBleGNlcHQgOg0KICAgaWYgb08gLiBnZXRTZXR0aW5nICggJ3VzZV90aHVtYicgKSA9PSAidHJ1ZSIgOg0KICAgIElpSUkxSUkxMUkgPSBJMW9PMG9PT09vb28NCiAgIGVsc2UgOg0KICAgIElpSUkxSUkxMUkgPSBvMDBvMA0KICB0cnkgOiBJMWlpSWkxMTFJID0gaWkgWyA1IF0NCiAgZXhjZXB0IDogSTFpaUlpMTExSSA9IE5vbmUNCiAgdHJ5IDogbzBvT29PME8gPSBpaSBbIDYgXQ0KICBleGNlcHQgOiBvMG9Pb08wTyA9IE5vbmUNCiAgaWYgNiAtIDY6IGlJaWkxSTExSTFJSTEgLSBpSWlpMUkxMUkxSUkxICUgaTEgLyBpSWlpMUkxMUkxSUkxICogb29Pb08wbw0KICBpZiBpaSBbIDQgXSA9PSAwIDoNCiAgIGlJaUlJaWkgKCBPME8wT29vbzBvICwgSTFpSWkxaUlpaUlpSSAsIEkxb08wb09PT29vbyAsIElpSUkxSUkxMUkgLCAnJyAsICcnICwgJycgLCAnZmF2JyAsIEkxaWlJaTExMUkgLCBvMG9Pb08wTyAsIG9PbzBPb09PbzAgKQ0KICBlbHNlIDoNCiAgIEkxSWlpaWlJICggSTFpSWkxaUlpaUlpSSAsIE8wTzBPb29vMG8gLCBpaSBbIDQgXSAsIEkxb08wb09PT29vbyAsIG8wMG8wICwgJycgLCAnJyAsICcnICwgJycgLCAnZmF2JyApDQogICBpZiAzIC0gMzogSTExaSAuIEkxSWkxMTEgLyBJMTFpMTFJaQ0KICAgaWYgODkgLSA4OTogT29vb29vb29PTyAuIGlJaWkxSTExSTFJSTEgLiBJMTFpMTFJaSAqIGlJaWkxSTExSTFJSTEgLSBvb09vTzBvDQpkZWYgT29PTzBvMG8wICggbmFtZSAsIHVybCAsIGljb25pbWFnZSAsIGZhbmFydCAsIG1vZGUgLCBwbGF5bGlzdCA9IE5vbmUgLCByZWdleHMgPSBOb25lICkgOg0KIGlJMTExaWkxaUlpSSA9IFsgXQ0KIGlmIG5vdCBvcyAuIHBhdGggLiBleGlzdHMgKCBPMDBPT09vT29vME8gKyAndHh0JyApIDoNCiAgb3MgLiBtYWtlZGlycyAoIE8wME9PT29Pb28wTyArICd0eHQnICkNCiBpZiBub3Qgb3MgLiBwYXRoIC4gZXhpc3RzICggTzAwME9PbzAwb28gKSA6DQogIG9zIC4gbWFrZWRpcnMgKCBPMDAwT09vMDBvbyApDQogdHJ5IDoNCiAgaWYgNzMgLSA3MzogTzAgKyBvMDBPMG9vIC0gTzAgLyBPb29vb29vb09PICogSTExaTExSWkNCiAgbmFtZSA9IG5hbWUgLiBlbmNvZGUgKCAndXRmLTgnICwgJ2lnbm9yZScgKQ0KIGV4Y2VwdCA6DQogIHBhc3MNCiBpZiBvcyAuIHBhdGggLiBleGlzdHMgKCBPMDBPT09vT29vME8gKSA9PSBGYWxzZSA6DQogIEkxaUkxaUlpMTExaSAoICdNYWtpbmcgRmF2b3JpdGVzIEZpbGUnICkNCiAgaUkxMTFpaTFpSWlJIC4gYXBwZW5kICggKCBuYW1lICwgdXJsICwgaWNvbmltYWdlICwgZmFuYXJ0ICwgbW9kZSAsIHBsYXlsaXN0ICwgcmVnZXhzICkgKQ0KICBpSWkgPSBvcGVuICggTzAwT09Pb09vbzBPICwgInciICkNCiAgaUlpIC4gd3JpdGUgKCBqc29uIC4gZHVtcHMgKCBpSTExMWlpMWlJaUkgKSApDQogIGlJaSAuIGNsb3NlICggKQ0KIGVsc2UgOg0KICBJMWlJMWlJaTExMWkgKCAnQXBwZW5kaW5nIEZhdm9yaXRlcycgKQ0KICBpSWkgPSBvcGVuICggTzAwT09Pb09vbzBPICkgLiByZWFkICggKQ0KICBJaUkxMTExMTFJSUlJID0ganNvbiAuIGxvYWRzICggaUlpICkNCiAgSWlJMTExMTExSUlJSSAuIGFwcGVuZCAoICggbmFtZSAsIHVybCAsIGljb25pbWFnZSAsIGZhbmFydCAsIG1vZGUgKSApDQogIG9vb29vT09PMDAwT28gPSBvcGVuICggTzAwT09Pb09vbzBPICwgInciICkNCiAgb29vb29PT08wMDBPbyAuIHdyaXRlICgganNvbiAuIGR1bXBzICggSWlJMTExMTExSUlJSSApICkNCiAgb29vb29PT08wMDBPbyAuIGNsb3NlICggKQ0KICBpZiAzMiAtIDMyOiBpMWlJaTExaUlJaTFJICUgb09vb09vTzBPbzBPICUgSWlJSQ0KICBpZiA2NiAtIDY2OiBvMCArIGkxDQpkZWYgT09PTzAwICggbmFtZSApIDoNCiBJaUkxMTExMTFJSUlJID0ganNvbiAuIGxvYWRzICggb3BlbiAoIE8wME9PT29Pb28wTyApIC4gcmVhZCAoICkgKQ0KIGZvciBvT09PMDBvMDAwbyBpbiByYW5nZSAoIGxlbiAoIElpSTExMTExMUlJSUkgKSApIDoNCiAgaWYgSWlJMTExMTExSUlJSSBbIG9PT08wMG8wMDBvIF0gWyAwIF0gPT0gbmFtZSA6DQogICBkZWwgSWlJMTExMTExSUlJSSBbIG9PT08wMG8wMDBvIF0NCiAgIG9vb29vT09PMDAwT28gPSBvcGVuICggTzAwT09Pb09vbzBPICwgInciICkNCiAgIG9vb29vT09PMDAwT28gLiB3cml0ZSAoIGpzb24gLiBkdW1wcyAoIElpSTExMTExMUlJSUkgKSApDQogICBvb29vb09PTzAwME9vIC4gY2xvc2UgKCApDQogICBicmVhaw0KIHhibWMgLiBleGVjdXRlYnVpbHRpbiAoICJYQk1DLkNvbnRhaW5lci5SZWZyZXNoIiApDQogaWYgNzEgLSA3MTogbzAwTzBvbyAuIGkxMWlJaWlJaWkNCmRlZiBvMDBvICggdXJsICkgOg0KIGlmIG9PIC4gZ2V0U2V0dGluZyAoICdVcGRhdGVjb21tb25yZXNvbHZlcnMnICkgPT0gJ3RydWUnIDoNCiAgaTFJMTFpaSA9IG9zIC4gcGF0aCAuIGpvaW4gKCBpaTFpaTExSUlJaWlJICwgJ2dlbmVzaXNyZXNvbHZlcnMucHknICkNCiAgaWYgeGJtY3ZmcyAuIGV4aXN0cyAoIGkxSTExaWkgKSA6DQogICBvcyAuIHJlbW92ZSAoIGkxSTExaWkgKQ0KICAgaWYgNTYgLSA1NjogTzAgKiBJaUlJICsgSWlJSSAqIGlJaWkxSTExSTFJSTEgLyBvMDBPMG9vICogb29Pb08wbw0KICBJaU9vME8wTyA9ICdodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vS2VsVGVjLU1hZWRpYS1QbGF5L21hc3Rlci9wbHVnaW4udmlkZW8uZ2VuZXNpcy9jb21tb25yZXNvbHZlcnMucHknDQogIElpSWlpSTFpaTExMSA9IHVybGxpYiAuIHVybHJldHJpZXZlICggSWlPbzBPME8gLCBpMUkxMWlpICkNCiAgb08gLiBzZXRTZXR0aW5nICggJ1VwZGF0ZWNvbW1vbnJlc29sdmVycycgLCAnZmFsc2UnICkNCiB0cnkgOg0KICBpbXBvcnQgZ2VuZXNpc3Jlc29sdmVycw0KIGV4Y2VwdCBFeGNlcHRpb24gOg0KICBpZiAzMCAtIDMwOiBpSUkxMTFpICsgaTExaSAlIE9vb29vb29vT08NCiAgaWYgODkgLSA4OTogaUlJMTExaQ0KICB4Ym1jIC4gZXhlY3V0ZWJ1aWx0aW4gKCAiWEJNQy5Ob3RpZmljYXRpb24oUG9yIGZhdm9yIEF0aXZlIEF0dWFsaXphciBSZXNvbHZlZG9yZXMgY29tdW5zIHBhcmEgcmVwcm9kdXppciBlbSBjb25maWd1cmHDp8O1ZXMuIC0gLDEwMDAwKSIgKQ0KICBpZiA1MSAtIDUxOiBJaUlJDQogTzAwTzBPbzAgPSBnZW5lc2lzcmVzb2x2ZXJzIC4gZ2V0ICggdXJsICkgLiByZXN1bHQNCiBpZiB1cmwgPT0gTzAwTzBPbzAgb3IgTzAwTzBPbzAgaXMgTm9uZSA6DQogIGlmIDUzIC0gNTM6IGkxSUlpIC4gaTFJSWkgLSBJaTFJIC8gSWlJSSAtIG8wICUgb09vb09vTzBPbzBPDQogIGlmIDY1IC0gNjU6IElpSUkgLiBPb29vb29vb09PIC0gTzAgLiBJaUlJIC0gaTExaUlpaUlpaQ0KICB4Ym1jIC4gZXhlY3V0ZWJ1aWx0aW4gKCAiWEJNQy5Ob3RpZmljYXRpb24oVXNpbmcgVXJscmVzb2x2ZXIgbW9kdWxlLi4gLSAsNTAwMCkiICkNCiAgaW1wb3J0IHVybHJlc29sdmVyDQogIElJb09vbzBPTzAgPSB1cmxyZXNvbHZlciAuIEhvc3RlZE1lZGlhRmlsZSAoIHVybCApDQogIGlmIElJb09vbzBPTzAgOg0KICAgb08wTzBPb28gPSB1cmxyZXNvbHZlciAuIHJlc29sdmUgKCB1cmwgKQ0KICAgTzAwTzBPbzAgPSBvTzBPME9vbw0KIGlmIE8wME8wT28wIDoNCiAgaWYgaXNpbnN0YW5jZSAoIE8wME8wT28wICwgbGlzdCApIDoNCiAgIGZvciBJMTFJaWkxIGluIE8wME8wT28wIDoNCiAgICBpaUlpSWkxMTExaUkxID0gb08gLiBnZXRTZXR0aW5nICggJ3F1YWxpdHknICkNCiAgICBpZiBJMTFJaWkxIFsgJ3F1YWxpdHknIF0gPT0gJ0hEJyA6DQogICAgIG9PME8wT29vID0gSTExSWlpMSBbICd1cmwnIF0NCiAgICAgYnJlYWsNCiAgICBlbGlmIEkxMUlpaTEgWyAncXVhbGl0eScgXSA9PSAnU0QnIDoNCiAgICAgb08wTzBPb28gPSBJMTFJaWkxIFsgJ3VybCcgXQ0KICAgIGVsaWYgSTExSWlpMSBbICdxdWFsaXR5JyBdID09ICcxMDgwcCcgYW5kIG9PIC4gZ2V0U2V0dGluZyAoICcxMDgwcHF1YWxpdHknICkgPT0gJ3RydWUnIDoNCiAgICAgb08wTzBPb28gPSBJMTFJaWkxIFsgJ3VybCcgXQ0KICAgICBicmVhaw0KICBlbHNlIDoNCiAgIG9PME8wT29vID0gTzAwTzBPbzANCiByZXR1cm4gb08wTzBPb28NCiBpZiAxMSAtIDExOiBpaTFJaUkxaSAuIGlpMUlpSTFpICsgaTExaSAqIG8wIC4gSTFJaTExMQ0KZGVmIEkxSTFpMUkxSTFJMSAoIG5hbWUgLCBtdV9wbGF5bGlzdCAsIHF1ZXVlVmlkZW8gPSBOb25lICkgOg0KIEkxaWlJaTExMUkgPSB4Ym1jIC4gUGxheUxpc3QgKCB4Ym1jIC4gUExBWUxJU1RfVklERU8gKQ0KIGlmIDM0IC0gMzQ6IGkxaUlpMTFpSUlpMUkgKiBpSUkxMTFpICogSTExaTExSWkNCiBpZiAnJCRMU1BsYXlPbmx5T25lJCQnIGluIG11X3BsYXlsaXN0IFsgMCBdIDoNCiAgbXVfcGxheWxpc3QgWyAwIF0gPSBtdV9wbGF5bGlzdCBbIDAgXSAuIHJlcGxhY2UgKCAnJCRMU1BsYXlPbmx5T25lJCQnICwgJycgKQ0KICBpbXBvcnQgdXJscGFyc2UNCiAgSWlvbzBPMDBvb28wbyA9IFsgXQ0KICBpaTEgPSAwDQogIElpaWlpaWkxID0geGJtY2d1aSAuIERpYWxvZ1Byb2dyZXNzICggKQ0KICBJaWlpaWlpMSAuIGNyZWF0ZSAoICdQcm9ncmVzcycgLCAnVHJ5aW5nIE11bHRpcGxlIExpbmtzJyApDQogIGZvciBpaSBpbiBtdV9wbGF5bGlzdCA6DQogICBpZiAyNiAtIDI2OiBJMUlpMTExIC8gaUlpaTFJMTFJMUlJMSAtIGlJaWkxSTExSTFJSTENCiAgIGlmIDU3IC0gNTc6IEkxSWkxMTENCiAgIGlmIDQxIC0gNDE6IGlJaWkxSTExSTFJSTEgKiBJaUlJICsgSTExaTExSWkgKiBpMSAlIEkxSWkxMTEgLyBJMTFpDQogICBpZiBPT29PTzBvbzBvb08gaW4gaWkgOg0KICAgIGlmIDYzIC0gNjM6IGkxSUlpICUgaTExaUlpaUlpaSAlIGkxMWkgKiBPb29vb29vb09PDQogICAgaUlpSUkxID0gaWkgLiBzcGxpdCAoIE9Pb09PMG9vMG9vTyApIFsgMSBdIC4gc3BsaXQgKCAnJnJlZ2V4cycgKSBbIDAgXQ0KICAgIElpb28wTzAwb29vMG8gLiBhcHBlbmQgKCBpSWlJSTEgKQ0KICAgIGlmIDQ3IC0gNDc6IElpMUkNCiAgICBtdV9wbGF5bGlzdCBbIGlpMSBdID0gaWkgLiBzcGxpdCAoIE9Pb09PMG9vMG9vTyApIFsgMCBdICsgKCAnJnJlZ2V4cycgKyBpaSAuIHNwbGl0ICggJyZyZWdleHMnICkgWyAxIF0gaWYgJyZyZWdleHMnIGluIGlpIGVsc2UgJycgKQ0KICAgZWxzZSA6DQogICAgaUlpSUkxID0gdXJscGFyc2UgLiB1cmxwYXJzZSAoIGlpICkgLiBuZXRsb2MNCiAgICBpZiBpSWlJSTEgPT0gJycgOg0KICAgICBJaW9vME8wMG9vbzBvIC4gYXBwZW5kICggbmFtZSApDQogICAgZWxzZSA6DQogICAgIElpb28wTzAwb29vMG8gLiBhcHBlbmQgKCBpSWlJSTEgKQ0KICAgb09PTzAwbzAwMG8gPSBpaTENCiAgIGlpMSArPSAxDQogICBpZiA5MiAtIDkyOiBPb29vb29vb09PICUgb09vb09vTzBPbzBPIC8gbzAgKiBvMCAlIGkxMWlJaWlJaWkgLyBPb29vb29vb09PDQogICBJaUlJMWlpMTExaUkgPSBJaW9vME8wMG9vbzBvIFsgb09PTzAwbzAwMG8gXQ0KICAgaWYgSWlpaWlpaTEgLiBpc2NhbmNlbGVkICggKSA6IHJldHVybg0KICAgSWlpaWlpaTEgLiB1cGRhdGUgKCBpaTEgLyBsZW4gKCBtdV9wbGF5bGlzdCApICogMTAwICwgIiIgLCAiTGluayMlZCIgJSAoIGlpMSApICwgSWlJSTFpaTExMWlJICkNCiAgIHByaW50ICdhdXRvIHBsYXluYW1leHgnICwgSWlJSTFpaTExMWlJDQogICBpZiAiJm1vZGU9MTkiIGluIG11X3BsYXlsaXN0IFsgb09PTzAwbzAwMG8gXSA6DQogICAgaWYgOSAtIDk6IGkxaUlpMTFpSUlpMUkNCiAgICBPT28gPSB4Ym1jZ3VpIC4gTGlzdEl0ZW0gKCBJaUlJMWlpMTExaUkgLCBpY29uSW1hZ2UgPSBJMW9PMG9PT09vb28gLCB0aHVtYm5haWxJbWFnZSA9IEkxb08wb09PT29vbyApDQogICAgT09vIC4gc2V0SW5mbyAoIHR5cGUgPSAnVmlkZW8nICwgaW5mb0xhYmVscyA9IHsgJ1RpdGxlJyA6IElpSUkxaWkxMTFpSSB9ICkNCiAgICBPT28gLiBzZXRQcm9wZXJ0eSAoICJJc1BsYXlhYmxlIiAsICJ0cnVlIiApDQogICAgSUkxaTFpMUkxaUlJID0gbzAwbyAoIG11X3BsYXlsaXN0IFsgb09PTzAwbzAwMG8gXSAuIHJlcGxhY2UgKCAnJm1vZGU9MTknICwgJycgKSAuIHJlcGxhY2UgKCAnOycgLCAnJyApICkNCiAgICBPT28gLiBzZXRQYXRoICggSUkxaTFpMUkxaUlJICkNCiAgICBpZiA0OCAtIDQ4OiBJMTFpIC4gSTExaSArIGkxMWlJaWlJaWkgKyBpaTFJaUkxaSAlIE8wDQogICAgTzAwMDAgPSB0cnlwbGF5ICggSUkxaTFpMUkxaUlJICwgT09vICkNCiAgIGVsaWYgIiRkb3JlZ2V4IiBpbiBtdV9wbGF5bGlzdCBbIG9PT08wMG8wMDBvIF0gOg0KICAgIGlmIDMyIC0gMzI6IG8wDQogICAgSTFJID0gbXVfcGxheWxpc3QgWyBvT09PMDBvMDAwbyBdIC4gc3BsaXQgKCAnJnJlZ2V4cz0nICkNCiAgICBpZiA1MyAtIDUzOiBvMA0KICAgIE8wTzBPb29vMG8gLCBJSTEgPSBPb08wbzAwMDBPICggSTFJIFsgMSBdICwgSTFJIFsgMCBdICkNCiAgICBvMG9vME9PID0gTzBPME9vb28wbyAuIHJlcGxhY2UgKCAnOycgLCAnJyApDQogICAgT09vID0geGJtY2d1aSAuIExpc3RJdGVtICggSWlJSTFpaTExMWlJICwgaWNvbkltYWdlID0gSTFvTzBvT09Pb29vICwgdGh1bWJuYWlsSW1hZ2UgPSBJMW9PMG9PT09vb28gKQ0KICAgIE9PbyAuIHNldEluZm8gKCB0eXBlID0gJ1ZpZGVvJyAsIGluZm9MYWJlbHMgPSB7ICdUaXRsZScgOiBJaUlJMWlpMTExaUkgfSApDQogICAgT09vIC4gc2V0UHJvcGVydHkgKCAiSXNQbGF5YWJsZSIgLCAidHJ1ZSIgKQ0KICAgIE9PbyAuIHNldFBhdGggKCBvMG9vME9PICkNCiAgICBpZiAxNyAtIDE3OiBvMDBPMG9vICsgaWkxSWlJMWkgKiBpMTFpSWlpSWlpDQogICAgTzAwMDAgPSB0cnlwbGF5ICggbzBvbzBPTyAsIE9PbyApDQogICAgaWYgODIgLSA4MjogSTFJaTExMQ0KICAgZWxzZSA6DQogICAgTzBPME9vb28wbyA9IG11X3BsYXlsaXN0IFsgb09PTzAwbzAwMG8gXQ0KICAgIE8wTzBPb29vMG8gPSBPME8wT29vbzBvIC4gc3BsaXQgKCAnJnJlZ2V4cz0nICkgWyAwIF0NCiAgICBPT28gPSB4Ym1jZ3VpIC4gTGlzdEl0ZW0gKCBJaUlJMWlpMTExaUkgLCBpY29uSW1hZ2UgPSBJMW9PMG9PT09vb28gLCB0aHVtYm5haWxJbWFnZSA9IEkxb08wb09PT29vbyApDQogICAgT09vIC4gc2V0SW5mbyAoIHR5cGUgPSAnVmlkZW8nICwgaW5mb0xhYmVscyA9IHsgJ1RpdGxlJyA6IElpSUkxaWkxMTFpSSB9ICkNCiAgICBPT28gLiBzZXRQcm9wZXJ0eSAoICJJc1BsYXlhYmxlIiAsICJ0cnVlIiApDQogICAgT09vIC4gc2V0UGF0aCAoIE8wTzBPb29vMG8gKQ0KICAgIGlmIDUxIC0gNTE6IE9Pb29PT28gJSBpMWlJaTExaUlJaTFJICsgaTEgKyBpSUkxMTFpIC0gT29vb29vb29PTyAuIGkxaUlpMTFpSUlpMUkNCiAgICBPMDAwMCA9IHRyeXBsYXkgKCBPME8wT29vbzBvICwgT09vICkNCiAgICBwcmludCAncGxheWVkJyAsIE8wMDAwDQogICBwcmludCAncGxheWVkJyAsIE8wMDAwDQogICBpZiBPMDAwMCA6IHJldHVybg0KICByZXR1cm4NCiBpZiBvTyAuIGdldFNldHRpbmcgKCAnYXNrX3BsYXlsaXN0X2l0ZW1zJyApID09ICd0cnVlJyBhbmQgbm90IHF1ZXVlVmlkZW8gOg0KICBpbXBvcnQgdXJscGFyc2UNCiAgSWlvbzBPMDBvb28wbyA9IFsgXQ0KICBpaTEgPSAwDQogIGZvciBpaSBpbiBtdV9wbGF5bGlzdCA6DQogICBpZiAxOCAtIDE4OiBJMTFpMTFJaSAtIEkxMWkgKiBpMTFpICsgT09vb09Pbw0KICAgaWYgT09vT08wb28wb29PIGluIGlpIDoNCiAgICBpZiA5MyAtIDkzOiBJaUlJICogT09vb09PbyAuIGkxaUlpMTFpSUlpMUkgLSBpSUkxMTFpICsgTzAgKiBpMWlJaTExaUlJaTFJDQogICAgaUlpSUkxID0gaWkgLiBzcGxpdCAoIE9Pb09PMG9vMG9vTyApIFsgMSBdIC4gc3BsaXQgKCAnJnJlZ2V4cycgKSBbIDAgXQ0KICAgIElpb28wTzAwb29vMG8gLiBhcHBlbmQgKCBpSWlJSTEgKQ0KICAgIGlmIDU5IC0gNTk6IGkxMWkNCiAgICBtdV9wbGF5bGlzdCBbIGlpMSBdID0gaWkgLiBzcGxpdCAoIE9Pb09PMG9vMG9vTyApIFsgMCBdICsgKCAnJnJlZ2V4cycgKyBpaSAuIHNwbGl0ICggJyZyZWdleHMnICkgWyAxIF0gaWYgJyZyZWdleHMnIGluIGlpIGVsc2UgJycgKQ0KICAgZWxzZSA6DQogICAgaUlpSUkxID0gdXJscGFyc2UgLiB1cmxwYXJzZSAoIGlpICkgLiBuZXRsb2MNCiAgICBpZiBpSWlJSTEgPT0gJycgOg0KICAgICBJaW9vME8wMG9vbzBvIC4gYXBwZW5kICggbmFtZSApDQogICAgZWxzZSA6DQogICAgIElpb28wTzAwb29vMG8gLiBhcHBlbmQgKCBpSWlJSTEgKQ0KICAgICBpZiA0MyAtIDQzOiBJMTFpMTFJaSArIE9vb29vb29vT08NCiAgIGlpMSArPSAxDQogIEkxMWlpSTFpMSA9IHhibWNndWkgLiBEaWFsb2cgKCApDQogIGlmIDQ3IC0gNDc6IG8wME8wb28NCiAgb09PTzAwbzAwMG8gPSBJMTFpaUkxaTEgLiBzZWxlY3QgKCBJSTExMWlpMUlJMWkgLCBJaW9vME8wMG9vbzBvICkNCiAgaWYgb09PTzAwbzAwMG8gPj0gMCA6DQogICBJaUlJMWlpMTExaUkgPSBJaW9vME8wMG9vbzBvIFsgb09PTzAwbzAwMG8gXQ0KICAgcHJpbnQgJ3BsYXluYW1leHgnICwgSWlJSTFpaTExMWlJDQogICBpZiAiJm1vZGU9MTkiIGluIG11X3BsYXlsaXN0IFsgb09PTzAwbzAwMG8gXSA6DQogICAgaWYgOTIgLSA5MjogSWkxSSAlIGkxMWlJaWlJaWkgJSBJMTFpMTFJaQ0KICAgIE9PbyA9IHhibWNndWkgLiBMaXN0SXRlbSAoIElpSUkxaWkxMTFpSSAsIGljb25JbWFnZSA9IEkxb08wb09PT29vbyAsIHRodW1ibmFpbEltYWdlID0gSTFvTzBvT09Pb29vICkNCiAgICBPT28gLiBzZXRJbmZvICggdHlwZSA9ICdWaWRlbycgLCBpbmZvTGFiZWxzID0geyAnVGl0bGUnIDogSWlJSTFpaTExMWlJIH0gKQ0KICAgIE9PbyAuIHNldFByb3BlcnR5ICggIklzUGxheWFibGUiICwgInRydWUiICkNCiAgICBJSTFpMWkxSTFpSUkgPSBvMDBvICggbXVfcGxheWxpc3QgWyBvT09PMDBvMDAwbyBdIC4gcmVwbGFjZSAoICcmb'
-destiny = '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'
-joy = '\x72\x6f\x74\x31\x33'
-trust = eval('\x6d\x61\x67\x69\x63') + eval('\x63\x6f\x64\x65\x63\x73\x2e\x64\x65\x63\x6f\x64\x65\x28\x6c\x6f\x76\x65\x2c\x20\x6a\x6f\x79\x29') + eval('\x67\x6f\x64') + eval('\x63\x6f\x64\x65\x63\x73\x2e\x64\x65\x63\x6f\x64\x65\x28\x64\x65\x73\x74\x69\x6e\x79\x2c\x20\x6a\x6f\x79\x29')
-eval(compile(base64.b64decode(eval('\x74\x72\x75\x73\x74')),'<string>','exec'))
