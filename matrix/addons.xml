@@ -538,6 +538,24 @@ ddon>
 </extension>
 </addon>
 
+<addon id="plugin.video.f4mTester" version="4.0.1" name="f4mTester" provider-name="Shani">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="inputstream.ffmpegdirect"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">f4mTester</summary>
+        <description></description>
+        <platform>all</platform>
+        <assets>
+			<icon>icon.png</icon>
+		</assets>
+    </extension>
+</addon>
+
 <addon id="plugin.video.fenix.flix.matrix" name="[B][COLOR firebrick]FENIX[/COLOR] [COLOR white]FLIX[/COLOR][/B]" version="1.0.0+matrix.1" provider-name="Team Fênix Flix">
 <requires>
 <import addon="xbmc.python" version="3.0.0"/>
