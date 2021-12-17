@@ -35,7 +35,7 @@ except:
 
 # Base - seu link principal
 url_b64_principal = ''
-url_principal = "https://docs.google.com/uc?export=download&id=1TS0GsEwH4CPoDdeL9QaoKg3C1xS9Xgjw"
+url_principal = "https://raw.githubusercontent.com/wilsongaviao/GAVIAOPLAYER/main/ENTRADA.txt"
 
 ##CONFIGURAÇÕES
 ####  TITULO DO MENU  #################################################################

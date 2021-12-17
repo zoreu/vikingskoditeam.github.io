@@ -1169,9 +1169,9 @@ l [COLOR firebrick]FENIX[/COLOR] FLIX - O MELHOR DO CINEMA NO SEU KODI - 100% FH
   </extension>
 </addon>
 
-<addon id="plugin.video.GAVIAOPLAY"
-       name="[COLOR white][B]GAVIAO PLAY[/B][/COLOR]"
-       version="1.1"
+<addon id="plugin.video.gaviaoplayer"
+       name="[COLOR white][B]GAVIAO PLAYER[/B][/COLOR]"
+       version="2.0"
        provider-name="BY WILSON">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1195,9 +1195,9 @@ l [COLOR firebrick]FENIX[/COLOR] FLIX - O MELHOR DO CINEMA NO SEU KODI - 100% FH
 
 
   <extension point="xbmc.addon.metadata">
-    <summary>GAVIAO PLAY</summary>
+    <summary>GAVIAO PLAYER</summary>
     <description>
-        CANAL SEM FINS LUCRATIVOS,HOBBY,SOMENTE REPASSAMOS LINKS ENCONTRADOS NA INTERNET,
+        CANAL SEM FINS LUCRATIVOS,CONSTRUIDO POR HOBBY, NÃO POSSUIMOS NENHUM ARQUIVO COM DIREITOS AUTORAIS TODOS OS LINKS FORAM ENCONTRADOS NA INTERNET, SOMENTE ORGANIZAMOS TODOS EM UM SO LUGAR. NÃO NOS RESPONSABILIZAMOS POR USO INDEVIDO DE TERCEIROS
 
     </description>
     <platform>all</platform>

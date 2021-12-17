@@ -1,5 +1,5 @@
-<?xml version="2.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.gaviaoplayer" name="GAVIAOPLAYER" version="2.0.0+matrix.1" provider-name="wilson(gaviao)"> 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.gaviaoplayer" name="GAVIAOPLAYER" version="2.1.0+matrix.1" provider-name="wilson(gaviao)"> 
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
@@ -10,8 +10,8 @@
 	<provides>video</provides>
 </extension>   
 <extension point="xbmc.addon.metadata">
-	 <summary lang="en">TODO CONTEÚDO DESSE ADDONS FOI EXTRAÍDO DA INTERNET, OU SEJA, ESTA VIA DOMÍNIO PÚBLICO. NÃO ME RESPONSABILIZO POR FINS LUCRATIVOS DE TERCEIRO</summary>
-    <description lang="en"> O MELHOR EM:LANÇAMENTOS,SÉRIES,COLEÇÕES,ANIMES,DESENHOS,FILMES ANTIGOS,O MELHOR DO CINEMA NACIONAL E INTERNACIONAL,MUSICAS,VIDEOS EM GERAL,ETÇ...... </description>
+	 <summary lang="en">TODO CONTEÚDO DESSE EDDONS FOI EXTRAÍDO DA INTERNET, OU SEJA, ESTA VIA DOMÍNIO PÚBLICO. NÃO ME RESPONSABILIZO POR FINS LUCRATIVOS DE TERCEIRO</summary>
+    <description lang="en"> O MELHOR EM:LANÇAMENTOS,SÉRIES,COLEÇÕES,ANIMES,DESENHOS,FILMES ANTIGOS,O MELHOR DO CINEMA NACIONAL E INTERNACIONAL,ETÇ...... </description>
     <disclaimer lang="en"></disclaimer>
 	<platform>all</platform>
 	<assets>
