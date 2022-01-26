@@ -996,6 +996,35 @@ v1.0.9
 </extension>
 </addon>
 
+<addon id="plugin.video.PirateBr.Matrix" name="[COLOR white]Pirate-Br+[/COLOR]" version="1.0.1+matrix.1" provider-name="Gael">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	<summary lang="en">Addon example</summary>
+	<summary lang="pt">Addon modelo</summary>
+	<description lang="pt">Somos apenas um agregador de links,assim como GOOGLE.COM! Todos e quaisquer links aqui encontrados,nao estao hospedados em nossos servidores</description>
+	<disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>
+	<news>
+v1.0.1
+- Novo modelo
+- Mudanças visuais
+- Adicionada a opção de "FAVORITOS"
+	</news>
+</extension>
+</addon>
+
 <addon id="plugin.video.playlistloader" name="Playlist Loader" version="1.9.3+matrix" provider-name="Forked by Publish3r">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -1033,6 +1062,33 @@ v1.0.9
 			<icon>icon.png</icon>
 		</assets>
 	</extension>
+</addon>
+
+<addon id="plugin.video.ROCK4U" name="[COLOR lime][B]ROCK[/B][/COLOR][COLOR lawngreen][B]4U[/B][/COLOR]" version="KDS2.0" provider-name="Sami Mod By Garfield Dj">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+	<import addon="inputstream.adaptive"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="mixtx.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+    <summary lang="en">Add-on exclusivo para shows de Metal e Rock agora tambem no Kodi Matrix 19</summary>
+    <description></description>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+       <screenshot>resources/screenshots/01.jpg</screenshot>
+       <screenshot>resources/screenshots/02.jpg</screenshot>
+       <screenshot>resources/screenshots/03.jpg</screenshot>
+    </assets>
+	<news>
+	</news>
+</extension>
 </addon>
 
 <addon id="plugin.video.rumble.matrix" name="[B]Rumble[/B]" version="1.0.0+matrix" provider-name="Oneplay team">
@@ -1107,36 +1163,6 @@ Rumble - v1.0.0.matrix
 </extension>
 </addon>
 
-<addon id="plugin.video.thepiratebr"
-       name="[COLOR yellow][B]THE PIRATE[/B][/COLOR] [B][COLOR green]BR+[/COLOR][/B]"
-       version="3.0.0+matrix.1"
-       provider-name="TPB+">
-<requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.simplejson"/>
-	<import addon="script.module.kodi-six" />
-</requires>
-<extension point="xbmc.python.pluginsource" library="default.py">
-	<provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-	 <summary lang="en">Addon focado em filmes 4k,imax,remux e 3d</summary>
-    <description lang="en">Somos apenas um agregador de links</description>
-    <disclaimer lang="en"></disclaimer>
-	<platform>all</platform>
-	<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-<screenshot>resources/screenshots/home.png</screenshot>
-<screenshot>resources/screenshots/movies.png</screenshot>
-<screenshot>resources/screenshots/series.png</screenshot>
-</assets>
-	<news>news
-	</news>
-</extension>
-</addon>
-
 <addon id="plugin.video.thethunder" version="1.1.4" name="[COLOR violet]THUNDER[/COLOR]" provider-name="OnePlay Team">
     <requires>
         <import addon="script.module.simplejson" />
@@ -1167,6 +1193,40 @@ Rumble - v1.0.0.matrix
 			<screenshot>resources/media/thunder3.png</screenshot>
         </assets>
     </extension>
+</addon>
+
+<addon id="plugin.video.Varzea_box" name="Varzea Box" version="1.4.1" provider-name="Alex Oyakawa">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+
+<extension point="xbmc.addon.repository" name="Repositório Exemplo">
+	<info compressed="false"></info>
+	<checksum></checksum>
+    <datadir zip="true"></datadir>
+</extension>
+
+<extension point="xbmc.addon.metadata">
+    <summary lang="en">O Futebol de Verdade é Aqui.</summary>
+    <description lang="en">Jogos ao Vivo e programas de Futebol de Varzea e esportes amadores.</description>
+     <disclaimer lang="en">Não fazemos parte da equipe do kodi, utilizamos links de terceiros, portanto não nos responsabilizamos por eles.</disclaimer>
+	 	<news>V1.0.0 - Criação de Addon.</news>
+	<platform>all</platform>
+    <assets>
+	<icon>icon.png</icon>
+    <fanart>fanart.png</fanart>
+    <screenshot>resources/screenshots/01.jpg</screenshot>
+    <screenshot>resources/screenshots/02.jpg</screenshot>
+    <screenshot>resources/screenshots/03.jpg</screenshot>
+
+    </assets>
+</extension>
 </addon>
 
 <addon id="plugin.video.VikingsFREE"

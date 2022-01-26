@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.PirateBr.Matrix" name="[COLOR white]Pirate-Br+[/COLOR]" version="1.0.1+matrix.1" provider-name="Gael"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	<summary lang="en">Addon example</summary>
+	<summary lang="pt">Addon modelo</summary>
+	<description lang="pt">Somos apenas um agregador de links,assim como GOOGLE.COM! Todos e quaisquer links aqui encontrados,nao estao hospedados em nossos servidores</description>
+	<disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>
+	<news>
+v1.0.1
+- Novo modelo
+- Mudanças visuais
+- Adicionada a opção de "FAVORITOS"
+	</news>
+</extension>
+</addon>
