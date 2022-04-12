@@ -780,42 +780,30 @@ v1.1.0.matrix.1
 </extension>
 </addon>
 
-<addon id="plugin.video.luminartstudio.matrix" name="[COLOR orange][B]LUMINART STUDIO[/B][/COLOR]" version="1.4.21+matrix.1" provider-name="[COLOR white][B]JOHN DOE[/B][/COLOR]">
-<requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.simplejson"/>
-	<import addon="script.module.kodi-six" />
-</requires>
-<extension point="xbmc.python.pluginsource" library="default.py">
-	<provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-	 <summary lang="en">SUA CONTRIBUIÇÃO INCENTIVA NOSSO TRABALHO</summary>
-    <description lang="en">ACESSO GRATUITO NAS CONDIÇÕES ABAIXO:
-ACESSO INTEGRAL POR DEZ DIAS NO INICIO DO PERÍODO
-QUE VAI DO DIA 15 DE CADA MÊS ATÉ 15 DO PRÓXIMO,
-PARA CONHECER E DECIDIR SE VALE A PENA CONTRIBUIR.
-ACESSO REDUZIDO NO RESTANTE DO PERÍODO.
-SE GOSTOU, E DESEJA TER ACESSO INTEGRAL,
-SOLICITE A ADESÃO DE CONTRIBUINTE NOS CONTATOS:
-luminartstudio4@gmail.com  OU  WhatsApp (48) 99194-1409 </description>
-    <disclaimer lang="en">O LUMINART STUDIO É APENAS UM INDEXADOR DE LINKS COLETADOS NA WEB E ORGANIZADOS PARA USO RECREATIVO,SEM FINS COMERCIAIS
-NÃO ARMAZENAMOS ARQUIVOS, OU SOMOS RESPONSÁVEIS PELOS LINKS UTILIZADOS.</disclaimer>
-	<platform>all</platform>
-	<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-<screenshot>resources/screenshots/home.png</screenshot>
-<screenshot>resources/screenshots/movies.png</screenshot>
-<screenshot>resources/screenshots/series.png</screenshot>
-</assets>
-	<news>SE GOSTOU, E DESEJA TER ACESSO INTEGRAL,
-SOLICITE A ADESÃO DE CONTRIBUINTE NOS CONTATOS:
-luminartstudio4@gmail.com  OU  WhatsApp (48) 99194-1409
-VISITE NOSSO SITE:
-https://luminartstudio.blogspot.com/</news>
-</extension>
+<addon id="plugin.video.luminartstudio.matrix" version="0.0.2" name="[COLOR orange][B]LUMINART MTX[/B][/COLOR]" provider-name="[COLOR white][B]JOHN DOE[/B][/COLOR]">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.simplejson"/>
+	    <import addon="script.module.kodi-six" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">SUA CONTRIBUIÇÃO INCENTIVA NOSSO TRABALHO</summary>
+        <description lang="en">ACESSO MÚLTIPLO - FREE E VIP AGRADECEMOS SUA CONTRIBUIÇÃO. NOSSO CONTATO: WhatsApp (48) 99194-1409</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <disclaimer lang="en">O LUMINART STUDIO É APENAS UM INDEXADOR DE LINKS COLETADOS NA WEB E ORGANIZADOS PARA USO RECREATIVO,SEM FINS COMERCIAIS NÃO ARMAZENAMOS ARQUIVOS, OU SOMOS RESPONSÁVEIS PELOS LINKS UTILIZADOS.</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources/screenshots/home.jpg</screenshot>
+            <screenshot>resources/screenshots/movies.jpg</screenshot>
+            <screenshot>resources/screenshots/series.jpg</screenshot>
+        </assets>
+    </extension>
 </addon>
 
 <addon id="plugin.video.maximus" name="[COLOR white][B]Maximus[/B][/COLOR]" version="1.0+matrix.1" provider-name="[B][COLOR gold]Maximus[/B][/COLOR]">
@@ -1651,6 +1639,38 @@ Levando o lazer e o prazer Para vocês assistir e curtir cada momento com a fam�
 </description>
 <disclaimer>[B][COLOR white]KronosPlay é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</disclaimer>
 </extension>
+</addon>
+
+<addon id="repository.repoluminartstudio" name="REPOSITÓRIO LUMINART STUDIO" version="0.0.3" provider-name="luminart506">
+    <extension point="xbmc.addon.repository" name="REPOSITÓRIO LUMINART STUDIO">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+        </dir>
+        <dir minversion="17.0.0" maxversion="18.9.0">
+			<info compressed="false">https://raw.githubusercontent.com/luminart506/repoluminartstudio/main/krypton/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/luminart506/repoluminartstudio/main/krypton/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/luminart506/repoluminartstudio/main/krypton/</datadir>
+			<hashes>false</hashes>
+        </dir>
+  	    <dir minversion="18.9.1">
+			<info compressed="false">https://raw.githubusercontent.com/luminart506/repoluminartstudio/main/matrix/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/luminart506/repoluminartstudio/main/matrix/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/luminart506/repoluminartstudio/main/matrix/</datadir>
+			<hashes>false</hashes>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>LUMINART-VIP</summary>
+        <description>INSTALAÇÃO VIA LINK</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
 
 <addon id="script.limpeza.Matrix" name="[COLORred]Script[/COLOR] [COLORgreen]Limpeza[/COLOR]" provider-name="BOSS" version="1.0">

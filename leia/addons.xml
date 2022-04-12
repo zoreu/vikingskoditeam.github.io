@@ -1445,9 +1445,9 @@ Toda a fonte  vem de utilizadores do Youtube.
   </extension>
 </addon>
 
-<addon id="plugin.video.luminartstudio.kripton"
-       name="[COLOR orange] LUMINART STUDIO [/COLOR]"
-       version="1.4.21+kripton"
+<addon id="plugin.video.luminartstudio.krypton"
+       name="[COLOR orange][B]LUMINART KRP[/B][/COLOR]"
+       version="0.0.2"
        provider-name="[COLOR white][B]JOHN DOE[/B][/COLOR]">  <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -1465,17 +1465,11 @@ Toda a fonte  vem de utilizadores do Youtube.
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>SUA CONTRIBUIÇÃO INCENTIVA NOSSO TRABALHO</summary>
-    <description lang="en">ACESSO GRATUITO NAS CONDIÇÕES ABAIXO:
-ACESSO INTEGRAL POR DEZ DIAS NO INÍCIO DO PERÍODO
-QUE VAI DO DIA 15 DE CADA MÊS ATÉ 15 DO PRÓXIMO,
-PARA CONHECER E DECIDIR SE VALE A PENA CONTRIBUIR.
-ACESSO REDUZIDO NO RESTANTE DO PERÍODO,
-SOLICITE A ADESÃO DE CONTRIBUINTE NOS CONTATOS:
-luminartstudio4@gmail.com  OU  WhatsApp (48) 99194-1409  </description>
+    <description lang="en">ACESSO MÚLTIPLO - FREE E VIP AGRADECEMOS SUA CONTRIBUIÇÃO. NOSSO CONTATO: WhatsApp (48) 99194-1409  </description>
     <disclaimer lang="en">O LUMINART STUDIO É APENAS UM INDEXADOR DE LINKS COLETADOS NA WEB E ORGANIZADOS PARA USO RECREATIVO,SEM FINS COMERCIAIS
 NÃO ARMAZENAMOS ARQUIVOS, OU SOMOS RESPONSÁVEIS PELOS LINKS UTILIZADOS.</disclaimer>
 	<news>
-SITE: https://luminartstudio.blogspot.com/ </news>
+VERSÃO - 001-31-04-22</news>
     <platform>all</platform>
 <assets>
        <icon>icon.png</icon>
@@ -3043,6 +3037,38 @@ www.fenixflix.ml</news>
         <screenshot>resources/screenshots/03.jpg</screenshot>
       </assets>
 	</extension>
+</addon>
+
+<addon id="repository.repoluminartstudio" name="REPOSITÓRIO LUMINART STUDIO" version="0.0.3" provider-name="luminart506">
+    <extension point="xbmc.addon.repository" name="REPOSITÓRIO LUMINART STUDIO">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+        </dir>
+        <dir minversion="17.0.0" maxversion="18.9.0">
+			<info compressed="false">https://raw.githubusercontent.com/luminart506/repoluminartstudio/main/krypton/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/luminart506/repoluminartstudio/main/krypton/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/luminart506/repoluminartstudio/main/krypton/</datadir>
+			<hashes>false</hashes>
+        </dir>
+  	    <dir minversion="18.9.1">
+			<info compressed="false">https://raw.githubusercontent.com/luminart506/repoluminartstudio/main/matrix/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/luminart506/repoluminartstudio/main/matrix/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/luminart506/repoluminartstudio/main/matrix/</datadir>
+			<hashes>false</hashes>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>LUMINART-VIP</summary>
+        <description>INSTALAÇÃO VIA LINK</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
 
 <addon id="repository.slyguy" name="SlyGuy Repository" provider-name="SlyGuy" version="0.0.2">
