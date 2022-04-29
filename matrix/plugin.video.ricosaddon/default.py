@@ -2,20 +2,35 @@
 import sys
 import six
 import os
+import re
 try:
     from urllib.parse import urlparse, parse_qs, quote, unquote, quote_plus, unquote_plus, urlencode #python 3
 except ImportError:    
     from urlparse import urlparse, parse_qs #python 2
     from urllib import quote, unquote, quote_plus, unquote_plus, urlencode
 from kodi_six import xbmc, xbmcvfs, xbmcgui, xbmcplugin, xbmcaddon
+try:
+    from urllib.parse import urlencode #python 3
+except ImportError:     
+    from urllib import urlencode #python 2      
+try:
+    from urllib.request import Request, urlopen, URLError  # Python 3
+except ImportError:
+    from urllib2 import Request, urlopen, URLError # Python 2
+try:
+    from StringIO import StringIO ## for Python 2
+except ImportError:            
+    from io import BytesIO as StringIO ## for Python 3
+import gzip   
+import six
 
 plugin = sys.argv[0]
 handle = int(sys.argv[1])
 addon = xbmcaddon.Addon()
 addonname = addon.getAddonInfo('name')
 icon = addon.getAddonInfo('icon')
-stream = 'https://5d2c98775bafe.streamlock.net:443/8090/8090/playlist.m3u8'
 info = 'Canal Ricos, Perus, São Paulo\n\nWhatsapp: (11) 98870-0735'
+site = 'https://www.tvcanalricos.com.br/'
 
 if six.PY3:
     profile = xbmcvfs.translatePath(addon.getAddonInfo('profile'))
@@ -25,6 +40,60 @@ else:
     home = xbmc.translatePath(addon.getAddonInfo('path')).decode('utf-8')
 
 fanart_default = os.path.join(home, 'fanart.png')
+
+def navegador(url,timeout=12):
+    req = Request(url)
+    req.add_header('sec-ch-ua', '"Google Chrome";v="93", " Not;A Brand";v="99", "Chromium";v="93"')
+    req.add_header('sec-ch-ua-mobile', '?0')
+    req.add_header('sec-ch-ua-platform', '"Windows"')
+    req.add_header('Upgrade-Insecure-Requests', '1')    
+    req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36')
+    req.add_header('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9')
+    req.add_header('Sec-Fetch-Site', 'none')
+    req.add_header('Sec-Fetch-Mode', 'navigate')
+    req.add_header('Sec-Fetch-User', '?1')
+    req.add_header('Sec-Fetch-Dest', 'document')
+    req.add_header('Accept-Encoding', 'gzip')
+    req.add_header('Accept-Language', 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7')
+    # if referer:    
+    #     req.add_header('Referer', referer)
+    try:
+        response = urlopen(req,timeout=timeout)
+        code = response.getcode()
+        encoding = response.info().get('Content-Encoding')
+    except:
+        code = 401
+        encoding = 'none'
+    if code == 200:
+        if encoding == 'gzip':
+            try:
+                buf = StringIO(response.read())
+                f = gzip.GzipFile(fileobj=buf)
+                content = f.read()
+            except:
+                content = ''
+        else:
+            try:
+                content = response.read()
+            except:
+                content = ''
+    else:
+        content = ''          
+    try:
+        content = content.decode('utf-8')
+    except:
+        pass
+    return content
+
+def resolver(url):
+    html = navegador(url)
+    link = re.compile('http\S+\.m3u8', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(html)
+    if link:
+        stream = link[0] + '|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36&Referer=' + url
+    else:
+        stream = ''
+    return stream
+
     
 def get_url(params):
     url = '%s?%s'%(plugin, urlencode(params))
@@ -45,6 +114,7 @@ def item(params,folder=True):
     else:
         description = ''
     mediatype = params.get("mediatype")
+    playable = params.get("playable")
 
     if six.PY3:
         li=xbmcgui.ListItem(name)
@@ -71,6 +141,7 @@ def item(params,folder=True):
     
 
 def play(name,url,iconimage,description,playable):
+    url = resolver(url)
     if url and 'plugin' in url:
         xbmc.executebuiltin('RunPlugin(%s)'%url)        
     elif url and not 'plugin' in url:
@@ -88,7 +159,7 @@ def play(name,url,iconimage,description,playable):
 
 
 def menu():
-    item({'name':'[B]Canal Ricos[/B]','action': 'play', 'url': stream, 'description': info, 'mediatype': 'video', 'iconimage': icon},folder=False)
+    item({'name':'[B]Canal Ricos[/B]','action': 'play', 'url': site, 'description': info, 'mediatype': 'video', 'iconimage': icon, 'playable': 'true'},folder=False)
     xbmcplugin.endOfDirectory(handle)
 
 
@@ -126,5 +197,11 @@ else:
     playable = 'false'
 if action == None:
     menu()
-elif 'play' in action:
-    play(name,url,iconimage,description,playable)    
+elif 'play' in action:   
+    if not 'http' in url:
+        name = '[B]Canal Ricos[/B]'
+        iconimage = icon
+        description = info
+        url = site
+        playable = 'true'
+    play(name,url,iconimage,description,playable)

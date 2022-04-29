@@ -1034,7 +1034,7 @@ v1.0.1
   </extension>
 </addon>
 
-<addon id="plugin.video.ricosaddon" name="[B]Canal Ricos[/B]" version="2.2" provider-name="Kodish Team,Zoreu">
+<addon id="plugin.video.ricosaddon" name="[B]Canal Ricos[/B]" version="2.3" provider-name="Kodish Team,Zoreu">
 	<requires>
 		<import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
