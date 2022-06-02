@@ -11,7 +11,7 @@ addon = xbmcaddon.Addon()
 addonpath = addon.getAddonInfo('path')
 player = xbmc.Player()
 
-streams = dict({'Estúdio KAZA FM': ['http://player.stmsg.com.br/player/6952/realplayer.rm', 'stream-tile-live.jpg']})
+streams = dict({'Estúdio KAZA FM': ['http://stm27.srvaudio.com.br:10946/realplayer.rm', 'icon.png']})
 
 
 def get_url(params):
@@ -30,6 +30,7 @@ def list_streams():
         liz = xbmcgui.ListItem(label=stream)
         liz.setPath(streams[stream][0])
         liz.setArt({'icon': get_image(streams[stream][1]), 'fanart': get_image('fanart.jpg')})
+
         liz.setProperty('IsPlayable', 'true')
         url = get_url({'action': 'play', 'url': streams[stream][0],
                        'icon': get_image(streams[stream][1]),
@@ -59,6 +60,7 @@ def router(route):
             play_stream(params['url'], params['icon'], params['title'])
     else:
         list_streams()
+
 
 
 _url = sys.argv[0]
