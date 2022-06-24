@@ -1,10 +1,10 @@
-import xbmc
+import xbmc,xbmcvfs
 import xbmcgui
 import os
 import sqlite3
 import datetime
 
-dir_database = xbmc.translatePath("special://profile/Database")
+dir_database = xbmcvfs.translatePath("special://profile/Database")
 db = os.path.join(dir_database, 'Addons33.db')
 
 def get_kversion():
