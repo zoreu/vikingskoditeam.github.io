@@ -18,13 +18,6 @@
     <provides>video</provides>
   </extension>
   
-  <extension point="xbmc.addon.repository" name="[COLOR aquamarine][B]ONE[/COLOR][COLOR white]PLAY[/B][/COLOR]">
-	<info compressed="false">https://github.com/OnePlayHD/OneRepo/raw/master/leia/addons.xml</info>
-	<checksum>https://github.com/OnePlayHD/OneRepo/raw/master/leia/addons.xml.md5</checksum>
-	<datadir zip="true">https://github.com/OnePlayHD/OneRepo/raw/master/leia</datadir>
-	<hashes>false</hashes>
-  </extension>
-  
   <extension point="xbmc.addon.metadata">
 	<summary lang="en">[COLOR aquamarine][B]ONE[/COLOR][COLOR white]PLAY[/B][/COLOR] - [B]It is a free video plugin for KODI that aggregates video playback links of various types.
 Bringing pleasure and pleasure for you to watch and enjoy every moment with family and friends.</summary>

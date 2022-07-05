@@ -874,12 +874,6 @@ v1.1.0.matrix.1
 <extension point="xbmc.python.pluginsource" library="main.py">
 	<provides>video</provides>
 </extension>
-<extension point="xbmc.addon.repository" name="[COLOR aquamarine][B]ONE[/COLOR][COLOR white]PLAY[/B][/COLOR]">
-	<info compressed="false">https://github.com/OnePlayHD/OneRepo/raw/master/matrix/addons.xml</info>
-	<checksum>https://github.com/OnePlayHD/OneRepo/raw/master/matrix/addons.xml.md5</checksum>
-	<datadir zip="true">https://github.com/OnePlayHD/OneRepo/raw/master/matrix</datadir>
-	<hashes>false</hashes>
-</extension>
 <extension point="xbmc.addon.metadata">
 	<summary lang="en">[COLOR aquamarine][B]ONE[/COLOR][COLOR white]PLAY[/B][/COLOR] - [B]It is a free video plugin for KODI that aggregates video playback links of various types.
 Bringing pleasure and pleasure for you to watch and enjoy every moment with family and friends.</summary>
