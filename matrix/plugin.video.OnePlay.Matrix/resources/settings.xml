@@ -7,10 +7,10 @@
 	<setting label="Saida de Transmissão VIP" id="saida" type="enum" values="TS|M3U8" default="0" />
 	<setting label="Exibir Menu VIP" id="exibirvip" type="bool" default="true" />
 	<setting label="[COLOR lightblue]Download app android[/COLOR]" type="lsep"/>
-    <setting label="[COLOR white]OnePlay Pro: [COLOR lime]Recomendado[/COLOR]" type="action" action="RunScript(plugin.video.OnePlay.Matrix, oneplaypro)"/>
-    <setting label="[COLOR white]OnePlay Xtreme: [COLOR lime]Recomendado[/COLOR]" type="action" action="RunScript(plugin.video.OnePlay.Matrix, oneplayxtreme)"/>
+    <setting label="[COLOR white]OnePlay Pro: [COLOR lime]Recomendado[/COLOR]" type="action" action="RunPlugin(plugin://plugin.video.OnePlay.Matrix?action=oneplaypro)"/>
+    <setting label="[COLOR white]OnePlay Xtreme: [COLOR lime]Recomendado[/COLOR]" type="action" action="RunPlugin(plugin://plugin.video.OnePlay.Matrix?action=oneplayxtreme)"/>
 	<setting label="[COLOR lightblue]Download app android[/COLOR]" type="lsep"/>
-    <setting label="[COLOR white]Horizon P2P: Outro Sistema[/COLOR]" type="action" action="RunScript(plugin.video.OnePlay.Matrix, horizonp2p)"/>
+    <setting label="[COLOR white]Horizon P2P: Outro Sistema[/COLOR]" type="action" action="RunPlugin(plugin://plugin.video.OnePlay.Matrix?action=horizonp2p)"/>
 </category>
 <category label="Proxy">
 		<setting label="[COLOR lightblue]Opções do Proxy:[/COLOR]" type="lsep"/>
@@ -25,33 +25,12 @@
 <category label="Controle dos Pais">
 		<setting label="[COLOR lightblue]Controle dos Pais:[/COLOR]" type="lsep"/>
 		<setting label="Exibir Menu Adultos (Servidor 2)" id="adult" type="bool" default="false" />
-		<setting label="Tipo de Teclado (OK para trocar)" id="keyboard" type="enum" values="Númerico|Alfanúmerico" default="0" />
-		<setting label="Entre aqui para alterar senha, padrão: [COLOR yellow][B]0069[/B][/COLOR]" type="action" action="RunScript(plugin.video.OnePlay.Matrix, SetPassword)"/>
-</category>
-<category label="Complementos">
-	<setting label="[COLOR lightblue]Configurações de Complemento:[/COLOR]" type="lsep"/>
-	<setting label="Verificar Complementos" id="check_addon" type="bool" default="true" />
-	<setting label="Baixar e Instalar Elementum" id="elementum" type="bool" default="true" />
-	<setting label="Baixar e Instalar Youtube" id="youtube" type="bool" default="false" />
-</category>
-<category label="Outros">
-	<setting label="[COLOR lightblue]Configurações Gerais:[/COLOR]" type="lsep"/>
-	<setting label="Exibir Mensagem de Boas Vindas" id="mensagem1" type="bool" default="true" />
-	<setting label="Exibir Mensagem de Status" id="mensagem2" type="bool" default="true" />
-	<setting label="Exibir Favoritos" id="favoritos" type="bool" default="false" />
-    <setting label="Entre aqui para limpar os favoritos" type="action" action="RunScript(plugin.video.OnePlay.Matrix, limparFavoritos)"/>	
-	<setting label="Executar Youtube" id="ytbmode" type="enum" values="Interno 1|Interno 2|Externo" default="1" />	
-    <setting label="Exibir Menu Pesquisar" id="pesquisa" type="bool" default="false" />
-    <setting label="Use Miniaturas como Fanart" id="use_thumb" type="bool" default="false" />
+		<setting label="Entre aqui para alterar senha, padrão: [COLOR yellow][B]0069[/B][/COLOR]" type="action" action="RunPlugin(plugin://plugin.video.OnePlay.Matrix?action=setpassword)"/>
 </category>
 <category label="Apoio">
 	<setting label="[COLOR lightblue]Suporte:[/COLOR]" type="lsep"/>
-    <setting label="[COLOR aquamarine]One[/COLOR][COLOR white]Play[/COLOR]: Site" type="action" action="RunScript(plugin.video.OnePlay.Matrix, supportsite)"/>
-    <setting label="[COLOR aquamarine]One[/COLOR][COLOR white]Play[/COLOR]: Facebook" type="action" action="RunScript(plugin.video.OnePlay.Matrix, supportfacebook)"/>
-    <setting label="[COLOR aquamarine]One[/COLOR][COLOR white]Play[/COLOR]: Telegram" type="action" action="RunScript(plugin.video.OnePlay.Matrix, supporttelegram)"/>
-	<setting label="[COLOR lightblue]Doação:[/COLOR]" type="lsep"/>
-    <setting label="[COLOR aquamarine]One[/COLOR][COLOR white]Play[/COLOR]: [COLOR steelblue]Mercado[/COLOR][COLOR skyblue]Pago[/COLOR]" type="action" action="RunScript(plugin.video.OnePlay.Matrix, donatemercadopago)"/>
-    <setting label="[COLOR aquamarine]One[/COLOR][COLOR white]Play[/COLOR]: [COLOR white]Pag[/COLOR][COLOR lime]Seguro[/COLOR]" type="action" action="RunScript(plugin.video.OnePlay.Matrix, donatepagbank)"/>
-    <setting label="[COLOR aquamarine]One[/COLOR][COLOR white]Play[/COLOR]: [COLOR lime]PicPay[/COLOR]" type="action" action="RunScript(plugin.video.OnePlay.Matrix, donatepicpay)"/>
+    <setting label="[COLOR aquamarine]One[/COLOR][COLOR white]Play[/COLOR]: Site" type="action" action="RunPlugin(plugin://plugin.video.OnePlay.Matrix?action=supportsite)"/>
+    <setting label="[COLOR aquamarine]One[/COLOR][COLOR white]Play[/COLOR]: Facebook" type="action" action="RunPlugin(plugin://plugin.video.OnePlay.Matrix?action=supportfacebook)"/>
+    <setting label="[COLOR aquamarine]One[/COLOR][COLOR white]Play[/COLOR]: Telegram" type="action" action="RunPlugin(plugin://plugin.video.OnePlay.Matrix?action=supporttelegram)"/>
 </category>
 </settings>
