@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.CineRoom.Matrix" name="[B]Cine[/B][COLOR pink] [B]Room[/B][/COLOR]" version="1.0.1+matrix.1" provider-name="Gael"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	<summary lang="pt">Somos apenas um agregador de links. Não vendemos ou possuimos nenhum vinculo com Apps de vendas!</summary>
+    <description lang="pt">Plugin focado em Filmes, Séries e Animes. O Melhor do torrent na sua casa!</description>
+     <disclaimer lang="en">[COLOR yellow]OBRIGADO PELO PREFERENCIA S2[/COLOR]</disclaimer>
+	 	<news>[COLOR yellow]V1.0.1[/COLOR]:
+		- Compatibilidade com os links.
+		- Addon repaginado e organizado por categorias.
+		- Adicionados servidores extras em cada link torrent</news>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+	   <fanart>fanart.jpg</fanart>
+       <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+	</assets>
+</extension>
+</addon>

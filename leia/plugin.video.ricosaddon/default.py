@@ -82,11 +82,19 @@ def navegador(url,timeout=12):
     try:
         content = content.decode('utf-8')
     except:
-        pass
+        try:
+            content = content.decode('ISO-8859-1')
+        except:
+            pass
+
     return content
 
 def resolver(url):
     html = navegador(url)
+    try:
+        html = html.decode('utf-8')
+    except:
+        pass
     link = re.compile('http\S+\.m3u8', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(html)
     if link:
         stream = link[0] + '|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36&Referer=' + url

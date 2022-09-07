@@ -761,6 +761,50 @@ O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Founda
 	</extension>
 </addon>
 
+<addon id="plugin.video.CineRoom"
+       name="[B]Cine[/B][COLOR pink] [B]Room[/B][/COLOR]"
+       version="1.0.1"
+       provider-name="Gael">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="pt">Somos apenas um agregador de links. Não vendemos ou possuimos nenhum vinculo com Apps de vendas!</summary>
+    <description lang="en">Plugin focado em Filmes, Séries e Animes. O Melhor do torrent na sua casa!</description>
+     <disclaimer lang="en">[COLOR yellow]OBRIGADO PELO PREFERENCIA S2[/COLOR]</disclaimer>
+	 	<news>[COLOR yellow]V1.0.1[/COLOR]:
+		- Compatibilidade com os links.
+		- Addon repaginado e organizado por categorias.
+		- Adicionados servidores extras em cada link torrent
+		- Compativel com as versoes Krypton e Matrix</news>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+       <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="plugin.video.Click18_9"
        name="[B][COLOR aquamarine]Click 18.9[/B][/COLOR]"
        version="1.0.0"
@@ -1186,41 +1230,6 @@ l [COLOR firebrick]FENIX[/COLOR] FLIX - O MELHOR DO CINEMA NO SEU KODI - 100% FH
     <platform>all</platform>
     <forum>http://forums.tvaddons.ag/forums/141-FRESH-START</forum>
     <website>http://www.tvaddons.ag/</website>
-  </extension>
-</addon>
-
-<addon id="plugin.video.gaviaoplayer"
-       name="[COLOR white][B]GAVIAO PLAYER[/B][/COLOR]"
-       version="2.0"
-       provider-name="BY WILSON">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-	<import addon="plugin.video.SportsDevil" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-
-  <extension point="xbmc.addon.metadata">
-    <summary>GAVIAO PLAYER</summary>
-    <description>
-        CANAL SEM FINS LUCRATIVOS,CONSTRUIDO POR HOBBY, NÃO POSSUIMOS NENHUM ARQUIVO COM DIREITOS AUTORAIS TODOS OS LINKS FORAM ENCONTRADOS NA INTERNET, SOMENTE ORGANIZAMOS TODOS EM UM SO LUGAR. NÃO NOS RESPONSABILIZAMOS POR USO INDEVIDO DE TERCEIROS
-
-    </description>
-    <platform>all</platform>
   </extension>
 </addon>
 
@@ -1839,53 +1848,6 @@ v1.0.8
 </extension>
 </addon>
 
-<addon id="plugin.video.PirateBr"
-       name="[B]Pirate-Br+[/B]"
-       version="1.0.1"
-       provider-name="Gael">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
- <extension point="xbmc.addon.repository" name="Repositório Teste">
-	<info compressed="false">http://raw.github.com/zoreu/meuaddon/master/addons.xml</info>
-	<checksum>http://raw.github.com/zoreu/meuaddon/master/addons.xml.md5</checksum>
-	<datadir zip="true">http://raw.github.com/zoreu/meuaddon/master/zip/</datadir>
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR gray][I]Esse Addon é apenas um agregador de links e,assim como GOOGLE.COM,apenas agrega e organiza os links externos. Os arquivos aqui mostrados nao sao hospedados nesse servidor! Todo e qualquer link P2P (TORRENT) sao criados e disponibilizados na Web pelos usuarios.[/I][/COLOR]
-</summary>
-    <description lang="en"></description>
-     <disclaimer lang="en">Não fazemos parte da equipe do kodi, utilizamos links de terceiros, portanto não nos responsabilizamos por eles.</disclaimer>
-	 	<news>V1.0.1 - Compatibilidade com os links</news>
-    <platform>all</platform>
-	<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-       <screenshot>resources/screenshots/1.jpg</screenshot>
-       <screenshot>resources/screenshots/2.jpg</screenshot>
-       <screenshot>resources/screenshots/3.jpg</screenshot>
-    </assets>
-  </extension>
-</addon>
-
 <addon id="plugin.video.playlistLoader" name="Playlist Loader" version="1.2.0" provider-name="Avigdor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -2143,7 +2105,7 @@ Toda a fonte  vem de utilizadores do Youtube.
     </extension>
 </addon>
 
-<addon id="plugin.video.ricosaddon" name="[B]Canal Ricos[/B]" version="2.3" provider-name="Kodish Team,Zoreu">
+<addon id="plugin.video.ricosaddon" name="[B]Canal Ricos[/B]" version="2.4" provider-name="Kodish Team,Zoreu">
 	<requires>
 		<import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
