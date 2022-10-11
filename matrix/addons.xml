@@ -940,19 +940,21 @@ v1.1.0.matrix.1
   </extension>
 </addon>
 
-<addon id="plugin.video.luminartstudio.matrix" version="0.0.2" name="[COLOR orange][B]LUMINART MTX[/B][/COLOR]" provider-name="[COLOR white][B]JOHN DOE[/B][/COLOR]">
+<addon id="plugin.video.luminartstudio.matrix" version="0.0.5" name="[COLOR orange][B]LUMINART MTX[/B][/COLOR]" provider-name="[COLOR white][B]JOHN DOE[/B][/COLOR]">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
         <import addon="script.module.requests"/>
         <import addon="script.module.simplejson"/>
-	    <import addon="script.module.kodi-six" />
+        <import addon="script.module.beautifulsoup4"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">SUA CONTRIBUIÇÃO INCENTIVA NOSSO TRABALHO</summary>
-        <description lang="en">ACESSO MÚLTIPLO - FREE E VIP AGRADECEMOS SUA CONTRIBUIÇÃO. NOSSO CONTATO: WhatsApp (48) 99194-1409</description>
+        <description lang="en">ACESSO - ENTRADAS VIP E FREE , AGRADECEMOS SUA CONTRIBUIÇÃO. NOSSO CONTATO: WhatsApp (48) 99194-1409</description>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
         <disclaimer lang="en">O LUMINART STUDIO É APENAS UM INDEXADOR DE LINKS COLETADOS NA WEB E ORGANIZADOS PARA USO RECREATIVO,SEM FINS COMERCIAIS NÃO ARMAZENAMOS ARQUIVOS, OU SOMOS RESPONSÁVEIS PELOS LINKS UTILIZADOS.</disclaimer>
@@ -1020,6 +1022,33 @@ v1.1.0.matrix.1
 <screenshot>resources/screenshots/series.png</screenshot>
 </assets>
 	<news>news
+	</news>
+</extension>
+</addon>
+
+<addon id="plugin.video.offilinetv" name=" [COLOR orange][B]off[/B][/COLOR][COLOR yellow][B]LINETV[/B][/COLOR]" version="1.0" provider-name="offilinetv">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+	<import addon="inputstream.adaptive"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="mixtx.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+    <summary lang="en">offilinetv - Sua Tv Sempre Online. (ou): [COLOR yellow][B]OFF[/B][/COLOR]</summary>
+    <description>offilinetv - Sua Tv Sempre Online. (ou): [COLOR yellow][B]OFF[/B][/COLOR]</description>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+       <screenshot>resources/screenshots/01.jpg</screenshot>
+       <screenshot>resources/screenshots/02.jpg</screenshot>
+       <screenshot>resources/screenshots/03.jpg</screenshot>
+    </assets>
+	<news>
 	</news>
 </extension>
 </addon>
