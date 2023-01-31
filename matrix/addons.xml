@@ -330,6 +330,33 @@ fork openwizard
 </extension>
 </addon>
 
+<addon id="plugin.video.Addon.FREEDDONS" name="[B][COLOR red]ADDON[/COLOR] [COLOR blue]FREEDDONS[/COLOR][/B]" version="4.0.0+nexus.1" provider-name="Equipe VIKINGS">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	 <summary lang="en">TODO CONTEÚDO DESSE ADD-ONS FOI EXTRAÍDO DENTRO DO GOOGLE, OU SEJA, ESTA VIA DOMÍNIO PÚBLICO. NÃO ME RESPONSABILIZO POR FINS LUCRATIVOS DE TERCEIROS.</summary>
+    <description lang="en">descricao</description>
+    <disclaimer lang="en"></disclaimer>
+	<platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/home.png</screenshot>
+<screenshot>resources/screenshots/movies.png</screenshot>
+<screenshot>resources/screenshots/series.png</screenshot>
+</assets>
+	<news>news
+	</news>
+</extension>
+</addon>
+
 <addon id="plugin.video.animesplay.matrix" name="[B][COLOR white]Animes[/COLOR] [COLOR yellow]Play[/COLOR][/B]" version="1.0.2.matrix.1" provider-name="Equipe OnePlay">
     <requires>
 		<import addon="xbmc.python" version="3.0.0"/>
@@ -723,33 +750,6 @@ v1.0.0.matrix.1
        <screenshot>resources/screenshots/03.jpg</screenshot>
     </assets>
 	<news>
-	</news>
-</extension>
-</addon>
-
-<addon id="plugin.video.freeddons.matrix" name="[COLOR white][B]FREEDDONS[/B][/COLOR]" version="3.0.0+matrix.1" provider-name="ALAN TURING">
-<requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.simplejson"/>
-	<import addon="script.module.kodi-six" />
-</requires>
-<extension point="xbmc.python.pluginsource" library="default.py">
-	<provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-	 <summary lang="en">FREEDDONS É UM EDDON DE VÍDEO, UM AGREGADOR DE LINK'S, E ASSIM COMO O GOOGLE.COM APENAS AGREGA E ORGANIZA OS LINK'S EXTERNOS. NÃO SOMOS RESPONSÁVEIS PELOS ARQUIVOS AQUI ENCONTRADOS.</summary>
-    <description lang="en"></description>
-    <disclaimer lang="en"></disclaimer>
-	<platform>all</platform>
-	<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-<screenshot>resources/screenshots/home.png</screenshot>
-<screenshot>resources/screenshots/movies.png</screenshot>
-<screenshot>resources/screenshots/series.png</screenshot>
-</assets>
-	<news>news
 	</news>
 </extension>
 </addon>
