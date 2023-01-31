@@ -5,7 +5,13 @@ except:
 import time
 import requests
 
-def get_channel(channel_id=None,channel_url=None,limit=None,sleep=1,sort_by='newest'):
+type_property_map = {
+    "videos": "videoRenderer",
+    "streams": "videoRenderer",
+    "shorts": "reelItemRenderer"
+}
+
+def get_channel(channel_id=None,channel_url=None,limit=None,sleep=1,sort_by='newest',content_type='videos'):
 
 
     """Get videos for a channel.
@@ -33,11 +39,12 @@ def get_channel(channel_id=None,channel_url=None,limit=None,sleep=1,sort_by='new
             ``"oldest"``: Get the old videos first.
             ``"popular"``: Get the popular videos first. Defaults to "newest".
     """
-
+    if not channel_url:
+        channel_url = "https://www.youtube.com/channel/%s"%channel_id
     sort_by_map = {"newest": "dd", "oldest": "da", "popular": "p"}
-    url = "%s/videos?view=0&sort=%s&flow=grid"%(channel_url,sort_by_map[sort_by])
+    url = "%s/%s?view=0&sort=%s&flow=grid"%(channel_url,content_type,sort_by_map[sort_by])
     api_endpoint = "https://www.youtube.com/youtubei/v1/browse"
-    videos = get_videos(url, api_endpoint, "gridVideoRenderer", limit, sleep)
+    videos = get_videos(url, api_endpoint, type_property_map[content_type], limit, sleep)
     for video in videos:
         yield video
 
