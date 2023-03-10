@@ -299,6 +299,35 @@ fork openwizard
     </extension>
 </addon>
 
+<addon id="plugin.video.7Plus" name="[B][COLOR white]7PLUS[/COLOR][/B]" version="3.0.0+nexus.1" provider-name="7PLUS">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	 <summary lang="en">[B][COLOR white]FILMES, SERIES, ANIMÇÃO EM  HD, Legendados. O MELHOR ADDON DE FILMES E SERIES PRO SEU KODI.[/COLOR][/B]</summary>
+    <description lang="en">[B][COLOR lime]ADDON oficial [COLOR orange]7Plus[/COLOR] - Proibido reprodução total ou parcial sem prévia autorização[/COLOR][/B]
+[B][COLOR white]Addon [COLOR orange]7Plus[/COLOR] é de uso gratuito!![/COLOR][/B]
+[B][COLOR firebrick]Mais um excelente addon de língua portuguesa como filmes recentes e também antigos, séries, animação.[/COLOR][/B]</description>
+    <disclaimer lang="en">[COLOR yellow][B]O conteúdo exibido por este complemento. 7Plus não tem nenhuma afiliação com o provedor de conteúdo, Somente é responsável por coletar os melhores filmes da Internet, categorização e otimizá-los, de modo a que esta ao alcance de seus usuários. tão fácil e descomplicada.[/B][/COLOR]</disclaimer>
+	<platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/01.jpg</screenshot>
+<screenshot>resources/screenshots/02.jpg</screenshot>
+<screenshot>resources/screenshots/03.jpg</screenshot>
+</assets>
+	<news>news
+	</news>
+</extension>
+</addon>
+
 <addon id="plugin.video.Addon.BXL" name="[B][COLOR red]ADDON[/COLOR] [COLOR blue]BXL[/COLOR][/B]" version="4.0.0+matrix.1" provider-name="Equipe KODISH">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -1013,6 +1042,42 @@ v1.1.0.matrix.1
  </extension>
 </addon>
 
+<addon id="plugin.video.neo.tv" version="2.0.0+matrix" name="[B][COLOR white]NEO tv[/COLOR][/B]" provider-name="Neo.tv">
+<requires>
+		<import addon="script.module.six" />
+		<import addon="script.module.kodi-six" />
+		<import addon="script.module.requests" optional="true"/>
+		<import addon="script.module.websocket" version="0.50.0"  optional="true"/>
+		<import addon="script.module.youtube.dl" optional="true"/>
+		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="script.module.dateutil" optional="true" />
+		<import addon="script.module.resolveurl" optional="true"/>
+                <import addon="script.module.urlresolver" optional="true"/>
+		<import addon="script.module.cloudscraper" optional="true"/>
+		<import addon="script.module.inputstreamhelper" optional="true"/>
+		<import addon="script.module.slproxy" optional="true"/>
+	</requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[B][COLOR white]ADDON [COLOR white]neo[/COLOR][COLOR orange]tv [/COLOR]</summary>
+    <description lang="en">[B][COLOR lime]ADDON oficial [B][COLOR white]neo[/COLOR][COLOR orange]tv [/COLOR][/B] - Proibido reprodução total ou parcial sem prévia autorização[/COLOR][/B]
+[B][COLOR white]Addon [B][COLOR white]neo[/COLOR][COLOR orange]tv [/COLOR][/B] é de uso gratuito!![/B][/COLOR]</description>
+    <news>
+
+</news>
+    <platform>all</platform>
+	<assets>
+	<icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <screenshot>resources/screenshots/.jpg</screenshot>
+    <screenshot>resources/screenshots/.jpg</screenshot>
+    <screenshot>resources/screenshots/.jpg</screenshot>
+</assets>
+  </extension>
+</addon>
+
 <addon id="plugin.video.newsupremo" name="[B][COLOR red]new[/COLOR] [COLOR blue]supremo[/COLOR][/B]" version="3.0.0+matrix.1" provider-name="Equipe KODISH">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -1651,6 +1716,26 @@ v1.0.0
 <disclaimer></disclaimer>
 
 	</extension>
+</addon>
+
+<addon id="repository.7Plus" name="[B]REPO_7Plus[/B]" version="2.0" provider-name="[B]7Plus-NeoTV[/B]">
+    <extension point="xbmc.addon.repository" name="[B]REPO_7Plus[/B]">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/7plusteam/7plus-neo.github.io/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/7plusteam/7plus-neo.github.io/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/7plusteam/7plus-neo.github.io/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>REPO_7Plus</summary>
+        <description>repositorio oficial Addons 7Plus - Neo.TV - Proibido reproducao sem autorização prévia</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
 
 <addon id="repository.alado.tv" name="[COLOR lime][B]Alado[/COLOR][COLOR gold] Repository[/B][/COLOR]" version="0.0.2" provider-name="[COLOR lime][B]ALADO[/B][/COLOR]">
