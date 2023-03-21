@@ -2419,7 +2419,7 @@ Toda a fonte  vem de utilizadores do Youtube.
 <addon
 	id="plugin.video.VikingsPro"
 	name="[B][COLOR yellow]  Vikings  [COLOR orange]Pro[/B][/COLOR]"
-	version="1.31.1"
+	version="1.40.0"
 	provider-name="[B][COLOR gold]Vikings TEAM[/B][/COLOR]">
 
   <requires>
@@ -2431,7 +2431,7 @@ Toda a fonte  vem de utilizadores do Youtube.
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">VikingsPro</summary>
-    <description lang="en">IPTV de Qualidade, a preço acessivel, para Todos!</description>
+    <description lang="en">IPTV de Qualidade, a preço acessivel, para as massas!</description>
     <platform>all</platform>
 	<news></news>
   </extension>
