@@ -2256,7 +2256,7 @@ fork openwizard
 </extension>
 </addon>
 
-<addon id="plugin.video.Addon.FREEDDONS" name="[B][COLOR red]ADDON[/COLOR] [COLOR blue]FREEDDONS[/COLOR][/B]" version="4.0.0+nexus.1" provider-name="Equipe VIKINGS">
+<addon id="plugin.video.Addon.FREEDDONS" name="[B][COLOR red]ADDON[/COLOR] [COLOR blue]FREEDDONS[/COLOR][/B]" version="4.0.0" provider-name="Equipe VIKINGS">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
