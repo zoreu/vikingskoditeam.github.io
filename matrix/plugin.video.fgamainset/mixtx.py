@@ -176,7 +176,7 @@ useragent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 
 
 
-url_principal = 'https://s3.us-west-1.wasabisys.com/addonformiga/Menu/offTV/OFFILINETV.txt'
+url_principal = 'https://s3.ca-central-1.wasabisys.com/addonmainset/Menu/fgamainset.txt'
 #url_principal = ""
 
 
@@ -191,7 +191,7 @@ addon_name = xbmcaddon.Addon().getAddonInfo('name')
 
 if sys.argv[1] == 'limparFavoritos':
 
-    Path = xbmcvfs.translatePath(xbmcaddon.Addon().getAddonInfo('profile')).decode("utf-8")
+    Path = xbmc.translatePath(xbmcaddon.Addon().getAddonInfo('profile')).decode("utf-8")
 
     arquivo = os.path.join(Path, "favorites.dat")
 
@@ -221,7 +221,7 @@ if sys.argv[1] == 'SetPassword':
 
     addonID = xbmcaddon.Addon().getAddonInfo('id')
 
-    addon_data_path = xbmcvfs.translatePath(os.path.join('special://home/userdata/addon_data', addonID))
+    addon_data_path = xbmc.translatePath(os.path.join('special://home/userdata/addon_data', addonID))
 
     if os.path.exists(addon_data_path)==False:
 
@@ -229,7 +229,7 @@ if sys.argv[1] == 'SetPassword':
 
     xbmc.sleep(4)
 
-    #Path = xbmcvfs.translatePath(xbmcaddon.Addon().getAddonInfo('profile')).decode("utf-8")
+    #Path = xbmc.translatePath(xbmcaddon.Addon().getAddonInfo('profile')).decode("utf-8")
 
     #arquivo = os.path.join(Path, "password.txt")
 
@@ -369,19 +369,19 @@ addon_version = __addon__.getAddonInfo('version')
 
 try:
 
-    profile = xbmcvfs.translatePath(__addon__.getAddonInfo('profile').decode('utf-8'))
+    profile = xbmc.translatePath(__addon__.getAddonInfo('profile').decode('utf-8'))
 
 except:
 
-    profile = xbmcvfs.translatePath(__addon__.getAddonInfo('profile'))
+    profile = xbmc.translatePath(__addon__.getAddonInfo('profile'))
 
 try:
 
-    home = xbmcvfs.translatePath(__addon__.getAddonInfo('path').decode('utf-8'))
+    home = xbmc.translatePath(__addon__.getAddonInfo('path').decode('utf-8'))
 
 except:
 
-    home = xbmcvfs.translatePath(__addon__.getAddonInfo('path'))
+    home = xbmc.translatePath(__addon__.getAddonInfo('path'))
 
 favorites = os.path.join(profile, 'favorites.dat')
 
@@ -1967,11 +1967,11 @@ def adult(name, url, iconimage, description, subtitle):
 
     try:
 
-        Path = xbmcvfs.translatePath(xbmcaddon.Addon().getAddonInfo('profile')).decode("utf-8")
+        Path = xbmc.translatePath(xbmcaddon.Addon().getAddonInfo('profile')).decode("utf-8")
 
     except:
 
-        Path = xbmcvfs.translatePath(xbmcaddon.Addon().getAddonInfo('profile'))
+        Path = xbmc.translatePath(xbmcaddon.Addon().getAddonInfo('profile'))
 
     arquivo = os.path.join(Path, "password.txt")
 
@@ -3289,7 +3289,7 @@ def addFavorite(name,url,fav_mode,subtitle,iconimage,fanart,description):
 
         addonID = xbmcaddon.Addon().getAddonInfo('id')
 
-        addon_data_path = xbmcvfs.translatePath(os.path.join('special://home/userdata/addon_data', addonID))
+        addon_data_path = xbmc.translatePath(os.path.join('special://home/userdata/addon_data', addonID))
 
         if os.path.exists(addon_data_path)==False:
 
@@ -4083,7 +4083,7 @@ def parental_password():
 
         addonID = xbmcaddon.Addon().getAddonInfo('id')
 
-        addon_data_path = xbmcvfs.translatePath(os.path.join('special://home/userdata/addon_data', addonID))
+        addon_data_path = xbmc.translatePath(os.path.join('special://home/userdata/addon_data', addonID))
 
         if os.path.exists(addon_data_path)==False:
 
@@ -4091,7 +4091,7 @@ def parental_password():
 
         xbmc.sleep(7)
 
-        #Path = xbmcvfs.translatePath(xbmcaddon.Addon().getAddonInfo('profile')).decode("utf-8")
+        #Path = xbmc.translatePath(xbmcaddon.Addon().getAddonInfo('profile')).decode("utf-8")
 
         #arquivo = os.path.join(Path, "password.txt")
 
@@ -4121,7 +4121,7 @@ def check_addon():
 
     try:
 
-        check_file = xbmcvfs.translatePath(home+'/check.txt')
+        check_file = xbmc.translatePath(home+'/check.txt')
 
         exists = os.path.isfile(check_file)
 
@@ -4165,7 +4165,7 @@ def check_addon():
 
                     else:
 
-                        existe = xbmcvfs.translatePath(directory)
+                        existe = xbmc.translatePath(directory)
 
                         #print('Path dir:'+existe)
 
@@ -4211,7 +4211,7 @@ def install_wizard(name,addon_id,url,directory,description):
 
         import ntpath
 
-        path = xbmcvfs.translatePath(os.path.join('special://','home/','addons', 'packages'))
+        path = xbmc.translatePath(os.path.join('special://','home/','addons', 'packages'))
 
         filename = ntpath.basename(url)
 
@@ -4231,7 +4231,7 @@ def install_wizard(name,addon_id,url,directory,description):
 
         downloader.download(url, lib, dp)
 
-        addonfolder = xbmcvfs.translatePath(os.path.join('special://','home/','addons'))
+        addonfolder = xbmc.translatePath(os.path.join('special://','home/','addons'))
 
         xbmc.sleep(100)
 
