@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.showdebola" version="1.0.4" name="[COLOR lime]SHOW DE BOLA[/COLOR]" provider-name="OnePlay Team">
+<addon id="plugin.video.showdebola" version="1.0.7" name="[COLOR lime]SHOW DE BOLA[/COLOR]" provider-name="OnePlay Team">
     <requires>
         <import addon="script.module.simplejson" />
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
-		<import addon="script.module.requests"/>
-		<import addon="script.module.beautifulsoup4"/>	
+        <import addon="script.module.beautifulsoup4"/>
+        <import addon="script.module.fasthttp"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>

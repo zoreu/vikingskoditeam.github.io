@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="Cache">
+		<setting id="clean_cache" type="action" label="Clean Cache" action="RunPlugin(plugin://script.module.fasthttp/?action=clean_cache)"/>
+	</category>
+</settings>
