@@ -2745,7 +2745,7 @@ v1.1.0.matrix.1
 </extension>
 </addon>
 
-<addon id="plugin.video.OnePlay.Matrix" name="[COLOR aquamarine][B]ONE[/COLOR][COLOR white]PLAY[/B][/COLOR]" version="3.1.5" provider-name="Equipe OnePlay">
+<addon id="plugin.video.OnePlay.Matrix" name="[COLOR aquamarine][B]ONE[/COLOR][COLOR white]PLAY[/B][/COLOR]" version="3.1.6" provider-name="Equipe OnePlay">
     <requires>
         <import addon="script.module.simplejson" />
         <import addon="script.module.six" />
@@ -3491,7 +3491,7 @@ v1.0.0
 </extension>
 </addon>
 
-<addon id="repository.elementumorg" name="ElementumOrg repository" provider-name="elementumorg" version="0.0.1">
+<addon id="repository.elementumorg" name="ElementumOrg repository" provider-name="elementumorg" version="0.0.2">
     <requires>
     </requires>
     <extension point="xbmc.addon.repository">

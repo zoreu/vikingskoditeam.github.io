@@ -6,6 +6,6 @@
 <category label="Controle dos Pais">
 		<setting label="[COLOR lightblue]Controle dos Pais:[/COLOR]" type="lsep"/>
 		<setting label="Exibir Menu Adultos" id="adult" type="bool" default="false" />
-		<setting label="Entre aqui para alterar senha, padrão: [COLOR yellow][B]0069[/B][/COLOR]" type="action" action="RunPlugin(plugin://plugin.video.OnePlay.Matrix?action=setpassword)"/>
+		<setting label="Entre aqui para alterar senha, padrão: [COLOR yellow][B]0069[/B][/COLOR]" type="action" action="RunPlugin(plugin://plugin.video.OnePlay.Matrix/setpassword)"/>
 </category>
 </settings>
