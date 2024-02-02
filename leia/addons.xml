@@ -1607,24 +1607,6 @@ Toda a fonte  vem de utilizadores do Youtube.
     </extension>
 </addon>
 
-<addon id="plugin.video.ricosaddon" name="[B]Canal Ricos[/B]" version="2.4" provider-name="Kodish Team,Zoreu">
-	<requires>
-		<import addon="script.module.six" />
-        <import addon="script.module.kodi-six" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en"></summary>
-		<description lang="en">[B]Canal Ricos [/B] </description>
-		<platform>all</platform>
-		<assets>
-			<icon>icon.png</icon>
-		</assets>
-	</extension>
-</addon>
-
 <addon id="plugin.video.rodasemotores"
        name="Rodas e Motores"
        version="2.1"
