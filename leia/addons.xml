@@ -606,50 +606,6 @@ Não temos fins lucrativo mas para mantermos o Addon funcionando sua doação é
   </extension>
 </addon>
 
-<addon id="plugin.video.CineRoom"
-       name="[B]Cine[/B][COLOR pink] [B]Room[/B][/COLOR]"
-       version="1.0.1"
-       provider-name="Gael">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="pt">Somos apenas um agregador de links. Não vendemos ou possuimos nenhum vinculo com Apps de vendas!</summary>
-    <description lang="en">Plugin focado em Filmes, Séries e Animes. O Melhor do torrent na sua casa!</description>
-     <disclaimer lang="en">[COLOR yellow]OBRIGADO PELO PREFERENCIA S2[/COLOR]</disclaimer>
-	 	<news>[COLOR yellow]V1.0.1[/COLOR]:
-		- Compatibilidade com os links.
-		- Addon repaginado e organizado por categorias.
-		- Adicionados servidores extras em cada link torrent
-		- Compativel com as versoes Krypton e Matrix</news>
-    <platform>all</platform>
-	<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-       <screenshot>resources/screenshots/1.jpg</screenshot>
-       <screenshot>resources/screenshots/2.jpg</screenshot>
-       <screenshot>resources/screenshots/3.jpg</screenshot>
-    </assets>
-  </extension>
-</addon>
-
 <addon id="plugin.video.cobraplay"
        name="Cobra Play"
        version="1.0.0"
@@ -1161,6 +1117,49 @@ Toda a fonte  vem de utilizadores do Youtube.
 <fanart>fanart.jpg</fanart>
 </assets>
   </extension>
+</addon>
+
+<addon id="plugin.video.live.cineroom" name="Cine Room" version="3.0.2" provider-name="gael">
+	<requires>
+		<import addon="script.module.six"/>
+		<import addon="script.module.kodi-six"/>
+		<import addon="script.module.requests-cache"/>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.websocket" version="0.50.0" optional="true"/>
+		<import addon="script.module.youtube.dl" optional="true"/>
+		<import addon="plugin.video.youtube" optional="true"/>
+		<import addon="script.module.dateutil" optional="true"/>
+		<import addon="script.module.resolveurl" optional="true"/>
+		<import addon="script.module.urlresolver" optional="true"/>
+		<import addon="script.module.cloudscraper" optional="true"/>
+		<import addon="script.module.inputstreamhelper" optional="true"/>
+		<import addon="script.module.slproxy" optional="true"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>[COLOR yellow]OBRIGADO PELA PREFERENCIA S2[/COLOR]</summary>
+		<description>
+Somos apenas um agregador de links, Todo o conteudo deste addon sao encontrados livremente na internet.
+		</description>
+		<news>
+1. Novas Categorias adicionadas
+2. Links Renovados
+3. Adicionadas opçoes para deixar em ordem alfabetica
+4. Nome e Genero dos filmes/Series visiveis
+		</news>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/home.png</screenshot>
+			<screenshot>resources/screenshots/movies.png</screenshot>
+			<screenshot>resources/screenshots/series.png</screenshot>
+			<screenshot>resources/screenshots/4k.png</screenshot>
+			<screenshot>resources/screenshots/novos.png</screenshot>
+		</assets>
+	</extension>
 </addon>
 
 <addon id="plugin.video.luminartstudio.krypton"
