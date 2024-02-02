@@ -2819,6 +2819,24 @@ v1.1.0.matrix.1
     </extension>
 </addon>
 
+<addon id="plugin.video.ricosaddon" name="[B]Canal Ricos[/B]" version="2.4" provider-name="Kodish Team,Zoreu">
+	<requires>
+		<import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en">[B]Canal Ricos [/B] </description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+
 <addon id="plugin.video.ROCK4U" name="[COLOR lime][B]ROCK[/B][/COLOR][COLOR lawngreen][B]4U[/B][/COLOR]" version="2.0" provider-name="Sami Mod By Garfield Dj">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
