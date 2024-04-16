@@ -19,8 +19,12 @@
 '''
 
 
-import os, xbmc, xbmcaddon, xbmcplugin, xbmcgui, xbmcvfs
+import os
+import six
+from kodi_six import xbmc, xbmcaddon, xbmcgui, xbmcplugin, xbmcvfs
 
+def getKodiVersion():
+    return int(xbmc.getInfoLabel("System.BuildVersion").split(".")[0])
 
 integer = 1000
 addon = xbmcaddon.Addon
@@ -45,7 +49,7 @@ skin = xbmc.getSkinDir()
 player = xbmc.Player()
 playlist = xbmc.PlayList(xbmc.PLAYLIST_VIDEO)
 
-transPath = xbmcvfs.translatePath
+transPath = xbmc.translatePath if getKodiVersion() < 19 else xbmcvfs.translatePath
 skinPath = transPath('special://skin/')
 addonPath = transPath(addonInfo('path'))
 dataPath = transPath(addonInfo('profile'))
@@ -91,8 +95,8 @@ def inputDialog(heading, _type_=''):
     return dialog.input(heading, _type_)
 
 
-def yesnoDialog(line1, line2, line3, heading=addonInfo('name'), nolabel='', yeslabel=''):
-    return dialog.yesno(heading, line1, line2, line3, nolabel, yeslabel)
+def yesnoDialog(line1, heading=addonInfo('name'), nolabel='', yeslabel=''):
+    return dialog.yesno(heading, line1, nolabel, yeslabel)
 
 
 def selectDialog(list, heading=addonInfo('name')):
