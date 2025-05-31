@@ -1,8 +1,0 @@
-<settings>
-<category label="F4MTESTER">
-	<setting label="ATIVAR F4M" id="f4m" type="bool" default="false" />
-</category>
-<category label="PROXY">
-	<setting label="ATIVAR PROXY" id="proxy" type="bool" default="false" />
-</category>
-</settings>

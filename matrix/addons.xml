@@ -2014,19 +2014,6 @@ Full changelog here: https://github.com/xbmc/inputstream.ffmpegdirect/blob/Matri
   </extension>
 </addon>
 
-<addon id="KeltecMP.repository" name="[B][COLOR gold]Repositorio[/COLOR]: [COLOR blue]KelTecMP[/COLOR] [COLOR red]IPTV[/COLOR][/B]" version="0.0.9" provider-name="Team Ezequiel KelTec">
-	<extension point="xbmc.addon.repository" name="KelTecMP IPTV Repo">
-	    <info compressed="false">https://raw.githubusercontent.com/keltecmp-repo/repo/master/addons.xml</info>
-	    <checksum>https://raw.githubusercontent.com/keltecmp-repo/repo/master/addons.xml.md5</checksum>
-	    <datadir zip="true">https://raw.githubusercontent.com/keltecmp-repo/repo/master/Plugins</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Repositorio Oficial KelTecMP IPTV</summary>
-		<description>Repositorio Oficial KelTecMP IPTV - Proibido reproducao //Grupo Facebook KeltecMP IPTV https://www.facebook.com/groups/KELTEC.MP/</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon	id="One.repo"
         name="[B][COLOR white]Repositorio[/COLOR]: [COLOR aquamarine]ONE[/COLOR][COLOR white]PLAY[/COLOR][/B]"
 		version="1.11"
@@ -2173,33 +2160,6 @@ fork openwizard
     </extension>
 </addon>
 
-<addon id="plugin.video.Addon.BXL" name="[B][COLOR red]ADDON[/COLOR] [COLOR blue]BXL[/COLOR][/B]" version="4.0.0+matrix.1" provider-name="Equipe KODISH">
-<requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.simplejson"/>
-	<import addon="script.module.kodi-six" />
-</requires>
-<extension point="xbmc.python.pluginsource" library="default.py">
-	<provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-	 <summary lang="en">TODO CONTEÚDO DESSE EDDONS FOI EXTRAÍDO DENTRO DO GOOGLE, OU SEJA, ESTA VIA DOMÍNIO PÚBLICO. NÃO ME RESPONSABILIZO POR FINS LUCRATIVOS DE TERCEIROS.</summary>
-    <description lang="en">descricao</description>
-    <disclaimer lang="en"></disclaimer>
-	<platform>all</platform>
-	<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-<screenshot>resources/screenshots/home.png</screenshot>
-<screenshot>resources/screenshots/movies.png</screenshot>
-<screenshot>resources/screenshots/series.png</screenshot>
-</assets>
-	<news>news
-	</news>
-</extension>
-</addon>
-
 <addon id="plugin.video.Addon.FREEDDONS" name="[B][COLOR red]ADDON[/COLOR] [COLOR blue]FREEDDONS[/COLOR][/B]" version="4.0.0" provider-name="Equipe VIKINGS">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -2284,57 +2244,6 @@ fork openwizard
 v1.0.5.matrix.1
 - Addon Apollo
 	</news>
-</extension>
-</addon>
-
-<addon id="plugin.video.BrazucaPlay.Matrix" name="[B][COLOR white]BRAZUCA PLAY[/COLOR][/B]" version="2.1.4" provider-name="[B][COLOR white]Brazuca Play[/COLOR][/B]">
-<requires>
-<import addon="script.module.six"/>
-<import addon="script.module.kodi-six"/>
-<import addon="script.module.requests"/>
-<import addon="script.module.simplejson"/>
-<import addon="script.module.beautifulsoup4"/>
-<import addon="script.module.resolveurl" optional="true"/>
-<import addon="script.module.jsbeautifier" optional="true"/>
-<import addon="inputstream.ffmpegdirect" optional="true"/>
-<import addon="script.module.inputstreamhelper" optional="true"/>
-</requires>
-<extension point="xbmc.python.pluginsource" library="default.py">
-<provides>video</provides>
-</extension>
-<extension point="xbmc.addon.repository" name="[B][COLOR white]Brazuca Play [COLOR blue]Repo[/COLOR][/COLOR][/B]">
-<dir minversion="16.0.0" maxversion="18.9.0">
-<info compressed="false">https://raw.github.com/skyrisk/brazucaplay/master/addons/repo/addons.xml</info>
-<checksum>https://raw.github.com/skyrisk/brazucaplay/master/addons/repo/addons.xml.md5</checksum>
-<datadir zip="true">https://raw.github.com/skyrisk/brazucaplay/master/addons/repo/Plugins/</datadir>
-<hashes>false</hashes>
-</dir>
-<dir minversion="18.9.1">
-<info compressed="false">https://raw.github.com/skyrisk/brazucaplay/master/addons/repo/addons_matrix.xml</info>
-<checksum>https://raw.github.com/skyrisk/brazucaplay/master/addons/repo/addons_matrix.xml.md5</checksum>
-<datadir zip="true">https://raw.github.com/skyrisk/brazucaplay/master/addons/repo/Plugins/</datadir>
-<hashes>false</hashes>
-</dir>
-<dir>
-<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-</dir>
-</extension>
-<extension point="xbmc.addon.metadata">
-<summary>[B][COLOR white]TV, Filmes, Séries, Desenhos e Animes.[/COLOR]</summary>
-<description>[B][COLOR blue]●[/COLOR] [COLOR white]Brazuca Play é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B][CR][B][COLOR firebrick]●[/COLOR] [COLOR white]Proibido a venda dos add-ons do Brazuca Play.[/COLOR][/B][CR][B][COLOR firebrick]●[/COLOR] [COLOR white]Não vendemos IPTV, caso ache sites ou mesmo apps é falso.[/COLOR][/B]</description>
-<disclaimer>[B][COLOR white]OBRIGADO POR USAR NOSSO ADD-ON [COLOR gold]S2[/COLOR][/COLOR][/B]</disclaimer>
-<news>[B][COLOR gold]v2.1.4 - KODI 16 >[/COLOR][/B]</news>
-<platform>all</platform>
-<reuselanguageinvoker>true</reuselanguageinvoker>
-<assets>
-<icon>icon.png</icon>
-<fanart>fanart.jpg</fanart>
-<screenshot>resources/screenshots/home.jpg</screenshot>
-<screenshot>resources/screenshots/movies.jpg</screenshot>
-<screenshot>resources/screenshots/series.jpg</screenshot>
-</assets>
 </extension>
 </addon>
 
@@ -2527,32 +2436,6 @@ v1.0.0.matrix.1
 </extension>
 </addon>
 
-<addon id="plugin.video.iFLix" version="1.0.1" name="[COLOR red]iFlix[/COLOR]" provider-name="OnePlay Team">
-    <requires>
-        <import addon="script.module.simplejson" />
-        <import addon="script.module.six" />
-        <import addon="script.module.kodi-six" />
-		<import addon="script.module.requests"/>
-		<import addon="script.module.beautifulsoup4"/>
-        <import addon="script.module.routing"/>
-        <import addon="script.module.resolveurl" optional="true"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-		<summary lang="pt">iFLix é um addon que exibe filmes e series</summary>
-		<description lang="pt">Todos os videos são de sites terceiros, não hospedamos conteudo</description>
-        <platform>all</platform>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-        <disclaimer>The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
-
 <addon id="plugin.video.iptvbuster" name="IPTV Buster" version="0.1" provider-name="gbchr">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -2570,36 +2453,6 @@ v1.0.0.matrix.1
         <icon>icon.png</icon>
     </assets>
   </extension>
-</addon>
-
-<addon id="plugin.video.iptvpremium.matrix" name="[B]IPTV PREMIUM[/B]" version="1.0.1.matrix.1" provider-name="Equipe OnePlay">
-    <requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.simplejson"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-	<extension point="xbmc.addon.repository" name="[B]IPTV PREMIUM[/B]">
-		<info compressed="false">https://github.com/OnePlayHD/OneRepo/raw/master/matrix/addons.xml</info>
-		<checksum>https://github.com/OnePlayHD/OneRepo/raw/master/matrix/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/OnePlayHD/OneRepo/raw/master/matrix</datadir>
-		<hashes>false</hashes>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="pt_br">Cliente IPTV para painel Xtream Codes</summary>
-		<description lang="pt_br">Cliente para usuarios de IPTV do Xtream Codes</description>
-		<disclaimer lang="pt_br">IPTV Premium não tem relação com a Kodi team</disclaimer>
-        <platform>all</platform>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-		<news>
-- IPTV Premium em python 3, 1.0.0.matrix.1
-- correção bugs, 1.0.1.matrix.1
-		</news>
-	</extension>
 </addon>
 
 <addon id="plugin.video.iptvxc" name="[B][COLOR blue]XCUI Streams[/B][/COLOR]" version="3.1.8" provider-name="[B][COLOR orange]Fire TV[/B][/COLOR]">
@@ -2830,31 +2683,6 @@ Somos apenas um agregador de links, Todo o conteudo deste addon sao encontrados 
 </extension>
 </addon>
 
-<addon id="plugin.video.OnePlay.Matrix" name="[COLOR aquamarine][B]ONE[/COLOR][COLOR white]PLAY[/B][/COLOR]" version="3.1.6" provider-name="Equipe OnePlay">
-    <requires>
-        <import addon="script.module.simplejson" />
-        <import addon="script.module.six" />
-        <import addon="script.module.kodi-six" />
-		<import addon="script.module.fasthttp"/>
-		<import addon="script.module.beautifulsoup4"/>
-        <import addon="inputstream.adaptive"/>
-
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-		<summary lang="pt">OnePlay é um plugin que exibe tv,filmes,series, animes, desenhos e novelas</summary>
-		<description lang="pt">Todos os videos são de sites terceiros, não hospedamos conteudo</description>
-        <platform>all</platform>
-        <disclaimer>The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
-
 <addon id="plugin.video.playlistloader" name="Playlist Loader" version="1.9.3+matrix" provider-name="Forked by Publish3r">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -3010,30 +2838,6 @@ Rumble - v1.0.0.matrix
 </extension>
 </addon>
 
-<addon id="plugin.video.showdebola" version="1.0.7" name="[COLOR lime]SHOW DE BOLA[/COLOR]" provider-name="OnePlay Team">
-    <requires>
-        <import addon="script.module.simplejson" />
-        <import addon="script.module.six" />
-        <import addon="script.module.kodi-six" />
-        <import addon="script.module.beautifulsoup4"/>
-        <import addon="script.module.fasthttp"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-		<summary lang="pt">Show de bola é um addon que exibe os jogos aovivo</summary>
-		<description lang="pt">Todos os videos são de sites terceiros, não hospedamos conteudo</description>
-        <platform>all</platform>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-        <disclaimer>The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
-
 <addon id="plugin.video.spartanaddon" version="0.0.4" name="[COLOR yellow]SPARTAN[/COLOR]" provider-name="OnePlay Team">
     <requires>
         <import addon="script.module.simplejson" />
@@ -3098,38 +2902,6 @@ Rumble - v1.0.0.matrix
     </assets>
 <news>Team Milhanos no Kodi Matrix plataforma Python3</news>
 </extension>
-</addon>
-
-<addon id="plugin.video.thethunder" version="1.1.4" name="[COLOR violet]THUNDER[/COLOR]" provider-name="OnePlay Team">
-    <requires>
-        <import addon="script.module.simplejson" />
-        <import addon="script.module.six" />
-        <import addon="script.module.kodi-six" />
-		<import addon="script.module.beautifulsoup4"/>
-		<import addon="script.module.resolveurl" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="thethunder.py">
-        <provides>video</provides>
-    </extension>
-	<extension point="xbmc.subtitle.module" library="service.py" />
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Thunder is an addon from the oneplay team that scans videos on the internet without using torrents.</summary>
-		<summary lang="es">Thunder es un complemento del equipo de oneplay que escanea videos en Internet sin usar torrents.</summary>
-		<summary lang="pt">Thunder é um addon da equipe oneplay que faz varredura por videos na internet sem uso de torrent</summary>
-        <description lang="en">Free Video Streaming Through Hosting Providers</description>
-		<description lang="es">Transmisión de video gratuita a través de proveedores de alojamiento</description>
-		<description lang="pt">Streaming de videos gratuitos atraves de provedores de hospedagem</description>
-        <platform>all</platform>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-        <disclaimer>The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-			<screenshot>resources/media/thunder1.png</screenshot>
-			<screenshot>resources/media/thunder2.png</screenshot>
-			<screenshot>resources/media/thunder3.png</screenshot>
-        </assets>
-    </extension>
 </addon>
 
 <addon id="plugin.video.twoaddons" version="1.1.2+matrix" name="[COLOR blue]two [COLOR yellow] addons[/COLOR]" provider-name="nando">
@@ -3577,7 +3349,7 @@ v1.0.0
   <addon
   id="repository.arrownegra"
   name="[COLOR red]Arrow[/COLOR] [COLOR black]Negra[/COLOR] [COLORcyan]Repository[/COLOR]"
-  version="2.05"
+  version="2.06"
   provider-name="Flecha Negra">
   <requires>
     <import addon="xbmc.addon" version="12.0.0"/>
@@ -3620,21 +3392,21 @@ v1.0.0
   </extension>
 </addon>
 
-<addon id="repository.BrazucaPlay" name="[B][COLOR white]Brazuca Play [COLOR blue]Repo[/COLOR][/COLOR][/B]" version="1.4" provider-name="Brazuca Play">
+<addon id="repository.BrazucaPlay" name="[B][COLOR white]Brazuca Play [COLOR blue]Repo[/COLOR][/COLOR][/B]" version="1.5" provider-name="Brazuca Play">
 <requires>
 <import addon="xbmc.addon" version="12.0.0"/>
 </requires>
 <extension point="xbmc.addon.repository" name="Brazuca Play Repository">
 <dir minversion="16.0.0" maxversion="18.9.0">
-<info compressed="false">https://raw.github.com/skyrisk/brazucaplay/master/addons/repo/addons.xml</info>
-<checksum>https://raw.github.com/skyrisk/brazucaplay/master/addons/repo/addons.xml.md5</checksum>
-<datadir zip="true">https://raw.github.com/skyrisk/brazucaplay/master/addons/repo/Plugins/</datadir>
+<info compressed="false">https://raw.githubusercontent.com/skyrisk/brazucaplay/master/addons/repo/addons.xml</info>
+<checksum>https://raw.githubusercontent.com/skyrisk/brazucaplay/master/addons/repo/addons.xml.md5</checksum>
+<datadir zip="true">https://raw.githubusercontent.com/skyrisk/brazucaplay/master/addons/repo/Plugins/</datadir>
 <hashes>false</hashes>
 </dir>
 <dir minversion="18.9.1">
-<info compressed="false">https://raw.github.com/skyrisk/brazucaplay/master/addons/repo/addons_matrix.xml</info>
-<checksum>https://raw.github.com/skyrisk/brazucaplay/master/addons/repo/addons_matrix.xml.md5</checksum>
-<datadir zip="true">https://raw.github.com/skyrisk/brazucaplay/master/addons/repo/Plugins/</datadir>
+<info compressed="false">https://raw.githubusercontent.com/skyrisk/brazucaplay/master/addons/repo/addons_matrix.xml</info>
+<checksum>https://raw.githubusercontent.com/skyrisk/brazucaplay/master/addons/repo/addons_matrix.xml.md5</checksum>
+<datadir zip="true">https://raw.githubusercontent.com/skyrisk/brazucaplay/master/addons/repo/Plugins/</datadir>
 <hashes>false</hashes>
 </dir>
 </extension>
@@ -3650,6 +3422,7 @@ v1.0.0
 <screenshot>resources/series.jpg</screenshot>
 </assets>
 <news>
+[COLOR blue]●[/COLOR] v1.5 - ADD RESOLVEURL.
 [COLOR blue]●[/COLOR] v1.4 - KODI 19 MATRIX.
 [COLOR blue]●[/COLOR] v1.3 - CORREÇÕES DE BUGS.
 [COLOR blue]●[/COLOR] v1.2 - UPDATES CORRIGIDOS.
@@ -3658,7 +3431,7 @@ v1.0.0
 </news>
 <summary>Repositório Brazuca Play</summary>
 <description>
-[B][COLOR blue]●[/COLOR] [COLOR white]Repositório oficial do Brazuca Play - 2021[/COLOR][/B]
+[B][COLOR blue]●[/COLOR] [COLOR white]Repositório oficial do Brazuca Play - 2025[/COLOR][/B]
 [B][COLOR firebrick]●[/COLOR] [COLOR white]Proibido a venda dos add-ons do Brazuca Play.[/COLOR][/B]
 [B][COLOR firebrick]●[/COLOR] [COLOR white]Não vendemos IPTV, caso ache sites ou mesmo apps é falso.[/COLOR][/B]
 </description>
@@ -3928,86 +3701,6 @@ v1.0.0
     <description lang="en">Portuguese version of all texts used in Kodi.</description>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id="script.elementum.burst" name="Elementum [COLOR FFFF6B00]Burst[/COLOR]" version="0.0.73" provider-name="elgatito">
-    <requires>
-        <import addon="xbmc.addon" version="16.0.0" />
-        <import addon="plugin.video.elementum" optional="true"/>
-        <import addon="script.module.kodi-six" />
-        <import addon="script.module.requests" />
-        <import addon="script.module.future" version="0.16.0.4"/>
-    </requires>
-    <extension point="xbmc.python.script" library="burst.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Elementum torrents provider</summary>
-        <summary lang="hr">Elementum torrent pružatelji usluga</summary>
-        <summary lang="es">Proveedor de torrents Elementum</summary>
-        <summary lang="ru">Поисковое дополнение Elementum</summary>
-        <summary lang="sv">Elementum-torrentleverantör</summary>
-        <description lang="en">Elementum Burst is a lean and mean multi-provider for Elementum.</description>
-        <description lang="hr">Elementum Burst je višestruki pružatelj usluga za Elementum.</description>
-        <description lang="es">Elementum Burst es un multi-proveedor simple y eficiente para Elementum.</description>
-        <description lang="ru">Elementum Burst это поисковое дополнение, для поиска торрентов для Elementum.</description>
-        <description lang="sv">Elementum Burst är en enkel och effektiv multi-leverantör för Elementum.</description>
-        <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
-        <disclaimer lang="hr">Autor ovog dodatka ne posjeduje i ne distribuira bilo kakav sadržaj koji je pronađen. Autor nije povezan sa bilo kojim izvorom sadržaja.</disclaimer>
-        <disclaimer lang="es">El autor no aloja ni distribuye ninguno de los contenidos mostrados por este complemento. El autor no tiene ninguna afiliación con los proveedores de contenido.</disclaimer>
-        <disclaimer lang="ru">Автор не несёт ответственности за использование дополнения, не распространяет данные, выводимые дополнением.</disclaimer>
-        <disclaimer lang="sv">Skaparen är inte värd eller distribuerar något av innehållet som visas av detta tillägg. Skaparen har ingen anslutning till innehållsleverantörerna.</disclaimer>
-        <license>WTFPL, Version 2, December 2004. See included LICENSE.</license>
-        <website>https://elementum.surge.sh</website>
-        <source>https://github.com/elgatito/script.elementum.burst</source>
-        <forum>TODO</forum>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
-
-<addon id="script.elementum.rajada" name="Elementum [COLOR FFFF6B00]Rajada[/COLOR]" version="0.4" provider-name="elgatito, gbchr">
-    <requires>
-        <import addon="xbmc.addon" version="16.0.0" />
-        <import addon="plugin.video.elementum" optional="true"/>
-        <import addon="context.elementum" optional="true"/>
-        <import addon="script.module.kodi-six" />
-        <import addon="script.module.requests" />
-        <import addon="script.module.future" version="0.16.0.4"/>
-    </requires>
-    <extension point="xbmc.python.script" library="burst.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-		<summary lang="pt">Provedor de torrents para o elementum, focado em trackers brasileiros</summary>
-        <summary lang="en">Elementum torrents provider focused on brazilian trackers</summary>
-        <summary lang="hr">Elementum torrent pružatelji usluga</summary>
-        <summary lang="es">Proveedor de torrents Elementum</summary>
-        <summary lang="ru">Поисковое дополнение Elementum</summary>
-        <summary lang="sv">Elementum-torrentleverantör</summary>
-        <description lang="pt">Elementum Rajada é um multi-provedor leve e eficiente para o Elementum.</description>
-		<description lang="en">Elementum Rajada is a lean and mean multi-provider for Elementum.</description>
-        <description lang="hr">Elementum Rajada je višestruki pružatelj usluga za Elementum.</description>
-        <description lang="es">Elementum Rajada es un multi-proveedor simple y eficiente para Elementum.</description>
-        <description lang="ru">Elementum Rajada это поисковое дополнение, для поиска торрентов для Elementum.</description>
-        <description lang="sv">Elementum Rajada är en enkel och effektiv multi-leverantör för Elementum.</description>
-        <disclaimer lang="pt">O autor não hospeda nem distribui nenhum conteúdo exibido por este addon. O autor não tem nenhuma afiliação com os provedores de conteúdo.</disclaimer>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
-        <disclaimer lang="hr">Autor ovog dodatka ne posjeduje i ne distribuira bilo kakav sadržaj koji je pronađen. Autor nije povezan sa bilo kojim izvorom sadržaja.</disclaimer>
-        <disclaimer lang="es">El autor no aloja ni distribuye ninguno de los contenidos mostrados por este complemento. El autor no tiene ninguna afiliación con los proveedores de contenido.</disclaimer>
-        <disclaimer lang="ru">Автор не несёт ответственности за использование дополнения, не распространяет данные, выводимые дополнением.</disclaimer>
-        <disclaimer lang="sv">Skaparen är inte värd eller distribuerar något av innehållet som visas av detta tillägg. Skaparen har ingen anslutning till innehållsleverantörerna.</disclaimer>
-        <license>WTFPL, Version 2, December 2004. See included LICENSE.</license>
-        <website>https://addon-rajada.github.io/</website>
-        <source>https://github.com/addon-rajada/script.elementum.rajada</source>
-        <forum>TODO</forum>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
 </addon>
 
 <addon id="script.encrypttool" name="Encrypt add-on" version="1.0.2" provider-name="Oneplay team">
