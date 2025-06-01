@@ -2160,7 +2160,7 @@ fork openwizard
     </extension>
 </addon>
 
-<addon id="plugin.video.Addon.FREEDDONS" name="[B][COLOR red]ADDON[/COLOR] [COLOR blue]FREEDDONS[/COLOR][/B]" version="4.0.0" provider-name="Equipe VIKINGS">
+<addon id="plugin.video.Addon.Teaddon" name="[B][COLOR red]TEA[/COLOR] [COLOR blue]ddon[/COLOR][/B]" version="4.0.0+nexus.1" provider-name="Alan Turing">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
@@ -2171,8 +2171,8 @@ fork openwizard
 	<provides>video</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
-	 <summary lang="en">TODO CONTEÚDO DESSE ADD-ONS FOI EXTRAÍDO DENTRO DO GOOGLE, OU SEJA, ESTA VIA DOMÍNIO PÚBLICO. NÃO ME RESPONSABILIZO POR FINS LUCRATIVOS DE TERCEIROS.</summary>
-    <description lang="en">descricao</description>
+	 <summary lang="en">SEJAM BEM VINDOS!!  TODO CONTEÚDO DESSE ADDON FOI EXTRAÍDO DENTRO DO GOOGLE, OU SEJA, ESTÁ VIA DOMÍNIO PÚBLICO. NÃO ME RESPONSABILIZO POR FINS LUCRATIVOS DE TERCEIROS.</summary>
+    <description lang="en">[COLOR yellow]TEAddon é apenas um Agregador de link's  para midia center Kodi, todos os links aqui são achados na internet. Não somos responsáveis pelos arquivos aqui encontrados [/COLOR]</description>
     <disclaimer lang="en"></disclaimer>
 	<platform>all</platform>
 	<assets>
@@ -2936,26 +2936,6 @@ Rumble - v1.0.0.matrix
     <screenshot>resources/screenshots/2.jpg</screenshot>
     <screenshot>resources/screenshots/3.jpg</screenshot>
 </assets>
-  </extension>
-</addon>
-
-<addon id="plugin.video.viking.tv.online" name="[COLORyellow]Viking [COLORgrey] TV [COLORgold]Online[/COLOR]" version="0.1.5" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
-  <extension point="xbmc.python.pluginsource"
-			library="default.py">
-		<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-	<summary lang="en">[COLOR maroon] Canais de Televisão, desportos e mais...[/COLOR] </summary>
-	<language>en</language>
-	<description lang="en">[COLOR grey]viking [COLORyellow]tv.online[COLORgold]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET! (ESTE ADDON FEITO PRA O REPOSITORIO VIKINS)[/COLOR]</description>
-	<platform>all</platform>
-	<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-		<screenshot>resources/screenshots/1.jpg</screenshot>
-       <screenshot>resources/screenshots/2.jpg</screenshot>
-       <screenshot>resources/screenshots/3.jpg</screenshot>
-	</assets>
   </extension>
 </addon>
 
