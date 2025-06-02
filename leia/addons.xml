@@ -242,6 +242,7 @@
   </extension>
 </addon>
 
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.AladoTV"
        name="AladoTV"
        version="11.0"
@@ -348,6 +349,7 @@ Channels and Playlists organized by categories. Source: Youtube Website.
     </extension>
 </addon>
 
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <addon id="plugin.video.aod" name="Anime on Demand" version="0.6.5" provider-name="L0RE">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
@@ -699,6 +701,7 @@ Não temos fins lucrativo mas para mantermos o Addon funcionando sua doação é
   </extension>
 </addon>
 
+﻿<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.ELLAS" name="[COLOR gold]ELLAS[/COLOR]"	version="1.1"	provider-name="Anabel">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -843,6 +846,7 @@ provider-name="primaeval">
 </extension>
 </addon>
 
+
 <addon id="plugin.video.flixtv" name="[COLOR white][B]FLIX[/B][/COLOR][COLOR yellow][B]TV[/B][/COLOR]" version="1.0.1" provider-name="TEAM-BRUNOFLIX">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -880,6 +884,7 @@ provider-name="primaeval">
   </extension>
 </addon>
 
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.gridironlegends" name="[B]Gridiron[/B][B]Legends[/B]" version="1.6.4" provider-name="NoleNation">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
@@ -1037,6 +1042,7 @@ Toda a fonte  vem de utilizadores do Youtube.
     </extension>
 </addon>
 
+﻿<?xml version="1.4" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.KINGBR" name="[B][COLOR white]KING-BR[/COLOR][/B]" version="1.2.5" provider-name="[B][COLOR yellow] EVERSON SANTOS[/B][/COLOR]">
 <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1284,6 +1290,7 @@ VERSÃO - 006-15-09-22</news>
   </extension>
 </addon>
 
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.metallicatv" name="Metallica TV" version="2.0" provider-name="Demagorgon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1568,6 +1575,7 @@ Toda a fonte  vem de utilizadores do Youtube.
   </extension>
 </addon>
 
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.Rebellium" name="[B][COLOR skyblue]REBELLIUM[/COLOR][/B]" version="1.1" provider-name="[B][COLOR skyblue]REBELLIUM[/COLOR][/B]">
 <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1916,6 +1924,8 @@ Toda a fonte  vem de utilizadores do Youtube.
   </extension>
  </addon>
 
+
+
 <addon id="plugin.video.thethunder" version="1.1.4" name="[COLOR violet]THUNDER[/COLOR]" provider-name="OnePlay Team">
     <requires>
         <import addon="script.module.simplejson" />
@@ -1970,6 +1980,7 @@ Toda a fonte  vem de utilizadores do Youtube.
   </extension>
 </addon>
 
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.ultraguia" name="UltraGuia" version="1.2.1" provider-name="Gabriel Silva">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
@@ -2176,6 +2187,7 @@ Toda a fonte  vem de utilizadores do Youtube.
   </extension>
 </addon>
 
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.vrlivre" name="[COLOR blue]VRlivreTV[/COLOR] [COLOR red]By Sergio[/COLOR]" version="0.0.4" provider-name="Sergio Tools">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -2205,6 +2217,7 @@ Toda a fonte  vem de utilizadores do Youtube.
   </extension>
 </addon>
 
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.WolfTV"
        name="WolfTV"
        version="11.1"
@@ -2403,6 +2416,7 @@ provider-name="Lord Grey">
     </extension>
 </addon>
 
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.ZeusTV"
        name="ZeusTV"
        version="11.0"
@@ -2431,6 +2445,7 @@ provider-name="Lord Grey">
   </extension>
 </addon>
 
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="program.plexus"
        name="Plexus"
        version="0.1.8"
@@ -2458,6 +2473,7 @@ provider-name="Lord Grey">
   </extension>
 </addon>
 
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon
 		id="repo.conexaoTV"
 		name="[B][COLOR white]Repositorio Cone[B][COLOR violet]x[B][COLOR  white]ão[/COLOR][/B] [B][COLOR violet]Tv[/COLOR][/B]"
@@ -2593,6 +2609,7 @@ provider-name="Lord Grey">
   </extension>
 </addon>
 
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.BrazucaPlay" name="[B][COLOR white]Brazuca Play [COLOR blue]Repo[/COLOR][/COLOR][/B]" version="1.4" provider-name="Brazuca Play">
 <requires>
 <import addon="xbmc.addon" version="12.0.0"/>
@@ -2799,6 +2816,7 @@ provider-name="Lord Grey">
 </extension>
 </addon>
 
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.Nordes.Tv" name="[COLOR green][B]Nordes [/B][/COLOR][COLOR yellow][B]TV[/B][/COLOR][COLOR white] Repo[/COLOR]" version="1.3" provider-name="Luis Carlos">
 	<extension point="xbmc.addon.repository" name="Repositorio NordesTv">
 		<info compressed="false">https://raw.githubusercontent.com/luis45carlos/RepoNordesTv/master/addons.xml</info>
@@ -3132,6 +3150,7 @@ provider-name="Lord Grey">
     </extension>
 </addon>
 
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.grab.fanart"
     name="Grab Fanart" version="0.14.1" provider-name="robweber">
   <requires>
@@ -4210,6 +4229,7 @@ Abbonamento richiesto.</description>
   </extension>
 </addon>
 
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="TeamKodiAddonsPT" name="Repositorio Team Milhano" version="1.00" provider-name="Team Milhano">
 <requires>
     <import addon="xbmc.python" version="2.1.0"/>
